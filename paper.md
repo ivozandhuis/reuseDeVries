@@ -20,6 +20,7 @@ Gaat het over (1) sociale mobiliteit die De Vries heeft onderzocht en hebben we 
 * workflow
  * scanning on demand at SAA
  * EASY; conversion from SPSS
+    - the horror that is called .POR
  * linking other, existing datasets eg. gemeentegeschiedenis, hisgis, adamnet  
 * ? new insights on the subject data
 * conclusions about the workflow/reuse
