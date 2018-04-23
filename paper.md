@@ -1,26 +1,47 @@
-# Reuse of data as Linked Data
+# Reuse of archived data as Linked Data
 
 Ivo & Richard (in alfabetische volgorde :-P)
 
-## Tijdschrift?:
-* http://dansdatajournal.nl/
+## Journal
+* Research Data Journal (https://brill.com/view/journals/rdj/rdj-overview.xml)
 * https://www.tseg.nl/
 
-## Onderwerp?:
+## Introduction
 
-Gaat het over (1) sociale mobiliteit die De Vries heeft onderzocht en hebben we nieuwe inzichten opgedaan of (2) de workflow en het linken van data? Ik denk vooral (2), met een beknopte uitwijding over het onderwerp.
+* How can archived data be reused and processed as Linked Data?
+* What is the Return on Investment?
 
-## Overview:
+## Overview
 
+
+## The dataset De Vries
 * the dataset De Vries
  * original research
- *
-
-* ? additional research question: geographical differences
-* workflow
- * scanning on demand at SAA
+ * original data
  * EASY; conversion from SPSS
     - the horror that is called .POR
- * linking other, existing datasets eg. gemeentegeschiedenis, hisgis, adamnet  
-* ? new insights on the subject data
-* conclusions about the workflow/reuse
+
+## Workflow adding links to the data
+
+* linking the original source at Amsterdam City Archives
+* standardizing variables
+  * gemeentegeschiedenis,
+  * hisgis,
+  * adamnet (?),
+  * HISCO
+* archiving in dataverse (IISH and DANS) / publishing in druid
+
+## Using the new data
+  * visualisation
+    * on the map
+    * tables
+  * links for free
+    * to CEDAR (via wijken?)
+    * to other HISCO data - eg HISCLASS
+  * new analysis, like ....
+
+## Evaluation
+
+* the workflow
+* the reuse
+* the concept Linked Data
