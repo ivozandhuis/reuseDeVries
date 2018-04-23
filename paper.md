@@ -13,22 +13,19 @@ Ivo & Richard (in alfabetische volgorde :-P)
 
 ## Overview
 
-
 ## The dataset De Vries
 * the dataset De Vries
  * original research
- * original data
- * EASY; conversion from SPSS
+ * original data; EASY; conversion from SPSS
     - the horror that is called .POR
 
 ## Workflow adding links to the data
-
 * linking the original source at Amsterdam City Archives
 * standardizing variables
   * gemeentegeschiedenis,
-  * hisgis,
-  * adamnet (?),
+  * hisgis - houses/addresses
   * HISCO
+* adding data Statistische Bureau Amsterdam
 * archiving in dataverse (IISH and DANS) / publishing in druid
 
 ## Using the new data
@@ -37,6 +34,7 @@ Ivo & Richard (in alfabetische volgorde :-P)
     * tables
   * links for free
     * to CEDAR (via wijken?)
+    * to AdamNet CH-objects
     * to other HISCO data - eg HISCLASS
   * new analysis, like ....
 
