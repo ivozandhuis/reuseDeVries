@@ -1,4 +1,4 @@
-# Reuse of archived data as Linked Data
+# The Linked Data version of De Vries' elite-dataset on Amsterdam 1850-1895
 
 Ivo & Richard (in alfabetische volgorde :-P)
 
@@ -11,7 +11,7 @@ Ever since the introduction of computers in historical research digital datasets
 
 In this article we ask ourselves how these archived datasets can reused. In our opinion scholars should be able to combine isolated datasets in order to ask new research questions or evaluate results. In the CLARIAH infrastructure Linked Data and its standard dataformat Resource Descripton Framework (RDF) [] is chosen as the basic technology to enable the linking of datasets through overlapping values and properties. It will result in an ecosystem for datasets, its data management and its usage. [Hoekstra etal 2017].
 
-In order to investigate whether old datasets could be reused according to these modern principles, we did an experiment with a dataset, stored in EASY and created by B.M.A. de Vries as part of the research for her PhD-thesis, published in 1986 [De Vries 1986]. We want to know whether the dataset can be
+In order to investigate whether old datasets could be reused according to these modern principles, we did an experiment with a dataset, stored in EASY and created by B.M.A. de Vries as part of the research for her PhD-thesis, published in 1986 [De Vries 1986]. We want to know how the dataset can be
 * obtained and read,
 * transformed into RDF,
 * linked to other data, to de-isolate the dataset, and
@@ -20,7 +20,7 @@ In order to investigate whether old datasets could be reused according to these 
 Finally we will evaluate the process: was it worth the trouble and what did we gain? Formally: what was the Return on Investment?
 
 ## The dataset of De Vries
-
+De Vries created a dataset with a sample of elite inhabitants of Amsterdam in 1854 and 1884. The fact that they were elite was derived from the fact that they were sampled from the electoral roles
 
 * the dataset De Vries
  * original research
