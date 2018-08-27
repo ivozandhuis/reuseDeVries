@@ -25,7 +25,12 @@ De Vries created a dataset with a sample of elite inhabitants of Amsterdam in 18
 * the dataset De Vries
  * original research
  * original data; EASY; conversion from SPSS
-    - the horror that is called .POR
+
+
+### The horror that is called .POR
+* Save as CSV
+* Export including labels
+* We need the codebook to know whether data is complete or added by SPSS.
 
 ## Workflow adding links to the data
 * linking the original source at Amsterdam City Archives

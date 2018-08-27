@@ -1,0 +1,807 @@
+{
+  "@context": [
+    "http://csvw.clariah-sdh.eculture.labs.vu.nl/csvw.json",
+    {
+      "@base": "https://iisg.amsterdam/resource/bdv/",
+      "@language": "en"
+    },
+    {
+      "bibo": "http://purl.org/ontology/bibo/",
+      "canfam": "https://iisg.amsterdam/canfam/dataset/canada1901/",
+      "canfam-auke": "https://iisg.amsterdam/canfam/auke/",
+      "canfam-dimension": "http://data.socialhistory.org/vocab/canfam/dimension/",
+      "clio": "https://iisg.amsterdam/clio/",
+      "clioctr": "https://iisg.amsterdam/clio/country/",
+      "clioind": "https://iisg.amsterdam/clio/indicator/",
+      "clioprop": "https://iisg.amsterdam/clio/property/",
+      "csvw": "http://www.w3.org/ns/csvw#",
+      "dbo": "http://dbpedia.org/ontology/",
+      "dbp": "http://dbpedia.org/property/",
+      "dbpedia": "http://dbpedia.org/resource/",
+      "dbr": "http://dbpedia.org/resource/",
+      "dc": "http://purl.org/dc/terms/",
+      "dc11": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "hiscam": "https://iisg.amsterdam/hiscam/",
+      "hisclass": "https://iisg.amsterdam/hisclass/",
+      "hisclass5": "https://iisg.amsterdam/hisclass5/",
+      "hisco": "https://iisg.amsterdam/hisco/",
+      "hisco-product": "https://iisg.amsterdam/hisco/product/",
+      "hisco-relation": "https://iisg.amsterdam/hisco/relation/",
+      "hisco-status": "https://iisg.amsterdam/hisco/status/",
+      "hsn": "https://iisg.amsterdam/hsn2013a/",
+      "ldp": "http://www.w3.org/ns/ldp#",
+      "napp": "https://iisg.amsterdam/napp/",
+      "napp-can91": "https://iisg.amsterdam/napp/dataset/canada1891/",
+      "napp-dimension": "http://data.socialhistory.org/vocab/napp/dimension/",
+      "napp-eng81": "https://iisg.amsterdam/napp/dataset/englandwales1881/",
+      "napp-sct81": "https://iisg.amsterdam/napp/dataset/scotland1881/",
+      "np": "http://www.nanopub.org/nschema#",
+      "occhisco": "https://iisg.amsterdam/napp/OCCHISCO/",
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "prov": "http://www.w3.org/ns/prov#",
+      "qb": "http://purl.org/linked-data/cube#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "schema": "http://schema.org/",
+      "sdmx-code": "http://purl.org/linked-data/sdmx/2009/code#",
+      "sdmx-concept": "http://purl.org/linked-data/sdmx/2009/concept#",
+      "sdmx-dimension": "http://purl.org/linked-data/sdmx/2009/dimension#",
+      "sdmx-measure": "http://purl.org/linked-data/sdmx/2009/measure#",
+      "sdr": "https://iisg.amsterdam",
+      "sdv": "https://iisg.amsterdam/vocab/",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "time": "http://www.w3.org/2006/time#",
+      "xml": "http://www.w3.org/XML/1998/namespace/",
+      "xsd": "http://www.w3.org/2001/XMLSchema#"
+    }
+  ],
+  "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv",
+  "dc:license": {
+    "@id": "http://opendefinition.org/licenses/cc-by/"
+  },
+  "dc:modified": {
+    "@type": "xsd:date",
+    "@value": "2018-08-27"
+  },
+  "dc:publisher": {
+    "schema:name": "CLARIAH Structured Data Hub - Datalegend",
+    "schema:url": {
+      "@id": "http://datalegend.org"
+    }
+  },
+  "dc:title": "p1223a_labels_semicolon.csv",
+  "dcat:keyword": [],
+  "dialect": {
+    "delimiter": ";",
+    "encoding": "utf-8",
+    "quoteChar": "\""
+  },
+  "tableSchema": {
+    "aboutUrl": "{volgnr1y}",
+    "columns": [
+      {
+        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/caswgt",
+        "datatype": "float",
+        "dc:description": "Case Weight",
+        "name": "caswgt",
+        "titles": [
+          "caswgt"
+        ]
+      },
+      {
+        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/volgnr1y",
+        "datatype": "integer",
+        "dc:description": "Observation number",
+        "name": "volgnr1y",
+        "titles": [
+          "volgnr1y"
+        ],
+        "propertyUrl": "schema:identifier"
+      },
+      {
+        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/buurty",
+        "datatype": "string",
+        "dc:description": "buurty",
+        "name": "buurty",
+        "titles": [
+          "buurty"
+        ]
+      },
+      {
+        "virtual": true,
+        "datatype": "string",
+        "aboutUrl": "{buurty}",
+        "propertyUrl": "rdf:type",
+        "valueUrl": "sdmx-dimension:refArea"
+      },
+      {
+        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/huisnry",
+        "datatype": "string",
+        "dc:description": "huisnry",
+        "name": "huisnry",
+        "titles": [
+          "huisnry"
+        ]
+      },
+      {
+        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/lftmy",
+        "datatype": "string",
+        "dc:description": "lftmy",
+        "name": "lftmy",
+        "titles": [
+          "lftmy"
+        ]
+      },
+      {
+        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/gebplmy",
+        "datatype": "string",
+        "dc:description": "gebplmy",
+        "name": "gebplmy",
+        "titles": [
+          "gebplmy"
+        ]
+      },
+      {
+        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bersmy",
+        "datatype": "string",
+        "dc:description": "bersmy",
+        "name": "bersmy",
+        "titles": [
+          "bersmy"
+        ]
+      },
+      {
+        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/berpmy",
+        "datatype": "string",
+        "dc:description": "berpmy",
+        "name": "berpmy",
+        "titles": [
+          "berpmy"
+        ]
+      },
+      {
+        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/aboeky",
+        "datatype": "string",
+        "dc:description": "aboeky",
+        "name": "aboeky",
+        "titles": [
+          "aboeky"
+        ]
+      },
+      {
+        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relimy",
+        "datatype": "string",
+        "dc:description": "relimy",
+        "name": "relimy",
+        "titles": [
+          "relimy"
+        ]
+      },
+      {
+        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bsmy",
+        "datatype": "string",
+        "dc:description": "bsmy",
+        "name": "bsmy",
+        "titles": [
+          "bsmy"
+        ]
+      },
+      {
+        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/lftvy",
+        "datatype": "string",
+        "dc:description": "lftvy",
+        "name": "lftvy",
+        "titles": [
+          "lftvy"
+        ]
+      },
+      {
+        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relivy",
+        "datatype": "string",
+        "dc:description": "relivy",
+        "name": "relivy",
+        "titles": [
+          "relivy"
+        ]
+      },
+      {
+        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/gebplvy",
+        "datatype": "string",
+        "dc:description": "gebplvy",
+        "name": "gebplvy",
+        "titles": [
+          "gebplvy"
+        ]
+      },
+      {
+        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/nrkindy",
+        "datatype": "string",
+        "dc:description": "nrkindy",
+        "name": "nrkindy",
+        "titles": [
+          "nrkindy"
+        ]
+      },
+      {
+        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/nrbodey",
+        "datatype": "string",
+        "dc:description": "nrbodey",
+        "name": "nrbodey",
+        "titles": [
+          "nrbodey"
+        ]
+      },
+      {
+        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/nrhgy",
+        "datatype": "string",
+        "dc:description": "nrhgy",
+        "name": "nrhgy",
+        "titles": [
+          "nrhgy"
+        ]
+      },
+      {
+        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relhfdy",
+        "datatype": "string",
+        "dc:description": "relhfdy",
+        "name": "relhfdy",
+        "titles": [
+          "relhfdy"
+        ]
+      },
+      {
+        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/grondbly",
+        "datatype": "string",
+        "dc:description": "grondbly",
+        "name": "grondbly",
+        "titles": [
+          "grondbly"
+        ]
+      },
+      {
+        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/pbly",
+        "datatype": "string",
+        "dc:description": "pbly",
+        "name": "pbly",
+        "titles": [
+          "pbly"
+        ]
+      },
+      {
+        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/patbly",
+        "datatype": "string",
+        "dc:description": "patbly",
+        "name": "patbly",
+        "titles": [
+          "patbly"
+        ]
+      },
+      {
+        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/jrhu1y",
+        "datatype": "string",
+        "dc:description": "jrhu1y",
+        "name": "jrhu1y",
+        "titles": [
+          "jrhu1y"
+        ]
+      },
+      {
+        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bervamy",
+        "datatype": "string",
+        "dc:description": "bervamy",
+        "name": "bervamy",
+        "titles": [
+          "bervamy"
+        ]
+      },
+      {
+        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bervavy",
+        "datatype": "string",
+        "dc:description": "bervavy",
+        "name": "bervavy",
+        "titles": [
+          "bervavy"
+        ]
+      },
+      {
+        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bermhuy",
+        "datatype": "string",
+        "dc:description": "bermhuy",
+        "name": "bermhuy",
+        "titles": [
+          "bermhuy"
+        ]
+      },
+      {
+        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bergt1y",
+        "datatype": "string",
+        "dc:description": "bergt1y",
+        "name": "bergt1y",
+        "titles": [
+          "bergt1y"
+        ]
+      },
+      {
+        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relgt1y",
+        "datatype": "string",
+        "dc:description": "relgt1y",
+        "name": "relgt1y",
+        "titles": [
+          "relgt1y"
+        ]
+      },
+      {
+        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bergt2y",
+        "datatype": "string",
+        "dc:description": "bergt2y",
+        "name": "bergt2y",
+        "titles": [
+          "bergt2y"
+        ]
+      },
+      {
+        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relgt2y",
+        "datatype": "string",
+        "dc:description": "relgt2y",
+        "name": "relgt2y",
+        "titles": [
+          "relgt2y"
+        ]
+      },
+      {
+        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bergt3y",
+        "datatype": "string",
+        "dc:description": "bergt3y",
+        "name": "bergt3y",
+        "titles": [
+          "bergt3y"
+        ]
+      },
+      {
+        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relgt3y",
+        "datatype": "string",
+        "dc:description": "relgt3y",
+        "name": "relgt3y",
+        "titles": [
+          "relgt3y"
+        ]
+      },
+      {
+        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bergt4y",
+        "datatype": "string",
+        "dc:description": "bergt4y",
+        "name": "bergt4y",
+        "titles": [
+          "bergt4y"
+        ]
+      },
+      {
+        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relgt4y",
+        "datatype": "string",
+        "dc:description": "relgt4y",
+        "name": "relgt4y",
+        "titles": [
+          "relgt4y"
+        ]
+      },
+      {
+        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/hulftmy",
+        "datatype": "string",
+        "dc:description": "hulftmy",
+        "name": "hulftmy",
+        "titles": [
+          "hulftmy"
+        ]
+      },
+      {
+        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/hulftvy",
+        "datatype": "string",
+        "dc:description": "hulftvy",
+        "name": "hulftvy",
+        "titles": [
+          "hulftvy"
+        ]
+      },
+      {
+        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/volgnr2y",
+        "datatype": "string",
+        "dc:description": "volgnr2y",
+        "name": "volgnr2y",
+        "titles": [
+          "volgnr2y"
+        ]
+      },
+      {
+        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bsvy",
+        "datatype": "string",
+        "dc:description": "bsvy",
+        "name": "bsvy",
+        "titles": [
+          "bsvy"
+        ]
+      },
+      {
+        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/gebplv1y",
+        "datatype": "string",
+        "dc:description": "gebplv1y",
+        "name": "gebplv1y",
+        "titles": [
+          "gebplv1y"
+        ]
+      },
+      {
+        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/jrhu2y",
+        "datatype": "string",
+        "dc:description": "jrhu2y",
+        "name": "jrhu2y",
+        "titles": [
+          "jrhu2y"
+        ]
+      },
+      {
+        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bervam2y",
+        "datatype": "string",
+        "dc:description": "bervam2y",
+        "name": "bervam2y",
+        "titles": [
+          "bervam2y"
+        ]
+      },
+      {
+        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bervav2y",
+        "datatype": "string",
+        "dc:description": "bervav2y",
+        "name": "bervav2y",
+        "titles": [
+          "bervav2y"
+        ]
+      },
+      {
+        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bermhu2y",
+        "datatype": "string",
+        "dc:description": "bermhu2y",
+        "name": "bermhu2y",
+        "titles": [
+          "bermhu2y"
+        ]
+      },
+      {
+        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bergt12y",
+        "datatype": "string",
+        "dc:description": "bergt12y",
+        "name": "bergt12y",
+        "titles": [
+          "bergt12y"
+        ]
+      },
+      {
+        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relgt12y",
+        "datatype": "string",
+        "dc:description": "relgt12y",
+        "name": "relgt12y",
+        "titles": [
+          "relgt12y"
+        ]
+      },
+      {
+        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bergt22y",
+        "datatype": "string",
+        "dc:description": "bergt22y",
+        "name": "bergt22y",
+        "titles": [
+          "bergt22y"
+        ]
+      },
+      {
+        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relgt22y",
+        "datatype": "string",
+        "dc:description": "relgt22y",
+        "name": "relgt22y",
+        "titles": [
+          "relgt22y"
+        ]
+      },
+      {
+        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bergt32y",
+        "datatype": "string",
+        "dc:description": "bergt32y",
+        "name": "bergt32y",
+        "titles": [
+          "bergt32y"
+        ]
+      },
+      {
+        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relgt32y",
+        "datatype": "string",
+        "dc:description": "relgt32y",
+        "name": "relgt32y",
+        "titles": [
+          "relgt32y"
+        ]
+      },
+      {
+        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bergt42y",
+        "datatype": "string",
+        "dc:description": "bergt42y",
+        "name": "bergt42y",
+        "titles": [
+          "bergt42y"
+        ]
+      },
+      {
+        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relgt42y",
+        "datatype": "string",
+        "dc:description": "relgt42y",
+        "name": "relgt42y",
+        "titles": [
+          "relgt42y"
+        ]
+      },
+      {
+        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/hulftm2y",
+        "datatype": "string",
+        "dc:description": "hulftm2y",
+        "name": "hulftm2y",
+        "titles": [
+          "hulftm2y"
+        ]
+      },
+      {
+        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/hulftv2y",
+        "datatype": "string",
+        "dc:description": "hulftv2y",
+        "name": "hulftv2y",
+        "titles": [
+          "hulftv2y"
+        ]
+      },
+      {
+        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bsv2y",
+        "datatype": "string",
+        "dc:description": "bsv2y",
+        "name": "bsv2y",
+        "titles": [
+          "bsv2y"
+        ]
+      },
+      {
+        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/gebplv2y",
+        "datatype": "string",
+        "dc:description": "gebplv2y",
+        "name": "gebplv2y",
+        "titles": [
+          "gebplv2y"
+        ]
+      },
+      {
+        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/jrhu3y",
+        "datatype": "string",
+        "dc:description": "jrhu3y",
+        "name": "jrhu3y",
+        "titles": [
+          "jrhu3y"
+        ]
+      },
+      {
+        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bervam3y",
+        "datatype": "string",
+        "dc:description": "bervam3y",
+        "name": "bervam3y",
+        "titles": [
+          "bervam3y"
+        ]
+      },
+      {
+        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bervav3y",
+        "datatype": "string",
+        "dc:description": "bervav3y",
+        "name": "bervav3y",
+        "titles": [
+          "bervav3y"
+        ]
+      },
+      {
+        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bermhu3y",
+        "datatype": "string",
+        "dc:description": "bermhu3y",
+        "name": "bermhu3y",
+        "titles": [
+          "bermhu3y"
+        ]
+      },
+      {
+        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bergt13y",
+        "datatype": "string",
+        "dc:description": "bergt13y",
+        "name": "bergt13y",
+        "titles": [
+          "bergt13y"
+        ]
+      },
+      {
+        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relgt13y",
+        "datatype": "string",
+        "dc:description": "relgt13y",
+        "name": "relgt13y",
+        "titles": [
+          "relgt13y"
+        ]
+      },
+      {
+        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bergt23y",
+        "datatype": "string",
+        "dc:description": "bergt23y",
+        "name": "bergt23y",
+        "titles": [
+          "bergt23y"
+        ]
+      },
+      {
+        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relgt23y",
+        "datatype": "string",
+        "dc:description": "relgt23y",
+        "name": "relgt23y",
+        "titles": [
+          "relgt23y"
+        ]
+      },
+      {
+        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bergt33y",
+        "datatype": "string",
+        "dc:description": "bergt33y",
+        "name": "bergt33y",
+        "titles": [
+          "bergt33y"
+        ]
+      },
+      {
+        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relgt33y",
+        "datatype": "string",
+        "dc:description": "relgt33y",
+        "name": "relgt33y",
+        "titles": [
+          "relgt33y"
+        ]
+      },
+      {
+        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bergt43y",
+        "datatype": "string",
+        "dc:description": "bergt43y",
+        "name": "bergt43y",
+        "titles": [
+          "bergt43y"
+        ]
+      },
+      {
+        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relgt43y",
+        "datatype": "string",
+        "dc:description": "relgt43y",
+        "name": "relgt43y",
+        "titles": [
+          "relgt43y"
+        ]
+      },
+      {
+        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/hulftm3y",
+        "datatype": "string",
+        "dc:description": "hulftm3y",
+        "name": "hulftm3y",
+        "titles": [
+          "hulftm3y"
+        ]
+      },
+      {
+        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/hulftv3y",
+        "datatype": "string",
+        "dc:description": "hulftv3y",
+        "name": "hulftv3y",
+        "titles": [
+          "hulftv3y"
+        ]
+      },
+      {
+        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bsv3y",
+        "datatype": "string",
+        "dc:description": "bsv3y",
+        "name": "bsv3y",
+        "titles": [
+          "bsv3y"
+        ]
+      },
+      {
+        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/gebplv3y",
+        "datatype": "string",
+        "dc:description": "gebplv3y",
+        "name": "gebplv3y",
+        "titles": [
+          "gebplv3y"
+        ]
+      },
+      {
+        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/tot3bly",
+        "datatype": "string",
+        "dc:description": "tot3bly",
+        "name": "tot3bly",
+        "titles": [
+          "tot3bly"
+        ]
+      },
+      {
+        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/grblgy",
+        "datatype": "string",
+        "dc:description": "grblgy",
+        "name": "grblgy",
+        "titles": [
+          "grblgy"
+        ]
+      },
+      {
+        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/pblgy",
+        "datatype": "string",
+        "dc:description": "pblgy",
+        "name": "pblgy",
+        "titles": [
+          "pblgy"
+        ]
+      },
+      {
+        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/patblgy",
+        "datatype": "string",
+        "dc:description": "patblgy",
+        "name": "patblgy",
+        "titles": [
+          "patblgy"
+        ]
+      },
+      {
+        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/omvhhy",
+        "datatype": "string",
+        "dc:description": "omvhhy",
+        "name": "omvhhy",
+        "titles": [
+          "omvhhy"
+        ]
+      },
+      {
+        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/berpm00y",
+        "datatype": "string",
+        "dc:description": "berpm00y",
+        "name": "berpm00y",
+        "titles": [
+          "berpm00y"
+        ]
+      },
+      {
+        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/berpm0y",
+        "datatype": "string",
+        "dc:description": "berpm0y",
+        "name": "berpm0y",
+        "titles": [
+          "berpm0y"
+        ]
+      },
+      {
+        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/totbly",
+        "datatype": "string",
+        "dc:description": "totbly",
+        "name": "totbly",
+        "titles": [
+          "totbly"
+        ]
+      },
+      {
+        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/lftklasy",
+        "datatype": "string",
+        "dc:description": "lftklasy",
+        "name": "lftklasy",
+        "titles": [
+          "lftklasy"
+        ]
+      }
+    ],
+    "primaryKey": "caswgt"
+  },
+  "url": "p1223a_labels_semicolon.csv"
+}
