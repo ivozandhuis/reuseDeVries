@@ -72,7 +72,7 @@
     }
   },
   "dc:title": "p1223a_labels_semicolon.csv",
-  "dc:description": "Original file: https://doi.org/10.17026/dans-xez-eqdv."
+  "dc:description": "Sample of persons from the electoral role Amsterdam 1854. Finding Aid accessing this source online: https://archief.amsterdam/inventarissen/inventaris/30272.nl.html. Original file in: https://doi.org/10.17026/dans-xez-eqdv.",
   "dcat:keyword": [],
   "dialect": {
     "delimiter": ";",
@@ -81,6 +81,7 @@
   },
   "tableSchema": {
     "aboutUrl": "{volgnr1y}",
+    "@type": "schema:Person",
     "columns": [
       {
         "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/caswgt",
@@ -104,17 +105,16 @@
       {
         "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/buurty",
         "datatype": "string",
-        "dc:description": "Wijk (letter(s))",
+        "dc:description": "Residential Address part 1: Neighbourhood in 19th century Amsterdam, comtemporaly coded with letters.",
         "name": "buurty",
         "titles": [
           "buurty"
-        ],
-        "propertyUrl": "schema:identifier"
+        ]
       },
       {
         "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/huisnry",
         "datatype": "string",
-        "dc:description": "Huisnummer",
+        "dc:description": "Residential Address part 2: Number of the house in the neighbourhood (buurty)",
         "name": "huisnry",
         "titles": [
           "huisnry"
@@ -122,8 +122,8 @@
       },
       {
         "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/lftmy",
-        "datatype": "string",
-        "dc:description": "lftmy",
+        "datatype": "integer",
+        "dc:description": "Age",
         "name": "lftmy",
         "titles": [
           "lftmy"
@@ -132,34 +132,37 @@
       {
         "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/gebplmy",
         "datatype": "string",
-        "dc:description": "gebplmy",
+        "dc:description": "Place of Birth (classification)",
         "name": "gebplmy",
         "titles": [
           "gebplmy"
-        ]
+        ],
+        "propertyUrl": "schema:birthPlace"
       },
       {
         "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bersmy",
         "datatype": "string",
-        "dc:description": "bersmy",
+        "dc:description": "Occupation (classification?)",
         "name": "bersmy",
         "titles": [
           "bersmy"
-        ]
+        ],
+        "propertyUrl": "schema:hasOccupation"
       },
       {
         "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/berpmy",
         "datatype": "string",
-        "dc:description": "berpmy",
+        "dc:description": "Occupation (original from source?)",
         "name": "berpmy",
         "titles": [
           "berpmy"
-        ]
+        ],
+        "propertyUrl": "schema:hasOccupation"
       },
       {
         "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/aboeky",
         "datatype": "string",
-        "dc:description": "aboeky",
+        "dc:description": "Source of occupation?",
         "name": "aboeky",
         "titles": [
           "aboeky"
@@ -168,7 +171,7 @@
       {
         "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relimy",
         "datatype": "string",
-        "dc:description": "relimy",
+        "dc:description": "Religion",
         "name": "relimy",
         "titles": [
           "relimy"
@@ -177,7 +180,7 @@
       {
         "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bsmy",
         "datatype": "string",
-        "dc:description": "bsmy",
+        "dc:description": "Civil Status (married/unmarried)",
         "name": "bsmy",
         "titles": [
           "bsmy"
@@ -185,8 +188,8 @@
       },
       {
         "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/lftvy",
-        "datatype": "string",
-        "dc:description": "lftvy",
+        "datatype": "integer",
+        "dc:description": "Age Wife",
         "name": "lftvy",
         "titles": [
           "lftvy"
@@ -195,7 +198,7 @@
       {
         "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relivy",
         "datatype": "string",
-        "dc:description": "relivy",
+        "dc:description": "Religion Wife",
         "name": "relivy",
         "titles": [
           "relivy"
@@ -204,7 +207,7 @@
       {
         "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/gebplvy",
         "datatype": "string",
-        "dc:description": "gebplvy",
+        "dc:description": "Place of Birth Wife",
         "name": "gebplvy",
         "titles": [
           "gebplvy"
@@ -212,8 +215,8 @@
       },
       {
         "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/nrkindy",
-        "datatype": "string",
-        "dc:description": "nrkindy",
+        "datatype": "integer",
+        "dc:description": "Number of children",
         "name": "nrkindy",
         "titles": [
           "nrkindy"
@@ -221,8 +224,8 @@
       },
       {
         "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/nrbodey",
-        "datatype": "string",
-        "dc:description": "nrbodey",
+        "datatype": "integer",
+        "dc:description": "Number of service workers",
         "name": "nrbodey",
         "titles": [
           "nrbodey"
@@ -240,7 +243,7 @@
       {
         "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relhfdy",
         "datatype": "string",
-        "dc:description": "relhfdy",
+        "dc:description": "Relation with the head of the family",
         "name": "relhfdy",
         "titles": [
           "relhfdy"
@@ -248,8 +251,8 @@
       },
       {
         "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/grondbly",
-        "datatype": "string",
-        "dc:description": "grondbly",
+        "datatype": "integer",
+        "dc:description": "'Grondbelasting'",
         "name": "grondbly",
         "titles": [
           "grondbly"
@@ -257,8 +260,8 @@
       },
       {
         "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/pbly",
-        "datatype": "string",
-        "dc:description": "pbly",
+        "datatype": "integer",
+        "dc:description": "'Personeelsbelasting'",
         "name": "pbly",
         "titles": [
           "pbly"
@@ -266,8 +269,8 @@
       },
       {
         "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/patbly",
-        "datatype": "string",
-        "dc:description": "patbly",
+        "datatype": "integer",
+        "dc:description": "'Patentbelasting'",
         "name": "patbly",
         "titles": [
           "patbly"
@@ -276,7 +279,7 @@
       {
         "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/jrhu1y",
         "datatype": "string",
-        "dc:description": "jrhu1y",
+        "dc:description": "Year of marriage",
         "name": "jrhu1y",
         "titles": [
           "jrhu1y"
@@ -285,7 +288,7 @@
       {
         "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bervamy",
         "datatype": "string",
-        "dc:description": "bervamy",
+        "dc:description": "Occupation of the father of the groom",
         "name": "bervamy",
         "titles": [
           "bervamy"
@@ -294,7 +297,7 @@
       {
         "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bervavy",
         "datatype": "string",
-        "dc:description": "bervavy",
+        "dc:description": "Occupation of the father of the bride",
         "name": "bervavy",
         "titles": [
           "bervavy"
@@ -303,7 +306,7 @@
       {
         "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bermhuy",
         "datatype": "string",
-        "dc:description": "bermhuy",
+        "dc:description": "Occupation of the groom",
         "name": "bermhuy",
         "titles": [
           "bermhuy"
@@ -312,7 +315,7 @@
       {
         "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bergt1y",
         "datatype": "string",
-        "dc:description": "bergt1y",
+        "dc:description": "Occupation of witness 1",
         "name": "bergt1y",
         "titles": [
           "bergt1y"
@@ -321,7 +324,7 @@
       {
         "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relgt1y",
         "datatype": "string",
-        "dc:description": "relgt1y",
+        "dc:description": "Relation of witness 1",
         "name": "relgt1y",
         "titles": [
           "relgt1y"
@@ -330,7 +333,7 @@
       {
         "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bergt2y",
         "datatype": "string",
-        "dc:description": "bergt2y",
+        "dc:description": "Occupation of witness 2",
         "name": "bergt2y",
         "titles": [
           "bergt2y"
@@ -339,7 +342,7 @@
       {
         "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relgt2y",
         "datatype": "string",
-        "dc:description": "relgt2y",
+        "dc:description": "Relation of witness 2",
         "name": "relgt2y",
         "titles": [
           "relgt2y"
@@ -348,7 +351,7 @@
       {
         "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bergt3y",
         "datatype": "string",
-        "dc:description": "bergt3y",
+        "dc:description": "Occupation of witness 3",
         "name": "bergt3y",
         "titles": [
           "bergt3y"
@@ -357,7 +360,7 @@
       {
         "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relgt3y",
         "datatype": "string",
-        "dc:description": "relgt3y",
+        "dc:description": "Relation of witness 3",
         "name": "relgt3y",
         "titles": [
           "relgt3y"
@@ -366,7 +369,7 @@
       {
         "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bergt4y",
         "datatype": "string",
-        "dc:description": "bergt4y",
+        "dc:description": "Occupation of witness 4",
         "name": "bergt4y",
         "titles": [
           "bergt4y"
@@ -375,7 +378,7 @@
       {
         "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relgt4y",
         "datatype": "string",
-        "dc:description": "relgt4y",
+        "dc:description": "Relation of witness 4",
         "name": "relgt4y",
         "titles": [
           "relgt4y"
@@ -384,7 +387,7 @@
       {
         "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/hulftmy",
         "datatype": "string",
-        "dc:description": "hulftmy",
+        "dc:description": "Age at marriage groom",
         "name": "hulftmy",
         "titles": [
           "hulftmy"
@@ -393,7 +396,7 @@
       {
         "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/hulftvy",
         "datatype": "string",
-        "dc:description": "hulftvy",
+        "dc:description": "Age at marriage bride",
         "name": "hulftvy",
         "titles": [
           "hulftvy"

@@ -2,16 +2,16 @@ HTTP/1.1 100 Continue
 
 HTTP/1.1 200 OK
 Server: nginx/1.10.3 (Ubuntu)
-Date: Wed, 29 Aug 2018 10:52:14 GMT
+Date: Wed, 29 Aug 2018 12:11:58 GMT
 Content-Type: text/turtle
-Content-Length: 78609
+Content-Length: 77840
 Connection: keep-alive
 Access-Control-Allow-Origin: *
 
-@prefix ns1: <http://purl.org/dc/terms/> .
-@prefix ns2: <https://iisg.amsterdam/vocab/> .
-@prefix ns3: <http://www.w3.org/ns/csvw#> .
-@prefix ns4: <http://schema.org/> .
+@prefix ns1: <https://iisg.amsterdam/vocab/> .
+@prefix ns2: <http://www.w3.org/ns/csvw#> .
+@prefix ns3: <http://schema.org/> .
+@prefix ns4: <http://purl.org/dc/terms/> .
 @prefix ns5: <http://www.w3.org/ns/prov#> .
 @prefix ns6: <http://www.nanopub.org/nschema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -19,1954 +19,1958 @@ Access-Control-Allow-Origin: *
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://iisg.amsterdam/resource/bdv/100051> ns4:identifier 100051,
-        "J"^^xsd:string ;
-    ns2:aboeky "als in bev.register"^^xsd:string ;
-    ns2:bergt12y "-1"^^xsd:string ;
-    ns2:bergt13y "-1"^^xsd:string ;
-    ns2:bergt1y "-1"^^xsd:string ;
-    ns2:bergt22y "-1"^^xsd:string ;
-    ns2:bergt23y "-1"^^xsd:string ;
-    ns2:bergt2y "-1"^^xsd:string ;
-    ns2:bergt32y "-1"^^xsd:string ;
-    ns2:bergt33y "-1"^^xsd:string ;
-    ns2:bergt3y "-1"^^xsd:string ;
-    ns2:bergt42y "-1"^^xsd:string ;
-    ns2:bergt43y "-1"^^xsd:string ;
-    ns2:bergt4y "-1"^^xsd:string ;
-    ns2:bermhu2y "-1"^^xsd:string ;
-    ns2:bermhu3y "-1"^^xsd:string ;
-    ns2:bermhuy "-1"^^xsd:string ;
-    ns2:berpm00y "2"^^xsd:string ;
-    ns2:berpm0y "21"^^xsd:string ;
-    ns2:berpmy "ambachtsman"^^xsd:string ;
-    ns2:bersmy "LEERBEW"^^xsd:string ;
-    ns2:bervam2y "-1"^^xsd:string ;
-    ns2:bervam3y "-1"^^xsd:string ;
-    ns2:bervamy "-1"^^xsd:string ;
-    ns2:bervav2y "-1"^^xsd:string ;
-    ns2:bervav3y "-1"^^xsd:string ;
-    ns2:bervavy "-1"^^xsd:string ;
-    ns2:bsmy "gehuwd"^^xsd:string ;
-    ns2:bsv2y "-1"^^xsd:string ;
-    ns2:bsv3y "-1"^^xsd:string ;
-    ns2:bsvy "-1"^^xsd:string ;
-    ns2:caswgt "1.0"^^xsd:float ;
-    ns2:gebplmy "Amsterdam"^^xsd:string ;
-    ns2:gebplv1y "-1"^^xsd:string ;
-    ns2:gebplv2y "-1"^^xsd:string ;
-    ns2:gebplv3y "-1"^^xsd:string ;
-    ns2:gebplvy "ov. Limburg"^^xsd:string ;
-    ns2:grblgy "4"^^xsd:string ;
-    ns2:grondbly "68"^^xsd:string ;
-    ns2:huisnry "530"^^xsd:string ;
-    ns2:hulftm2y "-1"^^xsd:string ;
-    ns2:hulftm3y "-1"^^xsd:string ;
-    ns2:hulftmy "-1"^^xsd:string ;
-    ns2:hulftv2y "-1"^^xsd:string ;
-    ns2:hulftv3y "-1"^^xsd:string ;
-    ns2:hulftvy "-1"^^xsd:string ;
-    ns2:jrhu1y "-1"^^xsd:string ;
-    ns2:jrhu2y "-1"^^xsd:string ;
-    ns2:jrhu3y "-1"^^xsd:string ;
-    ns2:lftklasy "3"^^xsd:string ;
-    ns2:lftmy "30"^^xsd:string ;
-    ns2:lftvy "32"^^xsd:string ;
-    ns2:nrbodey "2"^^xsd:string ;
-    ns2:nrhgy "0"^^xsd:string ;
-    ns2:nrkindy "2"^^xsd:string ;
-    ns2:omvhhy "6"^^xsd:string ;
-    ns2:patblgy "3"^^xsd:string ;
-    ns2:patbly "40"^^xsd:string ;
-    ns2:pblgy "4"^^xsd:string ;
-    ns2:pbly "66"^^xsd:string ;
-    ns2:relgt12y "-1"^^xsd:string ;
-    ns2:relgt13y "-1"^^xsd:string ;
-    ns2:relgt1y "-1"^^xsd:string ;
-    ns2:relgt22y "-1"^^xsd:string ;
-    ns2:relgt23y "-1"^^xsd:string ;
-    ns2:relgt2y "-1"^^xsd:string ;
-    ns2:relgt32y "-1"^^xsd:string ;
-    ns2:relgt33y "-1"^^xsd:string ;
-    ns2:relgt3y "-1"^^xsd:string ;
-    ns2:relgt42y "-1"^^xsd:string ;
-    ns2:relgt43y "-1"^^xsd:string ;
-    ns2:relgt4y "-1"^^xsd:string ;
-    ns2:relhfdy "-1"^^xsd:string ;
-    ns2:relimy "Rooms Katholiek"^^xsd:string ;
-    ns2:relivy "Rooms Katholiek"^^xsd:string ;
-    ns2:tot3bly "174"^^xsd:string ;
-    ns2:totbly "2"^^xsd:string ;
-    ns2:volgnr2y "100052"^^xsd:string .
+<https://iisg.amsterdam/resource/bdv/100051> ns3:birthPlace "Amsterdam"^^xsd:string ;
+    ns3:hasOccupation "LEERBEW"^^xsd:string,
+        "ambachtsman"^^xsd:string ;
+    ns3:identifier 100051 ;
+    ns1:aboeky "als in bev.register"^^xsd:string ;
+    ns1:bergt12y "-1"^^xsd:string ;
+    ns1:bergt13y "-1"^^xsd:string ;
+    ns1:bergt1y "-1"^^xsd:string ;
+    ns1:bergt22y "-1"^^xsd:string ;
+    ns1:bergt23y "-1"^^xsd:string ;
+    ns1:bergt2y "-1"^^xsd:string ;
+    ns1:bergt32y "-1"^^xsd:string ;
+    ns1:bergt33y "-1"^^xsd:string ;
+    ns1:bergt3y "-1"^^xsd:string ;
+    ns1:bergt42y "-1"^^xsd:string ;
+    ns1:bergt43y "-1"^^xsd:string ;
+    ns1:bergt4y "-1"^^xsd:string ;
+    ns1:bermhu2y "-1"^^xsd:string ;
+    ns1:bermhu3y "-1"^^xsd:string ;
+    ns1:bermhuy "-1"^^xsd:string ;
+    ns1:berpm00y "2"^^xsd:string ;
+    ns1:berpm0y "21"^^xsd:string ;
+    ns1:bervam2y "-1"^^xsd:string ;
+    ns1:bervam3y "-1"^^xsd:string ;
+    ns1:bervamy "-1"^^xsd:string ;
+    ns1:bervav2y "-1"^^xsd:string ;
+    ns1:bervav3y "-1"^^xsd:string ;
+    ns1:bervavy "-1"^^xsd:string ;
+    ns1:bsmy "gehuwd"^^xsd:string ;
+    ns1:bsv2y "-1"^^xsd:string ;
+    ns1:bsv3y "-1"^^xsd:string ;
+    ns1:bsvy "-1"^^xsd:string ;
+    ns1:buurty "J"^^xsd:string ;
+    ns1:caswgt "1.0"^^xsd:float ;
+    ns1:gebplv1y "-1"^^xsd:string ;
+    ns1:gebplv2y "-1"^^xsd:string ;
+    ns1:gebplv3y "-1"^^xsd:string ;
+    ns1:gebplvy "ov. Limburg"^^xsd:string ;
+    ns1:grblgy "4"^^xsd:string ;
+    ns1:grondbly 68 ;
+    ns1:huisnry "530"^^xsd:string ;
+    ns1:hulftm2y "-1"^^xsd:string ;
+    ns1:hulftm3y "-1"^^xsd:string ;
+    ns1:hulftmy "-1"^^xsd:string ;
+    ns1:hulftv2y "-1"^^xsd:string ;
+    ns1:hulftv3y "-1"^^xsd:string ;
+    ns1:hulftvy "-1"^^xsd:string ;
+    ns1:jrhu1y "-1"^^xsd:string ;
+    ns1:jrhu2y "-1"^^xsd:string ;
+    ns1:jrhu3y "-1"^^xsd:string ;
+    ns1:lftklasy "3"^^xsd:string ;
+    ns1:lftmy 30 ;
+    ns1:lftvy 32 ;
+    ns1:nrbodey 2 ;
+    ns1:nrhgy "0"^^xsd:string ;
+    ns1:nrkindy 2 ;
+    ns1:omvhhy "6"^^xsd:string ;
+    ns1:patblgy "3"^^xsd:string ;
+    ns1:patbly 40 ;
+    ns1:pblgy "4"^^xsd:string ;
+    ns1:pbly 66 ;
+    ns1:relgt12y "-1"^^xsd:string ;
+    ns1:relgt13y "-1"^^xsd:string ;
+    ns1:relgt1y "-1"^^xsd:string ;
+    ns1:relgt22y "-1"^^xsd:string ;
+    ns1:relgt23y "-1"^^xsd:string ;
+    ns1:relgt2y "-1"^^xsd:string ;
+    ns1:relgt32y "-1"^^xsd:string ;
+    ns1:relgt33y "-1"^^xsd:string ;
+    ns1:relgt3y "-1"^^xsd:string ;
+    ns1:relgt42y "-1"^^xsd:string ;
+    ns1:relgt43y "-1"^^xsd:string ;
+    ns1:relgt4y "-1"^^xsd:string ;
+    ns1:relhfdy "-1"^^xsd:string ;
+    ns1:relimy "Rooms Katholiek"^^xsd:string ;
+    ns1:relivy "Rooms Katholiek"^^xsd:string ;
+    ns1:tot3bly "174"^^xsd:string ;
+    ns1:totbly "2"^^xsd:string ;
+    ns1:volgnr2y "100052"^^xsd:string .
 
-<https://iisg.amsterdam/resource/bdv/100101> ns4:identifier 100101,
-        "E"^^xsd:string ;
-    ns2:aboeky "als in bev.register"^^xsd:string ;
-    ns2:bergt12y "-1"^^xsd:string ;
-    ns2:bergt13y "-1"^^xsd:string ;
-    ns2:bergt1y "timmerman"^^xsd:string ;
-    ns2:bergt22y "-1"^^xsd:string ;
-    ns2:bergt23y "-1"^^xsd:string ;
-    ns2:bergt2y "ambachtsman"^^xsd:string ;
-    ns2:bergt32y "-1"^^xsd:string ;
-    ns2:bergt33y "-1"^^xsd:string ;
-    ns2:bergt3y "timmerman"^^xsd:string ;
-    ns2:bergt42y "-1"^^xsd:string ;
-    ns2:bergt43y "-1"^^xsd:string ;
-    ns2:bergt4y "ambachtsman"^^xsd:string ;
-    ns2:bermhu2y "-1"^^xsd:string ;
-    ns2:bermhu3y "-1"^^xsd:string ;
-    ns2:bermhuy "werklieden"^^xsd:string ;
-    ns2:berpm00y "2"^^xsd:string ;
-    ns2:berpm0y "24"^^xsd:string ;
-    ns2:berpmy "240"^^xsd:string ;
-    ns2:bersmy "VERKEERSWEZEN"^^xsd:string ;
-    ns2:bervam2y "-1"^^xsd:string ;
-    ns2:bervam3y "-1"^^xsd:string ;
-    ns2:bervamy "vader overleden"^^xsd:string ;
-    ns2:bervav2y "-1"^^xsd:string ;
-    ns2:bervav3y "-1"^^xsd:string ;
-    ns2:bervavy "uitdrager"^^xsd:string ;
-    ns2:bsmy "gehuwd"^^xsd:string ;
-    ns2:bsv2y "-1"^^xsd:string ;
-    ns2:bsv3y "-1"^^xsd:string ;
-    ns2:bsvy "ongehuwd"^^xsd:string ;
-    ns2:caswgt "1.0"^^xsd:float ;
-    ns2:gebplmy "Amsterdam"^^xsd:string ;
-    ns2:gebplv1y "Amsterdam"^^xsd:string ;
-    ns2:gebplv2y "-1"^^xsd:string ;
-    ns2:gebplv3y "-1"^^xsd:string ;
-    ns2:gebplvy "Amsterdam"^^xsd:string ;
-    ns2:grblgy "6"^^xsd:string ;
-    ns2:grondbly "314"^^xsd:string ;
-    ns2:huisnry "18"^^xsd:string ;
-    ns2:hulftm2y "-1"^^xsd:string ;
-    ns2:hulftm3y "-1"^^xsd:string ;
-    ns2:hulftmy "20"^^xsd:string ;
-    ns2:hulftv2y "-1"^^xsd:string ;
-    ns2:hulftv3y "-1"^^xsd:string ;
-    ns2:hulftvy "19"^^xsd:string ;
-    ns2:jrhu1y "1828"^^xsd:string ;
-    ns2:jrhu2y "-1"^^xsd:string ;
-    ns2:jrhu3y "-1"^^xsd:string ;
-    ns2:lftklasy "4"^^xsd:string ;
-    ns2:lftmy "46"^^xsd:string ;
-    ns2:lftvy "45"^^xsd:string ;
-    ns2:nrbodey "2"^^xsd:string ;
-    ns2:nrhgy "2"^^xsd:string ;
-    ns2:nrkindy "8"^^xsd:string ;
-    ns2:omvhhy "14"^^xsd:string ;
-    ns2:patblgy "5"^^xsd:string ;
-    ns2:patbly "229"^^xsd:string ;
-    ns2:pblgy "5"^^xsd:string ;
-    ns2:pbly "245"^^xsd:string ;
-    ns2:relgt12y "-1"^^xsd:string ;
-    ns2:relgt13y "-1"^^xsd:string ;
-    ns2:relgt1y "geen familie"^^xsd:string ;
-    ns2:relgt22y "-1"^^xsd:string ;
-    ns2:relgt23y "-1"^^xsd:string ;
-    ns2:relgt2y "geen familie"^^xsd:string ;
-    ns2:relgt32y "-1"^^xsd:string ;
-    ns2:relgt33y "-1"^^xsd:string ;
-    ns2:relgt3y "geen familie"^^xsd:string ;
-    ns2:relgt42y "-1"^^xsd:string ;
-    ns2:relgt43y "-1"^^xsd:string ;
-    ns2:relgt4y "geen familie"^^xsd:string ;
-    ns2:relhfdy "ouder"^^xsd:string ;
-    ns2:relimy "Nederlands Hervormd"^^xsd:string ;
-    ns2:relivy "Nederlands Hervormd"^^xsd:string ;
-    ns2:tot3bly "788"^^xsd:string ;
-    ns2:totbly "4"^^xsd:string ;
-    ns2:volgnr2y "100102"^^xsd:string .
+<https://iisg.amsterdam/resource/bdv/100101> ns3:birthPlace "Amsterdam"^^xsd:string ;
+    ns3:hasOccupation "240"^^xsd:string,
+        "VERKEERSWEZEN"^^xsd:string ;
+    ns3:identifier 100101 ;
+    ns1:aboeky "als in bev.register"^^xsd:string ;
+    ns1:bergt12y "-1"^^xsd:string ;
+    ns1:bergt13y "-1"^^xsd:string ;
+    ns1:bergt1y "timmerman"^^xsd:string ;
+    ns1:bergt22y "-1"^^xsd:string ;
+    ns1:bergt23y "-1"^^xsd:string ;
+    ns1:bergt2y "ambachtsman"^^xsd:string ;
+    ns1:bergt32y "-1"^^xsd:string ;
+    ns1:bergt33y "-1"^^xsd:string ;
+    ns1:bergt3y "timmerman"^^xsd:string ;
+    ns1:bergt42y "-1"^^xsd:string ;
+    ns1:bergt43y "-1"^^xsd:string ;
+    ns1:bergt4y "ambachtsman"^^xsd:string ;
+    ns1:bermhu2y "-1"^^xsd:string ;
+    ns1:bermhu3y "-1"^^xsd:string ;
+    ns1:bermhuy "werklieden"^^xsd:string ;
+    ns1:berpm00y "2"^^xsd:string ;
+    ns1:berpm0y "24"^^xsd:string ;
+    ns1:bervam2y "-1"^^xsd:string ;
+    ns1:bervam3y "-1"^^xsd:string ;
+    ns1:bervamy "vader overleden"^^xsd:string ;
+    ns1:bervav2y "-1"^^xsd:string ;
+    ns1:bervav3y "-1"^^xsd:string ;
+    ns1:bervavy "uitdrager"^^xsd:string ;
+    ns1:bsmy "gehuwd"^^xsd:string ;
+    ns1:bsv2y "-1"^^xsd:string ;
+    ns1:bsv3y "-1"^^xsd:string ;
+    ns1:bsvy "ongehuwd"^^xsd:string ;
+    ns1:buurty "E"^^xsd:string ;
+    ns1:caswgt "1.0"^^xsd:float ;
+    ns1:gebplv1y "Amsterdam"^^xsd:string ;
+    ns1:gebplv2y "-1"^^xsd:string ;
+    ns1:gebplv3y "-1"^^xsd:string ;
+    ns1:gebplvy "Amsterdam"^^xsd:string ;
+    ns1:grblgy "6"^^xsd:string ;
+    ns1:grondbly 314 ;
+    ns1:huisnry "18"^^xsd:string ;
+    ns1:hulftm2y "-1"^^xsd:string ;
+    ns1:hulftm3y "-1"^^xsd:string ;
+    ns1:hulftmy "20"^^xsd:string ;
+    ns1:hulftv2y "-1"^^xsd:string ;
+    ns1:hulftv3y "-1"^^xsd:string ;
+    ns1:hulftvy "19"^^xsd:string ;
+    ns1:jrhu1y "1828"^^xsd:string ;
+    ns1:jrhu2y "-1"^^xsd:string ;
+    ns1:jrhu3y "-1"^^xsd:string ;
+    ns1:lftklasy "4"^^xsd:string ;
+    ns1:lftmy 46 ;
+    ns1:lftvy 45 ;
+    ns1:nrbodey 2 ;
+    ns1:nrhgy "2"^^xsd:string ;
+    ns1:nrkindy 8 ;
+    ns1:omvhhy "14"^^xsd:string ;
+    ns1:patblgy "5"^^xsd:string ;
+    ns1:patbly 229 ;
+    ns1:pblgy "5"^^xsd:string ;
+    ns1:pbly 245 ;
+    ns1:relgt12y "-1"^^xsd:string ;
+    ns1:relgt13y "-1"^^xsd:string ;
+    ns1:relgt1y "geen familie"^^xsd:string ;
+    ns1:relgt22y "-1"^^xsd:string ;
+    ns1:relgt23y "-1"^^xsd:string ;
+    ns1:relgt2y "geen familie"^^xsd:string ;
+    ns1:relgt32y "-1"^^xsd:string ;
+    ns1:relgt33y "-1"^^xsd:string ;
+    ns1:relgt3y "geen familie"^^xsd:string ;
+    ns1:relgt42y "-1"^^xsd:string ;
+    ns1:relgt43y "-1"^^xsd:string ;
+    ns1:relgt4y "geen familie"^^xsd:string ;
+    ns1:relhfdy "ouder"^^xsd:string ;
+    ns1:relimy "Nederlands Hervormd"^^xsd:string ;
+    ns1:relivy "Nederlands Hervormd"^^xsd:string ;
+    ns1:tot3bly "788"^^xsd:string ;
+    ns1:totbly "4"^^xsd:string ;
+    ns1:volgnr2y "100102"^^xsd:string .
 
-<https://iisg.amsterdam/resource/bdv/100151> ns4:identifier 100151,
-        "AA"^^xsd:string ;
-    ns2:aboeky "als in bev.register"^^xsd:string ;
-    ns2:bergt12y "-1"^^xsd:string ;
-    ns2:bergt13y "-1"^^xsd:string ;
-    ns2:bergt1y "-1"^^xsd:string ;
-    ns2:bergt22y "-1"^^xsd:string ;
-    ns2:bergt23y "-1"^^xsd:string ;
-    ns2:bergt2y "-1"^^xsd:string ;
-    ns2:bergt32y "-1"^^xsd:string ;
-    ns2:bergt33y "-1"^^xsd:string ;
-    ns2:bergt3y "-1"^^xsd:string ;
-    ns2:bergt42y "-1"^^xsd:string ;
-    ns2:bergt43y "-1"^^xsd:string ;
-    ns2:bergt4y "-1"^^xsd:string ;
-    ns2:bermhu2y "-1"^^xsd:string ;
-    ns2:bermhu3y "-1"^^xsd:string ;
-    ns2:bermhuy "-1"^^xsd:string ;
-    ns2:berpm00y "6"^^xsd:string ;
-    ns2:berpm0y "65"^^xsd:string ;
-    ns2:berpmy "comm. in effecten"^^xsd:string ;
-    ns2:bersmy "TUSSENHANDEL"^^xsd:string ;
-    ns2:bervam2y "-1"^^xsd:string ;
-    ns2:bervam3y "-1"^^xsd:string ;
-    ns2:bervamy "-1"^^xsd:string ;
-    ns2:bervav2y "-1"^^xsd:string ;
-    ns2:bervav3y "-1"^^xsd:string ;
-    ns2:bervavy "-1"^^xsd:string ;
-    ns2:bsmy "gehuwd"^^xsd:string ;
-    ns2:bsv2y "-1"^^xsd:string ;
-    ns2:bsv3y "-1"^^xsd:string ;
-    ns2:bsvy "-1"^^xsd:string ;
-    ns2:caswgt "1.0"^^xsd:float ;
-    ns2:gebplmy "Amsterdam"^^xsd:string ;
-    ns2:gebplv1y "-1"^^xsd:string ;
-    ns2:gebplv2y "-1"^^xsd:string ;
-    ns2:gebplv3y "-1"^^xsd:string ;
-    ns2:gebplvy "Amsterdam"^^xsd:string ;
-    ns2:grblgy "1"^^xsd:string ;
-    ns2:grondbly "0"^^xsd:string ;
-    ns2:huisnry "592"^^xsd:string ;
-    ns2:hulftm2y "-1"^^xsd:string ;
-    ns2:hulftm3y "-1"^^xsd:string ;
-    ns2:hulftmy "-1"^^xsd:string ;
-    ns2:hulftv2y "-1"^^xsd:string ;
-    ns2:hulftv3y "-1"^^xsd:string ;
-    ns2:hulftvy "-1"^^xsd:string ;
-    ns2:jrhu1y "-1"^^xsd:string ;
-    ns2:jrhu2y "-1"^^xsd:string ;
-    ns2:jrhu3y "-1"^^xsd:string ;
-    ns2:lftklasy "4"^^xsd:string ;
-    ns2:lftmy "47"^^xsd:string ;
-    ns2:lftvy "37"^^xsd:string ;
-    ns2:nrbodey "2"^^xsd:string ;
-    ns2:nrhgy "0"^^xsd:string ;
-    ns2:nrkindy "3"^^xsd:string ;
-    ns2:omvhhy "7"^^xsd:string ;
-    ns2:patblgy "4"^^xsd:string ;
-    ns2:patbly "64"^^xsd:string ;
-    ns2:pblgy "4"^^xsd:string ;
-    ns2:pbly "90"^^xsd:string ;
-    ns2:relgt12y "-1"^^xsd:string ;
-    ns2:relgt13y "-1"^^xsd:string ;
-    ns2:relgt1y "-1"^^xsd:string ;
-    ns2:relgt22y "-1"^^xsd:string ;
-    ns2:relgt23y "-1"^^xsd:string ;
-    ns2:relgt2y "-1"^^xsd:string ;
-    ns2:relgt32y "-1"^^xsd:string ;
-    ns2:relgt33y "-1"^^xsd:string ;
-    ns2:relgt3y "-1"^^xsd:string ;
-    ns2:relgt42y "-1"^^xsd:string ;
-    ns2:relgt43y "-1"^^xsd:string ;
-    ns2:relgt4y "-1"^^xsd:string ;
-    ns2:relhfdy "-1"^^xsd:string ;
-    ns2:relimy "Remonstrants"^^xsd:string ;
-    ns2:relivy "Nederlands Hervormd"^^xsd:string ;
-    ns2:tot3bly "154"^^xsd:string ;
-    ns2:totbly "2"^^xsd:string ;
-    ns2:volgnr2y "100152"^^xsd:string .
+<https://iisg.amsterdam/resource/bdv/100151> ns3:birthPlace "Amsterdam"^^xsd:string ;
+    ns3:hasOccupation "TUSSENHANDEL"^^xsd:string,
+        "comm. in effecten"^^xsd:string ;
+    ns3:identifier 100151 ;
+    ns1:aboeky "als in bev.register"^^xsd:string ;
+    ns1:bergt12y "-1"^^xsd:string ;
+    ns1:bergt13y "-1"^^xsd:string ;
+    ns1:bergt1y "-1"^^xsd:string ;
+    ns1:bergt22y "-1"^^xsd:string ;
+    ns1:bergt23y "-1"^^xsd:string ;
+    ns1:bergt2y "-1"^^xsd:string ;
+    ns1:bergt32y "-1"^^xsd:string ;
+    ns1:bergt33y "-1"^^xsd:string ;
+    ns1:bergt3y "-1"^^xsd:string ;
+    ns1:bergt42y "-1"^^xsd:string ;
+    ns1:bergt43y "-1"^^xsd:string ;
+    ns1:bergt4y "-1"^^xsd:string ;
+    ns1:bermhu2y "-1"^^xsd:string ;
+    ns1:bermhu3y "-1"^^xsd:string ;
+    ns1:bermhuy "-1"^^xsd:string ;
+    ns1:berpm00y "6"^^xsd:string ;
+    ns1:berpm0y "65"^^xsd:string ;
+    ns1:bervam2y "-1"^^xsd:string ;
+    ns1:bervam3y "-1"^^xsd:string ;
+    ns1:bervamy "-1"^^xsd:string ;
+    ns1:bervav2y "-1"^^xsd:string ;
+    ns1:bervav3y "-1"^^xsd:string ;
+    ns1:bervavy "-1"^^xsd:string ;
+    ns1:bsmy "gehuwd"^^xsd:string ;
+    ns1:bsv2y "-1"^^xsd:string ;
+    ns1:bsv3y "-1"^^xsd:string ;
+    ns1:bsvy "-1"^^xsd:string ;
+    ns1:buurty "AA"^^xsd:string ;
+    ns1:caswgt "1.0"^^xsd:float ;
+    ns1:gebplv1y "-1"^^xsd:string ;
+    ns1:gebplv2y "-1"^^xsd:string ;
+    ns1:gebplv3y "-1"^^xsd:string ;
+    ns1:gebplvy "Amsterdam"^^xsd:string ;
+    ns1:grblgy "1"^^xsd:string ;
+    ns1:grondbly 0 ;
+    ns1:huisnry "592"^^xsd:string ;
+    ns1:hulftm2y "-1"^^xsd:string ;
+    ns1:hulftm3y "-1"^^xsd:string ;
+    ns1:hulftmy "-1"^^xsd:string ;
+    ns1:hulftv2y "-1"^^xsd:string ;
+    ns1:hulftv3y "-1"^^xsd:string ;
+    ns1:hulftvy "-1"^^xsd:string ;
+    ns1:jrhu1y "-1"^^xsd:string ;
+    ns1:jrhu2y "-1"^^xsd:string ;
+    ns1:jrhu3y "-1"^^xsd:string ;
+    ns1:lftklasy "4"^^xsd:string ;
+    ns1:lftmy 47 ;
+    ns1:lftvy 37 ;
+    ns1:nrbodey 2 ;
+    ns1:nrhgy "0"^^xsd:string ;
+    ns1:nrkindy 3 ;
+    ns1:omvhhy "7"^^xsd:string ;
+    ns1:patblgy "4"^^xsd:string ;
+    ns1:patbly 64 ;
+    ns1:pblgy "4"^^xsd:string ;
+    ns1:pbly 90 ;
+    ns1:relgt12y "-1"^^xsd:string ;
+    ns1:relgt13y "-1"^^xsd:string ;
+    ns1:relgt1y "-1"^^xsd:string ;
+    ns1:relgt22y "-1"^^xsd:string ;
+    ns1:relgt23y "-1"^^xsd:string ;
+    ns1:relgt2y "-1"^^xsd:string ;
+    ns1:relgt32y "-1"^^xsd:string ;
+    ns1:relgt33y "-1"^^xsd:string ;
+    ns1:relgt3y "-1"^^xsd:string ;
+    ns1:relgt42y "-1"^^xsd:string ;
+    ns1:relgt43y "-1"^^xsd:string ;
+    ns1:relgt4y "-1"^^xsd:string ;
+    ns1:relhfdy "-1"^^xsd:string ;
+    ns1:relimy "Remonstrants"^^xsd:string ;
+    ns1:relivy "Nederlands Hervormd"^^xsd:string ;
+    ns1:tot3bly "154"^^xsd:string ;
+    ns1:totbly "2"^^xsd:string ;
+    ns1:volgnr2y "100152"^^xsd:string .
 
-<https://iisg.amsterdam/resource/bdv/100201> ns4:identifier 100201,
-        "LL"^^xsd:string ;
-    ns2:aboeky "als in bev.register"^^xsd:string ;
-    ns2:bergt12y "koopman"^^xsd:string ;
-    ns2:bergt13y "-1"^^xsd:string ;
-    ns2:bergt1y "-1"^^xsd:string ;
-    ns2:bergt22y "werklieden"^^xsd:string ;
-    ns2:bergt23y "-1"^^xsd:string ;
-    ns2:bergt2y "-1"^^xsd:string ;
-    ns2:bergt32y "ambachtsman"^^xsd:string ;
-    ns2:bergt33y "-1"^^xsd:string ;
-    ns2:bergt3y "-1"^^xsd:string ;
-    ns2:bergt42y "werklieden"^^xsd:string ;
-    ns2:bergt43y "-1"^^xsd:string ;
-    ns2:bergt4y "-1"^^xsd:string ;
-    ns2:bermhu2y "koopman"^^xsd:string ;
-    ns2:bermhu3y "-1"^^xsd:string ;
-    ns2:bermhuy "-1"^^xsd:string ;
-    ns2:berpm00y "6"^^xsd:string ;
-    ns2:berpm0y "61"^^xsd:string ;
-    ns2:berpmy "koopman"^^xsd:string ;
-    ns2:bersmy "WARENHANDEL"^^xsd:string ;
-    ns2:bervam2y "ambachtsman"^^xsd:string ;
-    ns2:bervam3y "-1"^^xsd:string ;
-    ns2:bervamy "-1"^^xsd:string ;
-    ns2:bervav2y "vader overleden"^^xsd:string ;
-    ns2:bervav3y "-1"^^xsd:string ;
-    ns2:bervavy "-1"^^xsd:string ;
-    ns2:bsmy "gehuwd"^^xsd:string ;
-    ns2:bsv2y "ongehuwd"^^xsd:string ;
-    ns2:bsv3y "-1"^^xsd:string ;
-    ns2:bsvy "-1"^^xsd:string ;
-    ns2:caswgt "1.0"^^xsd:float ;
-    ns2:gebplmy "Amsterdam"^^xsd:string ;
-    ns2:gebplv1y "-1"^^xsd:string ;
-    ns2:gebplv2y "Amsterdam"^^xsd:string ;
-    ns2:gebplv3y "-1"^^xsd:string ;
-    ns2:gebplvy "Amsterdam"^^xsd:string ;
-    ns2:grblgy "6"^^xsd:string ;
-    ns2:grondbly "318"^^xsd:string ;
-    ns2:huisnry "379"^^xsd:string ;
-    ns2:hulftm2y "31"^^xsd:string ;
-    ns2:hulftm3y "-1"^^xsd:string ;
-    ns2:hulftmy "-1"^^xsd:string ;
-    ns2:hulftv2y "25"^^xsd:string ;
-    ns2:hulftv3y "-1"^^xsd:string ;
-    ns2:hulftvy "-1"^^xsd:string ;
-    ns2:jrhu1y "-1"^^xsd:string ;
-    ns2:jrhu2y "1819"^^xsd:string ;
-    ns2:jrhu3y "-1"^^xsd:string ;
-    ns2:lftklasy "6"^^xsd:string ;
-    ns2:lftmy "65"^^xsd:string ;
-    ns2:lftvy "60"^^xsd:string ;
-    ns2:nrbodey "3"^^xsd:string ;
-    ns2:nrhgy "0"^^xsd:string ;
-    ns2:nrkindy "3"^^xsd:string ;
-    ns2:omvhhy "8"^^xsd:string ;
-    ns2:patblgy "6"^^xsd:string ;
-    ns2:patbly "265"^^xsd:string ;
-    ns2:pblgy "6"^^xsd:string ;
-    ns2:pbly "312"^^xsd:string ;
-    ns2:relgt12y "geen familie"^^xsd:string ;
-    ns2:relgt13y "-1"^^xsd:string ;
-    ns2:relgt1y "-1"^^xsd:string ;
-    ns2:relgt22y "geen familie"^^xsd:string ;
-    ns2:relgt23y "-1"^^xsd:string ;
-    ns2:relgt2y "-1"^^xsd:string ;
-    ns2:relgt32y "7"^^xsd:string ;
-    ns2:relgt33y "-1"^^xsd:string ;
-    ns2:relgt3y "-1"^^xsd:string ;
-    ns2:relgt42y "geen familie"^^xsd:string ;
-    ns2:relgt43y "-1"^^xsd:string ;
-    ns2:relgt4y "-1"^^xsd:string ;
-    ns2:relhfdy "-1"^^xsd:string ;
-    ns2:relimy "Rooms Katholiek"^^xsd:string ;
-    ns2:relivy "Rooms Katholiek"^^xsd:string ;
-    ns2:tot3bly "895"^^xsd:string ;
-    ns2:totbly "4"^^xsd:string ;
-    ns2:volgnr2y "100202"^^xsd:string .
+<https://iisg.amsterdam/resource/bdv/100201> ns3:birthPlace "Amsterdam"^^xsd:string ;
+    ns3:hasOccupation "WARENHANDEL"^^xsd:string,
+        "koopman"^^xsd:string ;
+    ns3:identifier 100201 ;
+    ns1:aboeky "als in bev.register"^^xsd:string ;
+    ns1:bergt12y "koopman"^^xsd:string ;
+    ns1:bergt13y "-1"^^xsd:string ;
+    ns1:bergt1y "-1"^^xsd:string ;
+    ns1:bergt22y "werklieden"^^xsd:string ;
+    ns1:bergt23y "-1"^^xsd:string ;
+    ns1:bergt2y "-1"^^xsd:string ;
+    ns1:bergt32y "ambachtsman"^^xsd:string ;
+    ns1:bergt33y "-1"^^xsd:string ;
+    ns1:bergt3y "-1"^^xsd:string ;
+    ns1:bergt42y "werklieden"^^xsd:string ;
+    ns1:bergt43y "-1"^^xsd:string ;
+    ns1:bergt4y "-1"^^xsd:string ;
+    ns1:bermhu2y "koopman"^^xsd:string ;
+    ns1:bermhu3y "-1"^^xsd:string ;
+    ns1:bermhuy "-1"^^xsd:string ;
+    ns1:berpm00y "6"^^xsd:string ;
+    ns1:berpm0y "61"^^xsd:string ;
+    ns1:bervam2y "ambachtsman"^^xsd:string ;
+    ns1:bervam3y "-1"^^xsd:string ;
+    ns1:bervamy "-1"^^xsd:string ;
+    ns1:bervav2y "vader overleden"^^xsd:string ;
+    ns1:bervav3y "-1"^^xsd:string ;
+    ns1:bervavy "-1"^^xsd:string ;
+    ns1:bsmy "gehuwd"^^xsd:string ;
+    ns1:bsv2y "ongehuwd"^^xsd:string ;
+    ns1:bsv3y "-1"^^xsd:string ;
+    ns1:bsvy "-1"^^xsd:string ;
+    ns1:buurty "LL"^^xsd:string ;
+    ns1:caswgt "1.0"^^xsd:float ;
+    ns1:gebplv1y "-1"^^xsd:string ;
+    ns1:gebplv2y "Amsterdam"^^xsd:string ;
+    ns1:gebplv3y "-1"^^xsd:string ;
+    ns1:gebplvy "Amsterdam"^^xsd:string ;
+    ns1:grblgy "6"^^xsd:string ;
+    ns1:grondbly 318 ;
+    ns1:huisnry "379"^^xsd:string ;
+    ns1:hulftm2y "31"^^xsd:string ;
+    ns1:hulftm3y "-1"^^xsd:string ;
+    ns1:hulftmy "-1"^^xsd:string ;
+    ns1:hulftv2y "25"^^xsd:string ;
+    ns1:hulftv3y "-1"^^xsd:string ;
+    ns1:hulftvy "-1"^^xsd:string ;
+    ns1:jrhu1y "-1"^^xsd:string ;
+    ns1:jrhu2y "1819"^^xsd:string ;
+    ns1:jrhu3y "-1"^^xsd:string ;
+    ns1:lftklasy "6"^^xsd:string ;
+    ns1:lftmy 65 ;
+    ns1:lftvy 60 ;
+    ns1:nrbodey 3 ;
+    ns1:nrhgy "0"^^xsd:string ;
+    ns1:nrkindy 3 ;
+    ns1:omvhhy "8"^^xsd:string ;
+    ns1:patblgy "6"^^xsd:string ;
+    ns1:patbly 265 ;
+    ns1:pblgy "6"^^xsd:string ;
+    ns1:pbly 312 ;
+    ns1:relgt12y "geen familie"^^xsd:string ;
+    ns1:relgt13y "-1"^^xsd:string ;
+    ns1:relgt1y "-1"^^xsd:string ;
+    ns1:relgt22y "geen familie"^^xsd:string ;
+    ns1:relgt23y "-1"^^xsd:string ;
+    ns1:relgt2y "-1"^^xsd:string ;
+    ns1:relgt32y "7"^^xsd:string ;
+    ns1:relgt33y "-1"^^xsd:string ;
+    ns1:relgt3y "-1"^^xsd:string ;
+    ns1:relgt42y "geen familie"^^xsd:string ;
+    ns1:relgt43y "-1"^^xsd:string ;
+    ns1:relgt4y "-1"^^xsd:string ;
+    ns1:relhfdy "-1"^^xsd:string ;
+    ns1:relimy "Rooms Katholiek"^^xsd:string ;
+    ns1:relivy "Rooms Katholiek"^^xsd:string ;
+    ns1:tot3bly "895"^^xsd:string ;
+    ns1:totbly "4"^^xsd:string ;
+    ns1:volgnr2y "100202"^^xsd:string .
 
-<https://iisg.amsterdam/resource/bdv/100251> ns4:identifier 100251,
-        "X"^^xsd:string ;
-    ns2:aboeky "als in bev.register"^^xsd:string ;
-    ns2:bergt12y "-1"^^xsd:string ;
-    ns2:bergt13y "-1"^^xsd:string ;
-    ns2:bergt1y "ambtenaar"^^xsd:string ;
-    ns2:bergt22y "-1"^^xsd:string ;
-    ns2:bergt23y "-1"^^xsd:string ;
-    ns2:bergt2y "koopman"^^xsd:string ;
-    ns2:bergt32y "-1"^^xsd:string ;
-    ns2:bergt33y "-1"^^xsd:string ;
-    ns2:bergt3y "lid Staten-Generaal"^^xsd:string ;
-    ns2:bergt42y "-1"^^xsd:string ;
-    ns2:bergt43y "-1"^^xsd:string ;
-    ns2:bergt4y "lid gemeenteraad asd"^^xsd:string ;
-    ns2:bermhu2y "-1"^^xsd:string ;
-    ns2:bermhu3y "-1"^^xsd:string ;
-    ns2:bermhuy "koopman"^^xsd:string ;
-    ns2:berpm00y "4"^^xsd:string ;
-    ns2:berpm0y "41"^^xsd:string ;
-    ns2:berpmy "ambtenaar"^^xsd:string ;
-    ns2:bersmy "323"^^xsd:string ;
-    ns2:bervam2y "-1"^^xsd:string ;
-    ns2:bervam3y "-1"^^xsd:string ;
-    ns2:bervamy "vader overleden"^^xsd:string ;
-    ns2:bervav2y "-1"^^xsd:string ;
-    ns2:bervav3y "-1"^^xsd:string ;
-    ns2:bervavy "ambtenaar"^^xsd:string ;
-    ns2:bsmy "gehuwd"^^xsd:string ;
-    ns2:bsv2y "-1"^^xsd:string ;
-    ns2:bsv3y "-1"^^xsd:string ;
-    ns2:bsvy "ongehuwd"^^xsd:string ;
-    ns2:caswgt "1.0"^^xsd:float ;
-    ns2:gebplmy "Amsterdam"^^xsd:string ;
-    ns2:gebplv1y "Amsterdam"^^xsd:string ;
-    ns2:gebplv2y "-1"^^xsd:string ;
-    ns2:gebplv3y "-1"^^xsd:string ;
-    ns2:gebplvy "Amsterdam"^^xsd:string ;
-    ns2:grblgy "5"^^xsd:string ;
-    ns2:grondbly "150"^^xsd:string ;
-    ns2:huisnry "704"^^xsd:string ;
-    ns2:hulftm2y "-1"^^xsd:string ;
-    ns2:hulftm3y "-1"^^xsd:string ;
-    ns2:hulftmy "29"^^xsd:string ;
-    ns2:hulftv2y "-1"^^xsd:string ;
-    ns2:hulftv3y "-1"^^xsd:string ;
-    ns2:hulftvy "21"^^xsd:string ;
-    ns2:jrhu1y "1816"^^xsd:string ;
-    ns2:jrhu2y "-1"^^xsd:string ;
-    ns2:jrhu3y "-1"^^xsd:string ;
-    ns2:lftklasy "6"^^xsd:string ;
-    ns2:lftmy "66"^^xsd:string ;
-    ns2:lftvy "59"^^xsd:string ;
-    ns2:nrbodey "2"^^xsd:string ;
-    ns2:nrhgy "3"^^xsd:string ;
-    ns2:nrkindy "0"^^xsd:string ;
-    ns2:omvhhy "7"^^xsd:string ;
-    ns2:patblgy "1"^^xsd:string ;
-    ns2:patbly "0"^^xsd:string ;
-    ns2:pblgy "6"^^xsd:string ;
-    ns2:pbly "303"^^xsd:string ;
-    ns2:relgt12y "-1"^^xsd:string ;
-    ns2:relgt13y "-1"^^xsd:string ;
-    ns2:relgt1y "oom/neef man"^^xsd:string ;
-    ns2:relgt22y "-1"^^xsd:string ;
-    ns2:relgt23y "-1"^^xsd:string ;
-    ns2:relgt2y "broer/zwager man"^^xsd:string ;
-    ns2:relgt32y "-1"^^xsd:string ;
-    ns2:relgt33y "-1"^^xsd:string ;
-    ns2:relgt3y "oom/neef vrouw"^^xsd:string ;
-    ns2:relgt42y "-1"^^xsd:string ;
-    ns2:relgt43y "-1"^^xsd:string ;
-    ns2:relgt4y "oom/neef vrouw"^^xsd:string ;
-    ns2:relhfdy "-1"^^xsd:string ;
-    ns2:relimy "Nederlands Hervormd"^^xsd:string ;
-    ns2:relivy "Nederlands Hervormd"^^xsd:string ;
-    ns2:tot3bly "453"^^xsd:string ;
-    ns2:totbly "3"^^xsd:string ;
-    ns2:volgnr2y "100252"^^xsd:string .
+<https://iisg.amsterdam/resource/bdv/100251> ns3:birthPlace "Amsterdam"^^xsd:string ;
+    ns3:hasOccupation "323"^^xsd:string,
+        "ambtenaar"^^xsd:string ;
+    ns3:identifier 100251 ;
+    ns1:aboeky "als in bev.register"^^xsd:string ;
+    ns1:bergt12y "-1"^^xsd:string ;
+    ns1:bergt13y "-1"^^xsd:string ;
+    ns1:bergt1y "ambtenaar"^^xsd:string ;
+    ns1:bergt22y "-1"^^xsd:string ;
+    ns1:bergt23y "-1"^^xsd:string ;
+    ns1:bergt2y "koopman"^^xsd:string ;
+    ns1:bergt32y "-1"^^xsd:string ;
+    ns1:bergt33y "-1"^^xsd:string ;
+    ns1:bergt3y "lid Staten-Generaal"^^xsd:string ;
+    ns1:bergt42y "-1"^^xsd:string ;
+    ns1:bergt43y "-1"^^xsd:string ;
+    ns1:bergt4y "lid gemeenteraad asd"^^xsd:string ;
+    ns1:bermhu2y "-1"^^xsd:string ;
+    ns1:bermhu3y "-1"^^xsd:string ;
+    ns1:bermhuy "koopman"^^xsd:string ;
+    ns1:berpm00y "4"^^xsd:string ;
+    ns1:berpm0y "41"^^xsd:string ;
+    ns1:bervam2y "-1"^^xsd:string ;
+    ns1:bervam3y "-1"^^xsd:string ;
+    ns1:bervamy "vader overleden"^^xsd:string ;
+    ns1:bervav2y "-1"^^xsd:string ;
+    ns1:bervav3y "-1"^^xsd:string ;
+    ns1:bervavy "ambtenaar"^^xsd:string ;
+    ns1:bsmy "gehuwd"^^xsd:string ;
+    ns1:bsv2y "-1"^^xsd:string ;
+    ns1:bsv3y "-1"^^xsd:string ;
+    ns1:bsvy "ongehuwd"^^xsd:string ;
+    ns1:buurty "X"^^xsd:string ;
+    ns1:caswgt "1.0"^^xsd:float ;
+    ns1:gebplv1y "Amsterdam"^^xsd:string ;
+    ns1:gebplv2y "-1"^^xsd:string ;
+    ns1:gebplv3y "-1"^^xsd:string ;
+    ns1:gebplvy "Amsterdam"^^xsd:string ;
+    ns1:grblgy "5"^^xsd:string ;
+    ns1:grondbly 150 ;
+    ns1:huisnry "704"^^xsd:string ;
+    ns1:hulftm2y "-1"^^xsd:string ;
+    ns1:hulftm3y "-1"^^xsd:string ;
+    ns1:hulftmy "29"^^xsd:string ;
+    ns1:hulftv2y "-1"^^xsd:string ;
+    ns1:hulftv3y "-1"^^xsd:string ;
+    ns1:hulftvy "21"^^xsd:string ;
+    ns1:jrhu1y "1816"^^xsd:string ;
+    ns1:jrhu2y "-1"^^xsd:string ;
+    ns1:jrhu3y "-1"^^xsd:string ;
+    ns1:lftklasy "6"^^xsd:string ;
+    ns1:lftmy 66 ;
+    ns1:lftvy 59 ;
+    ns1:nrbodey 2 ;
+    ns1:nrhgy "3"^^xsd:string ;
+    ns1:nrkindy 0 ;
+    ns1:omvhhy "7"^^xsd:string ;
+    ns1:patblgy "1"^^xsd:string ;
+    ns1:patbly 0 ;
+    ns1:pblgy "6"^^xsd:string ;
+    ns1:pbly 303 ;
+    ns1:relgt12y "-1"^^xsd:string ;
+    ns1:relgt13y "-1"^^xsd:string ;
+    ns1:relgt1y "oom/neef man"^^xsd:string ;
+    ns1:relgt22y "-1"^^xsd:string ;
+    ns1:relgt23y "-1"^^xsd:string ;
+    ns1:relgt2y "broer/zwager man"^^xsd:string ;
+    ns1:relgt32y "-1"^^xsd:string ;
+    ns1:relgt33y "-1"^^xsd:string ;
+    ns1:relgt3y "oom/neef vrouw"^^xsd:string ;
+    ns1:relgt42y "-1"^^xsd:string ;
+    ns1:relgt43y "-1"^^xsd:string ;
+    ns1:relgt4y "oom/neef vrouw"^^xsd:string ;
+    ns1:relhfdy "-1"^^xsd:string ;
+    ns1:relimy "Nederlands Hervormd"^^xsd:string ;
+    ns1:relivy "Nederlands Hervormd"^^xsd:string ;
+    ns1:tot3bly "453"^^xsd:string ;
+    ns1:totbly "3"^^xsd:string ;
+    ns1:volgnr2y "100252"^^xsd:string .
 
-<https://iisg.amsterdam/resource/bdv/100301> ns4:identifier 100301,
-        "F"^^xsd:string ;
-    ns2:aboeky "als in bev.register"^^xsd:string ;
-    ns2:bergt12y "-1"^^xsd:string ;
-    ns2:bergt13y "-1"^^xsd:string ;
-    ns2:bergt1y "-1"^^xsd:string ;
-    ns2:bergt22y "-1"^^xsd:string ;
-    ns2:bergt23y "-1"^^xsd:string ;
-    ns2:bergt2y "-1"^^xsd:string ;
-    ns2:bergt32y "-1"^^xsd:string ;
-    ns2:bergt33y "-1"^^xsd:string ;
-    ns2:bergt3y "-1"^^xsd:string ;
-    ns2:bergt42y "-1"^^xsd:string ;
-    ns2:bergt43y "-1"^^xsd:string ;
-    ns2:bergt4y "-1"^^xsd:string ;
-    ns2:bermhu2y "-1"^^xsd:string ;
-    ns2:bermhu3y "-1"^^xsd:string ;
-    ns2:bermhuy "-1"^^xsd:string ;
-    ns2:berpm00y "2"^^xsd:string ;
-    ns2:berpm0y "22"^^xsd:string ;
-    ns2:berpmy "drogist"^^xsd:string ;
-    ns2:bersmy "WARENHANDEL"^^xsd:string ;
-    ns2:bervam2y "-1"^^xsd:string ;
-    ns2:bervam3y "-1"^^xsd:string ;
-    ns2:bervamy "-1"^^xsd:string ;
-    ns2:bervav2y "-1"^^xsd:string ;
-    ns2:bervav3y "-1"^^xsd:string ;
-    ns2:bervavy "-1"^^xsd:string ;
-    ns2:bsmy "gehuwd"^^xsd:string ;
-    ns2:bsv2y "-1"^^xsd:string ;
-    ns2:bsv3y "-1"^^xsd:string ;
-    ns2:bsvy "-1"^^xsd:string ;
-    ns2:caswgt "1.0"^^xsd:float ;
-    ns2:gebplmy "N-Brabant steden"^^xsd:string ;
-    ns2:gebplv1y "-1"^^xsd:string ;
-    ns2:gebplv2y "-1"^^xsd:string ;
-    ns2:gebplv3y "-1"^^xsd:string ;
-    ns2:gebplvy "N-Brabant steden"^^xsd:string ;
-    ns2:grblgy "1"^^xsd:string ;
-    ns2:grondbly "0"^^xsd:string ;
-    ns2:huisnry "119"^^xsd:string ;
-    ns2:hulftm2y "-1"^^xsd:string ;
-    ns2:hulftm3y "-1"^^xsd:string ;
-    ns2:hulftmy "-1"^^xsd:string ;
-    ns2:hulftv2y "-1"^^xsd:string ;
-    ns2:hulftv3y "-1"^^xsd:string ;
-    ns2:hulftvy "-1"^^xsd:string ;
-    ns2:jrhu1y "-1"^^xsd:string ;
-    ns2:jrhu2y "-1"^^xsd:string ;
-    ns2:jrhu3y "-1"^^xsd:string ;
-    ns2:lftklasy "3"^^xsd:string ;
-    ns2:lftmy "36"^^xsd:string ;
-    ns2:lftvy "31"^^xsd:string ;
-    ns2:nrbodey "1"^^xsd:string ;
-    ns2:nrhgy "0"^^xsd:string ;
-    ns2:nrkindy "0"^^xsd:string ;
-    ns2:omvhhy "3"^^xsd:string ;
-    ns2:patblgy "4"^^xsd:string ;
-    ns2:patbly "53"^^xsd:string ;
-    ns2:pblgy "4"^^xsd:string ;
-    ns2:pbly "92"^^xsd:string ;
-    ns2:relgt12y "-1"^^xsd:string ;
-    ns2:relgt13y "-1"^^xsd:string ;
-    ns2:relgt1y "-1"^^xsd:string ;
-    ns2:relgt22y "-1"^^xsd:string ;
-    ns2:relgt23y "-1"^^xsd:string ;
-    ns2:relgt2y "-1"^^xsd:string ;
-    ns2:relgt32y "-1"^^xsd:string ;
-    ns2:relgt33y "-1"^^xsd:string ;
-    ns2:relgt3y "-1"^^xsd:string ;
-    ns2:relgt42y "-1"^^xsd:string ;
-    ns2:relgt43y "-1"^^xsd:string ;
-    ns2:relgt4y "-1"^^xsd:string ;
-    ns2:relhfdy "-1"^^xsd:string ;
-    ns2:relimy "Rooms Katholiek"^^xsd:string ;
-    ns2:relivy "Rooms Katholiek"^^xsd:string ;
-    ns2:tot3bly "145"^^xsd:string ;
-    ns2:totbly "2"^^xsd:string ;
-    ns2:volgnr2y "100302"^^xsd:string .
+<https://iisg.amsterdam/resource/bdv/100301> ns3:birthPlace "N-Brabant steden"^^xsd:string ;
+    ns3:hasOccupation "WARENHANDEL"^^xsd:string,
+        "drogist"^^xsd:string ;
+    ns3:identifier 100301 ;
+    ns1:aboeky "als in bev.register"^^xsd:string ;
+    ns1:bergt12y "-1"^^xsd:string ;
+    ns1:bergt13y "-1"^^xsd:string ;
+    ns1:bergt1y "-1"^^xsd:string ;
+    ns1:bergt22y "-1"^^xsd:string ;
+    ns1:bergt23y "-1"^^xsd:string ;
+    ns1:bergt2y "-1"^^xsd:string ;
+    ns1:bergt32y "-1"^^xsd:string ;
+    ns1:bergt33y "-1"^^xsd:string ;
+    ns1:bergt3y "-1"^^xsd:string ;
+    ns1:bergt42y "-1"^^xsd:string ;
+    ns1:bergt43y "-1"^^xsd:string ;
+    ns1:bergt4y "-1"^^xsd:string ;
+    ns1:bermhu2y "-1"^^xsd:string ;
+    ns1:bermhu3y "-1"^^xsd:string ;
+    ns1:bermhuy "-1"^^xsd:string ;
+    ns1:berpm00y "2"^^xsd:string ;
+    ns1:berpm0y "22"^^xsd:string ;
+    ns1:bervam2y "-1"^^xsd:string ;
+    ns1:bervam3y "-1"^^xsd:string ;
+    ns1:bervamy "-1"^^xsd:string ;
+    ns1:bervav2y "-1"^^xsd:string ;
+    ns1:bervav3y "-1"^^xsd:string ;
+    ns1:bervavy "-1"^^xsd:string ;
+    ns1:bsmy "gehuwd"^^xsd:string ;
+    ns1:bsv2y "-1"^^xsd:string ;
+    ns1:bsv3y "-1"^^xsd:string ;
+    ns1:bsvy "-1"^^xsd:string ;
+    ns1:buurty "F"^^xsd:string ;
+    ns1:caswgt "1.0"^^xsd:float ;
+    ns1:gebplv1y "-1"^^xsd:string ;
+    ns1:gebplv2y "-1"^^xsd:string ;
+    ns1:gebplv3y "-1"^^xsd:string ;
+    ns1:gebplvy "N-Brabant steden"^^xsd:string ;
+    ns1:grblgy "1"^^xsd:string ;
+    ns1:grondbly 0 ;
+    ns1:huisnry "119"^^xsd:string ;
+    ns1:hulftm2y "-1"^^xsd:string ;
+    ns1:hulftm3y "-1"^^xsd:string ;
+    ns1:hulftmy "-1"^^xsd:string ;
+    ns1:hulftv2y "-1"^^xsd:string ;
+    ns1:hulftv3y "-1"^^xsd:string ;
+    ns1:hulftvy "-1"^^xsd:string ;
+    ns1:jrhu1y "-1"^^xsd:string ;
+    ns1:jrhu2y "-1"^^xsd:string ;
+    ns1:jrhu3y "-1"^^xsd:string ;
+    ns1:lftklasy "3"^^xsd:string ;
+    ns1:lftmy 36 ;
+    ns1:lftvy 31 ;
+    ns1:nrbodey 1 ;
+    ns1:nrhgy "0"^^xsd:string ;
+    ns1:nrkindy 0 ;
+    ns1:omvhhy "3"^^xsd:string ;
+    ns1:patblgy "4"^^xsd:string ;
+    ns1:patbly 53 ;
+    ns1:pblgy "4"^^xsd:string ;
+    ns1:pbly 92 ;
+    ns1:relgt12y "-1"^^xsd:string ;
+    ns1:relgt13y "-1"^^xsd:string ;
+    ns1:relgt1y "-1"^^xsd:string ;
+    ns1:relgt22y "-1"^^xsd:string ;
+    ns1:relgt23y "-1"^^xsd:string ;
+    ns1:relgt2y "-1"^^xsd:string ;
+    ns1:relgt32y "-1"^^xsd:string ;
+    ns1:relgt33y "-1"^^xsd:string ;
+    ns1:relgt3y "-1"^^xsd:string ;
+    ns1:relgt42y "-1"^^xsd:string ;
+    ns1:relgt43y "-1"^^xsd:string ;
+    ns1:relgt4y "-1"^^xsd:string ;
+    ns1:relhfdy "-1"^^xsd:string ;
+    ns1:relimy "Rooms Katholiek"^^xsd:string ;
+    ns1:relivy "Rooms Katholiek"^^xsd:string ;
+    ns1:tot3bly "145"^^xsd:string ;
+    ns1:totbly "2"^^xsd:string ;
+    ns1:volgnr2y "100302"^^xsd:string .
 
-<https://iisg.amsterdam/resource/bdv/100351> ns4:identifier 100351,
-        "X"^^xsd:string ;
-    ns2:aboeky "als in bev.register"^^xsd:string ;
-    ns2:bergt12y "-1"^^xsd:string ;
-    ns2:bergt13y "-1"^^xsd:string ;
-    ns2:bergt1y "wijnkoopman"^^xsd:string ;
-    ns2:bergt22y "-1"^^xsd:string ;
-    ns2:bergt23y "-1"^^xsd:string ;
-    ns2:bergt2y "timmerman"^^xsd:string ;
-    ns2:bergt32y "-1"^^xsd:string ;
-    ns2:bergt33y "-1"^^xsd:string ;
-    ns2:bergt3y "zonder"^^xsd:string ;
-    ns2:bergt42y "-1"^^xsd:string ;
-    ns2:bergt43y "-1"^^xsd:string ;
-    ns2:bergt4y "ambtenaar"^^xsd:string ;
-    ns2:bermhu2y "-1"^^xsd:string ;
-    ns2:bermhu3y "-1"^^xsd:string ;
-    ns2:bermhuy "fabrikanten"^^xsd:string ;
-    ns2:berpm00y "1"^^xsd:string ;
-    ns2:berpm0y "11"^^xsd:string ;
-    ns2:berpmy "fabrikanten"^^xsd:string ;
-    ns2:bersmy "VOEDINGS EN GENOTMID"^^xsd:string ;
-    ns2:bervam2y "-1"^^xsd:string ;
-    ns2:bervam3y "-1"^^xsd:string ;
-    ns2:bervamy "zonder"^^xsd:string ;
-    ns2:bervav2y "-1"^^xsd:string ;
-    ns2:bervav3y "-1"^^xsd:string ;
-    ns2:bervavy "vader overleden"^^xsd:string ;
-    ns2:bsmy "gehuwd"^^xsd:string ;
-    ns2:bsv2y "-1"^^xsd:string ;
-    ns2:bsv3y "-1"^^xsd:string ;
-    ns2:bsvy "ongehuwd"^^xsd:string ;
-    ns2:caswgt "1.0"^^xsd:float ;
-    ns2:gebplmy "Amsterdam"^^xsd:string ;
-    ns2:gebplv1y "Amsterdam"^^xsd:string ;
-    ns2:gebplv2y "-1"^^xsd:string ;
-    ns2:gebplv3y "-1"^^xsd:string ;
-    ns2:gebplvy "Amsterdam"^^xsd:string ;
-    ns2:grblgy "1"^^xsd:string ;
-    ns2:grondbly "0"^^xsd:string ;
-    ns2:huisnry "5"^^xsd:string ;
-    ns2:hulftm2y "-1"^^xsd:string ;
-    ns2:hulftm3y "-1"^^xsd:string ;
-    ns2:hulftmy "29"^^xsd:string ;
-    ns2:hulftv2y "-1"^^xsd:string ;
-    ns2:hulftv3y "-1"^^xsd:string ;
-    ns2:hulftvy "21"^^xsd:string ;
-    ns2:jrhu1y "1850"^^xsd:string ;
-    ns2:jrhu2y "-1"^^xsd:string ;
-    ns2:jrhu3y "-1"^^xsd:string ;
-    ns2:lftklasy "3"^^xsd:string ;
-    ns2:lftmy "33"^^xsd:string ;
-    ns2:lftvy "24"^^xsd:string ;
-    ns2:nrbodey "1"^^xsd:string ;
-    ns2:nrhgy "0"^^xsd:string ;
-    ns2:nrkindy "1"^^xsd:string ;
-    ns2:omvhhy "4"^^xsd:string ;
-    ns2:patblgy "2"^^xsd:string ;
-    ns2:patbly "19"^^xsd:string ;
-    ns2:pblgy "5"^^xsd:string ;
-    ns2:pbly "161"^^xsd:string ;
-    ns2:relgt12y "-1"^^xsd:string ;
-    ns2:relgt13y "-1"^^xsd:string ;
-    ns2:relgt1y "broer/zwager vrouw"^^xsd:string ;
-    ns2:relgt22y "-1"^^xsd:string ;
-    ns2:relgt23y "-1"^^xsd:string ;
-    ns2:relgt2y "broer/zwager vrouw"^^xsd:string ;
-    ns2:relgt32y "-1"^^xsd:string ;
-    ns2:relgt33y "-1"^^xsd:string ;
-    ns2:relgt3y "geen familie"^^xsd:string ;
-    ns2:relgt42y "-1"^^xsd:string ;
-    ns2:relgt43y "-1"^^xsd:string ;
-    ns2:relgt4y "geen familie"^^xsd:string ;
-    ns2:relhfdy "-1"^^xsd:string ;
-    ns2:relimy "Rooms Katholiek"^^xsd:string ;
-    ns2:relivy "Rooms Katholiek"^^xsd:string ;
-    ns2:tot3bly "180"^^xsd:string ;
-    ns2:totbly "2"^^xsd:string ;
-    ns2:volgnr2y "100352"^^xsd:string .
+<https://iisg.amsterdam/resource/bdv/100351> ns3:birthPlace "Amsterdam"^^xsd:string ;
+    ns3:hasOccupation "VOEDINGS EN GENOTMID"^^xsd:string,
+        "fabrikanten"^^xsd:string ;
+    ns3:identifier 100351 ;
+    ns1:aboeky "als in bev.register"^^xsd:string ;
+    ns1:bergt12y "-1"^^xsd:string ;
+    ns1:bergt13y "-1"^^xsd:string ;
+    ns1:bergt1y "wijnkoopman"^^xsd:string ;
+    ns1:bergt22y "-1"^^xsd:string ;
+    ns1:bergt23y "-1"^^xsd:string ;
+    ns1:bergt2y "timmerman"^^xsd:string ;
+    ns1:bergt32y "-1"^^xsd:string ;
+    ns1:bergt33y "-1"^^xsd:string ;
+    ns1:bergt3y "zonder"^^xsd:string ;
+    ns1:bergt42y "-1"^^xsd:string ;
+    ns1:bergt43y "-1"^^xsd:string ;
+    ns1:bergt4y "ambtenaar"^^xsd:string ;
+    ns1:bermhu2y "-1"^^xsd:string ;
+    ns1:bermhu3y "-1"^^xsd:string ;
+    ns1:bermhuy "fabrikanten"^^xsd:string ;
+    ns1:berpm00y "1"^^xsd:string ;
+    ns1:berpm0y "11"^^xsd:string ;
+    ns1:bervam2y "-1"^^xsd:string ;
+    ns1:bervam3y "-1"^^xsd:string ;
+    ns1:bervamy "zonder"^^xsd:string ;
+    ns1:bervav2y "-1"^^xsd:string ;
+    ns1:bervav3y "-1"^^xsd:string ;
+    ns1:bervavy "vader overleden"^^xsd:string ;
+    ns1:bsmy "gehuwd"^^xsd:string ;
+    ns1:bsv2y "-1"^^xsd:string ;
+    ns1:bsv3y "-1"^^xsd:string ;
+    ns1:bsvy "ongehuwd"^^xsd:string ;
+    ns1:buurty "X"^^xsd:string ;
+    ns1:caswgt "1.0"^^xsd:float ;
+    ns1:gebplv1y "Amsterdam"^^xsd:string ;
+    ns1:gebplv2y "-1"^^xsd:string ;
+    ns1:gebplv3y "-1"^^xsd:string ;
+    ns1:gebplvy "Amsterdam"^^xsd:string ;
+    ns1:grblgy "1"^^xsd:string ;
+    ns1:grondbly 0 ;
+    ns1:huisnry "5"^^xsd:string ;
+    ns1:hulftm2y "-1"^^xsd:string ;
+    ns1:hulftm3y "-1"^^xsd:string ;
+    ns1:hulftmy "29"^^xsd:string ;
+    ns1:hulftv2y "-1"^^xsd:string ;
+    ns1:hulftv3y "-1"^^xsd:string ;
+    ns1:hulftvy "21"^^xsd:string ;
+    ns1:jrhu1y "1850"^^xsd:string ;
+    ns1:jrhu2y "-1"^^xsd:string ;
+    ns1:jrhu3y "-1"^^xsd:string ;
+    ns1:lftklasy "3"^^xsd:string ;
+    ns1:lftmy 33 ;
+    ns1:lftvy 24 ;
+    ns1:nrbodey 1 ;
+    ns1:nrhgy "0"^^xsd:string ;
+    ns1:nrkindy 1 ;
+    ns1:omvhhy "4"^^xsd:string ;
+    ns1:patblgy "2"^^xsd:string ;
+    ns1:patbly 19 ;
+    ns1:pblgy "5"^^xsd:string ;
+    ns1:pbly 161 ;
+    ns1:relgt12y "-1"^^xsd:string ;
+    ns1:relgt13y "-1"^^xsd:string ;
+    ns1:relgt1y "broer/zwager vrouw"^^xsd:string ;
+    ns1:relgt22y "-1"^^xsd:string ;
+    ns1:relgt23y "-1"^^xsd:string ;
+    ns1:relgt2y "broer/zwager vrouw"^^xsd:string ;
+    ns1:relgt32y "-1"^^xsd:string ;
+    ns1:relgt33y "-1"^^xsd:string ;
+    ns1:relgt3y "geen familie"^^xsd:string ;
+    ns1:relgt42y "-1"^^xsd:string ;
+    ns1:relgt43y "-1"^^xsd:string ;
+    ns1:relgt4y "geen familie"^^xsd:string ;
+    ns1:relhfdy "-1"^^xsd:string ;
+    ns1:relimy "Rooms Katholiek"^^xsd:string ;
+    ns1:relivy "Rooms Katholiek"^^xsd:string ;
+    ns1:tot3bly "180"^^xsd:string ;
+    ns1:totbly "2"^^xsd:string ;
+    ns1:volgnr2y "100352"^^xsd:string .
 
-<https://iisg.amsterdam/resource/bdv/100401> ns4:identifier 100401,
-        "N"^^xsd:string ;
-    ns2:aboeky "als in bev.register"^^xsd:string ;
-    ns2:bergt12y "-1"^^xsd:string ;
-    ns2:bergt13y "-1"^^xsd:string ;
-    ns2:bergt1y "zonder"^^xsd:string ;
-    ns2:bergt22y "-1"^^xsd:string ;
-    ns2:bergt23y "-1"^^xsd:string ;
-    ns2:bergt2y "zonder"^^xsd:string ;
-    ns2:bergt32y "-1"^^xsd:string ;
-    ns2:bergt33y "-1"^^xsd:string ;
-    ns2:bergt3y "artistiek beroep"^^xsd:string ;
-    ns2:bergt42y "-1"^^xsd:string ;
-    ns2:bergt43y "-1"^^xsd:string ;
-    ns2:bergt4y "commissionair"^^xsd:string ;
-    ns2:bermhu2y "-1"^^xsd:string ;
-    ns2:bermhu3y "-1"^^xsd:string ;
-    ns2:bermhuy "koopman"^^xsd:string ;
-    ns2:berpm00y "6"^^xsd:string ;
-    ns2:berpm0y "61"^^xsd:string ;
-    ns2:berpmy "koopman"^^xsd:string ;
-    ns2:bersmy "WARENHANDEL"^^xsd:string ;
-    ns2:bervam2y "-1"^^xsd:string ;
-    ns2:bervam3y "-1"^^xsd:string ;
-    ns2:bervamy "zonder"^^xsd:string ;
-    ns2:bervav2y "-1"^^xsd:string ;
-    ns2:bervav3y "-1"^^xsd:string ;
-    ns2:bervavy "zonder"^^xsd:string ;
-    ns2:bsmy "gehuwd"^^xsd:string ;
-    ns2:bsv2y "-1"^^xsd:string ;
-    ns2:bsv3y "-1"^^xsd:string ;
-    ns2:bsvy "ongehuwd"^^xsd:string ;
-    ns2:caswgt "1.0"^^xsd:float ;
-    ns2:gebplmy "Amsterdam"^^xsd:string ;
-    ns2:gebplv1y "Amsterdam"^^xsd:string ;
-    ns2:gebplv2y "-1"^^xsd:string ;
-    ns2:gebplv3y "-1"^^xsd:string ;
-    ns2:gebplvy "Amsterdam"^^xsd:string ;
-    ns2:grblgy "5"^^xsd:string ;
-    ns2:grondbly "117"^^xsd:string ;
-    ns2:huisnry "427"^^xsd:string ;
-    ns2:hulftm2y "-1"^^xsd:string ;
-    ns2:hulftm3y "-1"^^xsd:string ;
-    ns2:hulftmy "26"^^xsd:string ;
-    ns2:hulftv2y "-1"^^xsd:string ;
-    ns2:hulftv3y "-1"^^xsd:string ;
-    ns2:hulftvy "25"^^xsd:string ;
-    ns2:jrhu1y "1834"^^xsd:string ;
-    ns2:jrhu2y "-1"^^xsd:string ;
-    ns2:jrhu3y "-1"^^xsd:string ;
-    ns2:lftklasy "4"^^xsd:string ;
-    ns2:lftmy "46"^^xsd:string ;
-    ns2:lftvy "45"^^xsd:string ;
-    ns2:nrbodey "1"^^xsd:string ;
-    ns2:nrhgy "0"^^xsd:string ;
-    ns2:nrkindy "4"^^xsd:string ;
-    ns2:omvhhy "7"^^xsd:string ;
-    ns2:patblgy "4"^^xsd:string ;
-    ns2:patbly "87"^^xsd:string ;
-    ns2:pblgy "3"^^xsd:string ;
-    ns2:pbly "48"^^xsd:string ;
-    ns2:relgt12y "-1"^^xsd:string ;
-    ns2:relgt13y "-1"^^xsd:string ;
-    ns2:relgt1y "vader man"^^xsd:string ;
-    ns2:relgt22y "-1"^^xsd:string ;
-    ns2:relgt23y "-1"^^xsd:string ;
-    ns2:relgt2y "vader vrouw"^^xsd:string ;
-    ns2:relgt32y "-1"^^xsd:string ;
-    ns2:relgt33y "-1"^^xsd:string ;
-    ns2:relgt3y "broer/zwager vrouw"^^xsd:string ;
-    ns2:relgt42y "-1"^^xsd:string ;
-    ns2:relgt43y "-1"^^xsd:string ;
-    ns2:relgt4y "geen familie"^^xsd:string ;
-    ns2:relhfdy "-1"^^xsd:string ;
-    ns2:relimy "Nederlands Hervormd"^^xsd:string ;
-    ns2:relivy "Nederlands Hervormd"^^xsd:string ;
-    ns2:tot3bly "252"^^xsd:string ;
-    ns2:totbly "3"^^xsd:string ;
-    ns2:volgnr2y "100402"^^xsd:string .
+<https://iisg.amsterdam/resource/bdv/100401> ns3:birthPlace "Amsterdam"^^xsd:string ;
+    ns3:hasOccupation "WARENHANDEL"^^xsd:string,
+        "koopman"^^xsd:string ;
+    ns3:identifier 100401 ;
+    ns1:aboeky "als in bev.register"^^xsd:string ;
+    ns1:bergt12y "-1"^^xsd:string ;
+    ns1:bergt13y "-1"^^xsd:string ;
+    ns1:bergt1y "zonder"^^xsd:string ;
+    ns1:bergt22y "-1"^^xsd:string ;
+    ns1:bergt23y "-1"^^xsd:string ;
+    ns1:bergt2y "zonder"^^xsd:string ;
+    ns1:bergt32y "-1"^^xsd:string ;
+    ns1:bergt33y "-1"^^xsd:string ;
+    ns1:bergt3y "artistiek beroep"^^xsd:string ;
+    ns1:bergt42y "-1"^^xsd:string ;
+    ns1:bergt43y "-1"^^xsd:string ;
+    ns1:bergt4y "commissionair"^^xsd:string ;
+    ns1:bermhu2y "-1"^^xsd:string ;
+    ns1:bermhu3y "-1"^^xsd:string ;
+    ns1:bermhuy "koopman"^^xsd:string ;
+    ns1:berpm00y "6"^^xsd:string ;
+    ns1:berpm0y "61"^^xsd:string ;
+    ns1:bervam2y "-1"^^xsd:string ;
+    ns1:bervam3y "-1"^^xsd:string ;
+    ns1:bervamy "zonder"^^xsd:string ;
+    ns1:bervav2y "-1"^^xsd:string ;
+    ns1:bervav3y "-1"^^xsd:string ;
+    ns1:bervavy "zonder"^^xsd:string ;
+    ns1:bsmy "gehuwd"^^xsd:string ;
+    ns1:bsv2y "-1"^^xsd:string ;
+    ns1:bsv3y "-1"^^xsd:string ;
+    ns1:bsvy "ongehuwd"^^xsd:string ;
+    ns1:buurty "N"^^xsd:string ;
+    ns1:caswgt "1.0"^^xsd:float ;
+    ns1:gebplv1y "Amsterdam"^^xsd:string ;
+    ns1:gebplv2y "-1"^^xsd:string ;
+    ns1:gebplv3y "-1"^^xsd:string ;
+    ns1:gebplvy "Amsterdam"^^xsd:string ;
+    ns1:grblgy "5"^^xsd:string ;
+    ns1:grondbly 117 ;
+    ns1:huisnry "427"^^xsd:string ;
+    ns1:hulftm2y "-1"^^xsd:string ;
+    ns1:hulftm3y "-1"^^xsd:string ;
+    ns1:hulftmy "26"^^xsd:string ;
+    ns1:hulftv2y "-1"^^xsd:string ;
+    ns1:hulftv3y "-1"^^xsd:string ;
+    ns1:hulftvy "25"^^xsd:string ;
+    ns1:jrhu1y "1834"^^xsd:string ;
+    ns1:jrhu2y "-1"^^xsd:string ;
+    ns1:jrhu3y "-1"^^xsd:string ;
+    ns1:lftklasy "4"^^xsd:string ;
+    ns1:lftmy 46 ;
+    ns1:lftvy 45 ;
+    ns1:nrbodey 1 ;
+    ns1:nrhgy "0"^^xsd:string ;
+    ns1:nrkindy 4 ;
+    ns1:omvhhy "7"^^xsd:string ;
+    ns1:patblgy "4"^^xsd:string ;
+    ns1:patbly 87 ;
+    ns1:pblgy "3"^^xsd:string ;
+    ns1:pbly 48 ;
+    ns1:relgt12y "-1"^^xsd:string ;
+    ns1:relgt13y "-1"^^xsd:string ;
+    ns1:relgt1y "vader man"^^xsd:string ;
+    ns1:relgt22y "-1"^^xsd:string ;
+    ns1:relgt23y "-1"^^xsd:string ;
+    ns1:relgt2y "vader vrouw"^^xsd:string ;
+    ns1:relgt32y "-1"^^xsd:string ;
+    ns1:relgt33y "-1"^^xsd:string ;
+    ns1:relgt3y "broer/zwager vrouw"^^xsd:string ;
+    ns1:relgt42y "-1"^^xsd:string ;
+    ns1:relgt43y "-1"^^xsd:string ;
+    ns1:relgt4y "geen familie"^^xsd:string ;
+    ns1:relhfdy "-1"^^xsd:string ;
+    ns1:relimy "Nederlands Hervormd"^^xsd:string ;
+    ns1:relivy "Nederlands Hervormd"^^xsd:string ;
+    ns1:tot3bly "252"^^xsd:string ;
+    ns1:totbly "3"^^xsd:string ;
+    ns1:volgnr2y "100402"^^xsd:string .
 
-<https://iisg.amsterdam/resource/bdv/100451> ns4:identifier 100451,
-        "Z"^^xsd:string ;
-    ns2:aboeky "als in bev.register"^^xsd:string ;
-    ns2:bergt12y "koopman"^^xsd:string ;
-    ns2:bergt13y "-1"^^xsd:string ;
-    ns2:bergt1y "-1"^^xsd:string ;
-    ns2:bergt22y "zonder"^^xsd:string ;
-    ns2:bergt23y "-1"^^xsd:string ;
-    ns2:bergt2y "-1"^^xsd:string ;
-    ns2:bergt32y "commissionair"^^xsd:string ;
-    ns2:bergt33y "-1"^^xsd:string ;
-    ns2:bergt3y "-1"^^xsd:string ;
-    ns2:bergt42y "zonder"^^xsd:string ;
-    ns2:bergt43y "-1"^^xsd:string ;
-    ns2:bergt4y "-1"^^xsd:string ;
-    ns2:bermhu2y "advocaat"^^xsd:string ;
-    ns2:bermhu3y "-1"^^xsd:string ;
-    ns2:bermhuy "-1"^^xsd:string ;
-    ns2:berpm00y "2"^^xsd:string ;
-    ns2:berpm0y "23"^^xsd:string ;
-    ns2:berpmy "advocaat"^^xsd:string ;
-    ns2:bersmy "255"^^xsd:string ;
-    ns2:bervam2y "vader overleden"^^xsd:string ;
-    ns2:bervam3y "-1"^^xsd:string ;
-    ns2:bervamy "-1"^^xsd:string ;
-    ns2:bervav2y "koopman"^^xsd:string ;
-    ns2:bervav3y "-1"^^xsd:string ;
-    ns2:bervavy "-1"^^xsd:string ;
-    ns2:bsmy "gehuwd"^^xsd:string ;
-    ns2:bsv2y "ongehuwd"^^xsd:string ;
-    ns2:bsv3y "-1"^^xsd:string ;
-    ns2:bsvy "-1"^^xsd:string ;
-    ns2:caswgt "1.0"^^xsd:float ;
-    ns2:gebplmy "Amsterdam"^^xsd:string ;
-    ns2:gebplv1y "-1"^^xsd:string ;
-    ns2:gebplv2y "Amsterdam"^^xsd:string ;
-    ns2:gebplv3y "-1"^^xsd:string ;
-    ns2:gebplvy "Amsterdam"^^xsd:string ;
-    ns2:grblgy "4"^^xsd:string ;
-    ns2:grondbly "97"^^xsd:string ;
-    ns2:huisnry "680"^^xsd:string ;
-    ns2:hulftm2y "34"^^xsd:string ;
-    ns2:hulftm3y "-1"^^xsd:string ;
-    ns2:hulftmy "-1"^^xsd:string ;
-    ns2:hulftv2y "30"^^xsd:string ;
-    ns2:hulftv3y "-1"^^xsd:string ;
-    ns2:hulftvy "-1"^^xsd:string ;
-    ns2:jrhu1y "-1"^^xsd:string ;
-    ns2:jrhu2y "1852"^^xsd:string ;
-    ns2:jrhu3y "-1"^^xsd:string ;
-    ns2:lftklasy "3"^^xsd:string ;
-    ns2:lftmy "36"^^xsd:string ;
-    ns2:lftvy "32"^^xsd:string ;
-    ns2:nrbodey "3"^^xsd:string ;
-    ns2:nrhgy "0"^^xsd:string ;
-    ns2:nrkindy "0"^^xsd:string ;
-    ns2:omvhhy "5"^^xsd:string ;
-    ns2:patblgy "2"^^xsd:string ;
-    ns2:patbly "5"^^xsd:string ;
-    ns2:pblgy "5"^^xsd:string ;
-    ns2:pbly "216"^^xsd:string ;
-    ns2:relgt12y "vader vrouw"^^xsd:string ;
-    ns2:relgt13y "-1"^^xsd:string ;
-    ns2:relgt1y "-1"^^xsd:string ;
-    ns2:relgt22y "broer/zwager vrouw"^^xsd:string ;
-    ns2:relgt23y "-1"^^xsd:string ;
-    ns2:relgt2y "-1"^^xsd:string ;
-    ns2:relgt32y "3"^^xsd:string ;
-    ns2:relgt33y "-1"^^xsd:string ;
-    ns2:relgt3y "-1"^^xsd:string ;
-    ns2:relgt42y "oom/neef man"^^xsd:string ;
-    ns2:relgt43y "-1"^^xsd:string ;
-    ns2:relgt4y "-1"^^xsd:string ;
-    ns2:relhfdy "-1"^^xsd:string ;
-    ns2:relimy "Nederlands Hervormd"^^xsd:string ;
-    ns2:relivy "Nederlands Hervormd"^^xsd:string ;
-    ns2:tot3bly "318"^^xsd:string ;
-    ns2:totbly "3"^^xsd:string ;
-    ns2:volgnr2y "100452"^^xsd:string .
+<https://iisg.amsterdam/resource/bdv/100451> ns3:birthPlace "Amsterdam"^^xsd:string ;
+    ns3:hasOccupation "255"^^xsd:string,
+        "advocaat"^^xsd:string ;
+    ns3:identifier 100451 ;
+    ns1:aboeky "als in bev.register"^^xsd:string ;
+    ns1:bergt12y "koopman"^^xsd:string ;
+    ns1:bergt13y "-1"^^xsd:string ;
+    ns1:bergt1y "-1"^^xsd:string ;
+    ns1:bergt22y "zonder"^^xsd:string ;
+    ns1:bergt23y "-1"^^xsd:string ;
+    ns1:bergt2y "-1"^^xsd:string ;
+    ns1:bergt32y "commissionair"^^xsd:string ;
+    ns1:bergt33y "-1"^^xsd:string ;
+    ns1:bergt3y "-1"^^xsd:string ;
+    ns1:bergt42y "zonder"^^xsd:string ;
+    ns1:bergt43y "-1"^^xsd:string ;
+    ns1:bergt4y "-1"^^xsd:string ;
+    ns1:bermhu2y "advocaat"^^xsd:string ;
+    ns1:bermhu3y "-1"^^xsd:string ;
+    ns1:bermhuy "-1"^^xsd:string ;
+    ns1:berpm00y "2"^^xsd:string ;
+    ns1:berpm0y "23"^^xsd:string ;
+    ns1:bervam2y "vader overleden"^^xsd:string ;
+    ns1:bervam3y "-1"^^xsd:string ;
+    ns1:bervamy "-1"^^xsd:string ;
+    ns1:bervav2y "koopman"^^xsd:string ;
+    ns1:bervav3y "-1"^^xsd:string ;
+    ns1:bervavy "-1"^^xsd:string ;
+    ns1:bsmy "gehuwd"^^xsd:string ;
+    ns1:bsv2y "ongehuwd"^^xsd:string ;
+    ns1:bsv3y "-1"^^xsd:string ;
+    ns1:bsvy "-1"^^xsd:string ;
+    ns1:buurty "Z"^^xsd:string ;
+    ns1:caswgt "1.0"^^xsd:float ;
+    ns1:gebplv1y "-1"^^xsd:string ;
+    ns1:gebplv2y "Amsterdam"^^xsd:string ;
+    ns1:gebplv3y "-1"^^xsd:string ;
+    ns1:gebplvy "Amsterdam"^^xsd:string ;
+    ns1:grblgy "4"^^xsd:string ;
+    ns1:grondbly 97 ;
+    ns1:huisnry "680"^^xsd:string ;
+    ns1:hulftm2y "34"^^xsd:string ;
+    ns1:hulftm3y "-1"^^xsd:string ;
+    ns1:hulftmy "-1"^^xsd:string ;
+    ns1:hulftv2y "30"^^xsd:string ;
+    ns1:hulftv3y "-1"^^xsd:string ;
+    ns1:hulftvy "-1"^^xsd:string ;
+    ns1:jrhu1y "-1"^^xsd:string ;
+    ns1:jrhu2y "1852"^^xsd:string ;
+    ns1:jrhu3y "-1"^^xsd:string ;
+    ns1:lftklasy "3"^^xsd:string ;
+    ns1:lftmy 36 ;
+    ns1:lftvy 32 ;
+    ns1:nrbodey 3 ;
+    ns1:nrhgy "0"^^xsd:string ;
+    ns1:nrkindy 0 ;
+    ns1:omvhhy "5"^^xsd:string ;
+    ns1:patblgy "2"^^xsd:string ;
+    ns1:patbly 5 ;
+    ns1:pblgy "5"^^xsd:string ;
+    ns1:pbly 216 ;
+    ns1:relgt12y "vader vrouw"^^xsd:string ;
+    ns1:relgt13y "-1"^^xsd:string ;
+    ns1:relgt1y "-1"^^xsd:string ;
+    ns1:relgt22y "broer/zwager vrouw"^^xsd:string ;
+    ns1:relgt23y "-1"^^xsd:string ;
+    ns1:relgt2y "-1"^^xsd:string ;
+    ns1:relgt32y "3"^^xsd:string ;
+    ns1:relgt33y "-1"^^xsd:string ;
+    ns1:relgt3y "-1"^^xsd:string ;
+    ns1:relgt42y "oom/neef man"^^xsd:string ;
+    ns1:relgt43y "-1"^^xsd:string ;
+    ns1:relgt4y "-1"^^xsd:string ;
+    ns1:relhfdy "-1"^^xsd:string ;
+    ns1:relimy "Nederlands Hervormd"^^xsd:string ;
+    ns1:relivy "Nederlands Hervormd"^^xsd:string ;
+    ns1:tot3bly "318"^^xsd:string ;
+    ns1:totbly "3"^^xsd:string ;
+    ns1:volgnr2y "100452"^^xsd:string .
 
-<https://iisg.amsterdam/resource/bdv/100501> ns4:identifier 100501,
-        "D"^^xsd:string ;
-    ns2:aboeky "als in bev.register"^^xsd:string ;
-    ns2:bergt12y "-1"^^xsd:string ;
-    ns2:bergt13y "-1"^^xsd:string ;
-    ns2:bergt1y "-1"^^xsd:string ;
-    ns2:bergt22y "-1"^^xsd:string ;
-    ns2:bergt23y "-1"^^xsd:string ;
-    ns2:bergt2y "-1"^^xsd:string ;
-    ns2:bergt32y "-1"^^xsd:string ;
-    ns2:bergt33y "-1"^^xsd:string ;
-    ns2:bergt3y "-1"^^xsd:string ;
-    ns2:bergt42y "-1"^^xsd:string ;
-    ns2:bergt43y "-1"^^xsd:string ;
-    ns2:bergt4y "-1"^^xsd:string ;
-    ns2:bermhu2y "-1"^^xsd:string ;
-    ns2:bermhu3y "-1"^^xsd:string ;
-    ns2:bermhuy "-1"^^xsd:string ;
-    ns2:berpm00y "2"^^xsd:string ;
-    ns2:berpm0y "23"^^xsd:string ;
-    ns2:berpmy "notaris"^^xsd:string ;
-    ns2:bersmy "303"^^xsd:string ;
-    ns2:bervam2y "-1"^^xsd:string ;
-    ns2:bervam3y "-1"^^xsd:string ;
-    ns2:bervamy "-1"^^xsd:string ;
-    ns2:bervav2y "-1"^^xsd:string ;
-    ns2:bervav3y "-1"^^xsd:string ;
-    ns2:bervavy "-1"^^xsd:string ;
-    ns2:bsmy "ongehuwd"^^xsd:string ;
-    ns2:bsv2y "-1"^^xsd:string ;
-    ns2:bsv3y "-1"^^xsd:string ;
-    ns2:bsvy "-1"^^xsd:string ;
-    ns2:caswgt "1.0"^^xsd:float ;
-    ns2:gebplmy "Z-Holl. steden"^^xsd:string ;
-    ns2:gebplv1y "-1"^^xsd:string ;
-    ns2:gebplv2y "-1"^^xsd:string ;
-    ns2:gebplv3y "-1"^^xsd:string ;
-    ns2:gebplvy "-1"^^xsd:string ;
-    ns2:grblgy "1"^^xsd:string ;
-    ns2:grondbly "0"^^xsd:string ;
-    ns2:huisnry "81"^^xsd:string ;
-    ns2:hulftm2y "-1"^^xsd:string ;
-    ns2:hulftm3y "-1"^^xsd:string ;
-    ns2:hulftmy "-1"^^xsd:string ;
-    ns2:hulftv2y "-1"^^xsd:string ;
-    ns2:hulftv3y "-1"^^xsd:string ;
-    ns2:hulftvy "-1"^^xsd:string ;
-    ns2:jrhu1y "-1"^^xsd:string ;
-    ns2:jrhu2y "-1"^^xsd:string ;
-    ns2:jrhu3y "-1"^^xsd:string ;
-    ns2:lftklasy "4"^^xsd:string ;
-    ns2:lftmy "42"^^xsd:string ;
-    ns2:lftvy "-1"^^xsd:string ;
-    ns2:nrbodey "0"^^xsd:string ;
-    ns2:nrhgy "3"^^xsd:string ;
-    ns2:nrkindy "0"^^xsd:string ;
-    ns2:omvhhy "4"^^xsd:string ;
-    ns2:patblgy "3"^^xsd:string ;
-    ns2:patbly "38"^^xsd:string ;
-    ns2:pblgy "4"^^xsd:string ;
-    ns2:pbly "99"^^xsd:string ;
-    ns2:relgt12y "-1"^^xsd:string ;
-    ns2:relgt13y "-1"^^xsd:string ;
-    ns2:relgt1y "-1"^^xsd:string ;
-    ns2:relgt22y "-1"^^xsd:string ;
-    ns2:relgt23y "-1"^^xsd:string ;
-    ns2:relgt2y "-1"^^xsd:string ;
-    ns2:relgt32y "-1"^^xsd:string ;
-    ns2:relgt33y "-1"^^xsd:string ;
-    ns2:relgt3y "-1"^^xsd:string ;
-    ns2:relgt42y "-1"^^xsd:string ;
-    ns2:relgt43y "-1"^^xsd:string ;
-    ns2:relgt4y "-1"^^xsd:string ;
-    ns2:relhfdy "-1"^^xsd:string ;
-    ns2:relimy "Nederlands Hervormd"^^xsd:string ;
-    ns2:relivy "-1"^^xsd:string ;
-    ns2:tot3bly "137"^^xsd:string ;
-    ns2:totbly "2"^^xsd:string ;
-    ns2:volgnr2y "100502"^^xsd:string .
+<https://iisg.amsterdam/resource/bdv/100501> ns3:birthPlace "Z-Holl. steden"^^xsd:string ;
+    ns3:hasOccupation "303"^^xsd:string,
+        "notaris"^^xsd:string ;
+    ns3:identifier 100501 ;
+    ns1:aboeky "als in bev.register"^^xsd:string ;
+    ns1:bergt12y "-1"^^xsd:string ;
+    ns1:bergt13y "-1"^^xsd:string ;
+    ns1:bergt1y "-1"^^xsd:string ;
+    ns1:bergt22y "-1"^^xsd:string ;
+    ns1:bergt23y "-1"^^xsd:string ;
+    ns1:bergt2y "-1"^^xsd:string ;
+    ns1:bergt32y "-1"^^xsd:string ;
+    ns1:bergt33y "-1"^^xsd:string ;
+    ns1:bergt3y "-1"^^xsd:string ;
+    ns1:bergt42y "-1"^^xsd:string ;
+    ns1:bergt43y "-1"^^xsd:string ;
+    ns1:bergt4y "-1"^^xsd:string ;
+    ns1:bermhu2y "-1"^^xsd:string ;
+    ns1:bermhu3y "-1"^^xsd:string ;
+    ns1:bermhuy "-1"^^xsd:string ;
+    ns1:berpm00y "2"^^xsd:string ;
+    ns1:berpm0y "23"^^xsd:string ;
+    ns1:bervam2y "-1"^^xsd:string ;
+    ns1:bervam3y "-1"^^xsd:string ;
+    ns1:bervamy "-1"^^xsd:string ;
+    ns1:bervav2y "-1"^^xsd:string ;
+    ns1:bervav3y "-1"^^xsd:string ;
+    ns1:bervavy "-1"^^xsd:string ;
+    ns1:bsmy "ongehuwd"^^xsd:string ;
+    ns1:bsv2y "-1"^^xsd:string ;
+    ns1:bsv3y "-1"^^xsd:string ;
+    ns1:bsvy "-1"^^xsd:string ;
+    ns1:buurty "D"^^xsd:string ;
+    ns1:caswgt "1.0"^^xsd:float ;
+    ns1:gebplv1y "-1"^^xsd:string ;
+    ns1:gebplv2y "-1"^^xsd:string ;
+    ns1:gebplv3y "-1"^^xsd:string ;
+    ns1:gebplvy "-1"^^xsd:string ;
+    ns1:grblgy "1"^^xsd:string ;
+    ns1:grondbly 0 ;
+    ns1:huisnry "81"^^xsd:string ;
+    ns1:hulftm2y "-1"^^xsd:string ;
+    ns1:hulftm3y "-1"^^xsd:string ;
+    ns1:hulftmy "-1"^^xsd:string ;
+    ns1:hulftv2y "-1"^^xsd:string ;
+    ns1:hulftv3y "-1"^^xsd:string ;
+    ns1:hulftvy "-1"^^xsd:string ;
+    ns1:jrhu1y "-1"^^xsd:string ;
+    ns1:jrhu2y "-1"^^xsd:string ;
+    ns1:jrhu3y "-1"^^xsd:string ;
+    ns1:lftklasy "4"^^xsd:string ;
+    ns1:lftmy 42 ;
+    ns1:lftvy -1 ;
+    ns1:nrbodey 0 ;
+    ns1:nrhgy "3"^^xsd:string ;
+    ns1:nrkindy 0 ;
+    ns1:omvhhy "4"^^xsd:string ;
+    ns1:patblgy "3"^^xsd:string ;
+    ns1:patbly 38 ;
+    ns1:pblgy "4"^^xsd:string ;
+    ns1:pbly 99 ;
+    ns1:relgt12y "-1"^^xsd:string ;
+    ns1:relgt13y "-1"^^xsd:string ;
+    ns1:relgt1y "-1"^^xsd:string ;
+    ns1:relgt22y "-1"^^xsd:string ;
+    ns1:relgt23y "-1"^^xsd:string ;
+    ns1:relgt2y "-1"^^xsd:string ;
+    ns1:relgt32y "-1"^^xsd:string ;
+    ns1:relgt33y "-1"^^xsd:string ;
+    ns1:relgt3y "-1"^^xsd:string ;
+    ns1:relgt42y "-1"^^xsd:string ;
+    ns1:relgt43y "-1"^^xsd:string ;
+    ns1:relgt4y "-1"^^xsd:string ;
+    ns1:relhfdy "-1"^^xsd:string ;
+    ns1:relimy "Nederlands Hervormd"^^xsd:string ;
+    ns1:relivy "-1"^^xsd:string ;
+    ns1:tot3bly "137"^^xsd:string ;
+    ns1:totbly "2"^^xsd:string ;
+    ns1:volgnr2y "100502"^^xsd:string .
 
-<https://iisg.amsterdam/resource/bdv/100551> ns4:identifier 100551,
-        "N"^^xsd:string ;
-    ns2:aboeky "als in bev.register"^^xsd:string ;
-    ns2:bergt12y "-1"^^xsd:string ;
-    ns2:bergt13y "-1"^^xsd:string ;
-    ns2:bergt1y "-1"^^xsd:string ;
-    ns2:bergt22y "-1"^^xsd:string ;
-    ns2:bergt23y "-1"^^xsd:string ;
-    ns2:bergt2y "-1"^^xsd:string ;
-    ns2:bergt32y "-1"^^xsd:string ;
-    ns2:bergt33y "-1"^^xsd:string ;
-    ns2:bergt3y "-1"^^xsd:string ;
-    ns2:bergt42y "-1"^^xsd:string ;
-    ns2:bergt43y "-1"^^xsd:string ;
-    ns2:bergt4y "-1"^^xsd:string ;
-    ns2:bermhu2y "-1"^^xsd:string ;
-    ns2:bermhu3y "-1"^^xsd:string ;
-    ns2:bermhuy "-1"^^xsd:string ;
-    ns2:berpm00y "6"^^xsd:string ;
-    ns2:berpm0y "69"^^xsd:string ;
-    ns2:berpmy "houtvlotter"^^xsd:string ;
-    ns2:bersmy "VERKEERSWEZEN"^^xsd:string ;
-    ns2:bervam2y "-1"^^xsd:string ;
-    ns2:bervam3y "-1"^^xsd:string ;
-    ns2:bervamy "-1"^^xsd:string ;
-    ns2:bervav2y "-1"^^xsd:string ;
-    ns2:bervav3y "-1"^^xsd:string ;
-    ns2:bervavy "-1"^^xsd:string ;
-    ns2:bsmy "gehuwd"^^xsd:string ;
-    ns2:bsv2y "-1"^^xsd:string ;
-    ns2:bsv3y "-1"^^xsd:string ;
-    ns2:bsvy "-1"^^xsd:string ;
-    ns2:caswgt "1.0"^^xsd:float ;
-    ns2:gebplmy "Amsterdam"^^xsd:string ;
-    ns2:gebplv1y "-1"^^xsd:string ;
-    ns2:gebplv2y "-1"^^xsd:string ;
-    ns2:gebplv3y "-1"^^xsd:string ;
-    ns2:gebplvy "ov. Drenthe"^^xsd:string ;
-    ns2:grblgy "4"^^xsd:string ;
-    ns2:grondbly "57"^^xsd:string ;
-    ns2:huisnry "64"^^xsd:string ;
-    ns2:hulftm2y "-1"^^xsd:string ;
-    ns2:hulftm3y "-1"^^xsd:string ;
-    ns2:hulftmy "-1"^^xsd:string ;
-    ns2:hulftv2y "-1"^^xsd:string ;
-    ns2:hulftv3y "-1"^^xsd:string ;
-    ns2:hulftvy "-1"^^xsd:string ;
-    ns2:jrhu1y "-1"^^xsd:string ;
-    ns2:jrhu2y "-1"^^xsd:string ;
-    ns2:jrhu3y "-1"^^xsd:string ;
-    ns2:lftklasy "6"^^xsd:string ;
-    ns2:lftmy "65"^^xsd:string ;
-    ns2:lftvy "73"^^xsd:string ;
-    ns2:nrbodey "1"^^xsd:string ;
-    ns2:nrhgy "0"^^xsd:string ;
-    ns2:nrkindy "4"^^xsd:string ;
-    ns2:omvhhy "7"^^xsd:string ;
-    ns2:patblgy "2"^^xsd:string ;
-    ns2:patbly "4"^^xsd:string ;
-    ns2:pblgy "4"^^xsd:string ;
-    ns2:pbly "79"^^xsd:string ;
-    ns2:relgt12y "-1"^^xsd:string ;
-    ns2:relgt13y "-1"^^xsd:string ;
-    ns2:relgt1y "-1"^^xsd:string ;
-    ns2:relgt22y "-1"^^xsd:string ;
-    ns2:relgt23y "-1"^^xsd:string ;
-    ns2:relgt2y "-1"^^xsd:string ;
-    ns2:relgt32y "-1"^^xsd:string ;
-    ns2:relgt33y "-1"^^xsd:string ;
-    ns2:relgt3y "-1"^^xsd:string ;
-    ns2:relgt42y "-1"^^xsd:string ;
-    ns2:relgt43y "-1"^^xsd:string ;
-    ns2:relgt4y "-1"^^xsd:string ;
-    ns2:relhfdy "-1"^^xsd:string ;
-    ns2:relimy "Rooms Katholiek"^^xsd:string ;
-    ns2:relivy "Rooms Katholiek"^^xsd:string ;
-    ns2:tot3bly "140"^^xsd:string ;
-    ns2:totbly "2"^^xsd:string ;
-    ns2:volgnr2y "100552"^^xsd:string .
+<https://iisg.amsterdam/resource/bdv/100551> ns3:birthPlace "Amsterdam"^^xsd:string ;
+    ns3:hasOccupation "VERKEERSWEZEN"^^xsd:string,
+        "houtvlotter"^^xsd:string ;
+    ns3:identifier 100551 ;
+    ns1:aboeky "als in bev.register"^^xsd:string ;
+    ns1:bergt12y "-1"^^xsd:string ;
+    ns1:bergt13y "-1"^^xsd:string ;
+    ns1:bergt1y "-1"^^xsd:string ;
+    ns1:bergt22y "-1"^^xsd:string ;
+    ns1:bergt23y "-1"^^xsd:string ;
+    ns1:bergt2y "-1"^^xsd:string ;
+    ns1:bergt32y "-1"^^xsd:string ;
+    ns1:bergt33y "-1"^^xsd:string ;
+    ns1:bergt3y "-1"^^xsd:string ;
+    ns1:bergt42y "-1"^^xsd:string ;
+    ns1:bergt43y "-1"^^xsd:string ;
+    ns1:bergt4y "-1"^^xsd:string ;
+    ns1:bermhu2y "-1"^^xsd:string ;
+    ns1:bermhu3y "-1"^^xsd:string ;
+    ns1:bermhuy "-1"^^xsd:string ;
+    ns1:berpm00y "6"^^xsd:string ;
+    ns1:berpm0y "69"^^xsd:string ;
+    ns1:bervam2y "-1"^^xsd:string ;
+    ns1:bervam3y "-1"^^xsd:string ;
+    ns1:bervamy "-1"^^xsd:string ;
+    ns1:bervav2y "-1"^^xsd:string ;
+    ns1:bervav3y "-1"^^xsd:string ;
+    ns1:bervavy "-1"^^xsd:string ;
+    ns1:bsmy "gehuwd"^^xsd:string ;
+    ns1:bsv2y "-1"^^xsd:string ;
+    ns1:bsv3y "-1"^^xsd:string ;
+    ns1:bsvy "-1"^^xsd:string ;
+    ns1:buurty "N"^^xsd:string ;
+    ns1:caswgt "1.0"^^xsd:float ;
+    ns1:gebplv1y "-1"^^xsd:string ;
+    ns1:gebplv2y "-1"^^xsd:string ;
+    ns1:gebplv3y "-1"^^xsd:string ;
+    ns1:gebplvy "ov. Drenthe"^^xsd:string ;
+    ns1:grblgy "4"^^xsd:string ;
+    ns1:grondbly 57 ;
+    ns1:huisnry "64"^^xsd:string ;
+    ns1:hulftm2y "-1"^^xsd:string ;
+    ns1:hulftm3y "-1"^^xsd:string ;
+    ns1:hulftmy "-1"^^xsd:string ;
+    ns1:hulftv2y "-1"^^xsd:string ;
+    ns1:hulftv3y "-1"^^xsd:string ;
+    ns1:hulftvy "-1"^^xsd:string ;
+    ns1:jrhu1y "-1"^^xsd:string ;
+    ns1:jrhu2y "-1"^^xsd:string ;
+    ns1:jrhu3y "-1"^^xsd:string ;
+    ns1:lftklasy "6"^^xsd:string ;
+    ns1:lftmy 65 ;
+    ns1:lftvy 73 ;
+    ns1:nrbodey 1 ;
+    ns1:nrhgy "0"^^xsd:string ;
+    ns1:nrkindy 4 ;
+    ns1:omvhhy "7"^^xsd:string ;
+    ns1:patblgy "2"^^xsd:string ;
+    ns1:patbly 4 ;
+    ns1:pblgy "4"^^xsd:string ;
+    ns1:pbly 79 ;
+    ns1:relgt12y "-1"^^xsd:string ;
+    ns1:relgt13y "-1"^^xsd:string ;
+    ns1:relgt1y "-1"^^xsd:string ;
+    ns1:relgt22y "-1"^^xsd:string ;
+    ns1:relgt23y "-1"^^xsd:string ;
+    ns1:relgt2y "-1"^^xsd:string ;
+    ns1:relgt32y "-1"^^xsd:string ;
+    ns1:relgt33y "-1"^^xsd:string ;
+    ns1:relgt3y "-1"^^xsd:string ;
+    ns1:relgt42y "-1"^^xsd:string ;
+    ns1:relgt43y "-1"^^xsd:string ;
+    ns1:relgt4y "-1"^^xsd:string ;
+    ns1:relhfdy "-1"^^xsd:string ;
+    ns1:relimy "Rooms Katholiek"^^xsd:string ;
+    ns1:relivy "Rooms Katholiek"^^xsd:string ;
+    ns1:tot3bly "140"^^xsd:string ;
+    ns1:totbly "2"^^xsd:string ;
+    ns1:volgnr2y "100552"^^xsd:string .
 
-<https://iisg.amsterdam/resource/bdv/100601> ns4:identifier 100601,
-        "LL"^^xsd:string ;
-    ns2:aboeky "als in bev.register"^^xsd:string ;
-    ns2:bergt12y "-1"^^xsd:string ;
-    ns2:bergt13y "-1"^^xsd:string ;
-    ns2:bergt1y "bakker"^^xsd:string ;
-    ns2:bergt22y "-1"^^xsd:string ;
-    ns2:bergt23y "-1"^^xsd:string ;
-    ns2:bergt2y "bakker"^^xsd:string ;
-    ns2:bergt32y "-1"^^xsd:string ;
-    ns2:bergt33y "-1"^^xsd:string ;
-    ns2:bergt3y "ambachtsman"^^xsd:string ;
-    ns2:bergt42y "-1"^^xsd:string ;
-    ns2:bergt43y "-1"^^xsd:string ;
-    ns2:bergt4y "ambachtsman"^^xsd:string ;
-    ns2:bermhu2y "-1"^^xsd:string ;
-    ns2:bermhu3y "-1"^^xsd:string ;
-    ns2:bermhuy "sleper"^^xsd:string ;
-    ns2:berpm00y "2"^^xsd:string ;
-    ns2:berpm0y "25"^^xsd:string ;
-    ns2:berpmy "sleper"^^xsd:string ;
-    ns2:bersmy "VERKEERSWEZEN"^^xsd:string ;
-    ns2:bervam2y "-1"^^xsd:string ;
-    ns2:bervam3y "-1"^^xsd:string ;
-    ns2:bervamy "winkelier"^^xsd:string ;
-    ns2:bervav2y "-1"^^xsd:string ;
-    ns2:bervav3y "-1"^^xsd:string ;
-    ns2:bervavy "vader overleden"^^xsd:string ;
-    ns2:bsmy "gehuwd"^^xsd:string ;
-    ns2:bsv2y "-1"^^xsd:string ;
-    ns2:bsv3y "-1"^^xsd:string ;
-    ns2:bsvy "0"^^xsd:string ;
-    ns2:caswgt "1.0"^^xsd:float ;
-    ns2:gebplmy "ov. N-Holl. steden"^^xsd:string ;
-    ns2:gebplv1y "overig Utrecht"^^xsd:string ;
-    ns2:gebplv2y "-1"^^xsd:string ;
-    ns2:gebplv3y "-1"^^xsd:string ;
-    ns2:gebplvy "Amsterdam"^^xsd:string ;
-    ns2:grblgy "1"^^xsd:string ;
-    ns2:grondbly "0"^^xsd:string ;
-    ns2:huisnry "114"^^xsd:string ;
-    ns2:hulftm2y "-1"^^xsd:string ;
-    ns2:hulftm3y "-1"^^xsd:string ;
-    ns2:hulftmy "30"^^xsd:string ;
-    ns2:hulftv2y "-1"^^xsd:string ;
-    ns2:hulftv3y "-1"^^xsd:string ;
-    ns2:hulftvy "21"^^xsd:string ;
-    ns2:jrhu1y "1847"^^xsd:string ;
-    ns2:jrhu2y "-1"^^xsd:string ;
-    ns2:jrhu3y "-1"^^xsd:string ;
-    ns2:lftklasy "3"^^xsd:string ;
-    ns2:lftmy "37"^^xsd:string ;
-    ns2:lftvy "28"^^xsd:string ;
-    ns2:nrbodey "0"^^xsd:string ;
-    ns2:nrhgy "1"^^xsd:string ;
-    ns2:nrkindy "4"^^xsd:string ;
-    ns2:omvhhy "7"^^xsd:string ;
-    ns2:patblgy "3"^^xsd:string ;
-    ns2:patbly "26"^^xsd:string ;
-    ns2:pblgy "5"^^xsd:string ;
-    ns2:pbly "118"^^xsd:string ;
-    ns2:relgt12y "-1"^^xsd:string ;
-    ns2:relgt13y "-1"^^xsd:string ;
-    ns2:relgt1y "oom/neef vrouw"^^xsd:string ;
-    ns2:relgt22y "-1"^^xsd:string ;
-    ns2:relgt23y "-1"^^xsd:string ;
-    ns2:relgt2y "oom/neef vrouw"^^xsd:string ;
-    ns2:relgt32y "-1"^^xsd:string ;
-    ns2:relgt33y "-1"^^xsd:string ;
-    ns2:relgt3y "geen familie"^^xsd:string ;
-    ns2:relgt42y "-1"^^xsd:string ;
-    ns2:relgt43y "-1"^^xsd:string ;
-    ns2:relgt4y "geen familie"^^xsd:string ;
-    ns2:relhfdy "ander familielid"^^xsd:string ;
-    ns2:relimy "Nederlands Hervormd"^^xsd:string ;
-    ns2:relivy "Hersteld Luthers"^^xsd:string ;
-    ns2:tot3bly "144"^^xsd:string ;
-    ns2:totbly "2"^^xsd:string ;
-    ns2:volgnr2y "106021"^^xsd:string .
+<https://iisg.amsterdam/resource/bdv/100601> ns3:birthPlace "ov. N-Holl. steden"^^xsd:string ;
+    ns3:hasOccupation "VERKEERSWEZEN"^^xsd:string,
+        "sleper"^^xsd:string ;
+    ns3:identifier 100601 ;
+    ns1:aboeky "als in bev.register"^^xsd:string ;
+    ns1:bergt12y "-1"^^xsd:string ;
+    ns1:bergt13y "-1"^^xsd:string ;
+    ns1:bergt1y "bakker"^^xsd:string ;
+    ns1:bergt22y "-1"^^xsd:string ;
+    ns1:bergt23y "-1"^^xsd:string ;
+    ns1:bergt2y "bakker"^^xsd:string ;
+    ns1:bergt32y "-1"^^xsd:string ;
+    ns1:bergt33y "-1"^^xsd:string ;
+    ns1:bergt3y "ambachtsman"^^xsd:string ;
+    ns1:bergt42y "-1"^^xsd:string ;
+    ns1:bergt43y "-1"^^xsd:string ;
+    ns1:bergt4y "ambachtsman"^^xsd:string ;
+    ns1:bermhu2y "-1"^^xsd:string ;
+    ns1:bermhu3y "-1"^^xsd:string ;
+    ns1:bermhuy "sleper"^^xsd:string ;
+    ns1:berpm00y "2"^^xsd:string ;
+    ns1:berpm0y "25"^^xsd:string ;
+    ns1:bervam2y "-1"^^xsd:string ;
+    ns1:bervam3y "-1"^^xsd:string ;
+    ns1:bervamy "winkelier"^^xsd:string ;
+    ns1:bervav2y "-1"^^xsd:string ;
+    ns1:bervav3y "-1"^^xsd:string ;
+    ns1:bervavy "vader overleden"^^xsd:string ;
+    ns1:bsmy "gehuwd"^^xsd:string ;
+    ns1:bsv2y "-1"^^xsd:string ;
+    ns1:bsv3y "-1"^^xsd:string ;
+    ns1:bsvy "0"^^xsd:string ;
+    ns1:buurty "LL"^^xsd:string ;
+    ns1:caswgt "1.0"^^xsd:float ;
+    ns1:gebplv1y "overig Utrecht"^^xsd:string ;
+    ns1:gebplv2y "-1"^^xsd:string ;
+    ns1:gebplv3y "-1"^^xsd:string ;
+    ns1:gebplvy "Amsterdam"^^xsd:string ;
+    ns1:grblgy "1"^^xsd:string ;
+    ns1:grondbly 0 ;
+    ns1:huisnry "114"^^xsd:string ;
+    ns1:hulftm2y "-1"^^xsd:string ;
+    ns1:hulftm3y "-1"^^xsd:string ;
+    ns1:hulftmy "30"^^xsd:string ;
+    ns1:hulftv2y "-1"^^xsd:string ;
+    ns1:hulftv3y "-1"^^xsd:string ;
+    ns1:hulftvy "21"^^xsd:string ;
+    ns1:jrhu1y "1847"^^xsd:string ;
+    ns1:jrhu2y "-1"^^xsd:string ;
+    ns1:jrhu3y "-1"^^xsd:string ;
+    ns1:lftklasy "3"^^xsd:string ;
+    ns1:lftmy 37 ;
+    ns1:lftvy 28 ;
+    ns1:nrbodey 0 ;
+    ns1:nrhgy "1"^^xsd:string ;
+    ns1:nrkindy 4 ;
+    ns1:omvhhy "7"^^xsd:string ;
+    ns1:patblgy "3"^^xsd:string ;
+    ns1:patbly 26 ;
+    ns1:pblgy "5"^^xsd:string ;
+    ns1:pbly 118 ;
+    ns1:relgt12y "-1"^^xsd:string ;
+    ns1:relgt13y "-1"^^xsd:string ;
+    ns1:relgt1y "oom/neef vrouw"^^xsd:string ;
+    ns1:relgt22y "-1"^^xsd:string ;
+    ns1:relgt23y "-1"^^xsd:string ;
+    ns1:relgt2y "oom/neef vrouw"^^xsd:string ;
+    ns1:relgt32y "-1"^^xsd:string ;
+    ns1:relgt33y "-1"^^xsd:string ;
+    ns1:relgt3y "geen familie"^^xsd:string ;
+    ns1:relgt42y "-1"^^xsd:string ;
+    ns1:relgt43y "-1"^^xsd:string ;
+    ns1:relgt4y "geen familie"^^xsd:string ;
+    ns1:relhfdy "ander familielid"^^xsd:string ;
+    ns1:relimy "Nederlands Hervormd"^^xsd:string ;
+    ns1:relivy "Hersteld Luthers"^^xsd:string ;
+    ns1:tot3bly "144"^^xsd:string ;
+    ns1:totbly "2"^^xsd:string ;
+    ns1:volgnr2y "106021"^^xsd:string .
 
-<https://iisg.amsterdam/resource/bdv/100651> ns4:identifier 100651,
-        "VV"^^xsd:string ;
-    ns2:aboeky "zonder beroep"^^xsd:string ;
-    ns2:bergt12y "-1"^^xsd:string ;
-    ns2:bergt13y "-1"^^xsd:string ;
-    ns2:bergt1y "-1"^^xsd:string ;
-    ns2:bergt22y "-1"^^xsd:string ;
-    ns2:bergt23y "-1"^^xsd:string ;
-    ns2:bergt2y "-1"^^xsd:string ;
-    ns2:bergt32y "-1"^^xsd:string ;
-    ns2:bergt33y "-1"^^xsd:string ;
-    ns2:bergt3y "-1"^^xsd:string ;
-    ns2:bergt42y "-1"^^xsd:string ;
-    ns2:bergt43y "-1"^^xsd:string ;
-    ns2:bergt4y "-1"^^xsd:string ;
-    ns2:bermhu2y "-1"^^xsd:string ;
-    ns2:bermhu3y "-1"^^xsd:string ;
-    ns2:bermhuy "-1"^^xsd:string ;
-    ns2:berpm00y "5"^^xsd:string ;
-    ns2:berpm0y "54"^^xsd:string ;
-    ns2:berpmy "zonder"^^xsd:string ;
-    ns2:bersmy "360"^^xsd:string ;
-    ns2:bervam2y "-1"^^xsd:string ;
-    ns2:bervam3y "-1"^^xsd:string ;
-    ns2:bervamy "-1"^^xsd:string ;
-    ns2:bervav2y "-1"^^xsd:string ;
-    ns2:bervav3y "-1"^^xsd:string ;
-    ns2:bervavy "-1"^^xsd:string ;
-    ns2:bsmy "gehuwd"^^xsd:string ;
-    ns2:bsv2y "-1"^^xsd:string ;
-    ns2:bsv3y "-1"^^xsd:string ;
-    ns2:bsvy "-1"^^xsd:string ;
-    ns2:caswgt "1.0"^^xsd:float ;
-    ns2:gebplmy "Amsterdam"^^xsd:string ;
-    ns2:gebplv1y "-1"^^xsd:string ;
-    ns2:gebplv2y "-1"^^xsd:string ;
-    ns2:gebplv3y "-1"^^xsd:string ;
-    ns2:gebplvy "ov. Gelderland"^^xsd:string ;
-    ns2:grblgy "5"^^xsd:string ;
-    ns2:grondbly "108"^^xsd:string ;
-    ns2:huisnry "369"^^xsd:string ;
-    ns2:hulftm2y "-1"^^xsd:string ;
-    ns2:hulftm3y "-1"^^xsd:string ;
-    ns2:hulftmy "-1"^^xsd:string ;
-    ns2:hulftv2y "-1"^^xsd:string ;
-    ns2:hulftv3y "-1"^^xsd:string ;
-    ns2:hulftvy "-1"^^xsd:string ;
-    ns2:jrhu1y "-1"^^xsd:string ;
-    ns2:jrhu2y "-1"^^xsd:string ;
-    ns2:jrhu3y "-1"^^xsd:string ;
-    ns2:lftklasy "7"^^xsd:string ;
-    ns2:lftmy "72"^^xsd:string ;
-    ns2:lftvy "56"^^xsd:string ;
-    ns2:nrbodey "0"^^xsd:string ;
-    ns2:nrhgy "0"^^xsd:string ;
-    ns2:nrkindy "2"^^xsd:string ;
-    ns2:omvhhy "4"^^xsd:string ;
-    ns2:patblgy "1"^^xsd:string ;
-    ns2:patbly "0"^^xsd:string ;
-    ns2:pblgy "2"^^xsd:string ;
-    ns2:pbly "12"^^xsd:string ;
-    ns2:relgt12y "-1"^^xsd:string ;
-    ns2:relgt13y "-1"^^xsd:string ;
-    ns2:relgt1y "-1"^^xsd:string ;
-    ns2:relgt22y "-1"^^xsd:string ;
-    ns2:relgt23y "-1"^^xsd:string ;
-    ns2:relgt2y "-1"^^xsd:string ;
-    ns2:relgt32y "-1"^^xsd:string ;
-    ns2:relgt33y "-1"^^xsd:string ;
-    ns2:relgt3y "-1"^^xsd:string ;
-    ns2:relgt42y "-1"^^xsd:string ;
-    ns2:relgt43y "-1"^^xsd:string ;
-    ns2:relgt4y "-1"^^xsd:string ;
-    ns2:relhfdy "-1"^^xsd:string ;
-    ns2:relimy "Doopsgezind"^^xsd:string ;
-    ns2:relivy "Doopsgezind"^^xsd:string ;
-    ns2:tot3bly "120"^^xsd:string ;
-    ns2:totbly "2"^^xsd:string ;
-    ns2:volgnr2y "100652"^^xsd:string .
+<https://iisg.amsterdam/resource/bdv/100651> ns3:birthPlace "Amsterdam"^^xsd:string ;
+    ns3:hasOccupation "360"^^xsd:string,
+        "zonder"^^xsd:string ;
+    ns3:identifier 100651 ;
+    ns1:aboeky "zonder beroep"^^xsd:string ;
+    ns1:bergt12y "-1"^^xsd:string ;
+    ns1:bergt13y "-1"^^xsd:string ;
+    ns1:bergt1y "-1"^^xsd:string ;
+    ns1:bergt22y "-1"^^xsd:string ;
+    ns1:bergt23y "-1"^^xsd:string ;
+    ns1:bergt2y "-1"^^xsd:string ;
+    ns1:bergt32y "-1"^^xsd:string ;
+    ns1:bergt33y "-1"^^xsd:string ;
+    ns1:bergt3y "-1"^^xsd:string ;
+    ns1:bergt42y "-1"^^xsd:string ;
+    ns1:bergt43y "-1"^^xsd:string ;
+    ns1:bergt4y "-1"^^xsd:string ;
+    ns1:bermhu2y "-1"^^xsd:string ;
+    ns1:bermhu3y "-1"^^xsd:string ;
+    ns1:bermhuy "-1"^^xsd:string ;
+    ns1:berpm00y "5"^^xsd:string ;
+    ns1:berpm0y "54"^^xsd:string ;
+    ns1:bervam2y "-1"^^xsd:string ;
+    ns1:bervam3y "-1"^^xsd:string ;
+    ns1:bervamy "-1"^^xsd:string ;
+    ns1:bervav2y "-1"^^xsd:string ;
+    ns1:bervav3y "-1"^^xsd:string ;
+    ns1:bervavy "-1"^^xsd:string ;
+    ns1:bsmy "gehuwd"^^xsd:string ;
+    ns1:bsv2y "-1"^^xsd:string ;
+    ns1:bsv3y "-1"^^xsd:string ;
+    ns1:bsvy "-1"^^xsd:string ;
+    ns1:buurty "VV"^^xsd:string ;
+    ns1:caswgt "1.0"^^xsd:float ;
+    ns1:gebplv1y "-1"^^xsd:string ;
+    ns1:gebplv2y "-1"^^xsd:string ;
+    ns1:gebplv3y "-1"^^xsd:string ;
+    ns1:gebplvy "ov. Gelderland"^^xsd:string ;
+    ns1:grblgy "5"^^xsd:string ;
+    ns1:grondbly 108 ;
+    ns1:huisnry "369"^^xsd:string ;
+    ns1:hulftm2y "-1"^^xsd:string ;
+    ns1:hulftm3y "-1"^^xsd:string ;
+    ns1:hulftmy "-1"^^xsd:string ;
+    ns1:hulftv2y "-1"^^xsd:string ;
+    ns1:hulftv3y "-1"^^xsd:string ;
+    ns1:hulftvy "-1"^^xsd:string ;
+    ns1:jrhu1y "-1"^^xsd:string ;
+    ns1:jrhu2y "-1"^^xsd:string ;
+    ns1:jrhu3y "-1"^^xsd:string ;
+    ns1:lftklasy "7"^^xsd:string ;
+    ns1:lftmy 72 ;
+    ns1:lftvy 56 ;
+    ns1:nrbodey 0 ;
+    ns1:nrhgy "0"^^xsd:string ;
+    ns1:nrkindy 2 ;
+    ns1:omvhhy "4"^^xsd:string ;
+    ns1:patblgy "1"^^xsd:string ;
+    ns1:patbly 0 ;
+    ns1:pblgy "2"^^xsd:string ;
+    ns1:pbly 12 ;
+    ns1:relgt12y "-1"^^xsd:string ;
+    ns1:relgt13y "-1"^^xsd:string ;
+    ns1:relgt1y "-1"^^xsd:string ;
+    ns1:relgt22y "-1"^^xsd:string ;
+    ns1:relgt23y "-1"^^xsd:string ;
+    ns1:relgt2y "-1"^^xsd:string ;
+    ns1:relgt32y "-1"^^xsd:string ;
+    ns1:relgt33y "-1"^^xsd:string ;
+    ns1:relgt3y "-1"^^xsd:string ;
+    ns1:relgt42y "-1"^^xsd:string ;
+    ns1:relgt43y "-1"^^xsd:string ;
+    ns1:relgt4y "-1"^^xsd:string ;
+    ns1:relhfdy "-1"^^xsd:string ;
+    ns1:relimy "Doopsgezind"^^xsd:string ;
+    ns1:relivy "Doopsgezind"^^xsd:string ;
+    ns1:tot3bly "120"^^xsd:string ;
+    ns1:totbly "2"^^xsd:string ;
+    ns1:volgnr2y "100652"^^xsd:string .
 
-<https://iisg.amsterdam/resource/bdv/100701> ns4:identifier 100701,
-        "V"^^xsd:string ;
-    ns2:aboeky "als in bev.register"^^xsd:string ;
-    ns2:bergt12y "-1"^^xsd:string ;
-    ns2:bergt13y "-1"^^xsd:string ;
-    ns2:bergt1y "693"^^xsd:string ;
-    ns2:bergt22y "-1"^^xsd:string ;
-    ns2:bergt23y "-1"^^xsd:string ;
-    ns2:bergt2y "arts"^^xsd:string ;
-    ns2:bergt32y "-1"^^xsd:string ;
-    ns2:bergt33y "-1"^^xsd:string ;
-    ns2:bergt3y "zonder"^^xsd:string ;
-    ns2:bergt42y "-1"^^xsd:string ;
-    ns2:bergt43y "-1"^^xsd:string ;
-    ns2:bergt4y "arts"^^xsd:string ;
-    ns2:bermhu2y "-1"^^xsd:string ;
-    ns2:bermhu3y "-1"^^xsd:string ;
-    ns2:bermhuy "arts"^^xsd:string ;
-    ns2:berpm00y "2"^^xsd:string ;
-    ns2:berpm0y "23"^^xsd:string ;
-    ns2:berpmy "arts"^^xsd:string ;
-    ns2:bersmy "251"^^xsd:string ;
-    ns2:bervam2y "-1"^^xsd:string ;
-    ns2:bervam3y "-1"^^xsd:string ;
-    ns2:bervamy "vader overleden"^^xsd:string ;
-    ns2:bervav2y "-1"^^xsd:string ;
-    ns2:bervav3y "-1"^^xsd:string ;
-    ns2:bervavy "693"^^xsd:string ;
-    ns2:bsmy "gehuwd"^^xsd:string ;
-    ns2:bsv2y "-1"^^xsd:string ;
-    ns2:bsv3y "-1"^^xsd:string ;
-    ns2:bsvy "ongehuwd"^^xsd:string ;
-    ns2:caswgt "1.0"^^xsd:float ;
-    ns2:gebplmy "Amsterdam"^^xsd:string ;
-    ns2:gebplv1y "Amsterdam"^^xsd:string ;
-    ns2:gebplv2y "-1"^^xsd:string ;
-    ns2:gebplv3y "-1"^^xsd:string ;
-    ns2:gebplvy "Amsterdam"^^xsd:string ;
-    ns2:grblgy "4"^^xsd:string ;
-    ns2:grondbly "82"^^xsd:string ;
-    ns2:huisnry "412"^^xsd:string ;
-    ns2:hulftm2y "-1"^^xsd:string ;
-    ns2:hulftm3y "-1"^^xsd:string ;
-    ns2:hulftmy "38"^^xsd:string ;
-    ns2:hulftv2y "-1"^^xsd:string ;
-    ns2:hulftv3y "-1"^^xsd:string ;
-    ns2:hulftvy "22"^^xsd:string ;
-    ns2:jrhu1y "1824"^^xsd:string ;
-    ns2:jrhu2y "-1"^^xsd:string ;
-    ns2:jrhu3y "-1"^^xsd:string ;
-    ns2:lftklasy "6"^^xsd:string ;
-    ns2:lftmy "68"^^xsd:string ;
-    ns2:lftvy "46"^^xsd:string ;
-    ns2:nrbodey "1"^^xsd:string ;
-    ns2:nrhgy "0"^^xsd:string ;
-    ns2:nrkindy "10"^^xsd:string ;
-    ns2:omvhhy "13"^^xsd:string ;
-    ns2:patblgy "2"^^xsd:string ;
-    ns2:patbly "19"^^xsd:string ;
-    ns2:pblgy "4"^^xsd:string ;
-    ns2:pbly "54"^^xsd:string ;
-    ns2:relgt12y "-1"^^xsd:string ;
-    ns2:relgt13y "-1"^^xsd:string ;
-    ns2:relgt1y "vader vrouw"^^xsd:string ;
-    ns2:relgt22y "-1"^^xsd:string ;
-    ns2:relgt23y "-1"^^xsd:string ;
-    ns2:relgt2y "broer/zwager man"^^xsd:string ;
-    ns2:relgt32y "-1"^^xsd:string ;
-    ns2:relgt33y "-1"^^xsd:string ;
-    ns2:relgt3y "geen familie"^^xsd:string ;
-    ns2:relgt42y "-1"^^xsd:string ;
-    ns2:relgt43y "-1"^^xsd:string ;
-    ns2:relgt4y "geen familie"^^xsd:string ;
-    ns2:relhfdy "-1"^^xsd:string ;
-    ns2:relimy "Ned. Israelitisch"^^xsd:string ;
-    ns2:relivy "Ned. Israelitisch"^^xsd:string ;
-    ns2:tot3bly "155"^^xsd:string ;
-    ns2:totbly "2"^^xsd:string ;
-    ns2:volgnr2y "100702"^^xsd:string .
+<https://iisg.amsterdam/resource/bdv/100701> ns3:birthPlace "Amsterdam"^^xsd:string ;
+    ns3:hasOccupation "251"^^xsd:string,
+        "arts"^^xsd:string ;
+    ns3:identifier 100701 ;
+    ns1:aboeky "als in bev.register"^^xsd:string ;
+    ns1:bergt12y "-1"^^xsd:string ;
+    ns1:bergt13y "-1"^^xsd:string ;
+    ns1:bergt1y "693"^^xsd:string ;
+    ns1:bergt22y "-1"^^xsd:string ;
+    ns1:bergt23y "-1"^^xsd:string ;
+    ns1:bergt2y "arts"^^xsd:string ;
+    ns1:bergt32y "-1"^^xsd:string ;
+    ns1:bergt33y "-1"^^xsd:string ;
+    ns1:bergt3y "zonder"^^xsd:string ;
+    ns1:bergt42y "-1"^^xsd:string ;
+    ns1:bergt43y "-1"^^xsd:string ;
+    ns1:bergt4y "arts"^^xsd:string ;
+    ns1:bermhu2y "-1"^^xsd:string ;
+    ns1:bermhu3y "-1"^^xsd:string ;
+    ns1:bermhuy "arts"^^xsd:string ;
+    ns1:berpm00y "2"^^xsd:string ;
+    ns1:berpm0y "23"^^xsd:string ;
+    ns1:bervam2y "-1"^^xsd:string ;
+    ns1:bervam3y "-1"^^xsd:string ;
+    ns1:bervamy "vader overleden"^^xsd:string ;
+    ns1:bervav2y "-1"^^xsd:string ;
+    ns1:bervav3y "-1"^^xsd:string ;
+    ns1:bervavy "693"^^xsd:string ;
+    ns1:bsmy "gehuwd"^^xsd:string ;
+    ns1:bsv2y "-1"^^xsd:string ;
+    ns1:bsv3y "-1"^^xsd:string ;
+    ns1:bsvy "ongehuwd"^^xsd:string ;
+    ns1:buurty "V"^^xsd:string ;
+    ns1:caswgt "1.0"^^xsd:float ;
+    ns1:gebplv1y "Amsterdam"^^xsd:string ;
+    ns1:gebplv2y "-1"^^xsd:string ;
+    ns1:gebplv3y "-1"^^xsd:string ;
+    ns1:gebplvy "Amsterdam"^^xsd:string ;
+    ns1:grblgy "4"^^xsd:string ;
+    ns1:grondbly 82 ;
+    ns1:huisnry "412"^^xsd:string ;
+    ns1:hulftm2y "-1"^^xsd:string ;
+    ns1:hulftm3y "-1"^^xsd:string ;
+    ns1:hulftmy "38"^^xsd:string ;
+    ns1:hulftv2y "-1"^^xsd:string ;
+    ns1:hulftv3y "-1"^^xsd:string ;
+    ns1:hulftvy "22"^^xsd:string ;
+    ns1:jrhu1y "1824"^^xsd:string ;
+    ns1:jrhu2y "-1"^^xsd:string ;
+    ns1:jrhu3y "-1"^^xsd:string ;
+    ns1:lftklasy "6"^^xsd:string ;
+    ns1:lftmy 68 ;
+    ns1:lftvy 46 ;
+    ns1:nrbodey 1 ;
+    ns1:nrhgy "0"^^xsd:string ;
+    ns1:nrkindy 10 ;
+    ns1:omvhhy "13"^^xsd:string ;
+    ns1:patblgy "2"^^xsd:string ;
+    ns1:patbly 19 ;
+    ns1:pblgy "4"^^xsd:string ;
+    ns1:pbly 54 ;
+    ns1:relgt12y "-1"^^xsd:string ;
+    ns1:relgt13y "-1"^^xsd:string ;
+    ns1:relgt1y "vader vrouw"^^xsd:string ;
+    ns1:relgt22y "-1"^^xsd:string ;
+    ns1:relgt23y "-1"^^xsd:string ;
+    ns1:relgt2y "broer/zwager man"^^xsd:string ;
+    ns1:relgt32y "-1"^^xsd:string ;
+    ns1:relgt33y "-1"^^xsd:string ;
+    ns1:relgt3y "geen familie"^^xsd:string ;
+    ns1:relgt42y "-1"^^xsd:string ;
+    ns1:relgt43y "-1"^^xsd:string ;
+    ns1:relgt4y "geen familie"^^xsd:string ;
+    ns1:relhfdy "-1"^^xsd:string ;
+    ns1:relimy "Ned. Israelitisch"^^xsd:string ;
+    ns1:relivy "Ned. Israelitisch"^^xsd:string ;
+    ns1:tot3bly "155"^^xsd:string ;
+    ns1:totbly "2"^^xsd:string ;
+    ns1:volgnr2y "100702"^^xsd:string .
 
-<https://iisg.amsterdam/resource/bdv/100751> ns4:identifier 100751,
-        "W"^^xsd:string ;
-    ns2:aboeky "als in bev.register"^^xsd:string ;
-    ns2:bergt12y "-1"^^xsd:string ;
-    ns2:bergt13y "-1"^^xsd:string ;
-    ns2:bergt1y "winkelier"^^xsd:string ;
-    ns2:bergt22y "-1"^^xsd:string ;
-    ns2:bergt23y "-1"^^xsd:string ;
-    ns2:bergt2y "ambtenaar"^^xsd:string ;
-    ns2:bergt32y "-1"^^xsd:string ;
-    ns2:bergt33y "-1"^^xsd:string ;
-    ns2:bergt3y "ov. zelfstandigen"^^xsd:string ;
-    ns2:bergt42y "-1"^^xsd:string ;
-    ns2:bergt43y "-1"^^xsd:string ;
-    ns2:bergt4y "ambachtsman"^^xsd:string ;
-    ns2:bermhu2y "-1"^^xsd:string ;
-    ns2:bermhu3y "-1"^^xsd:string ;
-    ns2:bermhuy "stalhouder"^^xsd:string ;
-    ns2:berpm00y "2"^^xsd:string ;
-    ns2:berpm0y "25"^^xsd:string ;
-    ns2:berpmy "stalhouder"^^xsd:string ;
-    ns2:bersmy "VERKEERSWEZEN"^^xsd:string ;
-    ns2:bervam2y "-1"^^xsd:string ;
-    ns2:bervam3y "-1"^^xsd:string ;
-    ns2:bervamy "werklieden"^^xsd:string ;
-    ns2:bervav2y "-1"^^xsd:string ;
-    ns2:bervav3y "-1"^^xsd:string ;
-    ns2:bervavy "slager"^^xsd:string ;
-    ns2:bsmy "gehuwd"^^xsd:string ;
-    ns2:bsv2y "-1"^^xsd:string ;
-    ns2:bsv3y "-1"^^xsd:string ;
-    ns2:bsvy "ongehuwd"^^xsd:string ;
-    ns2:caswgt "1.0"^^xsd:float ;
-    ns2:gebplmy "Amsterdam"^^xsd:string ;
-    ns2:gebplv1y "Amsterdam"^^xsd:string ;
-    ns2:gebplv2y "-1"^^xsd:string ;
-    ns2:gebplv3y "-1"^^xsd:string ;
-    ns2:gebplvy "Amsterdam"^^xsd:string ;
-    ns2:grblgy "1"^^xsd:string ;
-    ns2:grondbly "0"^^xsd:string ;
-    ns2:huisnry "649"^^xsd:string ;
-    ns2:hulftm2y "-1"^^xsd:string ;
-    ns2:hulftm3y "-1"^^xsd:string ;
-    ns2:hulftmy "27"^^xsd:string ;
-    ns2:hulftv2y "-1"^^xsd:string ;
-    ns2:hulftv3y "-1"^^xsd:string ;
-    ns2:hulftvy "31"^^xsd:string ;
-    ns2:jrhu1y "1848"^^xsd:string ;
-    ns2:jrhu2y "-1"^^xsd:string ;
-    ns2:jrhu3y "-1"^^xsd:string ;
-    ns2:lftklasy "3"^^xsd:string ;
-    ns2:lftmy "33"^^xsd:string ;
-    ns2:lftvy "37"^^xsd:string ;
-    ns2:nrbodey "0"^^xsd:string ;
-    ns2:nrhgy "0"^^xsd:string ;
-    ns2:nrkindy "0"^^xsd:string ;
-    ns2:omvhhy "2"^^xsd:string ;
-    ns2:patblgy "3"^^xsd:string ;
-    ns2:patbly "38"^^xsd:string ;
-    ns2:pblgy "5"^^xsd:string ;
-    ns2:pbly "189"^^xsd:string ;
-    ns2:relgt12y "-1"^^xsd:string ;
-    ns2:relgt13y "-1"^^xsd:string ;
-    ns2:relgt1y "oom/neef man"^^xsd:string ;
-    ns2:relgt22y "-1"^^xsd:string ;
-    ns2:relgt23y "-1"^^xsd:string ;
-    ns2:relgt2y "geen familie"^^xsd:string ;
-    ns2:relgt32y "-1"^^xsd:string ;
-    ns2:relgt33y "-1"^^xsd:string ;
-    ns2:relgt3y "geen familie"^^xsd:string ;
-    ns2:relgt42y "-1"^^xsd:string ;
-    ns2:relgt43y "-1"^^xsd:string ;
-    ns2:relgt4y "geen familie"^^xsd:string ;
-    ns2:relhfdy "-1"^^xsd:string ;
-    ns2:relimy "Nederlands Hervormd"^^xsd:string ;
-    ns2:relivy "Evangelisch Luthers"^^xsd:string ;
-    ns2:tot3bly "227"^^xsd:string ;
-    ns2:totbly "3"^^xsd:string ;
-    ns2:volgnr2y "100752"^^xsd:string .
+<https://iisg.amsterdam/resource/bdv/100751> ns3:birthPlace "Amsterdam"^^xsd:string ;
+    ns3:hasOccupation "VERKEERSWEZEN"^^xsd:string,
+        "stalhouder"^^xsd:string ;
+    ns3:identifier 100751 ;
+    ns1:aboeky "als in bev.register"^^xsd:string ;
+    ns1:bergt12y "-1"^^xsd:string ;
+    ns1:bergt13y "-1"^^xsd:string ;
+    ns1:bergt1y "winkelier"^^xsd:string ;
+    ns1:bergt22y "-1"^^xsd:string ;
+    ns1:bergt23y "-1"^^xsd:string ;
+    ns1:bergt2y "ambtenaar"^^xsd:string ;
+    ns1:bergt32y "-1"^^xsd:string ;
+    ns1:bergt33y "-1"^^xsd:string ;
+    ns1:bergt3y "ov. zelfstandigen"^^xsd:string ;
+    ns1:bergt42y "-1"^^xsd:string ;
+    ns1:bergt43y "-1"^^xsd:string ;
+    ns1:bergt4y "ambachtsman"^^xsd:string ;
+    ns1:bermhu2y "-1"^^xsd:string ;
+    ns1:bermhu3y "-1"^^xsd:string ;
+    ns1:bermhuy "stalhouder"^^xsd:string ;
+    ns1:berpm00y "2"^^xsd:string ;
+    ns1:berpm0y "25"^^xsd:string ;
+    ns1:bervam2y "-1"^^xsd:string ;
+    ns1:bervam3y "-1"^^xsd:string ;
+    ns1:bervamy "werklieden"^^xsd:string ;
+    ns1:bervav2y "-1"^^xsd:string ;
+    ns1:bervav3y "-1"^^xsd:string ;
+    ns1:bervavy "slager"^^xsd:string ;
+    ns1:bsmy "gehuwd"^^xsd:string ;
+    ns1:bsv2y "-1"^^xsd:string ;
+    ns1:bsv3y "-1"^^xsd:string ;
+    ns1:bsvy "ongehuwd"^^xsd:string ;
+    ns1:buurty "W"^^xsd:string ;
+    ns1:caswgt "1.0"^^xsd:float ;
+    ns1:gebplv1y "Amsterdam"^^xsd:string ;
+    ns1:gebplv2y "-1"^^xsd:string ;
+    ns1:gebplv3y "-1"^^xsd:string ;
+    ns1:gebplvy "Amsterdam"^^xsd:string ;
+    ns1:grblgy "1"^^xsd:string ;
+    ns1:grondbly 0 ;
+    ns1:huisnry "649"^^xsd:string ;
+    ns1:hulftm2y "-1"^^xsd:string ;
+    ns1:hulftm3y "-1"^^xsd:string ;
+    ns1:hulftmy "27"^^xsd:string ;
+    ns1:hulftv2y "-1"^^xsd:string ;
+    ns1:hulftv3y "-1"^^xsd:string ;
+    ns1:hulftvy "31"^^xsd:string ;
+    ns1:jrhu1y "1848"^^xsd:string ;
+    ns1:jrhu2y "-1"^^xsd:string ;
+    ns1:jrhu3y "-1"^^xsd:string ;
+    ns1:lftklasy "3"^^xsd:string ;
+    ns1:lftmy 33 ;
+    ns1:lftvy 37 ;
+    ns1:nrbodey 0 ;
+    ns1:nrhgy "0"^^xsd:string ;
+    ns1:nrkindy 0 ;
+    ns1:omvhhy "2"^^xsd:string ;
+    ns1:patblgy "3"^^xsd:string ;
+    ns1:patbly 38 ;
+    ns1:pblgy "5"^^xsd:string ;
+    ns1:pbly 189 ;
+    ns1:relgt12y "-1"^^xsd:string ;
+    ns1:relgt13y "-1"^^xsd:string ;
+    ns1:relgt1y "oom/neef man"^^xsd:string ;
+    ns1:relgt22y "-1"^^xsd:string ;
+    ns1:relgt23y "-1"^^xsd:string ;
+    ns1:relgt2y "geen familie"^^xsd:string ;
+    ns1:relgt32y "-1"^^xsd:string ;
+    ns1:relgt33y "-1"^^xsd:string ;
+    ns1:relgt3y "geen familie"^^xsd:string ;
+    ns1:relgt42y "-1"^^xsd:string ;
+    ns1:relgt43y "-1"^^xsd:string ;
+    ns1:relgt4y "geen familie"^^xsd:string ;
+    ns1:relhfdy "-1"^^xsd:string ;
+    ns1:relimy "Nederlands Hervormd"^^xsd:string ;
+    ns1:relivy "Evangelisch Luthers"^^xsd:string ;
+    ns1:tot3bly "227"^^xsd:string ;
+    ns1:totbly "3"^^xsd:string ;
+    ns1:volgnr2y "100752"^^xsd:string .
 
-<https://iisg.amsterdam/resource/bdv/100801> ns4:identifier 100801,
-        "N"^^xsd:string ;
-    ns2:aboeky "als in bev.register"^^xsd:string ;
-    ns2:bergt12y "-1"^^xsd:string ;
-    ns2:bergt13y "-1"^^xsd:string ;
-    ns2:bergt1y "arts"^^xsd:string ;
-    ns2:bergt22y "-1"^^xsd:string ;
-    ns2:bergt23y "-1"^^xsd:string ;
-    ns2:bergt2y "directeur"^^xsd:string ;
-    ns2:bergt32y "-1"^^xsd:string ;
-    ns2:bergt33y "-1"^^xsd:string ;
-    ns2:bergt3y "arts"^^xsd:string ;
-    ns2:bergt42y "-1"^^xsd:string ;
-    ns2:bergt43y "-1"^^xsd:string ;
-    ns2:bergt4y "ambtenaar"^^xsd:string ;
-    ns2:bermhu2y "-1"^^xsd:string ;
-    ns2:bermhu3y "-1"^^xsd:string ;
-    ns2:bermhuy "arts"^^xsd:string ;
-    ns2:berpm00y "2"^^xsd:string ;
-    ns2:berpm0y "23"^^xsd:string ;
-    ns2:berpmy "arts"^^xsd:string ;
-    ns2:bersmy "251"^^xsd:string ;
-    ns2:bervam2y "-1"^^xsd:string ;
-    ns2:bervam3y "-1"^^xsd:string ;
-    ns2:bervamy "zonder"^^xsd:string ;
-    ns2:bervav2y "-1"^^xsd:string ;
-    ns2:bervav3y "-1"^^xsd:string ;
-    ns2:bervavy "zonder"^^xsd:string ;
-    ns2:bsmy "gehuwd"^^xsd:string ;
-    ns2:bsv2y "-1"^^xsd:string ;
-    ns2:bsv3y "-1"^^xsd:string ;
-    ns2:bsvy "ongehuwd"^^xsd:string ;
-    ns2:caswgt "1.0"^^xsd:float ;
-    ns2:gebplmy "Amsterdam"^^xsd:string ;
-    ns2:gebplv1y "Amsterdam"^^xsd:string ;
-    ns2:gebplv2y "-1"^^xsd:string ;
-    ns2:gebplv3y "-1"^^xsd:string ;
-    ns2:gebplvy "Amsterdam"^^xsd:string ;
-    ns2:grblgy "4"^^xsd:string ;
-    ns2:grondbly "53"^^xsd:string ;
-    ns2:huisnry "426"^^xsd:string ;
-    ns2:hulftm2y "-1"^^xsd:string ;
-    ns2:hulftm3y "-1"^^xsd:string ;
-    ns2:hulftmy "26"^^xsd:string ;
-    ns2:hulftv2y "-1"^^xsd:string ;
-    ns2:hulftv3y "-1"^^xsd:string ;
-    ns2:hulftvy "18"^^xsd:string ;
-    ns2:jrhu1y "1840"^^xsd:string ;
-    ns2:jrhu2y "-1"^^xsd:string ;
-    ns2:jrhu3y "-1"^^xsd:string ;
-    ns2:lftklasy "4"^^xsd:string ;
-    ns2:lftmy "40"^^xsd:string ;
-    ns2:lftvy "32"^^xsd:string ;
-    ns2:nrbodey "2"^^xsd:string ;
-    ns2:nrhgy "1"^^xsd:string ;
-    ns2:nrkindy "2"^^xsd:string ;
-    ns2:omvhhy "7"^^xsd:string ;
-    ns2:patblgy "2"^^xsd:string ;
-    ns2:patbly "19"^^xsd:string ;
-    ns2:pblgy "5"^^xsd:string ;
-    ns2:pbly "142"^^xsd:string ;
-    ns2:relgt12y "-1"^^xsd:string ;
-    ns2:relgt13y "-1"^^xsd:string ;
-    ns2:relgt1y "geen familie"^^xsd:string ;
-    ns2:relgt22y "-1"^^xsd:string ;
-    ns2:relgt23y "-1"^^xsd:string ;
-    ns2:relgt2y "geen familie"^^xsd:string ;
-    ns2:relgt32y "-1"^^xsd:string ;
-    ns2:relgt33y "-1"^^xsd:string ;
-    ns2:relgt3y "geen familie"^^xsd:string ;
-    ns2:relgt42y "-1"^^xsd:string ;
-    ns2:relgt43y "-1"^^xsd:string ;
-    ns2:relgt4y "geen familie"^^xsd:string ;
-    ns2:relhfdy "ouder"^^xsd:string ;
-    ns2:relimy "Gereformeerd"^^xsd:string ;
-    ns2:relivy "Gereformeerd"^^xsd:string ;
-    ns2:tot3bly "214"^^xsd:string ;
-    ns2:totbly "3"^^xsd:string ;
-    ns2:volgnr2y "100802"^^xsd:string .
+<https://iisg.amsterdam/resource/bdv/100801> ns3:birthPlace "Amsterdam"^^xsd:string ;
+    ns3:hasOccupation "251"^^xsd:string,
+        "arts"^^xsd:string ;
+    ns3:identifier 100801 ;
+    ns1:aboeky "als in bev.register"^^xsd:string ;
+    ns1:bergt12y "-1"^^xsd:string ;
+    ns1:bergt13y "-1"^^xsd:string ;
+    ns1:bergt1y "arts"^^xsd:string ;
+    ns1:bergt22y "-1"^^xsd:string ;
+    ns1:bergt23y "-1"^^xsd:string ;
+    ns1:bergt2y "directeur"^^xsd:string ;
+    ns1:bergt32y "-1"^^xsd:string ;
+    ns1:bergt33y "-1"^^xsd:string ;
+    ns1:bergt3y "arts"^^xsd:string ;
+    ns1:bergt42y "-1"^^xsd:string ;
+    ns1:bergt43y "-1"^^xsd:string ;
+    ns1:bergt4y "ambtenaar"^^xsd:string ;
+    ns1:bermhu2y "-1"^^xsd:string ;
+    ns1:bermhu3y "-1"^^xsd:string ;
+    ns1:bermhuy "arts"^^xsd:string ;
+    ns1:berpm00y "2"^^xsd:string ;
+    ns1:berpm0y "23"^^xsd:string ;
+    ns1:bervam2y "-1"^^xsd:string ;
+    ns1:bervam3y "-1"^^xsd:string ;
+    ns1:bervamy "zonder"^^xsd:string ;
+    ns1:bervav2y "-1"^^xsd:string ;
+    ns1:bervav3y "-1"^^xsd:string ;
+    ns1:bervavy "zonder"^^xsd:string ;
+    ns1:bsmy "gehuwd"^^xsd:string ;
+    ns1:bsv2y "-1"^^xsd:string ;
+    ns1:bsv3y "-1"^^xsd:string ;
+    ns1:bsvy "ongehuwd"^^xsd:string ;
+    ns1:buurty "N"^^xsd:string ;
+    ns1:caswgt "1.0"^^xsd:float ;
+    ns1:gebplv1y "Amsterdam"^^xsd:string ;
+    ns1:gebplv2y "-1"^^xsd:string ;
+    ns1:gebplv3y "-1"^^xsd:string ;
+    ns1:gebplvy "Amsterdam"^^xsd:string ;
+    ns1:grblgy "4"^^xsd:string ;
+    ns1:grondbly 53 ;
+    ns1:huisnry "426"^^xsd:string ;
+    ns1:hulftm2y "-1"^^xsd:string ;
+    ns1:hulftm3y "-1"^^xsd:string ;
+    ns1:hulftmy "26"^^xsd:string ;
+    ns1:hulftv2y "-1"^^xsd:string ;
+    ns1:hulftv3y "-1"^^xsd:string ;
+    ns1:hulftvy "18"^^xsd:string ;
+    ns1:jrhu1y "1840"^^xsd:string ;
+    ns1:jrhu2y "-1"^^xsd:string ;
+    ns1:jrhu3y "-1"^^xsd:string ;
+    ns1:lftklasy "4"^^xsd:string ;
+    ns1:lftmy 40 ;
+    ns1:lftvy 32 ;
+    ns1:nrbodey 2 ;
+    ns1:nrhgy "1"^^xsd:string ;
+    ns1:nrkindy 2 ;
+    ns1:omvhhy "7"^^xsd:string ;
+    ns1:patblgy "2"^^xsd:string ;
+    ns1:patbly 19 ;
+    ns1:pblgy "5"^^xsd:string ;
+    ns1:pbly 142 ;
+    ns1:relgt12y "-1"^^xsd:string ;
+    ns1:relgt13y "-1"^^xsd:string ;
+    ns1:relgt1y "geen familie"^^xsd:string ;
+    ns1:relgt22y "-1"^^xsd:string ;
+    ns1:relgt23y "-1"^^xsd:string ;
+    ns1:relgt2y "geen familie"^^xsd:string ;
+    ns1:relgt32y "-1"^^xsd:string ;
+    ns1:relgt33y "-1"^^xsd:string ;
+    ns1:relgt3y "geen familie"^^xsd:string ;
+    ns1:relgt42y "-1"^^xsd:string ;
+    ns1:relgt43y "-1"^^xsd:string ;
+    ns1:relgt4y "geen familie"^^xsd:string ;
+    ns1:relhfdy "ouder"^^xsd:string ;
+    ns1:relimy "Gereformeerd"^^xsd:string ;
+    ns1:relivy "Gereformeerd"^^xsd:string ;
+    ns1:tot3bly "214"^^xsd:string ;
+    ns1:totbly "3"^^xsd:string ;
+    ns1:volgnr2y "100802"^^xsd:string .
 
-<https://iisg.amsterdam/resource/bdv/100851> ns4:identifier 100851,
-        "X"^^xsd:string ;
-    ns2:aboeky "als in bev.register"^^xsd:string ;
-    ns2:bergt12y "-1"^^xsd:string ;
-    ns2:bergt13y "-1"^^xsd:string ;
-    ns2:bergt1y "makelaar"^^xsd:string ;
-    ns2:bergt22y "-1"^^xsd:string ;
-    ns2:bergt23y "-1"^^xsd:string ;
-    ns2:bergt2y "zonder"^^xsd:string ;
-    ns2:bergt32y "-1"^^xsd:string ;
-    ns2:bergt33y "-1"^^xsd:string ;
-    ns2:bergt3y "stadhuisambtenaar"^^xsd:string ;
-    ns2:bergt42y "-1"^^xsd:string ;
-    ns2:bergt43y "-1"^^xsd:string ;
-    ns2:bergt4y "stadhuisambtenaar"^^xsd:string ;
-    ns2:bermhu2y "-1"^^xsd:string ;
-    ns2:bermhu3y "-1"^^xsd:string ;
-    ns2:bermhuy "makelaar"^^xsd:string ;
-    ns2:berpm00y "2"^^xsd:string ;
-    ns2:berpm0y "21"^^xsd:string ;
-    ns2:berpmy "timmerman, makelaar"^^xsd:string ;
-    ns2:bersmy "BOUWBEDRIJVEN"^^xsd:string ;
-    ns2:bervam2y "-1"^^xsd:string ;
-    ns2:bervam3y "-1"^^xsd:string ;
-    ns2:bervamy "makelaar"^^xsd:string ;
-    ns2:bervav2y "-1"^^xsd:string ;
-    ns2:bervav3y "-1"^^xsd:string ;
-    ns2:bervavy "zonder"^^xsd:string ;
-    ns2:bsmy "gehuwd"^^xsd:string ;
-    ns2:bsv2y "-1"^^xsd:string ;
-    ns2:bsv3y "-1"^^xsd:string ;
-    ns2:bsvy "ongehuwd"^^xsd:string ;
-    ns2:caswgt "1.0"^^xsd:float ;
-    ns2:gebplmy "Amsterdam"^^xsd:string ;
-    ns2:gebplv1y "Amsterdam"^^xsd:string ;
-    ns2:gebplv2y "-1"^^xsd:string ;
-    ns2:gebplv3y "-1"^^xsd:string ;
-    ns2:gebplvy "Amsterdam"^^xsd:string ;
-    ns2:grblgy "4"^^xsd:string ;
-    ns2:grondbly "77"^^xsd:string ;
-    ns2:huisnry "39"^^xsd:string ;
-    ns2:hulftm2y "-1"^^xsd:string ;
-    ns2:hulftm3y "-1"^^xsd:string ;
-    ns2:hulftmy "24"^^xsd:string ;
-    ns2:hulftv2y "-1"^^xsd:string ;
-    ns2:hulftv3y "-1"^^xsd:string ;
-    ns2:hulftvy "23"^^xsd:string ;
-    ns2:jrhu1y "1838"^^xsd:string ;
-    ns2:jrhu2y "-1"^^xsd:string ;
-    ns2:jrhu3y "-1"^^xsd:string ;
-    ns2:lftklasy "3"^^xsd:string ;
-    ns2:lftmy "39"^^xsd:string ;
-    ns2:lftvy "38"^^xsd:string ;
-    ns2:nrbodey "1"^^xsd:string ;
-    ns2:nrhgy "0"^^xsd:string ;
-    ns2:nrkindy "4"^^xsd:string ;
-    ns2:omvhhy "7"^^xsd:string ;
-    ns2:patblgy "3"^^xsd:string ;
-    ns2:patbly "33"^^xsd:string ;
-    ns2:pblgy "4"^^xsd:string ;
-    ns2:pbly "88"^^xsd:string ;
-    ns2:relgt12y "-1"^^xsd:string ;
-    ns2:relgt13y "-1"^^xsd:string ;
-    ns2:relgt1y "vader man"^^xsd:string ;
-    ns2:relgt22y "-1"^^xsd:string ;
-    ns2:relgt23y "-1"^^xsd:string ;
-    ns2:relgt2y "vader vrouw"^^xsd:string ;
-    ns2:relgt32y "-1"^^xsd:string ;
-    ns2:relgt33y "-1"^^xsd:string ;
-    ns2:relgt3y "stadhuisambtenaar"^^xsd:string ;
-    ns2:relgt42y "-1"^^xsd:string ;
-    ns2:relgt43y "-1"^^xsd:string ;
-    ns2:relgt4y "stadhuisambtenaar"^^xsd:string ;
-    ns2:relhfdy "-1"^^xsd:string ;
-    ns2:relimy "Nederlands Hervormd"^^xsd:string ;
-    ns2:relivy "Nederlands Hervormd"^^xsd:string ;
-    ns2:tot3bly "198"^^xsd:string ;
-    ns2:totbly "2"^^xsd:string ;
-    ns2:volgnr2y "100852"^^xsd:string .
+<https://iisg.amsterdam/resource/bdv/100851> ns3:birthPlace "Amsterdam"^^xsd:string ;
+    ns3:hasOccupation "BOUWBEDRIJVEN"^^xsd:string,
+        "timmerman, makelaar"^^xsd:string ;
+    ns3:identifier 100851 ;
+    ns1:aboeky "als in bev.register"^^xsd:string ;
+    ns1:bergt12y "-1"^^xsd:string ;
+    ns1:bergt13y "-1"^^xsd:string ;
+    ns1:bergt1y "makelaar"^^xsd:string ;
+    ns1:bergt22y "-1"^^xsd:string ;
+    ns1:bergt23y "-1"^^xsd:string ;
+    ns1:bergt2y "zonder"^^xsd:string ;
+    ns1:bergt32y "-1"^^xsd:string ;
+    ns1:bergt33y "-1"^^xsd:string ;
+    ns1:bergt3y "stadhuisambtenaar"^^xsd:string ;
+    ns1:bergt42y "-1"^^xsd:string ;
+    ns1:bergt43y "-1"^^xsd:string ;
+    ns1:bergt4y "stadhuisambtenaar"^^xsd:string ;
+    ns1:bermhu2y "-1"^^xsd:string ;
+    ns1:bermhu3y "-1"^^xsd:string ;
+    ns1:bermhuy "makelaar"^^xsd:string ;
+    ns1:berpm00y "2"^^xsd:string ;
+    ns1:berpm0y "21"^^xsd:string ;
+    ns1:bervam2y "-1"^^xsd:string ;
+    ns1:bervam3y "-1"^^xsd:string ;
+    ns1:bervamy "makelaar"^^xsd:string ;
+    ns1:bervav2y "-1"^^xsd:string ;
+    ns1:bervav3y "-1"^^xsd:string ;
+    ns1:bervavy "zonder"^^xsd:string ;
+    ns1:bsmy "gehuwd"^^xsd:string ;
+    ns1:bsv2y "-1"^^xsd:string ;
+    ns1:bsv3y "-1"^^xsd:string ;
+    ns1:bsvy "ongehuwd"^^xsd:string ;
+    ns1:buurty "X"^^xsd:string ;
+    ns1:caswgt "1.0"^^xsd:float ;
+    ns1:gebplv1y "Amsterdam"^^xsd:string ;
+    ns1:gebplv2y "-1"^^xsd:string ;
+    ns1:gebplv3y "-1"^^xsd:string ;
+    ns1:gebplvy "Amsterdam"^^xsd:string ;
+    ns1:grblgy "4"^^xsd:string ;
+    ns1:grondbly 77 ;
+    ns1:huisnry "39"^^xsd:string ;
+    ns1:hulftm2y "-1"^^xsd:string ;
+    ns1:hulftm3y "-1"^^xsd:string ;
+    ns1:hulftmy "24"^^xsd:string ;
+    ns1:hulftv2y "-1"^^xsd:string ;
+    ns1:hulftv3y "-1"^^xsd:string ;
+    ns1:hulftvy "23"^^xsd:string ;
+    ns1:jrhu1y "1838"^^xsd:string ;
+    ns1:jrhu2y "-1"^^xsd:string ;
+    ns1:jrhu3y "-1"^^xsd:string ;
+    ns1:lftklasy "3"^^xsd:string ;
+    ns1:lftmy 39 ;
+    ns1:lftvy 38 ;
+    ns1:nrbodey 1 ;
+    ns1:nrhgy "0"^^xsd:string ;
+    ns1:nrkindy 4 ;
+    ns1:omvhhy "7"^^xsd:string ;
+    ns1:patblgy "3"^^xsd:string ;
+    ns1:patbly 33 ;
+    ns1:pblgy "4"^^xsd:string ;
+    ns1:pbly 88 ;
+    ns1:relgt12y "-1"^^xsd:string ;
+    ns1:relgt13y "-1"^^xsd:string ;
+    ns1:relgt1y "vader man"^^xsd:string ;
+    ns1:relgt22y "-1"^^xsd:string ;
+    ns1:relgt23y "-1"^^xsd:string ;
+    ns1:relgt2y "vader vrouw"^^xsd:string ;
+    ns1:relgt32y "-1"^^xsd:string ;
+    ns1:relgt33y "-1"^^xsd:string ;
+    ns1:relgt3y "stadhuisambtenaar"^^xsd:string ;
+    ns1:relgt42y "-1"^^xsd:string ;
+    ns1:relgt43y "-1"^^xsd:string ;
+    ns1:relgt4y "stadhuisambtenaar"^^xsd:string ;
+    ns1:relhfdy "-1"^^xsd:string ;
+    ns1:relimy "Nederlands Hervormd"^^xsd:string ;
+    ns1:relivy "Nederlands Hervormd"^^xsd:string ;
+    ns1:tot3bly "198"^^xsd:string ;
+    ns1:totbly "2"^^xsd:string ;
+    ns1:volgnr2y "100852"^^xsd:string .
 
-<https://iisg.amsterdam/resource/bdv/100901> ns4:identifier 100901,
-        "C"^^xsd:string ;
-    ns2:aboeky "als in bev.register"^^xsd:string ;
-    ns2:bergt12y "-1"^^xsd:string ;
-    ns2:bergt13y "-1"^^xsd:string ;
-    ns2:bergt1y "zonder"^^xsd:string ;
-    ns2:bergt22y "-1"^^xsd:string ;
-    ns2:bergt23y "-1"^^xsd:string ;
-    ns2:bergt2y "winkelier"^^xsd:string ;
-    ns2:bergt32y "-1"^^xsd:string ;
-    ns2:bergt33y "-1"^^xsd:string ;
-    ns2:bergt3y "stadhuisambtenaar"^^xsd:string ;
-    ns2:bergt42y "-1"^^xsd:string ;
-    ns2:bergt43y "-1"^^xsd:string ;
-    ns2:bergt4y "stadhuisambtenaar"^^xsd:string ;
-    ns2:bermhu2y "-1"^^xsd:string ;
-    ns2:bermhu3y "-1"^^xsd:string ;
-    ns2:bermhuy "winkelier"^^xsd:string ;
-    ns2:berpm00y "6"^^xsd:string ;
-    ns2:berpm0y "61"^^xsd:string ;
-    ns2:berpmy "tabakskoopman"^^xsd:string ;
-    ns2:bersmy "WARENHANDEL"^^xsd:string ;
-    ns2:bervam2y "-1"^^xsd:string ;
-    ns2:bervam3y "-1"^^xsd:string ;
-    ns2:bervamy "zonder"^^xsd:string ;
-    ns2:bervav2y "-1"^^xsd:string ;
-    ns2:bervav3y "-1"^^xsd:string ;
-    ns2:bervavy "winkelier"^^xsd:string ;
-    ns2:bsmy "gehuwd"^^xsd:string ;
-    ns2:bsv2y "-1"^^xsd:string ;
-    ns2:bsv3y "-1"^^xsd:string ;
-    ns2:bsvy "ongehuwd"^^xsd:string ;
-    ns2:caswgt "1.0"^^xsd:float ;
-    ns2:gebplmy "Amsterdam"^^xsd:string ;
-    ns2:gebplv1y "Amsterdam"^^xsd:string ;
-    ns2:gebplv2y "-1"^^xsd:string ;
-    ns2:gebplv3y "-1"^^xsd:string ;
-    ns2:gebplvy "Amsterdam"^^xsd:string ;
-    ns2:grblgy "4"^^xsd:string ;
-    ns2:grondbly "84"^^xsd:string ;
-    ns2:huisnry "69"^^xsd:string ;
-    ns2:hulftm2y "-1"^^xsd:string ;
-    ns2:hulftm3y "-1"^^xsd:string ;
-    ns2:hulftmy "27"^^xsd:string ;
-    ns2:hulftv2y "-1"^^xsd:string ;
-    ns2:hulftv3y "-1"^^xsd:string ;
-    ns2:hulftvy "24"^^xsd:string ;
-    ns2:jrhu1y "1819"^^xsd:string ;
-    ns2:jrhu2y "-1"^^xsd:string ;
-    ns2:jrhu3y "-1"^^xsd:string ;
-    ns2:lftklasy "6"^^xsd:string ;
-    ns2:lftmy "61"^^xsd:string ;
-    ns2:lftvy "58"^^xsd:string ;
-    ns2:nrbodey "0"^^xsd:string ;
-    ns2:nrhgy "0"^^xsd:string ;
-    ns2:nrkindy "1"^^xsd:string ;
-    ns2:omvhhy "3"^^xsd:string ;
-    ns2:patblgy "2"^^xsd:string ;
-    ns2:patbly "6"^^xsd:string ;
-    ns2:pblgy "3"^^xsd:string ;
-    ns2:pbly "24"^^xsd:string ;
-    ns2:relgt12y "-1"^^xsd:string ;
-    ns2:relgt13y "-1"^^xsd:string ;
-    ns2:relgt1y "vader man"^^xsd:string ;
-    ns2:relgt22y "-1"^^xsd:string ;
-    ns2:relgt23y "-1"^^xsd:string ;
-    ns2:relgt2y "vader vrouw"^^xsd:string ;
-    ns2:relgt32y "-1"^^xsd:string ;
-    ns2:relgt33y "-1"^^xsd:string ;
-    ns2:relgt3y "stadhuisambtenaar"^^xsd:string ;
-    ns2:relgt42y "-1"^^xsd:string ;
-    ns2:relgt43y "-1"^^xsd:string ;
-    ns2:relgt4y "stadhuisambtenaar"^^xsd:string ;
-    ns2:relhfdy "-1"^^xsd:string ;
-    ns2:relimy "Nederlands Hervormd"^^xsd:string ;
-    ns2:relivy "Nederlands Hervormd"^^xsd:string ;
-    ns2:tot3bly "114"^^xsd:string ;
-    ns2:totbly "2"^^xsd:string ;
-    ns2:volgnr2y "100902"^^xsd:string .
+<https://iisg.amsterdam/resource/bdv/100901> ns3:birthPlace "Amsterdam"^^xsd:string ;
+    ns3:hasOccupation "WARENHANDEL"^^xsd:string,
+        "tabakskoopman"^^xsd:string ;
+    ns3:identifier 100901 ;
+    ns1:aboeky "als in bev.register"^^xsd:string ;
+    ns1:bergt12y "-1"^^xsd:string ;
+    ns1:bergt13y "-1"^^xsd:string ;
+    ns1:bergt1y "zonder"^^xsd:string ;
+    ns1:bergt22y "-1"^^xsd:string ;
+    ns1:bergt23y "-1"^^xsd:string ;
+    ns1:bergt2y "winkelier"^^xsd:string ;
+    ns1:bergt32y "-1"^^xsd:string ;
+    ns1:bergt33y "-1"^^xsd:string ;
+    ns1:bergt3y "stadhuisambtenaar"^^xsd:string ;
+    ns1:bergt42y "-1"^^xsd:string ;
+    ns1:bergt43y "-1"^^xsd:string ;
+    ns1:bergt4y "stadhuisambtenaar"^^xsd:string ;
+    ns1:bermhu2y "-1"^^xsd:string ;
+    ns1:bermhu3y "-1"^^xsd:string ;
+    ns1:bermhuy "winkelier"^^xsd:string ;
+    ns1:berpm00y "6"^^xsd:string ;
+    ns1:berpm0y "61"^^xsd:string ;
+    ns1:bervam2y "-1"^^xsd:string ;
+    ns1:bervam3y "-1"^^xsd:string ;
+    ns1:bervamy "zonder"^^xsd:string ;
+    ns1:bervav2y "-1"^^xsd:string ;
+    ns1:bervav3y "-1"^^xsd:string ;
+    ns1:bervavy "winkelier"^^xsd:string ;
+    ns1:bsmy "gehuwd"^^xsd:string ;
+    ns1:bsv2y "-1"^^xsd:string ;
+    ns1:bsv3y "-1"^^xsd:string ;
+    ns1:bsvy "ongehuwd"^^xsd:string ;
+    ns1:buurty "C"^^xsd:string ;
+    ns1:caswgt "1.0"^^xsd:float ;
+    ns1:gebplv1y "Amsterdam"^^xsd:string ;
+    ns1:gebplv2y "-1"^^xsd:string ;
+    ns1:gebplv3y "-1"^^xsd:string ;
+    ns1:gebplvy "Amsterdam"^^xsd:string ;
+    ns1:grblgy "4"^^xsd:string ;
+    ns1:grondbly 84 ;
+    ns1:huisnry "69"^^xsd:string ;
+    ns1:hulftm2y "-1"^^xsd:string ;
+    ns1:hulftm3y "-1"^^xsd:string ;
+    ns1:hulftmy "27"^^xsd:string ;
+    ns1:hulftv2y "-1"^^xsd:string ;
+    ns1:hulftv3y "-1"^^xsd:string ;
+    ns1:hulftvy "24"^^xsd:string ;
+    ns1:jrhu1y "1819"^^xsd:string ;
+    ns1:jrhu2y "-1"^^xsd:string ;
+    ns1:jrhu3y "-1"^^xsd:string ;
+    ns1:lftklasy "6"^^xsd:string ;
+    ns1:lftmy 61 ;
+    ns1:lftvy 58 ;
+    ns1:nrbodey 0 ;
+    ns1:nrhgy "0"^^xsd:string ;
+    ns1:nrkindy 1 ;
+    ns1:omvhhy "3"^^xsd:string ;
+    ns1:patblgy "2"^^xsd:string ;
+    ns1:patbly 6 ;
+    ns1:pblgy "3"^^xsd:string ;
+    ns1:pbly 24 ;
+    ns1:relgt12y "-1"^^xsd:string ;
+    ns1:relgt13y "-1"^^xsd:string ;
+    ns1:relgt1y "vader man"^^xsd:string ;
+    ns1:relgt22y "-1"^^xsd:string ;
+    ns1:relgt23y "-1"^^xsd:string ;
+    ns1:relgt2y "vader vrouw"^^xsd:string ;
+    ns1:relgt32y "-1"^^xsd:string ;
+    ns1:relgt33y "-1"^^xsd:string ;
+    ns1:relgt3y "stadhuisambtenaar"^^xsd:string ;
+    ns1:relgt42y "-1"^^xsd:string ;
+    ns1:relgt43y "-1"^^xsd:string ;
+    ns1:relgt4y "stadhuisambtenaar"^^xsd:string ;
+    ns1:relhfdy "-1"^^xsd:string ;
+    ns1:relimy "Nederlands Hervormd"^^xsd:string ;
+    ns1:relivy "Nederlands Hervormd"^^xsd:string ;
+    ns1:tot3bly "114"^^xsd:string ;
+    ns1:totbly "2"^^xsd:string ;
+    ns1:volgnr2y "100902"^^xsd:string .
 
-<https://iisg.amsterdam/resource/bdv/100951> ns4:identifier 100951,
-        "F"^^xsd:string ;
-    ns2:aboeky "als in bev.register"^^xsd:string ;
-    ns2:bergt12y "-1"^^xsd:string ;
-    ns2:bergt13y "-1"^^xsd:string ;
-    ns2:bergt1y "timmerman"^^xsd:string ;
-    ns2:bergt22y "-1"^^xsd:string ;
-    ns2:bergt23y "-1"^^xsd:string ;
-    ns2:bergt2y "timmerman"^^xsd:string ;
-    ns2:bergt32y "-1"^^xsd:string ;
-    ns2:bergt33y "-1"^^xsd:string ;
-    ns2:bergt3y "zonder"^^xsd:string ;
-    ns2:bergt42y "-1"^^xsd:string ;
-    ns2:bergt43y "-1"^^xsd:string ;
-    ns2:bergt4y "ambachtsman"^^xsd:string ;
-    ns2:bermhu2y "-1"^^xsd:string ;
-    ns2:bermhu3y "-1"^^xsd:string ;
-    ns2:bermhuy "timmerman"^^xsd:string ;
-    ns2:berpm00y "2"^^xsd:string ;
-    ns2:berpm0y "21"^^xsd:string ;
-    ns2:berpmy "timmerman"^^xsd:string ;
-    ns2:bersmy "BOUWBEDRIJVEN"^^xsd:string ;
-    ns2:bervam2y "-1"^^xsd:string ;
-    ns2:bervam3y "-1"^^xsd:string ;
-    ns2:bervamy "timmerman"^^xsd:string ;
-    ns2:bervav2y "-1"^^xsd:string ;
-    ns2:bervav3y "-1"^^xsd:string ;
-    ns2:bervavy "vader overleden"^^xsd:string ;
-    ns2:bsmy "gehuwd"^^xsd:string ;
-    ns2:bsv2y "-1"^^xsd:string ;
-    ns2:bsv3y "-1"^^xsd:string ;
-    ns2:bsvy "ongehuwd"^^xsd:string ;
-    ns2:caswgt "1.0"^^xsd:float ;
-    ns2:gebplmy "randgemeenten"^^xsd:string ;
-    ns2:gebplv1y "Utrecht steden"^^xsd:string ;
-    ns2:gebplv2y "-1"^^xsd:string ;
-    ns2:gebplv3y "-1"^^xsd:string ;
-    ns2:gebplvy "Utrecht steden"^^xsd:string ;
-    ns2:grblgy "4"^^xsd:string ;
-    ns2:grondbly "88"^^xsd:string ;
-    ns2:huisnry "206"^^xsd:string ;
-    ns2:hulftm2y "-1"^^xsd:string ;
-    ns2:hulftm3y "-1"^^xsd:string ;
-    ns2:hulftmy "25"^^xsd:string ;
-    ns2:hulftv2y "-1"^^xsd:string ;
-    ns2:hulftv3y "-1"^^xsd:string ;
-    ns2:hulftvy "33"^^xsd:string ;
-    ns2:jrhu1y "1835"^^xsd:string ;
-    ns2:jrhu2y "-1"^^xsd:string ;
-    ns2:jrhu3y "-1"^^xsd:string ;
-    ns2:lftklasy "4"^^xsd:string ;
-    ns2:lftmy "44"^^xsd:string ;
-    ns2:lftvy "52"^^xsd:string ;
-    ns2:nrbodey "0"^^xsd:string ;
-    ns2:nrhgy "0"^^xsd:string ;
-    ns2:nrkindy "4"^^xsd:string ;
-    ns2:omvhhy "6"^^xsd:string ;
-    ns2:patblgy "3"^^xsd:string ;
-    ns2:patbly "40"^^xsd:string ;
-    ns2:pblgy "2"^^xsd:string ;
-    ns2:pbly "18"^^xsd:string ;
-    ns2:relgt12y "-1"^^xsd:string ;
-    ns2:relgt13y "-1"^^xsd:string ;
-    ns2:relgt1y "vader man"^^xsd:string ;
-    ns2:relgt22y "-1"^^xsd:string ;
-    ns2:relgt23y "-1"^^xsd:string ;
-    ns2:relgt2y "broer/zwager man"^^xsd:string ;
-    ns2:relgt32y "-1"^^xsd:string ;
-    ns2:relgt33y "-1"^^xsd:string ;
-    ns2:relgt3y "broer/zwager man"^^xsd:string ;
-    ns2:relgt42y "-1"^^xsd:string ;
-    ns2:relgt43y "-1"^^xsd:string ;
-    ns2:relgt4y "geen familie"^^xsd:string ;
-    ns2:relhfdy "-1"^^xsd:string ;
-    ns2:relimy "Rooms Katholiek"^^xsd:string ;
-    ns2:relivy "Rooms Katholiek"^^xsd:string ;
-    ns2:tot3bly "146"^^xsd:string ;
-    ns2:totbly "2"^^xsd:string ;
-    ns2:volgnr2y "100952"^^xsd:string .
+<https://iisg.amsterdam/resource/bdv/100951> ns3:birthPlace "randgemeenten"^^xsd:string ;
+    ns3:hasOccupation "BOUWBEDRIJVEN"^^xsd:string,
+        "timmerman"^^xsd:string ;
+    ns3:identifier 100951 ;
+    ns1:aboeky "als in bev.register"^^xsd:string ;
+    ns1:bergt12y "-1"^^xsd:string ;
+    ns1:bergt13y "-1"^^xsd:string ;
+    ns1:bergt1y "timmerman"^^xsd:string ;
+    ns1:bergt22y "-1"^^xsd:string ;
+    ns1:bergt23y "-1"^^xsd:string ;
+    ns1:bergt2y "timmerman"^^xsd:string ;
+    ns1:bergt32y "-1"^^xsd:string ;
+    ns1:bergt33y "-1"^^xsd:string ;
+    ns1:bergt3y "zonder"^^xsd:string ;
+    ns1:bergt42y "-1"^^xsd:string ;
+    ns1:bergt43y "-1"^^xsd:string ;
+    ns1:bergt4y "ambachtsman"^^xsd:string ;
+    ns1:bermhu2y "-1"^^xsd:string ;
+    ns1:bermhu3y "-1"^^xsd:string ;
+    ns1:bermhuy "timmerman"^^xsd:string ;
+    ns1:berpm00y "2"^^xsd:string ;
+    ns1:berpm0y "21"^^xsd:string ;
+    ns1:bervam2y "-1"^^xsd:string ;
+    ns1:bervam3y "-1"^^xsd:string ;
+    ns1:bervamy "timmerman"^^xsd:string ;
+    ns1:bervav2y "-1"^^xsd:string ;
+    ns1:bervav3y "-1"^^xsd:string ;
+    ns1:bervavy "vader overleden"^^xsd:string ;
+    ns1:bsmy "gehuwd"^^xsd:string ;
+    ns1:bsv2y "-1"^^xsd:string ;
+    ns1:bsv3y "-1"^^xsd:string ;
+    ns1:bsvy "ongehuwd"^^xsd:string ;
+    ns1:buurty "F"^^xsd:string ;
+    ns1:caswgt "1.0"^^xsd:float ;
+    ns1:gebplv1y "Utrecht steden"^^xsd:string ;
+    ns1:gebplv2y "-1"^^xsd:string ;
+    ns1:gebplv3y "-1"^^xsd:string ;
+    ns1:gebplvy "Utrecht steden"^^xsd:string ;
+    ns1:grblgy "4"^^xsd:string ;
+    ns1:grondbly 88 ;
+    ns1:huisnry "206"^^xsd:string ;
+    ns1:hulftm2y "-1"^^xsd:string ;
+    ns1:hulftm3y "-1"^^xsd:string ;
+    ns1:hulftmy "25"^^xsd:string ;
+    ns1:hulftv2y "-1"^^xsd:string ;
+    ns1:hulftv3y "-1"^^xsd:string ;
+    ns1:hulftvy "33"^^xsd:string ;
+    ns1:jrhu1y "1835"^^xsd:string ;
+    ns1:jrhu2y "-1"^^xsd:string ;
+    ns1:jrhu3y "-1"^^xsd:string ;
+    ns1:lftklasy "4"^^xsd:string ;
+    ns1:lftmy 44 ;
+    ns1:lftvy 52 ;
+    ns1:nrbodey 0 ;
+    ns1:nrhgy "0"^^xsd:string ;
+    ns1:nrkindy 4 ;
+    ns1:omvhhy "6"^^xsd:string ;
+    ns1:patblgy "3"^^xsd:string ;
+    ns1:patbly 40 ;
+    ns1:pblgy "2"^^xsd:string ;
+    ns1:pbly 18 ;
+    ns1:relgt12y "-1"^^xsd:string ;
+    ns1:relgt13y "-1"^^xsd:string ;
+    ns1:relgt1y "vader man"^^xsd:string ;
+    ns1:relgt22y "-1"^^xsd:string ;
+    ns1:relgt23y "-1"^^xsd:string ;
+    ns1:relgt2y "broer/zwager man"^^xsd:string ;
+    ns1:relgt32y "-1"^^xsd:string ;
+    ns1:relgt33y "-1"^^xsd:string ;
+    ns1:relgt3y "broer/zwager man"^^xsd:string ;
+    ns1:relgt42y "-1"^^xsd:string ;
+    ns1:relgt43y "-1"^^xsd:string ;
+    ns1:relgt4y "geen familie"^^xsd:string ;
+    ns1:relhfdy "-1"^^xsd:string ;
+    ns1:relimy "Rooms Katholiek"^^xsd:string ;
+    ns1:relivy "Rooms Katholiek"^^xsd:string ;
+    ns1:tot3bly "146"^^xsd:string ;
+    ns1:totbly "2"^^xsd:string ;
+    ns1:volgnr2y "100952"^^xsd:string .
 
-<https://iisg.amsterdamp1223a_labels_semicolon_short/nanopublication/dafb1d89/2018-08-29T10:52> a ns6:Nanopublication ;
-    ns6:hasAssertion <https://iisg.amsterdamp1223a_labels_semicolon_short/assertion/dafb1d89/2018-08-29T10:52> ;
-    ns6:hasProvenance <https://iisg.amsterdamp1223a_labels_semicolon_short/provenance/dafb1d89/2018-08-29T10:52> ;
-    ns6:hasPublicationInfo <https://iisg.amsterdamp1223a_labels_semicolon_short/pubinfo/dafb1d89/2018-08-29T10:52> ;
-    ns5:generatedAtTime "2018-08-29T10:52:00"^^xsd:dateTime ;
+<https://iisg.amsterdamp1223a_labels_semicolon_short/nanopublication/dafb1d89/2018-08-29T12:11> a ns6:Nanopublication ;
+    ns6:hasAssertion <https://iisg.amsterdamp1223a_labels_semicolon_short/assertion/dafb1d89/2018-08-29T12:11> ;
+    ns6:hasProvenance <https://iisg.amsterdamp1223a_labels_semicolon_short/provenance/dafb1d89/2018-08-29T12:11> ;
+    ns6:hasPublicationInfo <https://iisg.amsterdamp1223a_labels_semicolon_short/pubinfo/dafb1d89/2018-08-29T12:11> ;
+    ns5:generatedAtTime "2018-08-29T12:11:00"^^xsd:dateTime ;
     ns5:wasGeneratedBy <https://github.com/CLARIAH/wp4-converters> .
 
-<https://iisg.amsterdam/p1223a_labels_semicolon.csv> ns1:license <http://opendefinition.org/licenses/cc-by/> ;
-    ns1:modified "2018-08-27"^^xsd:date ;
-    ns1:publisher [ ns4:name "CLARIAH Structured Data Hub - Datalegend"@en ;
-            ns4:url <http://datalegend.org/> ] ;
-    ns1:title "p1223a_labels_semicolon.csv"@en ;
-    ns3:dialect [ ns3:delimiter ";" ;
-            ns3:encoding "utf-8" ;
-            ns3:quoteChar "\"" ] ;
-    ns3:tableSchema [ ns3:aboutUrl <https://iisg.amsterdam/resource/bdv/_volgnr1y_> ;
-            ns3:column ( <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/caswgt> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/volgnr1y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/buurty> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/huisnry> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/lftmy> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/gebplmy> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bersmy> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/berpmy> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/aboeky> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relimy> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bsmy> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/lftvy> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relivy> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/gebplvy> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/nrkindy> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/nrbodey> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/nrhgy> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relhfdy> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/grondbly> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/pbly> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/patbly> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/jrhu1y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bervamy> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bervavy> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bermhuy> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bergt1y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relgt1y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bergt2y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relgt2y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bergt3y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relgt3y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bergt4y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relgt4y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/hulftmy> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/hulftvy> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/volgnr2y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bsvy> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/gebplv1y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/jrhu2y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bervam2y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bervav2y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bermhu2y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bergt12y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relgt12y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bergt22y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relgt22y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bergt32y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relgt32y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bergt42y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relgt42y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/hulftm2y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/hulftv2y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bsv2y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/gebplv2y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/jrhu3y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bervam3y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bervav3y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bermhu3y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bergt13y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relgt13y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bergt23y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relgt23y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bergt33y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relgt33y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bergt43y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relgt43y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/hulftm3y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/hulftv3y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bsv3y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/gebplv3y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/tot3bly> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/grblgy> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/pblgy> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/patblgy> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/omvhhy> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/berpm00y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/berpm0y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/totbly> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/lftklasy> ) ;
-            ns3:primaryKey "caswgt" ] ;
-    ns3:url "p1223a_labels_semicolon.csv"^^xsd:anyURI .
-
-<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/aboeky> ns1:description "aboeky"@en ;
-    ns3:datatype xsd:string ;
-    ns3:name "aboeky" ;
-    ns3:title "aboeky"@en .
-
-<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bergt12y> ns1:description "bergt12y"@en ;
-    ns3:datatype xsd:string ;
-    ns3:name "bergt12y" ;
-    ns3:title "bergt12y"@en .
-
-<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bergt13y> ns1:description "bergt13y"@en ;
-    ns3:datatype xsd:string ;
-    ns3:name "bergt13y" ;
-    ns3:title "bergt13y"@en .
-
-<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bergt1y> ns1:description "bergt1y"@en ;
-    ns3:datatype xsd:string ;
-    ns3:name "bergt1y" ;
-    ns3:title "bergt1y"@en .
-
-<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bergt22y> ns1:description "bergt22y"@en ;
-    ns3:datatype xsd:string ;
-    ns3:name "bergt22y" ;
-    ns3:title "bergt22y"@en .
-
-<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bergt23y> ns1:description "bergt23y"@en ;
-    ns3:datatype xsd:string ;
-    ns3:name "bergt23y" ;
-    ns3:title "bergt23y"@en .
-
-<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bergt2y> ns1:description "bergt2y"@en ;
-    ns3:datatype xsd:string ;
-    ns3:name "bergt2y" ;
-    ns3:title "bergt2y"@en .
-
-<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bergt32y> ns1:description "bergt32y"@en ;
-    ns3:datatype xsd:string ;
-    ns3:name "bergt32y" ;
-    ns3:title "bergt32y"@en .
-
-<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bergt33y> ns1:description "bergt33y"@en ;
-    ns3:datatype xsd:string ;
-    ns3:name "bergt33y" ;
-    ns3:title "bergt33y"@en .
-
-<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bergt3y> ns1:description "bergt3y"@en ;
-    ns3:datatype xsd:string ;
-    ns3:name "bergt3y" ;
-    ns3:title "bergt3y"@en .
-
-<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bergt42y> ns1:description "bergt42y"@en ;
-    ns3:datatype xsd:string ;
-    ns3:name "bergt42y" ;
-    ns3:title "bergt42y"@en .
-
-<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bergt43y> ns1:description "bergt43y"@en ;
-    ns3:datatype xsd:string ;
-    ns3:name "bergt43y" ;
-    ns3:title "bergt43y"@en .
-
-<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bergt4y> ns1:description "bergt4y"@en ;
-    ns3:datatype xsd:string ;
-    ns3:name "bergt4y" ;
-    ns3:title "bergt4y"@en .
-
-<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bermhu2y> ns1:description "bermhu2y"@en ;
-    ns3:datatype xsd:string ;
-    ns3:name "bermhu2y" ;
-    ns3:title "bermhu2y"@en .
-
-<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bermhu3y> ns1:description "bermhu3y"@en ;
-    ns3:datatype xsd:string ;
-    ns3:name "bermhu3y" ;
-    ns3:title "bermhu3y"@en .
-
-<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bermhuy> ns1:description "bermhuy"@en ;
-    ns3:datatype xsd:string ;
-    ns3:name "bermhuy" ;
-    ns3:title "bermhuy"@en .
-
-<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/berpm00y> ns1:description "berpm00y"@en ;
-    ns3:datatype xsd:string ;
-    ns3:name "berpm00y" ;
-    ns3:title "berpm00y"@en .
-
-<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/berpm0y> ns1:description "berpm0y"@en ;
-    ns3:datatype xsd:string ;
-    ns3:name "berpm0y" ;
-    ns3:title "berpm0y"@en .
-
-<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/berpmy> ns1:description "berpmy"@en ;
-    ns3:datatype xsd:string ;
-    ns3:name "berpmy" ;
-    ns3:title "berpmy"@en .
-
-<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bersmy> ns1:description "bersmy"@en ;
-    ns3:datatype xsd:string ;
-    ns3:name "bersmy" ;
-    ns3:title "bersmy"@en .
-
-<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bervam2y> ns1:description "bervam2y"@en ;
-    ns3:datatype xsd:string ;
-    ns3:name "bervam2y" ;
-    ns3:title "bervam2y"@en .
-
-<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bervam3y> ns1:description "bervam3y"@en ;
-    ns3:datatype xsd:string ;
-    ns3:name "bervam3y" ;
-    ns3:title "bervam3y"@en .
-
-<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bervamy> ns1:description "bervamy"@en ;
-    ns3:datatype xsd:string ;
-    ns3:name "bervamy" ;
-    ns3:title "bervamy"@en .
-
-<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bervav2y> ns1:description "bervav2y"@en ;
-    ns3:datatype xsd:string ;
-    ns3:name "bervav2y" ;
-    ns3:title "bervav2y"@en .
-
-<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bervav3y> ns1:description "bervav3y"@en ;
-    ns3:datatype xsd:string ;
-    ns3:name "bervav3y" ;
-    ns3:title "bervav3y"@en .
-
-<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bervavy> ns1:description "bervavy"@en ;
-    ns3:datatype xsd:string ;
-    ns3:name "bervavy" ;
-    ns3:title "bervavy"@en .
-
-<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bsmy> ns1:description "bsmy"@en ;
-    ns3:datatype xsd:string ;
-    ns3:name "bsmy" ;
-    ns3:title "bsmy"@en .
-
-<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bsv2y> ns1:description "bsv2y"@en ;
-    ns3:datatype xsd:string ;
-    ns3:name "bsv2y" ;
-    ns3:title "bsv2y"@en .
-
-<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bsv3y> ns1:description "bsv3y"@en ;
-    ns3:datatype xsd:string ;
-    ns3:name "bsv3y" ;
-    ns3:title "bsv3y"@en .
-
-<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bsvy> ns1:description "bsvy"@en ;
-    ns3:datatype xsd:string ;
-    ns3:name "bsvy" ;
-    ns3:title "bsvy"@en .
-
-<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/buurty> ns1:description "buurty"@en ;
-    ns3:datatype xsd:string ;
-    ns3:name "buurty" ;
-    ns3:propertyUrl ns4:identifier ;
-    ns3:title "buurty"@en .
-
-<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/caswgt> ns1:description "Case Weight"@en ;
-    ns3:datatype xsd:float ;
-    ns3:name "caswgt" ;
-    ns3:title "caswgt"@en .
-
-<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/gebplmy> ns1:description "gebplmy"@en ;
-    ns3:datatype xsd:string ;
-    ns3:name "gebplmy" ;
-    ns3:title "gebplmy"@en .
-
-<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/gebplv1y> ns1:description "gebplv1y"@en ;
-    ns3:datatype xsd:string ;
-    ns3:name "gebplv1y" ;
-    ns3:title "gebplv1y"@en .
-
-<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/gebplv2y> ns1:description "gebplv2y"@en ;
-    ns3:datatype xsd:string ;
-    ns3:name "gebplv2y" ;
-    ns3:title "gebplv2y"@en .
-
-<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/gebplv3y> ns1:description "gebplv3y"@en ;
-    ns3:datatype xsd:string ;
-    ns3:name "gebplv3y" ;
-    ns3:title "gebplv3y"@en .
-
-<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/gebplvy> ns1:description "gebplvy"@en ;
-    ns3:datatype xsd:string ;
-    ns3:name "gebplvy" ;
-    ns3:title "gebplvy"@en .
-
-<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/grblgy> ns1:description "grblgy"@en ;
-    ns3:datatype xsd:string ;
-    ns3:name "grblgy" ;
-    ns3:title "grblgy"@en .
-
-<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/grondbly> ns1:description "grondbly"@en ;
-    ns3:datatype xsd:string ;
-    ns3:name "grondbly" ;
-    ns3:title "grondbly"@en .
-
-<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/huisnry> ns1:description "huisnry"@en ;
-    ns3:datatype xsd:string ;
-    ns3:name "huisnry" ;
-    ns3:title "huisnry"@en .
-
-<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/hulftm2y> ns1:description "hulftm2y"@en ;
-    ns3:datatype xsd:string ;
-    ns3:name "hulftm2y" ;
-    ns3:title "hulftm2y"@en .
-
-<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/hulftm3y> ns1:description "hulftm3y"@en ;
-    ns3:datatype xsd:string ;
-    ns3:name "hulftm3y" ;
-    ns3:title "hulftm3y"@en .
-
-<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/hulftmy> ns1:description "hulftmy"@en ;
-    ns3:datatype xsd:string ;
-    ns3:name "hulftmy" ;
-    ns3:title "hulftmy"@en .
-
-<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/hulftv2y> ns1:description "hulftv2y"@en ;
-    ns3:datatype xsd:string ;
-    ns3:name "hulftv2y" ;
-    ns3:title "hulftv2y"@en .
-
-<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/hulftv3y> ns1:description "hulftv3y"@en ;
-    ns3:datatype xsd:string ;
-    ns3:name "hulftv3y" ;
-    ns3:title "hulftv3y"@en .
-
-<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/hulftvy> ns1:description "hulftvy"@en ;
-    ns3:datatype xsd:string ;
-    ns3:name "hulftvy" ;
-    ns3:title "hulftvy"@en .
-
-<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/jrhu1y> ns1:description "jrhu1y"@en ;
-    ns3:datatype xsd:string ;
-    ns3:name "jrhu1y" ;
-    ns3:title "jrhu1y"@en .
-
-<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/jrhu2y> ns1:description "jrhu2y"@en ;
-    ns3:datatype xsd:string ;
-    ns3:name "jrhu2y" ;
-    ns3:title "jrhu2y"@en .
-
-<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/jrhu3y> ns1:description "jrhu3y"@en ;
-    ns3:datatype xsd:string ;
-    ns3:name "jrhu3y" ;
-    ns3:title "jrhu3y"@en .
-
-<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/lftklasy> ns1:description "lftklasy"@en ;
-    ns3:datatype xsd:string ;
-    ns3:name "lftklasy" ;
-    ns3:title "lftklasy"@en .
-
-<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/lftmy> ns1:description "lftmy"@en ;
-    ns3:datatype xsd:string ;
-    ns3:name "lftmy" ;
-    ns3:title "lftmy"@en .
-
-<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/lftvy> ns1:description "lftvy"@en ;
-    ns3:datatype xsd:string ;
-    ns3:name "lftvy" ;
-    ns3:title "lftvy"@en .
-
-<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/nrbodey> ns1:description "nrbodey"@en ;
-    ns3:datatype xsd:string ;
-    ns3:name "nrbodey" ;
-    ns3:title "nrbodey"@en .
-
-<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/nrhgy> ns1:description "nrhgy"@en ;
-    ns3:datatype xsd:string ;
-    ns3:name "nrhgy" ;
-    ns3:title "nrhgy"@en .
-
-<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/nrkindy> ns1:description "nrkindy"@en ;
-    ns3:datatype xsd:string ;
-    ns3:name "nrkindy" ;
-    ns3:title "nrkindy"@en .
-
-<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/omvhhy> ns1:description "omvhhy"@en ;
-    ns3:datatype xsd:string ;
-    ns3:name "omvhhy" ;
-    ns3:title "omvhhy"@en .
-
-<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/patblgy> ns1:description "patblgy"@en ;
-    ns3:datatype xsd:string ;
-    ns3:name "patblgy" ;
-    ns3:title "patblgy"@en .
-
-<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/patbly> ns1:description "patbly"@en ;
-    ns3:datatype xsd:string ;
-    ns3:name "patbly" ;
-    ns3:title "patbly"@en .
-
-<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/pblgy> ns1:description "pblgy"@en ;
-    ns3:datatype xsd:string ;
-    ns3:name "pblgy" ;
-    ns3:title "pblgy"@en .
-
-<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/pbly> ns1:description "pbly"@en ;
-    ns3:datatype xsd:string ;
-    ns3:name "pbly" ;
-    ns3:title "pbly"@en .
-
-<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relgt12y> ns1:description "relgt12y"@en ;
-    ns3:datatype xsd:string ;
-    ns3:name "relgt12y" ;
-    ns3:title "relgt12y"@en .
-
-<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relgt13y> ns1:description "relgt13y"@en ;
-    ns3:datatype xsd:string ;
-    ns3:name "relgt13y" ;
-    ns3:title "relgt13y"@en .
-
-<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relgt1y> ns1:description "relgt1y"@en ;
-    ns3:datatype xsd:string ;
-    ns3:name "relgt1y" ;
-    ns3:title "relgt1y"@en .
-
-<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relgt22y> ns1:description "relgt22y"@en ;
-    ns3:datatype xsd:string ;
-    ns3:name "relgt22y" ;
-    ns3:title "relgt22y"@en .
-
-<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relgt23y> ns1:description "relgt23y"@en ;
-    ns3:datatype xsd:string ;
-    ns3:name "relgt23y" ;
-    ns3:title "relgt23y"@en .
-
-<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relgt2y> ns1:description "relgt2y"@en ;
-    ns3:datatype xsd:string ;
-    ns3:name "relgt2y" ;
-    ns3:title "relgt2y"@en .
-
-<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relgt32y> ns1:description "relgt32y"@en ;
-    ns3:datatype xsd:string ;
-    ns3:name "relgt32y" ;
-    ns3:title "relgt32y"@en .
-
-<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relgt33y> ns1:description "relgt33y"@en ;
-    ns3:datatype xsd:string ;
-    ns3:name "relgt33y" ;
-    ns3:title "relgt33y"@en .
-
-<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relgt3y> ns1:description "relgt3y"@en ;
-    ns3:datatype xsd:string ;
-    ns3:name "relgt3y" ;
-    ns3:title "relgt3y"@en .
-
-<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relgt42y> ns1:description "relgt42y"@en ;
-    ns3:datatype xsd:string ;
-    ns3:name "relgt42y" ;
-    ns3:title "relgt42y"@en .
-
-<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relgt43y> ns1:description "relgt43y"@en ;
-    ns3:datatype xsd:string ;
-    ns3:name "relgt43y" ;
-    ns3:title "relgt43y"@en .
-
-<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relgt4y> ns1:description "relgt4y"@en ;
-    ns3:datatype xsd:string ;
-    ns3:name "relgt4y" ;
-    ns3:title "relgt4y"@en .
-
-<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relhfdy> ns1:description "relhfdy"@en ;
-    ns3:datatype xsd:string ;
-    ns3:name "relhfdy" ;
-    ns3:title "relhfdy"@en .
-
-<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relimy> ns1:description "relimy"@en ;
-    ns3:datatype xsd:string ;
-    ns3:name "relimy" ;
-    ns3:title "relimy"@en .
-
-<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relivy> ns1:description "relivy"@en ;
-    ns3:datatype xsd:string ;
-    ns3:name "relivy" ;
-    ns3:title "relivy"@en .
-
-<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/tot3bly> ns1:description "tot3bly"@en ;
-    ns3:datatype xsd:string ;
-    ns3:name "tot3bly" ;
-    ns3:title "tot3bly"@en .
-
-<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/totbly> ns1:description "totbly"@en ;
-    ns3:datatype xsd:string ;
-    ns3:name "totbly" ;
-    ns3:title "totbly"@en .
-
-<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/volgnr1y> ns1:description "Observation number"@en ;
-    ns3:datatype xsd:integer ;
-    ns3:name "volgnr1y" ;
-    ns3:propertyUrl ns4:identifier ;
-    ns3:title "volgnr1y"@en .
-
-<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/volgnr2y> ns1:description "volgnr2y"@en ;
-    ns3:datatype xsd:string ;
-    ns3:name "volgnr2y" ;
-    ns3:title "volgnr2y"@en .
+<https://iisg.amsterdam/p1223a_labels_semicolon.csv> ns4:description "Sample of persons from the electoral role Amsterdam 1854. Finding Aid accessing this source online: https://archief.amsterdam/inventarissen/inventaris/30272.nl.html. Original file in: https://doi.org/10.17026/dans-xez-eqdv."@en ;
+    ns4:license <http://opendefinition.org/licenses/cc-by/> ;
+    ns4:modified "2018-08-27"^^xsd:date ;
+    ns4:publisher [ ns3:name "CLARIAH Structured Data Hub - Datalegend"@en ;
+            ns3:url <http://datalegend.org/> ] ;
+    ns4:title "p1223a_labels_semicolon.csv"@en ;
+    ns2:dialect [ ns2:delimiter ";" ;
+            ns2:encoding "utf-8" ;
+            ns2:quoteChar "\"" ] ;
+    ns2:tableSchema [ a ns3:Person ;
+            ns2:aboutUrl <https://iisg.amsterdam/resource/bdv/_volgnr1y_> ;
+            ns2:column ( <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/caswgt> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/volgnr1y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/buurty> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/huisnry> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/lftmy> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/gebplmy> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bersmy> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/berpmy> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/aboeky> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relimy> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bsmy> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/lftvy> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relivy> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/gebplvy> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/nrkindy> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/nrbodey> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/nrhgy> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relhfdy> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/grondbly> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/pbly> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/patbly> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/jrhu1y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bervamy> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bervavy> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bermhuy> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bergt1y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relgt1y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bergt2y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relgt2y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bergt3y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relgt3y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bergt4y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relgt4y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/hulftmy> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/hulftvy> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/volgnr2y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bsvy> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/gebplv1y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/jrhu2y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bervam2y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bervav2y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bermhu2y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bergt12y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relgt12y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bergt22y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relgt22y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bergt32y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relgt32y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bergt42y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relgt42y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/hulftm2y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/hulftv2y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bsv2y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/gebplv2y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/jrhu3y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bervam3y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bervav3y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bermhu3y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bergt13y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relgt13y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bergt23y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relgt23y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bergt33y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relgt33y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bergt43y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relgt43y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/hulftm3y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/hulftv3y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bsv3y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/gebplv3y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/tot3bly> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/grblgy> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/pblgy> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/patblgy> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/omvhhy> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/berpm00y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/berpm0y> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/totbly> <https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/lftklasy> ) ;
+            ns2:primaryKey "caswgt" ] ;
+    ns2:url "p1223a_labels_semicolon.csv"^^xsd:anyURI .
+
+<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/aboeky> ns4:description "Source of occupation?"@en ;
+    ns2:datatype xsd:string ;
+    ns2:name "aboeky" ;
+    ns2:title "aboeky"@en .
+
+<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bergt12y> ns4:description "bergt12y"@en ;
+    ns2:datatype xsd:string ;
+    ns2:name "bergt12y" ;
+    ns2:title "bergt12y"@en .
+
+<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bergt13y> ns4:description "bergt13y"@en ;
+    ns2:datatype xsd:string ;
+    ns2:name "bergt13y" ;
+    ns2:title "bergt13y"@en .
+
+<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bergt1y> ns4:description "Occupation of witness 1"@en ;
+    ns2:datatype xsd:string ;
+    ns2:name "bergt1y" ;
+    ns2:title "bergt1y"@en .
+
+<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bergt22y> ns4:description "bergt22y"@en ;
+    ns2:datatype xsd:string ;
+    ns2:name "bergt22y" ;
+    ns2:title "bergt22y"@en .
+
+<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bergt23y> ns4:description "bergt23y"@en ;
+    ns2:datatype xsd:string ;
+    ns2:name "bergt23y" ;
+    ns2:title "bergt23y"@en .
+
+<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bergt2y> ns4:description "Occupation of witness 2"@en ;
+    ns2:datatype xsd:string ;
+    ns2:name "bergt2y" ;
+    ns2:title "bergt2y"@en .
+
+<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bergt32y> ns4:description "bergt32y"@en ;
+    ns2:datatype xsd:string ;
+    ns2:name "bergt32y" ;
+    ns2:title "bergt32y"@en .
+
+<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bergt33y> ns4:description "bergt33y"@en ;
+    ns2:datatype xsd:string ;
+    ns2:name "bergt33y" ;
+    ns2:title "bergt33y"@en .
+
+<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bergt3y> ns4:description "Occupation of witness 3"@en ;
+    ns2:datatype xsd:string ;
+    ns2:name "bergt3y" ;
+    ns2:title "bergt3y"@en .
+
+<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bergt42y> ns4:description "bergt42y"@en ;
+    ns2:datatype xsd:string ;
+    ns2:name "bergt42y" ;
+    ns2:title "bergt42y"@en .
+
+<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bergt43y> ns4:description "bergt43y"@en ;
+    ns2:datatype xsd:string ;
+    ns2:name "bergt43y" ;
+    ns2:title "bergt43y"@en .
+
+<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bergt4y> ns4:description "Occupation of witness 4"@en ;
+    ns2:datatype xsd:string ;
+    ns2:name "bergt4y" ;
+    ns2:title "bergt4y"@en .
+
+<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bermhu2y> ns4:description "bermhu2y"@en ;
+    ns2:datatype xsd:string ;
+    ns2:name "bermhu2y" ;
+    ns2:title "bermhu2y"@en .
+
+<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bermhu3y> ns4:description "bermhu3y"@en ;
+    ns2:datatype xsd:string ;
+    ns2:name "bermhu3y" ;
+    ns2:title "bermhu3y"@en .
+
+<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bermhuy> ns4:description "Occupation of the groom"@en ;
+    ns2:datatype xsd:string ;
+    ns2:name "bermhuy" ;
+    ns2:title "bermhuy"@en .
+
+<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/berpm00y> ns4:description "berpm00y"@en ;
+    ns2:datatype xsd:string ;
+    ns2:name "berpm00y" ;
+    ns2:title "berpm00y"@en .
+
+<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/berpm0y> ns4:description "berpm0y"@en ;
+    ns2:datatype xsd:string ;
+    ns2:name "berpm0y" ;
+    ns2:title "berpm0y"@en .
+
+<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/berpmy> ns4:description "Occupation (original from source?)"@en ;
+    ns2:datatype xsd:string ;
+    ns2:name "berpmy" ;
+    ns2:propertyUrl ns3:hasOccupation ;
+    ns2:title "berpmy"@en .
+
+<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bersmy> ns4:description "Occupation (classification?)"@en ;
+    ns2:datatype xsd:string ;
+    ns2:name "bersmy" ;
+    ns2:propertyUrl ns3:hasOccupation ;
+    ns2:title "bersmy"@en .
+
+<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bervam2y> ns4:description "bervam2y"@en ;
+    ns2:datatype xsd:string ;
+    ns2:name "bervam2y" ;
+    ns2:title "bervam2y"@en .
+
+<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bervam3y> ns4:description "bervam3y"@en ;
+    ns2:datatype xsd:string ;
+    ns2:name "bervam3y" ;
+    ns2:title "bervam3y"@en .
+
+<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bervamy> ns4:description "Occupation of the father of the groom"@en ;
+    ns2:datatype xsd:string ;
+    ns2:name "bervamy" ;
+    ns2:title "bervamy"@en .
+
+<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bervav2y> ns4:description "bervav2y"@en ;
+    ns2:datatype xsd:string ;
+    ns2:name "bervav2y" ;
+    ns2:title "bervav2y"@en .
+
+<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bervav3y> ns4:description "bervav3y"@en ;
+    ns2:datatype xsd:string ;
+    ns2:name "bervav3y" ;
+    ns2:title "bervav3y"@en .
+
+<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bervavy> ns4:description "Occupation of the father of the bride"@en ;
+    ns2:datatype xsd:string ;
+    ns2:name "bervavy" ;
+    ns2:title "bervavy"@en .
+
+<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bsmy> ns4:description "Civil Status (married/unmarried)"@en ;
+    ns2:datatype xsd:string ;
+    ns2:name "bsmy" ;
+    ns2:title "bsmy"@en .
+
+<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bsv2y> ns4:description "bsv2y"@en ;
+    ns2:datatype xsd:string ;
+    ns2:name "bsv2y" ;
+    ns2:title "bsv2y"@en .
+
+<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bsv3y> ns4:description "bsv3y"@en ;
+    ns2:datatype xsd:string ;
+    ns2:name "bsv3y" ;
+    ns2:title "bsv3y"@en .
+
+<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bsvy> ns4:description "bsvy"@en ;
+    ns2:datatype xsd:string ;
+    ns2:name "bsvy" ;
+    ns2:title "bsvy"@en .
+
+<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/buurty> ns4:description "Residential Address part 1: Neighbourhood in 19th century Amsterdam, comtemporaly coded with letters."@en ;
+    ns2:datatype xsd:string ;
+    ns2:name "buurty" ;
+    ns2:title "buurty"@en .
+
+<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/caswgt> ns4:description "Case Weight"@en ;
+    ns2:datatype xsd:float ;
+    ns2:name "caswgt" ;
+    ns2:title "caswgt"@en .
+
+<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/gebplmy> ns4:description "Place of Birth (classification)"@en ;
+    ns2:datatype xsd:string ;
+    ns2:name "gebplmy" ;
+    ns2:propertyUrl ns3:birthPlace ;
+    ns2:title "gebplmy"@en .
+
+<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/gebplv1y> ns4:description "gebplv1y"@en ;
+    ns2:datatype xsd:string ;
+    ns2:name "gebplv1y" ;
+    ns2:title "gebplv1y"@en .
+
+<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/gebplv2y> ns4:description "gebplv2y"@en ;
+    ns2:datatype xsd:string ;
+    ns2:name "gebplv2y" ;
+    ns2:title "gebplv2y"@en .
+
+<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/gebplv3y> ns4:description "gebplv3y"@en ;
+    ns2:datatype xsd:string ;
+    ns2:name "gebplv3y" ;
+    ns2:title "gebplv3y"@en .
+
+<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/gebplvy> ns4:description "Place of Birth Wife"@en ;
+    ns2:datatype xsd:string ;
+    ns2:name "gebplvy" ;
+    ns2:title "gebplvy"@en .
+
+<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/grblgy> ns4:description "grblgy"@en ;
+    ns2:datatype xsd:string ;
+    ns2:name "grblgy" ;
+    ns2:title "grblgy"@en .
+
+<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/grondbly> ns4:description "'Grondbelasting'"@en ;
+    ns2:datatype xsd:integer ;
+    ns2:name "grondbly" ;
+    ns2:title "grondbly"@en .
+
+<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/huisnry> ns4:description "Residential Address part 2: Number of the house in the neighbourhood (buurty)"@en ;
+    ns2:datatype xsd:string ;
+    ns2:name "huisnry" ;
+    ns2:title "huisnry"@en .
+
+<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/hulftm2y> ns4:description "hulftm2y"@en ;
+    ns2:datatype xsd:string ;
+    ns2:name "hulftm2y" ;
+    ns2:title "hulftm2y"@en .
+
+<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/hulftm3y> ns4:description "hulftm3y"@en ;
+    ns2:datatype xsd:string ;
+    ns2:name "hulftm3y" ;
+    ns2:title "hulftm3y"@en .
+
+<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/hulftmy> ns4:description "Age at marriage groom"@en ;
+    ns2:datatype xsd:string ;
+    ns2:name "hulftmy" ;
+    ns2:title "hulftmy"@en .
+
+<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/hulftv2y> ns4:description "hulftv2y"@en ;
+    ns2:datatype xsd:string ;
+    ns2:name "hulftv2y" ;
+    ns2:title "hulftv2y"@en .
+
+<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/hulftv3y> ns4:description "hulftv3y"@en ;
+    ns2:datatype xsd:string ;
+    ns2:name "hulftv3y" ;
+    ns2:title "hulftv3y"@en .
+
+<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/hulftvy> ns4:description "Age at marriage bride"@en ;
+    ns2:datatype xsd:string ;
+    ns2:name "hulftvy" ;
+    ns2:title "hulftvy"@en .
+
+<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/jrhu1y> ns4:description "Year of marriage"@en ;
+    ns2:datatype xsd:string ;
+    ns2:name "jrhu1y" ;
+    ns2:title "jrhu1y"@en .
+
+<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/jrhu2y> ns4:description "jrhu2y"@en ;
+    ns2:datatype xsd:string ;
+    ns2:name "jrhu2y" ;
+    ns2:title "jrhu2y"@en .
+
+<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/jrhu3y> ns4:description "jrhu3y"@en ;
+    ns2:datatype xsd:string ;
+    ns2:name "jrhu3y" ;
+    ns2:title "jrhu3y"@en .
+
+<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/lftklasy> ns4:description "lftklasy"@en ;
+    ns2:datatype xsd:string ;
+    ns2:name "lftklasy" ;
+    ns2:title "lftklasy"@en .
+
+<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/lftmy> ns4:description "Age"@en ;
+    ns2:datatype xsd:integer ;
+    ns2:name "lftmy" ;
+    ns2:title "lftmy"@en .
+
+<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/lftvy> ns4:description "Age Wife"@en ;
+    ns2:datatype xsd:integer ;
+    ns2:name "lftvy" ;
+    ns2:title "lftvy"@en .
+
+<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/nrbodey> ns4:description "Number of service workers"@en ;
+    ns2:datatype xsd:integer ;
+    ns2:name "nrbodey" ;
+    ns2:title "nrbodey"@en .
+
+<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/nrhgy> ns4:description "nrhgy"@en ;
+    ns2:datatype xsd:string ;
+    ns2:name "nrhgy" ;
+    ns2:title "nrhgy"@en .
+
+<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/nrkindy> ns4:description "Number of children"@en ;
+    ns2:datatype xsd:integer ;
+    ns2:name "nrkindy" ;
+    ns2:title "nrkindy"@en .
+
+<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/omvhhy> ns4:description "omvhhy"@en ;
+    ns2:datatype xsd:string ;
+    ns2:name "omvhhy" ;
+    ns2:title "omvhhy"@en .
+
+<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/patblgy> ns4:description "patblgy"@en ;
+    ns2:datatype xsd:string ;
+    ns2:name "patblgy" ;
+    ns2:title "patblgy"@en .
+
+<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/patbly> ns4:description "'Patentbelasting'"@en ;
+    ns2:datatype xsd:integer ;
+    ns2:name "patbly" ;
+    ns2:title "patbly"@en .
+
+<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/pblgy> ns4:description "pblgy"@en ;
+    ns2:datatype xsd:string ;
+    ns2:name "pblgy" ;
+    ns2:title "pblgy"@en .
+
+<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/pbly> ns4:description "'Personeelsbelasting'"@en ;
+    ns2:datatype xsd:integer ;
+    ns2:name "pbly" ;
+    ns2:title "pbly"@en .
+
+<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relgt12y> ns4:description "relgt12y"@en ;
+    ns2:datatype xsd:string ;
+    ns2:name "relgt12y" ;
+    ns2:title "relgt12y"@en .
+
+<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relgt13y> ns4:description "relgt13y"@en ;
+    ns2:datatype xsd:string ;
+    ns2:name "relgt13y" ;
+    ns2:title "relgt13y"@en .
+
+<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relgt1y> ns4:description "Relation of witness 1"@en ;
+    ns2:datatype xsd:string ;
+    ns2:name "relgt1y" ;
+    ns2:title "relgt1y"@en .
+
+<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relgt22y> ns4:description "relgt22y"@en ;
+    ns2:datatype xsd:string ;
+    ns2:name "relgt22y" ;
+    ns2:title "relgt22y"@en .
+
+<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relgt23y> ns4:description "relgt23y"@en ;
+    ns2:datatype xsd:string ;
+    ns2:name "relgt23y" ;
+    ns2:title "relgt23y"@en .
+
+<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relgt2y> ns4:description "Relation of witness 2"@en ;
+    ns2:datatype xsd:string ;
+    ns2:name "relgt2y" ;
+    ns2:title "relgt2y"@en .
+
+<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relgt32y> ns4:description "relgt32y"@en ;
+    ns2:datatype xsd:string ;
+    ns2:name "relgt32y" ;
+    ns2:title "relgt32y"@en .
+
+<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relgt33y> ns4:description "relgt33y"@en ;
+    ns2:datatype xsd:string ;
+    ns2:name "relgt33y" ;
+    ns2:title "relgt33y"@en .
+
+<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relgt3y> ns4:description "Relation of witness 3"@en ;
+    ns2:datatype xsd:string ;
+    ns2:name "relgt3y" ;
+    ns2:title "relgt3y"@en .
+
+<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relgt42y> ns4:description "relgt42y"@en ;
+    ns2:datatype xsd:string ;
+    ns2:name "relgt42y" ;
+    ns2:title "relgt42y"@en .
+
+<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relgt43y> ns4:description "relgt43y"@en ;
+    ns2:datatype xsd:string ;
+    ns2:name "relgt43y" ;
+    ns2:title "relgt43y"@en .
+
+<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relgt4y> ns4:description "Relation of witness 4"@en ;
+    ns2:datatype xsd:string ;
+    ns2:name "relgt4y" ;
+    ns2:title "relgt4y"@en .
+
+<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relhfdy> ns4:description "Relation with the head of the family"@en ;
+    ns2:datatype xsd:string ;
+    ns2:name "relhfdy" ;
+    ns2:title "relhfdy"@en .
+
+<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relimy> ns4:description "Religion"@en ;
+    ns2:datatype xsd:string ;
+    ns2:name "relimy" ;
+    ns2:title "relimy"@en .
+
+<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relivy> ns4:description "Religion Wife"@en ;
+    ns2:datatype xsd:string ;
+    ns2:name "relivy" ;
+    ns2:title "relivy"@en .
+
+<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/tot3bly> ns4:description "tot3bly"@en ;
+    ns2:datatype xsd:string ;
+    ns2:name "tot3bly" ;
+    ns2:title "tot3bly"@en .
+
+<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/totbly> ns4:description "totbly"@en ;
+    ns2:datatype xsd:string ;
+    ns2:name "totbly" ;
+    ns2:title "totbly"@en .
+
+<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/volgnr1y> ns4:description "Observation number"@en ;
+    ns2:datatype xsd:integer ;
+    ns2:name "volgnr1y" ;
+    ns2:propertyUrl ns3:identifier ;
+    ns2:title "volgnr1y"@en .
+
+<https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/volgnr2y> ns4:description "volgnr2y"@en ;
+    ns2:datatype xsd:string ;
+    ns2:name "volgnr2y" ;
+    ns2:title "volgnr2y"@en .
 
 <https://iisg.amsterdam/resource/bdv/_volgnr1y_> ns5:wasDerivedFrom "https://iisg.amsterdam/resource/bdv/{volgnr1y}"^^xsd:string .
 
-<https://iisg.amsterdamdafb1d89d990420d47430a1d691810d40a8787f3> ns2:path "/tmp/web_interface/53263c4448a320bd9216b2fc7abe2c33/web_interface/7e3a6d7a99e3453360ca2f8a980c4389/web_interface/98ebbfdc66d90f9d998279d8641c0e35/p1223a_labels_semicolon_short.csv"^^xsd:string ;
-    ns2:sha1_hash "dafb1d89d990420d47430a1d691810d40a8787f3"^^xsd:string .
+<https://iisg.amsterdamdafb1d89d990420d47430a1d691810d40a8787f3> ns1:path "/tmp/web_interface/dedf8d910e737d9976f36a2cd103303f/p1223a_labels_semicolon_short.csv"^^xsd:string ;
+    ns1:sha1_hash "dafb1d89d990420d47430a1d691810d40a8787f3"^^xsd:string .
 
-<https://iisg.amsterdamp1223a_labels_semicolon_short/assertion/dafb1d89/2018-08-29T10:52> a ns6:Assertion ;
-    ns5:generatedAtTime "2018-08-29T10:52:00"^^xsd:dateTime ;
+<https://iisg.amsterdamp1223a_labels_semicolon_short/assertion/dafb1d89/2018-08-29T12:11> a ns6:Assertion ;
+    ns5:generatedAtTime "2018-08-29T12:11:00"^^xsd:dateTime ;
     ns5:wasDerivedFrom <https://iisg.amsterdam/p1223a_labels_semicolon.csv>,
         <https://iisg.amsterdamdafb1d89d990420d47430a1d691810d40a8787f3> .
 
-<https://iisg.amsterdamp1223a_labels_semicolon_short/provenance/dafb1d89/2018-08-29T10:52> a ns6:Provenance .
+<https://iisg.amsterdamp1223a_labels_semicolon_short/provenance/dafb1d89/2018-08-29T12:11> a ns6:Provenance .
 
-<https://iisg.amsterdamp1223a_labels_semicolon_short/pubinfo/dafb1d89/2018-08-29T10:52> a ns6:PublicationInfo .
+<https://iisg.amsterdamp1223a_labels_semicolon_short/pubinfo/dafb1d89/2018-08-29T12:11> a ns6:PublicationInfo .
 
