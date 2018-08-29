@@ -5,17 +5,8 @@ This project is reusing De Vries' dataset on social mobility in Amsterdam in ord
 ## Paper
 In "paper.md".
 
-## Datafiles
-* **p1223a_labels.csv** 
-dataset by De Vries in csv format including the labels. Converted from SPSS-format. (original: https://doi.org/10.17026/dans-xez-eqdv)
+## data
+Containing data.
 
-* **SAA_omnummering.csv** (original: https://www.amsterdam.nl/stadsarchief/nieuws/omnummering/)
-We know this contains errors. HisGis is creating a new, better version. But for now is does the job.
-
-* **adresmapping.csv**
-Selection of 10 addresses from the De Vries dataset, with mapping to current addresses
-
-* **thomas-gebouwen-WGS84_abridged.csv.nq**
-Loman's map converted into Linked Data.
-
-
+## dataTransformation
+Scripts for dataTransformation. In R.

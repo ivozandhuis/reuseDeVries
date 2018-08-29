@@ -1,7 +1,7 @@
 setwd("/home/ivo/Gitrepositories/reuseDeVries/")
 
-adressenConcordans <- read.csv("data/adressenconcordans_20180611.csv")
-puntlocaties <- read.csv("data/puntlocaties_20180611.csv")
+adressenConcordans <- read.csv("data/standards/adressenconcordans_20180611.csv")
+puntlocaties <- read.csv("data/standards/puntlocaties_20180611.csv")
 deVriesData1854 <- read.csv("data/p1223a_labels.csv")
 
 adressenConcordans$adres1853 <- paste(adressenConcordans$X1853_buurt, adressenConcordans$X1853_buurtnr, adressenConcordans$X1853_tvg, sep = "")

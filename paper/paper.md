@@ -20,6 +20,7 @@ In order to investigate whether old datasets could be reused according to these 
 Finally we will evaluate the process: was it worth the trouble and what did we gain? Formally: what was the Return on Investment?
 
 ## The dataset of De Vries
+https://doi.org/10.17026/dans-xez-eqdv
 De Vries created a dataset with a sample of elite inhabitants of Amsterdam in 1854 and 1884. The fact that they were elite was derived from the fact that they were sampled from the electoral roles.
 
 * the dataset De Vries

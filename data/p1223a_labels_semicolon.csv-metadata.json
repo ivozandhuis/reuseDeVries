@@ -72,6 +72,7 @@
     }
   },
   "dc:title": "p1223a_labels_semicolon.csv",
+  "dc:description": "Original file: https://doi.org/10.17026/dans-xez-eqdv."
   "dcat:keyword": [],
   "dialect": {
     "delimiter": ";",
@@ -103,7 +104,7 @@
       {
         "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/buurty",
         "datatype": "string",
-        "dc:description": "buurty",
+        "dc:description": "Wijk (letter(s))",
         "name": "buurty",
         "titles": [
           "buurty"
@@ -113,7 +114,7 @@
       {
         "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/huisnry",
         "datatype": "string",
-        "dc:description": "huisnry",
+        "dc:description": "Huisnummer",
         "name": "huisnry",
         "titles": [
           "huisnry"
