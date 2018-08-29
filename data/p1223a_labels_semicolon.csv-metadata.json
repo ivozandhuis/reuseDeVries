@@ -107,14 +107,8 @@
         "name": "buurty",
         "titles": [
           "buurty"
-        ]
-      },
-      {
-        "virtual": true,
-        "datatype": "string",
-        "aboutUrl": "{buurty}",
-        "propertyUrl": "rdf:type",
-        "valueUrl": "sdmx-dimension:refArea"
+        ],
+        "propertyUrl": "schema:identifier"
       },
       {
         "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/huisnry",
