@@ -8,5 +8,8 @@ In "paper.md".
 ## data
 Containing data.
 
+## dataHarvesting
+Scripts and SPARQL-queires for collecting the necessary data.
+
 ## dataTransformation
 Scripts for dataTransformation. In R.
