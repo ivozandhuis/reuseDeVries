@@ -1,0 +1,15 @@
+PREFIX cedar: <http://lod.cedar-project.nl:8888/cedar/resource/>
+PREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>
+PREFIX sdmx-code: <http://purl.org/linked-data/sdmx/2009/code#>
+PREFIX cedarterms: <http://lod.cedar-project.nl/vocab/cedar#>
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX gg: <http://www.gemeentegeschiedenis.nl/amco/>
+
+SELECT * WHERE {
+  	?obs a qb:Observation.
+    ?obs sdmx-dimension:refArea gg:11150 . # all observations about Amsterdam
+    ?obs cedarterms:population ?pop.
+  	?obs sdmx-dimension:sex ?sex.
+    FILTER (REGEX (?obs, "1859"))
+	FILTER (NOT EXISTS {?obs cedarterms:isTotal ?total })
+}

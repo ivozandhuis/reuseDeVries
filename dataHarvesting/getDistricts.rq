@@ -1,0 +1,10 @@
+PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+PREFIX sem: <http://semanticweb.cs.vu.nl/2009/11/sem/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT * WHERE {
+  ?district a <http://rdf.histograph.io/district>.
+  ?district sem:hasEarliestBeginTimeStamp "1850"^^xsd:gYear .
+  ?district rdfs:label ?label .
+  ?district geo:hasGeometry/geo:asWKT ?wkt .
+}
