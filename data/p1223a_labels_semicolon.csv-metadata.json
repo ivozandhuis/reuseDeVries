@@ -98,11 +98,11 @@
       {
         "virtual": true,
         "propertyUrl": "juso:address",
-        "csvw:value": "{{buurty}{huisnry}}"
+        "csvw:value": "{buurty}{huisnry}"
       },
       {
         "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/lftmy",
-        "datatype": "xsd:integer",
+        "datatype": "int",
         "dc:description": "Age",
         "name": "lftmy",
         "titles": [
@@ -167,7 +167,7 @@
       },
       {
         "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/lftvy",
-        "datatype": "integer",
+        "datatype": "int",
         "dc:description": "Age Wife",
         "name": "lftvy",
         "titles": [
@@ -194,7 +194,7 @@
       },
       {
         "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/nrkindy",
-        "datatype": "integer",
+        "datatype": "int",
         "dc:description": "Number of children",
         "name": "nrkindy",
         "titles": [
@@ -203,7 +203,7 @@
       },
       {
         "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/nrbodey",
-        "datatype": "integer",
+        "datatype": "int",
         "dc:description": "Number of service workers",
         "name": "nrbodey",
         "titles": [
@@ -230,7 +230,7 @@
       },
       {
         "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/grondbly",
-        "datatype": "integer",
+        "datatype": "int",
         "dc:description": "'Grondbelasting'",
         "name": "grondbly",
         "titles": [
@@ -239,7 +239,7 @@
       },
       {
         "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/pbly",
-        "datatype": "integer",
+        "datatype": "int",
         "dc:description": "'Personeelsbelasting'",
         "name": "pbly",
         "titles": [
@@ -248,7 +248,7 @@
       },
       {
         "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/patbly",
-        "datatype": "integer",
+        "datatype": "int",
         "dc:description": "'Patentbelasting'",
         "name": "patbly",
         "titles": [
