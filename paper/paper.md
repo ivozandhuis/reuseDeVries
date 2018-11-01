@@ -39,11 +39,10 @@ De Vries created a dataset with a sample of elite inhabitants of Amsterdam in 18
 https://archief.amsterdam/inventarissen/inventaris/30272.nl.html
 
 ### Standardizing variables to URI's
-  * buurten
-  * gemeentegeschiedenis,
-  * hisgis - houses/addresses
-  * HISCO
-  * religions by Ashkan
+  * districts by Adamlink, linking censusdata (CEDAR)
+  * addresses by HisGIS, linking location
+  * professions (HISCO) by IISH, linking status (status)
+  * religions (LICR) by Ashkan, linking ???
 
 ###
 

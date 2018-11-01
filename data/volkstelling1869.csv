@@ -1,5 +1,5 @@
 obs,pop,buurt,buurt
-http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-R97-h,266,afwezig (111 schepen),afwezig (111 schepen)
+http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-R97-h,266,afwezig (111 schepen),
 http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-F46-h,406,Buurt A,https://adamlink.nl/geo/district/buurt-a/134
 http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-G46-h,4,Buurt A,https://adamlink.nl/geo/district/buurt-a/134
 http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-H47-h,7,Buurt A,https://adamlink.nl/geo/district/buurt-a/134
@@ -540,29 +540,29 @@ http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-P93-h,10,Buurt 
 http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-Q93-h,12,Buurt X.X (waarin de Overtoom),https://adamlink.nl/geo/district/buurt-xx/123
 http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-R93-h,7,Buurt X.X (waarin de Overtoom),https://adamlink.nl/geo/district/buurt-xx/123
 http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-F70-h,761,Buurt Z,https://adamlink.nl/geo/district/buurt-z/138
-http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-G70-h,12,https://adamlink.nl/geo/district/buurt-z/138,https://adamlink.nl/geo/district/buurt-z/138
-http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-H70-h,17,https://adamlink.nl/geo/district/buurt-z/138,https://adamlink.nl/geo/district/buurt-z/138
-http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-J70-h,1530,https://adamlink.nl/geo/district/buurt-z/138,https://adamlink.nl/geo/district/buurt-z/138
-http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-K70-h,3009,https://adamlink.nl/geo/district/buurt-z/138,https://adamlink.nl/geo/district/buurt-z/138
-http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-L70-h,3960,https://adamlink.nl/geo/district/buurt-z/138,https://adamlink.nl/geo/district/buurt-z/138
-http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-M70-h,2991,https://adamlink.nl/geo/district/buurt-z/138,https://adamlink.nl/geo/district/buurt-z/138
-http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-N70-h,3936,https://adamlink.nl/geo/district/buurt-z/138,https://adamlink.nl/geo/district/buurt-z/138
-http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-O70-h,18,https://adamlink.nl/geo/district/buurt-z/138,https://adamlink.nl/geo/district/buurt-z/138
-http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-P70-h,24,https://adamlink.nl/geo/district/buurt-z/138,https://adamlink.nl/geo/district/buurt-z/138
-http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-Q70-h,82,https://adamlink.nl/geo/district/buurt-z/138,https://adamlink.nl/geo/district/buurt-z/138
-http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-R70-h,48,https://adamlink.nl/geo/district/buurt-z/138,https://adamlink.nl/geo/district/buurt-z/138
-http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-F95-h,207,https://adamlink.nl/geo/district/buurt-z/138.Z (waarin de Weesperzijde),https://adamlink.nl/geo/district/buurt-zz/150
-http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-G95-h,35,https://adamlink.nl/geo/district/buurt-z/138.Z (waarin de Weesperzijde),https://adamlink.nl/geo/district/buurt-zz/150
-http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-H95-h,2,https://adamlink.nl/geo/district/buurt-z/138.Z (waarin de Weesperzijde),https://adamlink.nl/geo/district/buurt-zz/150
-http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-J95-h,324,https://adamlink.nl/geo/district/buurt-z/138.Z (waarin de Weesperzijde),https://adamlink.nl/geo/district/buurt-zz/150
-http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-K95-h,724,https://adamlink.nl/geo/district/buurt-z/138.Z (waarin de Weesperzijde),https://adamlink.nl/geo/district/buurt-zz/150
-http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-L95-h,755,https://adamlink.nl/geo/district/buurt-z/138.Z (waarin de Weesperzijde),https://adamlink.nl/geo/district/buurt-zz/150
-http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-M95-h,717,https://adamlink.nl/geo/district/buurt-z/138.Z (waarin de Weesperzijde),https://adamlink.nl/geo/district/buurt-zz/150
-http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-N95-h,749,https://adamlink.nl/geo/district/buurt-z/138.Z (waarin de Weesperzijde),https://adamlink.nl/geo/district/buurt-zz/150
-http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-O95-h,7,https://adamlink.nl/geo/district/buurt-z/138.Z (waarin de Weesperzijde),https://adamlink.nl/geo/district/buurt-zz/150
-http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-P95-h,6,https://adamlink.nl/geo/district/buurt-z/138.Z (waarin de Weesperzijde),https://adamlink.nl/geo/district/buurt-zz/150
-http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-Q95-h,7,https://adamlink.nl/geo/district/buurt-z/138.Z (waarin de Weesperzijde),https://adamlink.nl/geo/district/buurt-zz/150
-http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-R95-h,5,https://adamlink.nl/geo/district/buurt-z/138.Z (waarin de Weesperzijde),https://adamlink.nl/geo/district/buurt-zz/150
+http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-G70-h,12,Buurt Z,https://adamlink.nl/geo/district/buurt-z/138
+http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-H70-h,17,Buurt Z,https://adamlink.nl/geo/district/buurt-z/138
+http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-J70-h,1530,Buurt Z,https://adamlink.nl/geo/district/buurt-z/138
+http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-K70-h,3009,Buurt Z,https://adamlink.nl/geo/district/buurt-z/138
+http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-L70-h,3960,Buurt Z,https://adamlink.nl/geo/district/buurt-z/138
+http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-M70-h,2991,Buurt Z,https://adamlink.nl/geo/district/buurt-z/138
+http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-N70-h,3936,Buurt Z,https://adamlink.nl/geo/district/buurt-z/138
+http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-O70-h,18,Buurt Z,https://adamlink.nl/geo/district/buurt-z/138
+http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-P70-h,24,Buurt Z,https://adamlink.nl/geo/district/buurt-z/138
+http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-Q70-h,82,Buurt Z,https://adamlink.nl/geo/district/buurt-z/138
+http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-R70-h,48,Buurt Z,https://adamlink.nl/geo/district/buurt-z/138
+http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-F95-h,207,Buurt Z.Z (waarin de Weesperzijde),https://adamlink.nl/geo/district/buurt-zz/150
+http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-G95-h,35,Buurt Z.Z (waarin de Weesperzijde),https://adamlink.nl/geo/district/buurt-zz/150
+http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-H95-h,2,Buurt Z.Z (waarin de Weesperzijde),https://adamlink.nl/geo/district/buurt-zz/150
+http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-J95-h,324,Buurt Z.Z (waarin de Weesperzijde),https://adamlink.nl/geo/district/buurt-zz/150
+http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-K95-h,724,Buurt Z.Z (waarin de Weesperzijde),https://adamlink.nl/geo/district/buurt-zz/150
+http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-L95-h,755,Buurt Z.Z (waarin de Weesperzijde),https://adamlink.nl/geo/district/buurt-zz/150
+http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-M95-h,717,Buurt Z.Z (waarin de Weesperzijde),https://adamlink.nl/geo/district/buurt-zz/150
+http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-N95-h,749,Buurt Z.Z (waarin de Weesperzijde),https://adamlink.nl/geo/district/buurt-zz/150
+http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-O95-h,7,Buurt Z.Z (waarin de Weesperzijde),https://adamlink.nl/geo/district/buurt-zz/150
+http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-P95-h,6,Buurt Z.Z (waarin de Weesperzijde),https://adamlink.nl/geo/district/buurt-zz/150
+http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-Q95-h,7,Buurt Z.Z (waarin de Weesperzijde),https://adamlink.nl/geo/district/buurt-zz/150
+http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-R95-h,5,Buurt Z.Z (waarin de Weesperzijde),https://adamlink.nl/geo/district/buurt-zz/150
 http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-I101-h,586,S[chepen],S[chepen]
 http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-J101-h,533,S[chepen],S[chepen]
 http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-K101-h,1779,S[chepen],S[chepen]
