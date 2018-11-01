@@ -1,0 +1,135 @@
+Religion;IPUMS;NAPP;HL7;LICR;LICR_Class;DBpedia
+OTHER;;;;9000;;
+Free Thinker;;9710;;9001;9000;
+Non Sectarian;;9720;;9002;9000;
+Truth Seeker;;9730;;9003;9000;
+Heathen;;9800;;9004;9000;http://dbpedia.org/page/Heathen
+Paganism;;9810;1037;9005;9000;http://dbpedia.org/page/Paganism
+Infidel;;9820;;9006;9000;
+Stony;;9830;;9007;9000;
+Secularist;;9840;;9008;9000;
+Idealist;;9850;;9009;9000;
+Socialist;;9860;;9010;9000;
+Agnostic;;9870;1004;9011;9000;http://dbpedia.org/page/Agnosticism
+Zoroastrianism;7040;;1060;9012;9000;http://dbpedia.org/page/Zoroastrianism
+Rastafarian;7044;;;9013;9000;http://dbpedia.org/page/Rastafari
+Bahai;7001;;;9014;9000;http://dbpedia.org/page/Bah%C3%A1%27%C3%AD_Faith
+Indigenous;7018;;;9015;9000;
+Atheist;;9880;1007;9016;9000;http://dbpedia.org/page/Atheism
+Nonbeliever;;9890;;9017;9000;
+None/No Religion;;9895;;9018;9000;
+Pastafarianism;;;;9019;9000;http://dbpedia.org/page/Flying_Spaghetti_Monster
+Jediism;;;;9020;9000;http://dbpedia.org/page/Jediism
+Mysticism and Occult;;;;9021;9000;
+EAST ASIAN ;7021;;;1000;;
+Taoism;7055;9500;1050;1100;1000;http://dbpedia.org/page/Taoism
+Confucianism;7037;9400;1014;1200;1000;http://dbpedia.org/page/Confucianism
+Shinto;7054;9310;1046;1300;1000;http://dbpedia.org/page/Shinto
+Other;;;;1400;1000;
+INDIAN ;;;;2000;;
+Hinduism;3000;9610;1020;2100;2000;http://dbpedia.org/page/Hinduism
+Buddhism;2000;9300;1059;2200;2000;http://dbpedia.org/page/Buddhism
+Sikhism;7002;9620;1047;2300;2000;http://dbpedia.org/page/Sikhism
+Jainism;7033;;1024;2400;2000;http://dbpedia.org/page/Jainism
+Bhakti movement;;;;2500;2000;http://dbpedia.org/page/Bhakti_movement
+Din-e Ilahi;;;;2600;2000;http://dbpedia.org/page/Din-i_Ilahi
+Meivazhi;;;;2700;2000;http://dbpedia.org/page/Meivazhi
+Other Indian;;;;2800;2000;
+ISLAM;5000;9200;;3000;;http://dbpedia.org/page/Islam
+Sunni;5006;;1049;3100;3000;http://dbpedia.org/page/Sunni_Islam
+Shia;7070;;1045;3200;3000;http://dbpedia.org/page/Shia_Islam
+Alawi;;;;3210;3200;http://dbpedia.org/page/Alawites
+Sufism;;;;3300;3000;http://dbpedia.org/page/Sufism
+Layenne;5002;;;3310;3300;http://dbpedia.org/page/Layene
+Mouride;5003;;;3320;3300;http://dbpedia.org/page/Mouride
+Tidjane;5004;;;3330;3300;http://dbpedia.org/page/Tijaniyyah
+Ahmadis;5005;;;3400;3000;http://dbpedia.org/page/Ahmadiyya
+Khadrya;5001;;;3500;3000;
+Ibadi;;;;3510;3500;http://dbpedia.org/page/Ibadi
+Quranism;;;;3600;3000;http://dbpedia.org/page/Quranism
+Black Muslim movements;;;;3700;3000;http://dbpedia.org/page/Black_Muslims
+Other Muslim;5008;;;3800;3000;
+JUDAISM;4000;9100;1026;4000;;http://dbpedia.org/page/Judaism
+Rabbinic Judaism;;;;4100;4000;http://dbpedia.org/page/Rabbinic_Judaism
+Sephardic Judaism;;;;4110;4100;http://dbpedia.org/page/Sephardic_law_and_customs
+Orthodox Judaism;;;;4120;4100;http://dbpedia.org/page/Orthodox_Judaism
+Ultra Orthodox Judaism;;;;4130;4100;http://dbpedia.org/page/Haredi_Judaism
+Hasidic Judaism;;;;4131;4120;http://dbpedia.org/page/Hasidic_Judaism
+Reformed Judaism;;9150;;4200;4000;http://dbpedia.org/page/Reform_Judaism
+Conservative Judaism;;;;4300;4000;http://dbpedia.org/page/Conservative_Judaism
+Karaite Judaism;;;;4400;4000;http://dbpedia.org/page/Karaite_Judaism
+Haymanot;;;;4500;4000;http://dbpedia.org/page/Haymanot
+Reconstructionist Judaism;;;;4600;4000;http://dbpedia.org/page/Reconstructionist_Judaism
+Messianic Judaism;;;1031;4700;4000;http://dbpedia.org/page/Messianic_Judaism
+Anglo Israel;;;;4800;4000;http://dbpedia.org/page/British_Israelism
+Other Jewish;;;;4900;4000;
+Israelite;;9130;;4910;4900;http://dbpedia.org/page/Israelites
+Zionism;;9110;;4920;4900;http://dbpedia.org/page/Zionism
+CHRISTIANITY;6000;;1013;5000;;http://dbpedia.org/page/Christianity
+Catholic;6001;1100;1041;5100;5000;http://dbpedia.org/page/Catholicism
+Old Catholic;6101;;;5110;5100;http://dbpedia.org/page/Old_Catholic_Church
+Greek Catholic;6342;;;5120;5100;http://dbpedia.org/page/Greek_Byzantine_Catholic_Church
+Polish Catholic;;1250;;5130;5100;http://dbpedia.org/page/Polish_Catholic_Church
+Papist;;1300;;5140;5100;http://dbpedia.org/page/Papist
+Catholic Apostolic;;8320;;5150;5100;http://dbpedia.org/page/Catholic_Apostolic_Church
+Other Catholic;;;;5160;5100;
+Orthodox;6002;8900;1036;5200;5000;http://dbpedia.org/page/Orthodoxy#Orthodoxy_in_Christianity
+Eastern Orthodox;;;1068;5210;5200;http://dbpedia.org/page/Eastern_Orthodox_Church
+Oriental Orthodox;;;;5220;5200;http://dbpedia.org/page/Oriental_Orthodoxy
+Other Orthodox Churches;6371;;;5230;5200;
+Protestant;6003;8895;1077;5300;5000;http://dbpedia.org/page/Protestantism
+Lutheran;6016;3100;1028;5310;5300;http://dbpedia.org/page/Lutheranism
+German Lutheran;;3200;;5311;5310;http://dbpedia.org/page/United_Evangelical_Lutheran_Church_of_Germany
+United Lutheran;;3300;;5312;5310;
+Evangelical Lutheran;;3400;;5313;5310;http://dbpedia.org/page/Evangelical_Lutheran_Church_in_America
+Modern Prostantism;;;;5330;5300;
+Pentacostal;6005;8300;1038;5331;5330;http://dbpedia.org/page/Pentecostalism
+Adventist / Seventh-day adventist;6006;8610;1001;5332;5330;http://dbpedia.org/page/Seventh-day_Adventist_Church
+English Apostolic;;2200;;5333;5330;
+Assembly of God;6008;;1061;5334;5330;http://dbpedia.org/page/Assemblies_of_God
+New Apostolic;6019;;;5335;5330;http://dbpedia.org/page/New_Apostolic_Church
+Quakers;;;;5336;5330;http://dbpedia.org/page/Quakers
+Methodist;6018;6100;1073;5360;5300;http://dbpedia.org/page/Methodism
+Congregational Methodist;;6150;;5361;5360;http://dbpedia.org/page/Congregational_Methodist_Church
+Primitive Methodist;;6200;;5362;5360;http://dbpedia.org/page/Primitive_Methodism
+Wesleyan Methodist;;6300;;5363;5360;http://dbpedia.org/page/Wesleyan_Church
+Episcopal Methodist;;6400;;5364;5360;http://dbpedia.org/page/Methodist_Episcopal_Church
+Evangelical Methodist;;6450;;5365;5360;
+Free Methodist;;6500;;5366;5360;http://dbpedia.org/page/Free_Methodist_Church
+German Methodist;;6600;;5367;5360;http://dbpedia.org/page/German_Methodist_Episcopal_Church
+African Methodist;;6800;;5368;5360;http://dbpedia.org/page/African_Methodist_Episcopal_Church
+Church of the Nazarene;6010;8180;1075;5369;5360;http://dbpedia.org/page/Church_of_the_Nazarene
+Baptist;6009;7100;1009;5370;5300;http://dbpedia.org/page/Baptists
+Christian Baptist;;7200;;5371;5370;http://dbpedia.org/page/Christian_Baptist
+Primitive Baptist;;7300;;5372;5370;http://dbpedia.org/page/Primitive_Baptists
+Reformed Baptist;;7500;;5373;5370;http://dbpedia.org/page/Reformed_Baptists
+Seventh Day Baptist;;7600;;5374;5370;http://dbpedia.org/page/Seventh_Day_Baptists
+Free Baptist;;7700;;5375;5370;http://dbpedia.org/page/Free_Will_Baptist
+Christadelphian;;7800;;5376;5370;http://dbpedia.org/page/Christadelphians
+Disciple of Christ;;7900;;5377;5370;http://dbpedia.org/page/Christian_Church_(Disciples_of_Christ)
+Other Baptist;;7999;;5378;5370;
+Calvinist;6167;;;5380;5300;http://dbpedia.org/page/Calvinism
+Congregational;6011;4950;1066;5381;5380;http://dbpedia.org/page/Congregational_church
+Dutch Reformed;6012;4710;;5382;5380;http://dbpedia.org/page/Dutch_Reformed_Church
+German Reformed Church;;4720;;5383;5380;
+Church of Scotland;;4600;;5384;5380;http://dbpedia.org/page/Church_of_Scotland
+Presbyterian;6020;4100;1076;5385;5380;http://dbpedia.org/page/Presbyterianism
+Reformed Presbyterian;;4200;;5386;5380;http://dbpedia.org/page/Reformed_Presbyterian_churches
+Canadian Presbyterian;;4250;;5387;5380;http://dbpedia.org/page/Presbyterian_Church_in_Canada
+Knox Presbyterian;;4300;;5388;5380;
+Presbyterian Episcopal;;4400;;5389;5380;
+Anglican;6007;2000;1005;5400;5000;http://dbpedia.org/page/Anglicanism
+Anglican Church;;2100;;5410;5400;http://dbpedia.org/page/Anglican_Communion
+Church of Ireland;;2500;;5420;5400;http://dbpedia.org/page/Church_of_Ireland
+Church of England;6391;;;5430;5400;http://dbpedia.org/page/Church_of_England
+Episcopal;6248;2300;1069;5440;5400;http://dbpedia.org/page/Episcopal_Church
+Reformed Episcopal;;2400;;5450;5400;http://dbpedia.org/page/Reformed_Episcopal_Church
+English Apostolic;;2200;;5460;5400;http://dbpedia.org/page/Apostolic_Church_(denomination)
+Nontrinitarian;;;;5500;5000;http://dbpedia.org/page/Nontrinitarianism
+Jehovah's Witnesses;6014;;1025;5510;5500;http://dbpedia.org/page/Jehovah%27s_Witnesses
+Latter Day Saints (Mormon);6015;8700;1027;5520;5500;http://dbpedia.org/page/Mormons
+Church of Christian Scientist;6374;8875;1063;5530;5500;http://dbpedia.org/page/Christian_Science
+Iglesia ni Cristo;6318;;;5540;5500;http://dbpedia.org/page/Iglesia_ni_Cristo
+Other Christian;6293;;;5600;5000;
+Other Netherlands;;;;5610;5600;
+Other Christian Brazil;;;;5620;5600;

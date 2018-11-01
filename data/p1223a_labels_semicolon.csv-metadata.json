@@ -102,7 +102,7 @@
       },
       {
         "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/lftmy",
-        "datatype": "integer",
+        "datatype": "xsd:integer",
         "dc:description": "Age",
         "name": "lftmy",
         "titles": [
