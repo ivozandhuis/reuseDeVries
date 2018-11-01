@@ -1,3 +1,5 @@
+# endpoint https://data.adamlink.nl/AdamNet/Heritage/sparql/endpoint
+
 PREFIX geo: <http://www.opengis.net/ont/geosparql#>
 PREFIX sem: <http://semanticweb.cs.vu.nl/2009/11/sem/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
