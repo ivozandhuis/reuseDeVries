@@ -1,0 +1,40 @@
+# endpoint: https://druid.datalegend.net/dataLegend/CEDAR-S/sparql/CEDAR-S
+# replace 1859 for 1869, 1879, 1889, 1899, 1909, 1920
+
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX cedar: <http://lod.cedar-project.nl:8888/cedar/resource/>
+PREFIX maritalstatus: <http://lod.cedar-project.nl/vocab/cedar-maritalstatus#>
+PREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>
+PREFIX sdmx-code: <http://purl.org/linked-data/sdmx/2009/code#>
+PREFIX cedarterms: <http://lod.cedar-project.nl/vocab/cedar#>
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX gg: <http://www.gemeentegeschiedenis.nl/amco/>
+
+CONSTRUCT {
+  ?obs a qb:Observation.
+  ?obs cedarterms:population ?pop.
+  ?obs sdmx-dimension:sex ?sex .
+  ?obs cedarterms:Kom ?kom .
+  ?obs cedarterms:houseType ?houseType .
+  ?obs cedarterms:residenceStatus ?residenceStatus .
+
+  ?slice a qb:Slice.
+  ?slice qb:observation ?obs.
+  ?slice sdmx-dimension:refArea gg:11150 .
+  ?slice sdmx-dimension:refPeriod "1909"^^xsd:int.
+}
+
+WHERE {
+  ?obs a qb:Observation.
+  ?obs sdmx-dimension:refArea gg:11150 .
+  ?obs cedarterms:population ?pop.
+  OPTIONAL {?obs sdmx-dimension:sex ?sex} .
+  OPTIONAL {?obs cedarterms:Kom ?kom} .
+  OPTIONAL {?obs cedarterms:houseType ?houseType} .
+  OPTIONAL {?obs cedarterms:residenceStatus ?residenceStatus} .
+
+  ?slice a qb:Slice.
+  ?slice qb:observation ?obs.
+  ?slice sdmx-dimension:refPeriod "1909"^^xsd:integer.
+  FILTER (NOT EXISTS {?obs cedarterms:isTotal ?total })
+}

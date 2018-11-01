@@ -1,0 +1,3310 @@
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns1:	<http://lod.cedar-project.nl:8888/cedar/resource/> .
+@prefix ns2:	<http://purl.org/linked-data/cube#> .
+ns1:VT_1869_01_H1-S3-F46-h	rdf:type	ns2:Observation .
+@prefix ns3:	<http://lod.cedar-project.nl/vocab/cedar#> .
+ns1:VT_1869_01_H1-S3-F46-h	ns3:population	406 .
+@prefix ns4:	<http://lod.cedar-project.nl/vocab/cedar-Kom#> .
+ns1:VT_1869_01_H1-S3-F46-h	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-BewoondeHuizen .
+ns1:VT_1869_01_H1-S3-F47-h	rdf:type	ns2:Observation ;
+	ns3:population	293 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-BewoondeHuizen .
+ns1:VT_1869_01_H1-S3-F48-h	rdf:type	ns2:Observation ;
+	ns3:population	501 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-BewoondeHuizen .
+ns1:VT_1869_01_H1-S3-F49-h	rdf:type	ns2:Observation ;
+	ns3:population	298 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-BewoondeHuizen .
+ns1:VT_1869_01_H1-S3-F50-h	rdf:type	ns2:Observation ;
+	ns3:population	444 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-BewoondeHuizen .
+ns1:VT_1869_01_H1-S3-F51-h	rdf:type	ns2:Observation ;
+	ns3:population	334 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-BewoondeHuizen .
+ns1:VT_1869_01_H1-S3-F52-h	rdf:type	ns2:Observation ;
+	ns3:population	432 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-BewoondeHuizen .
+ns1:VT_1869_01_H1-S3-F53-h	rdf:type	ns2:Observation ;
+	ns3:population	518 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-BewoondeHuizen .
+ns1:VT_1869_01_H1-S3-F54-h	rdf:type	ns2:Observation ;
+	ns3:population	513 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-BewoondeHuizen .
+ns1:VT_1869_01_H1-S3-F55-h	rdf:type	ns2:Observation ;
+	ns3:population	570 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-BewoondeHuizen .
+ns1:VT_1869_01_H1-S3-F56-h	rdf:type	ns2:Observation ;
+	ns3:population	690 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-BewoondeHuizen .
+ns1:VT_1869_01_H1-S3-F57-h	rdf:type	ns2:Observation ;
+	ns3:population	409 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-BewoondeHuizen .
+ns1:VT_1869_01_H1-S3-F58-h	rdf:type	ns2:Observation ;
+	ns3:population	412 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-BewoondeHuizen .
+ns1:VT_1869_01_H1-S3-F59-h	rdf:type	ns2:Observation ;
+	ns3:population	390 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-BewoondeHuizen .
+ns1:VT_1869_01_H1-S3-F60-h	rdf:type	ns2:Observation ;
+	ns3:population	344 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-BewoondeHuizen .
+ns1:VT_1869_01_H1-S3-F61-h	rdf:type	ns2:Observation ;
+	ns3:population	237 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-BewoondeHuizen .
+ns1:VT_1869_01_H1-S3-F62-h	rdf:type	ns2:Observation ;
+	ns3:population	350 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-BewoondeHuizen .
+ns1:VT_1869_01_H1-S3-F63-h	rdf:type	ns2:Observation ;
+	ns3:population	200 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-BewoondeHuizen .
+ns1:VT_1869_01_H1-S3-F64-h	rdf:type	ns2:Observation ;
+	ns3:population	784 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-BewoondeHuizen .
+ns1:VT_1869_01_H1-S3-F65-h	rdf:type	ns2:Observation ;
+	ns3:population	620 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-BewoondeHuizen .
+ns1:VT_1869_01_H1-S3-F66-h	rdf:type	ns2:Observation ;
+	ns3:population	512 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-BewoondeHuizen .
+ns1:VT_1869_01_H1-S3-F67-h	rdf:type	ns2:Observation ;
+	ns3:population	638 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-BewoondeHuizen .
+ns1:VT_1869_01_H1-S3-F68-h	rdf:type	ns2:Observation ;
+	ns3:population	640 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-BewoondeHuizen .
+ns1:VT_1869_01_H1-S3-F69-h	rdf:type	ns2:Observation ;
+	ns3:population	490 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-BewoondeHuizen .
+ns1:VT_1869_01_H1-S3-F70-h	rdf:type	ns2:Observation ;
+	ns3:population	761 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-BewoondeHuizen .
+ns1:VT_1869_01_H1-S3-F71-h	rdf:type	ns2:Observation ;
+	ns3:population	722 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-BewoondeHuizen .
+ns1:VT_1869_01_H1-S3-F72-h	rdf:type	ns2:Observation ;
+	ns3:population	575 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-BewoondeHuizen .
+ns1:VT_1869_01_H1-S3-F73-h	rdf:type	ns2:Observation ;
+	ns3:population	680 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-BewoondeHuizen .
+ns1:VT_1869_01_H1-S3-F74-h	rdf:type	ns2:Observation ;
+	ns3:population	467 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-BewoondeHuizen .
+ns1:VT_1869_01_H1-S3-F75-h	rdf:type	ns2:Observation ;
+	ns3:population	601 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-BewoondeHuizen .
+ns1:VT_1869_01_H1-S3-F76-h	rdf:type	ns2:Observation ;
+	ns3:population	434 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-BewoondeHuizen .
+ns1:VT_1869_01_H1-S3-F77-h	rdf:type	ns2:Observation ;
+	ns3:population	542 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-BewoondeHuizen .
+ns1:VT_1869_01_H1-S3-F78-h	rdf:type	ns2:Observation ;
+	ns3:population	423 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-BewoondeHuizen .
+ns1:VT_1869_01_H1-S3-F79-h	rdf:type	ns2:Observation ;
+	ns3:population	447 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-BewoondeHuizen .
+ns1:VT_1869_01_H1-S3-F80-h	rdf:type	ns2:Observation ;
+	ns3:population	579 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-BewoondeHuizen .
+ns1:VT_1869_01_H1-S3-F81-h	rdf:type	ns2:Observation ;
+	ns3:population	364 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-BewoondeHuizen .
+ns1:VT_1869_01_H1-S3-F82-h	rdf:type	ns2:Observation ;
+	ns3:population	479 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-BewoondeHuizen .
+ns1:VT_1869_01_H1-S3-F83-h	rdf:type	ns2:Observation ;
+	ns3:population	507 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-BewoondeHuizen .
+ns1:VT_1869_01_H1-S3-F84-h	rdf:type	ns2:Observation ;
+	ns3:population	671 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-BewoondeHuizen .
+ns1:VT_1869_01_H1-S3-F85-h	rdf:type	ns2:Observation ;
+	ns3:population	645 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-BewoondeHuizen .
+ns1:VT_1869_01_H1-S3-F86-h	rdf:type	ns2:Observation ;
+	ns3:population	843 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-BewoondeHuizen .
+ns1:VT_1869_01_H1-S3-F87-h	rdf:type	ns2:Observation ;
+	ns3:population	289 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-BewoondeHuizen .
+ns1:VT_1869_01_H1-S3-F88-h	rdf:type	ns2:Observation ;
+	ns3:population	481 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-BewoondeHuizen .
+ns1:VT_1869_01_H1-S3-F89-h	rdf:type	ns2:Observation ;
+	ns3:population	464 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-BewoondeHuizen .
+ns1:VT_1869_01_H1-S3-F90-h	rdf:type	ns2:Observation ;
+	ns3:population	697 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-BewoondeHuizen .
+ns1:VT_1869_01_H1-S3-F91-h	rdf:type	ns2:Observation ;
+	ns3:population	210 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-BewoondeHuizen .
+ns1:VT_1869_01_H1-S3-F92-h	rdf:type	ns2:Observation ;
+	ns3:population	186 ;
+	ns3:Kom	ns4:BuitenKom ;
+	ns3:houseType	ns3:house-BewoondeHuizen .
+ns1:VT_1869_01_H1-S3-F93-h	rdf:type	ns2:Observation ;
+	ns3:population	469 ;
+	ns3:Kom	ns4:BuitenKom ;
+	ns3:houseType	ns3:house-BewoondeHuizen .
+ns1:VT_1869_01_H1-S3-F94-h	rdf:type	ns2:Observation ;
+	ns3:population	310 ;
+	ns3:Kom	ns4:BuitenKom ;
+	ns3:houseType	ns3:house-BewoondeHuizen .
+ns1:VT_1869_01_H1-S3-F95-h	rdf:type	ns2:Observation ;
+	ns3:population	207 ;
+	ns3:Kom	ns4:BuitenKom ;
+	ns3:houseType	ns3:house-BewoondeHuizen .
+ns1:VT_1869_01_H1-S3-G46-h	rdf:type	ns2:Observation ;
+	ns3:population	4 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-OnbewoondeHuizen .
+ns1:VT_1869_01_H1-S3-G47-h	rdf:type	ns2:Observation ;
+	ns3:population	3 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-OnbewoondeHuizen .
+ns1:VT_1869_01_H1-S3-G48-h	rdf:type	ns2:Observation ;
+	ns3:population	2 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-OnbewoondeHuizen .
+ns1:VT_1869_01_H1-S3-G49-h	rdf:type	ns2:Observation ;
+	ns3:population	3 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-OnbewoondeHuizen .
+ns1:VT_1869_01_H1-S3-G50-h	rdf:type	ns2:Observation ;
+	ns3:population	8 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-OnbewoondeHuizen .
+ns1:VT_1869_01_H1-S3-G51-h	rdf:type	ns2:Observation ;
+	ns3:population	6 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-OnbewoondeHuizen .
+ns1:VT_1869_01_H1-S3-G52-h	rdf:type	ns2:Observation ;
+	ns3:population	16 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-OnbewoondeHuizen .
+ns1:VT_1869_01_H1-S3-G53-h	rdf:type	ns2:Observation ;
+	ns3:population	1 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-OnbewoondeHuizen .
+ns1:VT_1869_01_H1-S3-G54-h	rdf:type	ns2:Observation ;
+	ns3:population	16 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-OnbewoondeHuizen .
+ns1:VT_1869_01_H1-S3-G55-h	rdf:type	ns2:Observation ;
+	ns3:population	13 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-OnbewoondeHuizen .
+ns1:VT_1869_01_H1-S3-G57-h	rdf:type	ns2:Observation ;
+	ns3:population	4 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-OnbewoondeHuizen .
+ns1:VT_1869_01_H1-S3-G58-h	rdf:type	ns2:Observation ;
+	ns3:population	4 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-OnbewoondeHuizen .
+ns1:VT_1869_01_H1-S3-G59-h	rdf:type	ns2:Observation ;
+	ns3:population	1 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-OnbewoondeHuizen .
+ns1:VT_1869_01_H1-S3-G60-h	rdf:type	ns2:Observation ;
+	ns3:population	3 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-OnbewoondeHuizen .
+ns1:VT_1869_01_H1-S3-G61-h	rdf:type	ns2:Observation ;
+	ns3:population	2 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-OnbewoondeHuizen .
+ns1:VT_1869_01_H1-S3-G62-h	rdf:type	ns2:Observation ;
+	ns3:population	1 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-OnbewoondeHuizen .
+ns1:VT_1869_01_H1-S3-G63-h	rdf:type	ns2:Observation ;
+	ns3:population	2 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-OnbewoondeHuizen .
+ns1:VT_1869_01_H1-S3-G64-h	rdf:type	ns2:Observation ;
+	ns3:population	14 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-OnbewoondeHuizen .
+ns1:VT_1869_01_H1-S3-G65-h	rdf:type	ns2:Observation ;
+	ns3:population	8 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-OnbewoondeHuizen .
+ns1:VT_1869_01_H1-S3-G66-h	rdf:type	ns2:Observation ;
+	ns3:population	7 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-OnbewoondeHuizen .
+ns1:VT_1869_01_H1-S3-G67-h	rdf:type	ns2:Observation ;
+	ns3:population	2 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-OnbewoondeHuizen .
+ns1:VT_1869_01_H1-S3-G68-h	rdf:type	ns2:Observation ;
+	ns3:population	23 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-OnbewoondeHuizen .
+ns1:VT_1869_01_H1-S3-G69-h	rdf:type	ns2:Observation ;
+	ns3:population	4 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-OnbewoondeHuizen .
+ns1:VT_1869_01_H1-S3-G70-h	rdf:type	ns2:Observation ;
+	ns3:population	12 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-OnbewoondeHuizen .
+ns1:VT_1869_01_H1-S3-G71-h	rdf:type	ns2:Observation ;
+	ns3:population	10 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-OnbewoondeHuizen .
+ns1:VT_1869_01_H1-S3-G72-h	rdf:type	ns2:Observation ;
+	ns3:population	5 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-OnbewoondeHuizen .
+ns1:VT_1869_01_H1-S3-G73-h	rdf:type	ns2:Observation ;
+	ns3:population	3 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-OnbewoondeHuizen .
+ns1:VT_1869_01_H1-S3-G74-h	rdf:type	ns2:Observation ;
+	ns3:population	9 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-OnbewoondeHuizen .
+ns1:VT_1869_01_H1-S3-G75-h	rdf:type	ns2:Observation ;
+	ns3:population	1 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-OnbewoondeHuizen .
+ns1:VT_1869_01_H1-S3-G76-h	rdf:type	ns2:Observation ;
+	ns3:population	3 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-OnbewoondeHuizen .
+ns1:VT_1869_01_H1-S3-G77-h	rdf:type	ns2:Observation ;
+	ns3:population	5 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-OnbewoondeHuizen .
+ns1:VT_1869_01_H1-S3-G78-h	rdf:type	ns2:Observation ;
+	ns3:population	1 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-OnbewoondeHuizen .
+ns1:VT_1869_01_H1-S3-G79-h	rdf:type	ns2:Observation ;
+	ns3:population	6 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-OnbewoondeHuizen .
+ns1:VT_1869_01_H1-S3-G80-h	rdf:type	ns2:Observation ;
+	ns3:population	12 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-OnbewoondeHuizen .
+ns1:VT_1869_01_H1-S3-G81-h	rdf:type	ns2:Observation ;
+	ns3:population	3 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-OnbewoondeHuizen .
+ns1:VT_1869_01_H1-S3-G82-h	rdf:type	ns2:Observation ;
+	ns3:population	2 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-OnbewoondeHuizen .
+ns1:VT_1869_01_H1-S3-G83-h	rdf:type	ns2:Observation ;
+	ns3:population	5 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-OnbewoondeHuizen .
+ns1:VT_1869_01_H1-S3-G84-h	rdf:type	ns2:Observation ;
+	ns3:population	2 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-OnbewoondeHuizen .
+ns1:VT_1869_01_H1-S3-G85-h	rdf:type	ns2:Observation ;
+	ns3:population	2 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-OnbewoondeHuizen .
+ns1:VT_1869_01_H1-S3-G86-h	rdf:type	ns2:Observation ;
+	ns3:population	3 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-OnbewoondeHuizen .
+ns1:VT_1869_01_H1-S3-G87-h	rdf:type	ns2:Observation ;
+	ns3:population	5 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-OnbewoondeHuizen .
+ns1:VT_1869_01_H1-S3-G88-h	rdf:type	ns2:Observation ;
+	ns3:population	4 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-OnbewoondeHuizen .
+ns1:VT_1869_01_H1-S3-G89-h	rdf:type	ns2:Observation ;
+	ns3:population	2 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-OnbewoondeHuizen .
+ns1:VT_1869_01_H1-S3-G90-h	rdf:type	ns2:Observation ;
+	ns3:population	6 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-OnbewoondeHuizen .
+ns1:VT_1869_01_H1-S3-G91-h	rdf:type	ns2:Observation ;
+	ns3:population	3 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-OnbewoondeHuizen .
+ns1:VT_1869_01_H1-S3-G92-h	rdf:type	ns2:Observation ;
+	ns3:population	8 ;
+	ns3:Kom	ns4:BuitenKom ;
+	ns3:houseType	ns3:house-OnbewoondeHuizen .
+ns1:VT_1869_01_H1-S3-G93-h	rdf:type	ns2:Observation ;
+	ns3:population	25 ;
+	ns3:Kom	ns4:BuitenKom ;
+	ns3:houseType	ns3:house-OnbewoondeHuizen .
+ns1:VT_1869_01_H1-S3-G94-h	rdf:type	ns2:Observation ;
+	ns3:population	14 ;
+	ns3:Kom	ns4:BuitenKom ;
+	ns3:houseType	ns3:house-OnbewoondeHuizen .
+ns1:VT_1869_01_H1-S3-G95-h	rdf:type	ns2:Observation ;
+	ns3:population	35 ;
+	ns3:Kom	ns4:BuitenKom ;
+	ns3:houseType	ns3:house-OnbewoondeHuizen .
+ns1:VT_1869_01_H1-S3-H47-h	rdf:type	ns2:Observation ;
+	ns3:population	7 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-HuizenAanbouw .
+ns1:VT_1869_01_H1-S3-H50-h	rdf:type	ns2:Observation ;
+	ns3:population	2 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-HuizenAanbouw .
+ns1:VT_1869_01_H1-S3-H51-h	rdf:type	ns2:Observation ;
+	ns3:population	4 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-HuizenAanbouw .
+ns1:VT_1869_01_H1-S3-H52-h	rdf:type	ns2:Observation ;
+	ns3:population	1 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-HuizenAanbouw .
+ns1:VT_1869_01_H1-S3-H59-h	rdf:type	ns2:Observation ;
+	ns3:population	2 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-HuizenAanbouw .
+ns1:VT_1869_01_H1-S3-H64-h	rdf:type	ns2:Observation ;
+	ns3:population	5 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-HuizenAanbouw .
+ns1:VT_1869_01_H1-S3-H65-h	rdf:type	ns2:Observation ;
+	ns3:population	1 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-HuizenAanbouw .
+ns1:VT_1869_01_H1-S3-H66-h	rdf:type	ns2:Observation ;
+	ns3:population	4 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-HuizenAanbouw .
+ns1:VT_1869_01_H1-S3-H67-h	rdf:type	ns2:Observation ;
+	ns3:population	22 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-HuizenAanbouw .
+ns1:VT_1869_01_H1-S3-H70-h	rdf:type	ns2:Observation ;
+	ns3:population	17 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-HuizenAanbouw .
+ns1:VT_1869_01_H1-S3-H74-h	rdf:type	ns2:Observation ;
+	ns3:population	1 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-HuizenAanbouw .
+ns1:VT_1869_01_H1-S3-H75-h	rdf:type	ns2:Observation ;
+	ns3:population	1 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-HuizenAanbouw .
+ns1:VT_1869_01_H1-S3-H77-h	rdf:type	ns2:Observation ;
+	ns3:population	1 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-HuizenAanbouw .
+ns1:VT_1869_01_H1-S3-H82-h	rdf:type	ns2:Observation ;
+	ns3:population	2 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-HuizenAanbouw .
+ns1:VT_1869_01_H1-S3-H83-h	rdf:type	ns2:Observation ;
+	ns3:population	3 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-HuizenAanbouw .
+ns1:VT_1869_01_H1-S3-H84-h	rdf:type	ns2:Observation ;
+	ns3:population	2 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-HuizenAanbouw .
+ns1:VT_1869_01_H1-S3-H85-h	rdf:type	ns2:Observation ;
+	ns3:population	4 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-HuizenAanbouw .
+ns1:VT_1869_01_H1-S3-H90-h	rdf:type	ns2:Observation ;
+	ns3:population	2 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-HuizenAanbouw .
+ns1:VT_1869_01_H1-S3-H94-h	rdf:type	ns2:Observation ;
+	ns3:population	3 ;
+	ns3:Kom	ns4:BuitenKom ;
+	ns3:houseType	ns3:house-HuizenAanbouw .
+ns1:VT_1869_01_H1-S3-H95-h	rdf:type	ns2:Observation ;
+	ns3:population	2 ;
+	ns3:Kom	ns4:BuitenKom ;
+	ns3:houseType	ns3:house-HuizenAanbouw .
+ns1:VT_1869_01_H1-S3-I101-h	rdf:type	ns2:Observation ;
+	ns3:population	586 ;
+	ns3:houseType	ns3:house-BewoondeSchepen .
+ns1:VT_1869_01_H1-S3-I65-h	rdf:type	ns2:Observation ;
+	ns3:population	1 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:houseType	ns3:house-BewoondeSchepen .
+ns1:VT_1869_01_H1-S3-I96-h	rdf:type	ns2:Observation ;
+	ns3:population	129 ;
+	ns3:houseType	ns3:house-BewoondeSchepen .
+ns1:VT_1869_01_H1-S3-I98-h	rdf:type	ns2:Observation ;
+	ns3:population	457 ;
+	ns3:houseType	ns3:house-BewoondeSchepen .
+ns1:VT_1869_01_H1-S3-J101-h	rdf:type	ns2:Observation ;
+	ns3:population	533 .
+ns1:VT_1869_01_H1-S3-J46-h	rdf:type	ns2:Observation ;
+	ns3:population	872 ;
+	ns3:Kom	ns4:BinnenKom .
+ns1:VT_1869_01_H1-S3-J47-h	rdf:type	ns2:Observation ;
+	ns3:population	456 ;
+	ns3:Kom	ns4:BinnenKom .
+ns1:VT_1869_01_H1-S3-J48-h	rdf:type	ns2:Observation ;
+	ns3:population	1185 ;
+	ns3:Kom	ns4:BinnenKom .
+ns1:VT_1869_01_H1-S3-J49-h	rdf:type	ns2:Observation ;
+	ns3:population	601 ;
+	ns3:Kom	ns4:BinnenKom .
+ns1:VT_1869_01_H1-S3-J50-h	rdf:type	ns2:Observation ;
+	ns3:population	667 ;
+	ns3:Kom	ns4:BinnenKom .
+ns1:VT_1869_01_H1-S3-J51-h	rdf:type	ns2:Observation ;
+	ns3:population	574 ;
+	ns3:Kom	ns4:BinnenKom .
+ns1:VT_1869_01_H1-S3-J52-h	rdf:type	ns2:Observation ;
+	ns3:population	684 ;
+	ns3:Kom	ns4:BinnenKom .
+ns1:VT_1869_01_H1-S3-J53-h	rdf:type	ns2:Observation ;
+	ns3:population	1067 ;
+	ns3:Kom	ns4:BinnenKom .
+ns1:VT_1869_01_H1-S3-J54-h	rdf:type	ns2:Observation ;
+	ns3:population	1024 ;
+	ns3:Kom	ns4:BinnenKom .
+ns1:VT_1869_01_H1-S3-J55-h	rdf:type	ns2:Observation ;
+	ns3:population	1122 ;
+	ns3:Kom	ns4:BinnenKom .
+ns1:VT_1869_01_H1-S3-J56-h	rdf:type	ns2:Observation ;
+	ns3:population	1390 ;
+	ns3:Kom	ns4:BinnenKom .
+ns1:VT_1869_01_H1-S3-J57-h	rdf:type	ns2:Observation ;
+	ns3:population	1057 ;
+	ns3:Kom	ns4:BinnenKom .
+ns1:VT_1869_01_H1-S3-J58-h	rdf:type	ns2:Observation ;
+	ns3:population	1089 ;
+	ns3:Kom	ns4:BinnenKom .
+ns1:VT_1869_01_H1-S3-J59-h	rdf:type	ns2:Observation ;
+	ns3:population	1307 ;
+	ns3:Kom	ns4:BinnenKom .
+ns1:VT_1869_01_H1-S3-J60-h	rdf:type	ns2:Observation ;
+	ns3:population	978 ;
+	ns3:Kom	ns4:BinnenKom .
+ns1:VT_1869_01_H1-S3-J61-h	rdf:type	ns2:Observation ;
+	ns3:population	831 ;
+	ns3:Kom	ns4:BinnenKom .
+ns1:VT_1869_01_H1-S3-J62-h	rdf:type	ns2:Observation ;
+	ns3:population	1004 ;
+	ns3:Kom	ns4:BinnenKom .
+ns1:VT_1869_01_H1-S3-J63-h	rdf:type	ns2:Observation ;
+	ns3:population	764 ;
+	ns3:Kom	ns4:BinnenKom .
+ns1:VT_1869_01_H1-S3-J64-h	rdf:type	ns2:Observation ;
+	ns3:population	2800 ;
+	ns3:Kom	ns4:BinnenKom .
+ns1:VT_1869_01_H1-S3-J65-h	rdf:type	ns2:Observation ;
+	ns3:population	1862 ;
+	ns3:Kom	ns4:BinnenKom .
+ns1:VT_1869_01_H1-S3-J66-h	rdf:type	ns2:Observation ;
+	ns3:population	1041 ;
+	ns3:Kom	ns4:BinnenKom .
+ns1:VT_1869_01_H1-S3-J67-h	rdf:type	ns2:Observation ;
+	ns3:population	1771 ;
+	ns3:Kom	ns4:BinnenKom .
+ns1:VT_1869_01_H1-S3-J68-h	rdf:type	ns2:Observation ;
+	ns3:population	1130 ;
+	ns3:Kom	ns4:BinnenKom .
+ns1:VT_1869_01_H1-S3-J69-h	rdf:type	ns2:Observation ;
+	ns3:population	818 ;
+	ns3:Kom	ns4:BinnenKom .
+ns1:VT_1869_01_H1-S3-J70-h	rdf:type	ns2:Observation ;
+	ns3:population	1530 ;
+	ns3:Kom	ns4:BinnenKom .
+ns1:VT_1869_01_H1-S3-J71-h	rdf:type	ns2:Observation ;
+	ns3:population	1362 ;
+	ns3:Kom	ns4:BinnenKom .
+ns1:VT_1869_01_H1-S3-J72-h	rdf:type	ns2:Observation ;
+	ns3:population	1278 ;
+	ns3:Kom	ns4:BinnenKom .
+ns1:VT_1869_01_H1-S3-J73-h	rdf:type	ns2:Observation ;
+	ns3:population	1663 ;
+	ns3:Kom	ns4:BinnenKom .
+ns1:VT_1869_01_H1-S3-J74-h	rdf:type	ns2:Observation ;
+	ns3:population	1173 ;
+	ns3:Kom	ns4:BinnenKom .
+ns1:VT_1869_01_H1-S3-J75-h	rdf:type	ns2:Observation ;
+	ns3:population	1645 ;
+	ns3:Kom	ns4:BinnenKom .
+ns1:VT_1869_01_H1-S3-J76-h	rdf:type	ns2:Observation ;
+	ns3:population	1141 ;
+	ns3:Kom	ns4:BinnenKom .
+ns1:VT_1869_01_H1-S3-J77-h	rdf:type	ns2:Observation ;
+	ns3:population	1530 ;
+	ns3:Kom	ns4:BinnenKom .
+ns1:VT_1869_01_H1-S3-J78-h	rdf:type	ns2:Observation ;
+	ns3:population	869 ;
+	ns3:Kom	ns4:BinnenKom .
+ns1:VT_1869_01_H1-S3-J79-h	rdf:type	ns2:Observation ;
+	ns3:population	843 ;
+	ns3:Kom	ns4:BinnenKom .
+ns1:VT_1869_01_H1-S3-J80-h	rdf:type	ns2:Observation ;
+	ns3:population	898 ;
+	ns3:Kom	ns4:BinnenKom .
+ns1:VT_1869_01_H1-S3-J81-h	rdf:type	ns2:Observation ;
+	ns3:population	507 ;
+	ns3:Kom	ns4:BinnenKom .
+ns1:VT_1869_01_H1-S3-J82-h	rdf:type	ns2:Observation ;
+	ns3:population	1209 ;
+	ns3:Kom	ns4:BinnenKom .
+ns1:VT_1869_01_H1-S3-J83-h	rdf:type	ns2:Observation ;
+	ns3:population	1469 ;
+	ns3:Kom	ns4:BinnenKom .
+ns1:VT_1869_01_H1-S3-J84-h	rdf:type	ns2:Observation ;
+	ns3:population	1805 ;
+	ns3:Kom	ns4:BinnenKom .
+ns1:VT_1869_01_H1-S3-J85-h	rdf:type	ns2:Observation ;
+	ns3:population	2022 ;
+	ns3:Kom	ns4:BinnenKom .
+ns1:VT_1869_01_H1-S3-J86-h	rdf:type	ns2:Observation ;
+	ns3:population	2363 ;
+	ns3:Kom	ns4:BinnenKom .
+ns1:VT_1869_01_H1-S3-J87-h	rdf:type	ns2:Observation ;
+	ns3:population	414 ;
+	ns3:Kom	ns4:BinnenKom .
+ns1:VT_1869_01_H1-S3-J88-h	rdf:type	ns2:Observation ;
+	ns3:population	818 ;
+	ns3:Kom	ns4:BinnenKom .
+ns1:VT_1869_01_H1-S3-J89-h	rdf:type	ns2:Observation ;
+	ns3:population	1194 ;
+	ns3:Kom	ns4:BinnenKom .
+ns1:VT_1869_01_H1-S3-J90-h	rdf:type	ns2:Observation ;
+	ns3:population	1960 ;
+	ns3:Kom	ns4:BinnenKom .
+ns1:VT_1869_01_H1-S3-J91-h	rdf:type	ns2:Observation ;
+	ns3:population	516 ;
+	ns3:Kom	ns4:BinnenKom .
+ns1:VT_1869_01_H1-S3-J92-h	rdf:type	ns2:Observation ;
+	ns3:population	263 ;
+	ns3:Kom	ns4:BuitenKom .
+ns1:VT_1869_01_H1-S3-J93-h	rdf:type	ns2:Observation ;
+	ns3:population	844 ;
+	ns3:Kom	ns4:BuitenKom .
+ns1:VT_1869_01_H1-S3-J94-h	rdf:type	ns2:Observation ;
+	ns3:population	336 ;
+	ns3:Kom	ns4:BuitenKom .
+ns1:VT_1869_01_H1-S3-J95-h	rdf:type	ns2:Observation ;
+	ns3:population	324 ;
+	ns3:Kom	ns4:BuitenKom .
+ns1:VT_1869_01_H1-S3-J96-h	rdf:type	ns2:Observation ;
+	ns3:population	120 .
+ns1:VT_1869_01_H1-S3-J98-h	rdf:type	ns2:Observation ;
+	ns3:population	413 .
+ns1:VT_1869_01_H1-S3-K101-h	rdf:type	ns2:Observation ;
+	ns3:population	1779 .
+@prefix ns5:	<http://lod.cedar-project.nl/vocab/cedar-residenceStatus#> .
+ns1:VT_1869_01_H1-S3-K101-h	ns3:residenceStatus	ns5:JuridischAanwezig .
+@prefix ns6:	<http://purl.org/linked-data/sdmx/2009/dimension#> .
+@prefix ns7:	<http://purl.org/linked-data/sdmx/2009/code#> .
+ns1:VT_1869_01_H1-S3-K101-h	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-K46-h	rdf:type	ns2:Observation ;
+	ns3:population	1861 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-K47-h	rdf:type	ns2:Observation ;
+	ns3:population	1296 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-K48-h	rdf:type	ns2:Observation ;
+	ns3:population	2897 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-K49-h	rdf:type	ns2:Observation ;
+	ns3:population	1359 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-K50-h	rdf:type	ns2:Observation ;
+	ns3:population	1603 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-K51-h	rdf:type	ns2:Observation ;
+	ns3:population	1202 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-K52-h	rdf:type	ns2:Observation ;
+	ns3:population	1423 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-K53-h	rdf:type	ns2:Observation ;
+	ns3:population	2342 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-K54-h	rdf:type	ns2:Observation ;
+	ns3:population	2289 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-K55-h	rdf:type	ns2:Observation ;
+	ns3:population	2397 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-K56-h	rdf:type	ns2:Observation ;
+	ns3:population	2948 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-K57-h	rdf:type	ns2:Observation ;
+	ns3:population	2092 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-K58-h	rdf:type	ns2:Observation ;
+	ns3:population	2288 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-K59-h	rdf:type	ns2:Observation ;
+	ns3:population	2528 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-K60-h	rdf:type	ns2:Observation ;
+	ns3:population	2637 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-K61-h	rdf:type	ns2:Observation ;
+	ns3:population	2039 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-K62-h	rdf:type	ns2:Observation ;
+	ns3:population	2171 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-K63-h	rdf:type	ns2:Observation ;
+	ns3:population	1683 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-K64-h	rdf:type	ns2:Observation ;
+	ns3:population	6209 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-K65-h	rdf:type	ns2:Observation ;
+	ns3:population	4521 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-K66-h	rdf:type	ns2:Observation ;
+	ns3:population	2363 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-K67-h	rdf:type	ns2:Observation ;
+	ns3:population	4695 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-K68-h	rdf:type	ns2:Observation ;
+	ns3:population	2280 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-K69-h	rdf:type	ns2:Observation ;
+	ns3:population	1729 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-K70-h	rdf:type	ns2:Observation ;
+	ns3:population	3009 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-K71-h	rdf:type	ns2:Observation ;
+	ns3:population	2892 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-K72-h	rdf:type	ns2:Observation ;
+	ns3:population	2299 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-K73-h	rdf:type	ns2:Observation ;
+	ns3:population	3219 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-K74-h	rdf:type	ns2:Observation ;
+	ns3:population	2374 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-K75-h	rdf:type	ns2:Observation ;
+	ns3:population	3342 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-K76-h	rdf:type	ns2:Observation ;
+	ns3:population	2592 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-K77-h	rdf:type	ns2:Observation ;
+	ns3:population	3206 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-K78-h	rdf:type	ns2:Observation ;
+	ns3:population	1804 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-K79-h	rdf:type	ns2:Observation ;
+	ns3:population	1755 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-K80-h	rdf:type	ns2:Observation ;
+	ns3:population	1871 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-K81-h	rdf:type	ns2:Observation ;
+	ns3:population	1040 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-K82-h	rdf:type	ns2:Observation ;
+	ns3:population	2309 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-K83-h	rdf:type	ns2:Observation ;
+	ns3:population	2958 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-K84-h	rdf:type	ns2:Observation ;
+	ns3:population	3481 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-K85-h	rdf:type	ns2:Observation ;
+	ns3:population	4111 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-K86-h	rdf:type	ns2:Observation ;
+	ns3:population	4872 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-K87-h	rdf:type	ns2:Observation ;
+	ns3:population	802 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-K88-h	rdf:type	ns2:Observation ;
+	ns3:population	1553 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-K89-h	rdf:type	ns2:Observation ;
+	ns3:population	2440 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-K90-h	rdf:type	ns2:Observation ;
+	ns3:population	3773 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-K91-h	rdf:type	ns2:Observation ;
+	ns3:population	1087 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-K92-h	rdf:type	ns2:Observation ;
+	ns3:population	564 ;
+	ns3:Kom	ns4:BuitenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-K93-h	rdf:type	ns2:Observation ;
+	ns3:population	1850 ;
+	ns3:Kom	ns4:BuitenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-K94-h	rdf:type	ns2:Observation ;
+	ns3:population	670 ;
+	ns3:Kom	ns4:BuitenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-K95-h	rdf:type	ns2:Observation ;
+	ns3:population	724 ;
+	ns3:Kom	ns4:BuitenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-K96-h	rdf:type	ns2:Observation ;
+	ns3:population	464 ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-K98-h	rdf:type	ns2:Observation ;
+	ns3:population	1315 ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-L101-h	rdf:type	ns2:Observation ;
+	ns3:population	891 ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-L46-h	rdf:type	ns2:Observation ;
+	ns3:population	2202 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-L47-h	rdf:type	ns2:Observation ;
+	ns3:population	1680 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-L48-h	rdf:type	ns2:Observation ;
+	ns3:population	3346 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-L49-h	rdf:type	ns2:Observation ;
+	ns3:population	1768 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-L50-h	rdf:type	ns2:Observation ;
+	ns3:population	2118 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-L51-h	rdf:type	ns2:Observation ;
+	ns3:population	1500 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-L52-h	rdf:type	ns2:Observation ;
+	ns3:population	1762 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-L53-h	rdf:type	ns2:Observation ;
+	ns3:population	2732 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-L54-h	rdf:type	ns2:Observation ;
+	ns3:population	2475 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-L55-h	rdf:type	ns2:Observation ;
+	ns3:population	2815 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-L56-h	rdf:type	ns2:Observation ;
+	ns3:population	3393 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-L57-h	rdf:type	ns2:Observation ;
+	ns3:population	2610 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-L58-h	rdf:type	ns2:Observation ;
+	ns3:population	2701 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-L59-h	rdf:type	ns2:Observation ;
+	ns3:population	2860 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-L60-h	rdf:type	ns2:Observation ;
+	ns3:population	3073 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-L61-h	rdf:type	ns2:Observation ;
+	ns3:population	2195 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-L62-h	rdf:type	ns2:Observation ;
+	ns3:population	2338 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-L63-h	rdf:type	ns2:Observation ;
+	ns3:population	1771 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-L64-h	rdf:type	ns2:Observation ;
+	ns3:population	6129 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-L65-h	rdf:type	ns2:Observation ;
+	ns3:population	4513 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-L66-h	rdf:type	ns2:Observation ;
+	ns3:population	3084 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-L67-h	rdf:type	ns2:Observation ;
+	ns3:population	6190 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-L68-h	rdf:type	ns2:Observation ;
+	ns3:population	3213 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-L69-h	rdf:type	ns2:Observation ;
+	ns3:population	2316 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-L70-h	rdf:type	ns2:Observation ;
+	ns3:population	3960 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-L71-h	rdf:type	ns2:Observation ;
+	ns3:population	3712 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-L72-h	rdf:type	ns2:Observation ;
+	ns3:population	3126 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-L73-h	rdf:type	ns2:Observation ;
+	ns3:population	3918 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-L74-h	rdf:type	ns2:Observation ;
+	ns3:population	2716 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-L75-h	rdf:type	ns2:Observation ;
+	ns3:population	3746 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-L76-h	rdf:type	ns2:Observation ;
+	ns3:population	2824 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-L77-h	rdf:type	ns2:Observation ;
+	ns3:population	3485 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-L78-h	rdf:type	ns2:Observation ;
+	ns3:population	2241 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-L79-h	rdf:type	ns2:Observation ;
+	ns3:population	2287 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-L80-h	rdf:type	ns2:Observation ;
+	ns3:population	2784 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-L81-h	rdf:type	ns2:Observation ;
+	ns3:population	1804 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-L82-h	rdf:type	ns2:Observation ;
+	ns3:population	2937 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-L83-h	rdf:type	ns2:Observation ;
+	ns3:population	3276 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-L84-h	rdf:type	ns2:Observation ;
+	ns3:population	3999 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-L85-h	rdf:type	ns2:Observation ;
+	ns3:population	4595 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-L86-h	rdf:type	ns2:Observation ;
+	ns3:population	5330 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-L87-h	rdf:type	ns2:Observation ;
+	ns3:population	1337 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-L88-h	rdf:type	ns2:Observation ;
+	ns3:population	2369 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-L89-h	rdf:type	ns2:Observation ;
+	ns3:population	2990 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-L90-h	rdf:type	ns2:Observation ;
+	ns3:population	4493 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-L91-h	rdf:type	ns2:Observation ;
+	ns3:population	1130 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-L92-h	rdf:type	ns2:Observation ;
+	ns3:population	609 ;
+	ns3:Kom	ns4:BuitenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-L93-h	rdf:type	ns2:Observation ;
+	ns3:population	2049 ;
+	ns3:Kom	ns4:BuitenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-L94-h	rdf:type	ns2:Observation ;
+	ns3:population	731 ;
+	ns3:Kom	ns4:BuitenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-L95-h	rdf:type	ns2:Observation ;
+	ns3:population	755 ;
+	ns3:Kom	ns4:BuitenKom ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-L96-h	rdf:type	ns2:Observation ;
+	ns3:population	246 ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-L98-h	rdf:type	ns2:Observation ;
+	ns3:population	645 ;
+	ns3:residenceStatus	ns5:JuridischAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-M101-h	rdf:type	ns2:Observation ;
+	ns3:population	458 ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-M46-h	rdf:type	ns2:Observation ;
+	ns3:population	1846 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-M47-h	rdf:type	ns2:Observation ;
+	ns3:population	1250 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-M48-h	rdf:type	ns2:Observation ;
+	ns3:population	2875 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-M49-h	rdf:type	ns2:Observation ;
+	ns3:population	1319 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-M50-h	rdf:type	ns2:Observation ;
+	ns3:population	1546 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-M51-h	rdf:type	ns2:Observation ;
+	ns3:population	1186 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-M52-h	rdf:type	ns2:Observation ;
+	ns3:population	1409 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-M53-h	rdf:type	ns2:Observation ;
+	ns3:population	2319 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-M54-h	rdf:type	ns2:Observation ;
+	ns3:population	2239 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-M55-h	rdf:type	ns2:Observation ;
+	ns3:population	2361 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-M56-h	rdf:type	ns2:Observation ;
+	ns3:population	2913 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-M57-h	rdf:type	ns2:Observation ;
+	ns3:population	2072 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-M58-h	rdf:type	ns2:Observation ;
+	ns3:population	2277 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-M59-h	rdf:type	ns2:Observation ;
+	ns3:population	2523 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-M60-h	rdf:type	ns2:Observation ;
+	ns3:population	2636 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-M61-h	rdf:type	ns2:Observation ;
+	ns3:population	2039 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-M62-h	rdf:type	ns2:Observation ;
+	ns3:population	2171 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-M63-h	rdf:type	ns2:Observation ;
+	ns3:population	1683 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-M64-h	rdf:type	ns2:Observation ;
+	ns3:population	6187 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-M65-h	rdf:type	ns2:Observation ;
+	ns3:population	4205 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-M66-h	rdf:type	ns2:Observation ;
+	ns3:population	2340 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-M67-h	rdf:type	ns2:Observation ;
+	ns3:population	4670 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-M68-h	rdf:type	ns2:Observation ;
+	ns3:population	2223 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-M69-h	rdf:type	ns2:Observation ;
+	ns3:population	1714 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-M70-h	rdf:type	ns2:Observation ;
+	ns3:population	2991 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-M71-h	rdf:type	ns2:Observation ;
+	ns3:population	2879 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-M72-h	rdf:type	ns2:Observation ;
+	ns3:population	2291 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-M73-h	rdf:type	ns2:Observation ;
+	ns3:population	3122 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-M74-h	rdf:type	ns2:Observation ;
+	ns3:population	2368 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-M75-h	rdf:type	ns2:Observation ;
+	ns3:population	3340 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-M76-h	rdf:type	ns2:Observation ;
+	ns3:population	2589 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-M77-h	rdf:type	ns2:Observation ;
+	ns3:population	3201 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-M78-h	rdf:type	ns2:Observation ;
+	ns3:population	1801 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-M79-h	rdf:type	ns2:Observation ;
+	ns3:population	1747 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-M80-h	rdf:type	ns2:Observation ;
+	ns3:population	1861 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-M81-h	rdf:type	ns2:Observation ;
+	ns3:population	1019 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-M82-h	rdf:type	ns2:Observation ;
+	ns3:population	2305 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-M83-h	rdf:type	ns2:Observation ;
+	ns3:population	2956 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-M84-h	rdf:type	ns2:Observation ;
+	ns3:population	3473 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-M85-h	rdf:type	ns2:Observation ;
+	ns3:population	4104 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-M86-h	rdf:type	ns2:Observation ;
+	ns3:population	4870 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-M87-h	rdf:type	ns2:Observation ;
+	ns3:population	782 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-M88-h	rdf:type	ns2:Observation ;
+	ns3:population	1535 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-M89-h	rdf:type	ns2:Observation ;
+	ns3:population	2420 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-M90-h	rdf:type	ns2:Observation ;
+	ns3:population	3762 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-M91-h	rdf:type	ns2:Observation ;
+	ns3:population	1087 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-M92-h	rdf:type	ns2:Observation ;
+	ns3:population	563 ;
+	ns3:Kom	ns4:BuitenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-M93-h	rdf:type	ns2:Observation ;
+	ns3:population	1822 ;
+	ns3:Kom	ns4:BuitenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-M94-h	rdf:type	ns2:Observation ;
+	ns3:population	668 ;
+	ns3:Kom	ns4:BuitenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-M95-h	rdf:type	ns2:Observation ;
+	ns3:population	717 ;
+	ns3:Kom	ns4:BuitenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-M96-h	rdf:type	ns2:Observation ;
+	ns3:population	448 ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-M98-h	rdf:type	ns2:Observation ;
+	ns3:population	10 ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-N101-h	rdf:type	ns2:Observation ;
+	ns3:population	247 ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-N46-h	rdf:type	ns2:Observation ;
+	ns3:population	2193 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-N47-h	rdf:type	ns2:Observation ;
+	ns3:population	1659 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-N48-h	rdf:type	ns2:Observation ;
+	ns3:population	3327 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-N49-h	rdf:type	ns2:Observation ;
+	ns3:population	1749 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-N50-h	rdf:type	ns2:Observation ;
+	ns3:population	2101 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-N51-h	rdf:type	ns2:Observation ;
+	ns3:population	1484 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-N52-h	rdf:type	ns2:Observation ;
+	ns3:population	1749 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-N53-h	rdf:type	ns2:Observation ;
+	ns3:population	2704 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-N54-h	rdf:type	ns2:Observation ;
+	ns3:population	2464 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-N55-h	rdf:type	ns2:Observation ;
+	ns3:population	2796 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-N56-h	rdf:type	ns2:Observation ;
+	ns3:population	3379 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-N57-h	rdf:type	ns2:Observation ;
+	ns3:population	2592 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-N58-h	rdf:type	ns2:Observation ;
+	ns3:population	2686 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-N59-h	rdf:type	ns2:Observation ;
+	ns3:population	2852 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-N60-h	rdf:type	ns2:Observation ;
+	ns3:population	3073 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-N61-h	rdf:type	ns2:Observation ;
+	ns3:population	2193 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-N62-h	rdf:type	ns2:Observation ;
+	ns3:population	2337 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-N63-h	rdf:type	ns2:Observation ;
+	ns3:population	1771 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-N64-h	rdf:type	ns2:Observation ;
+	ns3:population	6110 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-N65-h	rdf:type	ns2:Observation ;
+	ns3:population	4472 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-N66-h	rdf:type	ns2:Observation ;
+	ns3:population	3065 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-N67-h	rdf:type	ns2:Observation ;
+	ns3:population	6170 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-N68-h	rdf:type	ns2:Observation ;
+	ns3:population	3168 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-N69-h	rdf:type	ns2:Observation ;
+	ns3:population	2297 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-N70-h	rdf:type	ns2:Observation ;
+	ns3:population	3936 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-N71-h	rdf:type	ns2:Observation ;
+	ns3:population	3681 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-N72-h	rdf:type	ns2:Observation ;
+	ns3:population	3105 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-N73-h	rdf:type	ns2:Observation ;
+	ns3:population	3876 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-N74-h	rdf:type	ns2:Observation ;
+	ns3:population	2713 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-N75-h	rdf:type	ns2:Observation ;
+	ns3:population	3742 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-N76-h	rdf:type	ns2:Observation ;
+	ns3:population	2821 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-N77-h	rdf:type	ns2:Observation ;
+	ns3:population	3483 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-N78-h	rdf:type	ns2:Observation ;
+	ns3:population	2239 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-N79-h	rdf:type	ns2:Observation ;
+	ns3:population	2266 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-N80-h	rdf:type	ns2:Observation ;
+	ns3:population	2755 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-N81-h	rdf:type	ns2:Observation ;
+	ns3:population	1770 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-N82-h	rdf:type	ns2:Observation ;
+	ns3:population	2928 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-N83-h	rdf:type	ns2:Observation ;
+	ns3:population	3271 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-N84-h	rdf:type	ns2:Observation ;
+	ns3:population	3991 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-N85-h	rdf:type	ns2:Observation ;
+	ns3:population	4588 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-N86-h	rdf:type	ns2:Observation ;
+	ns3:population	5328 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-N87-h	rdf:type	ns2:Observation ;
+	ns3:population	1288 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-N88-h	rdf:type	ns2:Observation ;
+	ns3:population	2339 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-N89-h	rdf:type	ns2:Observation ;
+	ns3:population	2965 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-N90-h	rdf:type	ns2:Observation ;
+	ns3:population	4474 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-N91-h	rdf:type	ns2:Observation ;
+	ns3:population	1127 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-N92-h	rdf:type	ns2:Observation ;
+	ns3:population	609 ;
+	ns3:Kom	ns4:BuitenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-N93-h	rdf:type	ns2:Observation ;
+	ns3:population	2039 ;
+	ns3:Kom	ns4:BuitenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-N94-h	rdf:type	ns2:Observation ;
+	ns3:population	729 ;
+	ns3:Kom	ns4:BuitenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-N95-h	rdf:type	ns2:Observation ;
+	ns3:population	749 ;
+	ns3:Kom	ns4:BuitenKom ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-N96-h	rdf:type	ns2:Observation ;
+	ns3:population	245 ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-N98-h	rdf:type	ns2:Observation ;
+	ns3:population	2 ;
+	ns3:residenceStatus	ns5:FeitelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-O101-h	rdf:type	ns2:Observation ;
+	ns3:population	1321 ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-O46-h	rdf:type	ns2:Observation ;
+	ns3:population	15 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-O47-h	rdf:type	ns2:Observation ;
+	ns3:population	46 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-O48-h	rdf:type	ns2:Observation ;
+	ns3:population	22 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-O49-h	rdf:type	ns2:Observation ;
+	ns3:population	40 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-O50-h	rdf:type	ns2:Observation ;
+	ns3:population	57 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-O51-h	rdf:type	ns2:Observation ;
+	ns3:population	16 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-O52-h	rdf:type	ns2:Observation ;
+	ns3:population	14 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-O53-h	rdf:type	ns2:Observation ;
+	ns3:population	23 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-O54-h	rdf:type	ns2:Observation ;
+	ns3:population	50 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-O55-h	rdf:type	ns2:Observation ;
+	ns3:population	36 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-O56-h	rdf:type	ns2:Observation ;
+	ns3:population	35 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-O57-h	rdf:type	ns2:Observation ;
+	ns3:population	20 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-O58-h	rdf:type	ns2:Observation ;
+	ns3:population	11 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-O59-h	rdf:type	ns2:Observation ;
+	ns3:population	5 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-O60-h	rdf:type	ns2:Observation ;
+	ns3:population	1 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-O64-h	rdf:type	ns2:Observation ;
+	ns3:population	22 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-O65-h	rdf:type	ns2:Observation ;
+	ns3:population	316 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-O66-h	rdf:type	ns2:Observation ;
+	ns3:population	23 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-O67-h	rdf:type	ns2:Observation ;
+	ns3:population	25 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-O68-h	rdf:type	ns2:Observation ;
+	ns3:population	57 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-O69-h	rdf:type	ns2:Observation ;
+	ns3:population	15 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-O70-h	rdf:type	ns2:Observation ;
+	ns3:population	18 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-O71-h	rdf:type	ns2:Observation ;
+	ns3:population	13 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-O72-h	rdf:type	ns2:Observation ;
+	ns3:population	8 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-O73-h	rdf:type	ns2:Observation ;
+	ns3:population	97 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-O74-h	rdf:type	ns2:Observation ;
+	ns3:population	6 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-O75-h	rdf:type	ns2:Observation ;
+	ns3:population	2 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-O76-h	rdf:type	ns2:Observation ;
+	ns3:population	3 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-O77-h	rdf:type	ns2:Observation ;
+	ns3:population	5 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-O78-h	rdf:type	ns2:Observation ;
+	ns3:population	3 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-O79-h	rdf:type	ns2:Observation ;
+	ns3:population	8 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-O80-h	rdf:type	ns2:Observation ;
+	ns3:population	10 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-O81-h	rdf:type	ns2:Observation ;
+	ns3:population	21 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-O82-h	rdf:type	ns2:Observation ;
+	ns3:population	4 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-O83-h	rdf:type	ns2:Observation ;
+	ns3:population	2 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-O84-h	rdf:type	ns2:Observation ;
+	ns3:population	8 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-O85-h	rdf:type	ns2:Observation ;
+	ns3:population	7 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-O86-h	rdf:type	ns2:Observation ;
+	ns3:population	2 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-O87-h	rdf:type	ns2:Observation ;
+	ns3:population	20 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-O88-h	rdf:type	ns2:Observation ;
+	ns3:population	18 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-O89-h	rdf:type	ns2:Observation ;
+	ns3:population	20 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-O90-h	rdf:type	ns2:Observation ;
+	ns3:population	11 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-O92-h	rdf:type	ns2:Observation ;
+	ns3:population	1 ;
+	ns3:Kom	ns4:BuitenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-O93-h	rdf:type	ns2:Observation ;
+	ns3:population	28 ;
+	ns3:Kom	ns4:BuitenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-O94-h	rdf:type	ns2:Observation ;
+	ns3:population	2 ;
+	ns3:Kom	ns4:BuitenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-O95-h	rdf:type	ns2:Observation ;
+	ns3:population	7 ;
+	ns3:Kom	ns4:BuitenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-O96-h	rdf:type	ns2:Observation ;
+	ns3:population	16 ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-O98-h	rdf:type	ns2:Observation ;
+	ns3:population	1305 ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-P101-h	rdf:type	ns2:Observation ;
+	ns3:population	644 ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-P46-h	rdf:type	ns2:Observation ;
+	ns3:population	9 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-P47-h	rdf:type	ns2:Observation ;
+	ns3:population	21 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-P48-h	rdf:type	ns2:Observation ;
+	ns3:population	19 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-P49-h	rdf:type	ns2:Observation ;
+	ns3:population	19 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-P50-h	rdf:type	ns2:Observation ;
+	ns3:population	17 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-P51-h	rdf:type	ns2:Observation ;
+	ns3:population	16 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-P52-h	rdf:type	ns2:Observation ;
+	ns3:population	13 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-P53-h	rdf:type	ns2:Observation ;
+	ns3:population	28 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-P54-h	rdf:type	ns2:Observation ;
+	ns3:population	11 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-P55-h	rdf:type	ns2:Observation ;
+	ns3:population	19 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-P56-h	rdf:type	ns2:Observation ;
+	ns3:population	14 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-P57-h	rdf:type	ns2:Observation ;
+	ns3:population	18 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-P58-h	rdf:type	ns2:Observation ;
+	ns3:population	15 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-P59-h	rdf:type	ns2:Observation ;
+	ns3:population	8 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-P61-h	rdf:type	ns2:Observation ;
+	ns3:population	2 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-P62-h	rdf:type	ns2:Observation ;
+	ns3:population	1 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-P64-h	rdf:type	ns2:Observation ;
+	ns3:population	19 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-P65-h	rdf:type	ns2:Observation ;
+	ns3:population	41 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-P66-h	rdf:type	ns2:Observation ;
+	ns3:population	19 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-P67-h	rdf:type	ns2:Observation ;
+	ns3:population	20 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-P68-h	rdf:type	ns2:Observation ;
+	ns3:population	45 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-P69-h	rdf:type	ns2:Observation ;
+	ns3:population	19 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-P70-h	rdf:type	ns2:Observation ;
+	ns3:population	24 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-P71-h	rdf:type	ns2:Observation ;
+	ns3:population	31 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-P72-h	rdf:type	ns2:Observation ;
+	ns3:population	21 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-P73-h	rdf:type	ns2:Observation ;
+	ns3:population	42 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-P74-h	rdf:type	ns2:Observation ;
+	ns3:population	3 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-P75-h	rdf:type	ns2:Observation ;
+	ns3:population	4 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-P76-h	rdf:type	ns2:Observation ;
+	ns3:population	3 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-P77-h	rdf:type	ns2:Observation ;
+	ns3:population	2 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-P78-h	rdf:type	ns2:Observation ;
+	ns3:population	2 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-P79-h	rdf:type	ns2:Observation ;
+	ns3:population	21 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-P80-h	rdf:type	ns2:Observation ;
+	ns3:population	29 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-P81-h	rdf:type	ns2:Observation ;
+	ns3:population	34 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-P82-h	rdf:type	ns2:Observation ;
+	ns3:population	9 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-P83-h	rdf:type	ns2:Observation ;
+	ns3:population	5 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-P84-h	rdf:type	ns2:Observation ;
+	ns3:population	8 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-P85-h	rdf:type	ns2:Observation ;
+	ns3:population	7 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-P86-h	rdf:type	ns2:Observation ;
+	ns3:population	2 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-P87-h	rdf:type	ns2:Observation ;
+	ns3:population	49 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-P88-h	rdf:type	ns2:Observation ;
+	ns3:population	30 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-P89-h	rdf:type	ns2:Observation ;
+	ns3:population	25 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-P90-h	rdf:type	ns2:Observation ;
+	ns3:population	19 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-P91-h	rdf:type	ns2:Observation ;
+	ns3:population	3 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-P93-h	rdf:type	ns2:Observation ;
+	ns3:population	10 ;
+	ns3:Kom	ns4:BuitenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-P94-h	rdf:type	ns2:Observation ;
+	ns3:population	2 ;
+	ns3:Kom	ns4:BuitenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-P95-h	rdf:type	ns2:Observation ;
+	ns3:population	6 ;
+	ns3:Kom	ns4:BuitenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-P96-h	rdf:type	ns2:Observation ;
+	ns3:population	1 ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-P98-h	rdf:type	ns2:Observation ;
+	ns3:population	643 ;
+	ns3:residenceStatus	ns5:TijdelijkAanwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-Q101-h	rdf:type	ns2:Observation ;
+	ns3:population	296 ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-Q46-h	rdf:type	ns2:Observation ;
+	ns3:population	48 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-Q47-h	rdf:type	ns2:Observation ;
+	ns3:population	29 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-Q48-h	rdf:type	ns2:Observation ;
+	ns3:population	50 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-Q49-h	rdf:type	ns2:Observation ;
+	ns3:population	20 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-Q50-h	rdf:type	ns2:Observation ;
+	ns3:population	39 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-Q51-h	rdf:type	ns2:Observation ;
+	ns3:population	29 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-Q52-h	rdf:type	ns2:Observation ;
+	ns3:population	37 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-Q53-h	rdf:type	ns2:Observation ;
+	ns3:population	65 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-Q54-h	rdf:type	ns2:Observation ;
+	ns3:population	68 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-Q55-h	rdf:type	ns2:Observation ;
+	ns3:population	66 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-Q56-h	rdf:type	ns2:Observation ;
+	ns3:population	100 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-Q57-h	rdf:type	ns2:Observation ;
+	ns3:population	101 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-Q58-h	rdf:type	ns2:Observation ;
+	ns3:population	103 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-Q59-h	rdf:type	ns2:Observation ;
+	ns3:population	99 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-Q60-h	rdf:type	ns2:Observation ;
+	ns3:population	24 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-Q61-h	rdf:type	ns2:Observation ;
+	ns3:population	7 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-Q62-h	rdf:type	ns2:Observation ;
+	ns3:population	37 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-Q63-h	rdf:type	ns2:Observation ;
+	ns3:population	18 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-Q64-h	rdf:type	ns2:Observation ;
+	ns3:population	252 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-Q65-h	rdf:type	ns2:Observation ;
+	ns3:population	219 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-Q66-h	rdf:type	ns2:Observation ;
+	ns3:population	50 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-Q67-h	rdf:type	ns2:Observation ;
+	ns3:population	40 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-Q68-h	rdf:type	ns2:Observation ;
+	ns3:population	104 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-Q69-h	rdf:type	ns2:Observation ;
+	ns3:population	54 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-Q70-h	rdf:type	ns2:Observation ;
+	ns3:population	82 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-Q71-h	rdf:type	ns2:Observation ;
+	ns3:population	46 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-Q72-h	rdf:type	ns2:Observation ;
+	ns3:population	51 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-Q73-h	rdf:type	ns2:Observation ;
+	ns3:population	55 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-Q74-h	rdf:type	ns2:Observation ;
+	ns3:population	47 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-Q75-h	rdf:type	ns2:Observation ;
+	ns3:population	49 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-Q76-h	rdf:type	ns2:Observation ;
+	ns3:population	31 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-Q77-h	rdf:type	ns2:Observation ;
+	ns3:population	53 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-Q78-h	rdf:type	ns2:Observation ;
+	ns3:population	37 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-Q79-h	rdf:type	ns2:Observation ;
+	ns3:population	27 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-Q80-h	rdf:type	ns2:Observation ;
+	ns3:population	29 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-Q81-h	rdf:type	ns2:Observation ;
+	ns3:population	38 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-Q82-h	rdf:type	ns2:Observation ;
+	ns3:population	58 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-Q83-h	rdf:type	ns2:Observation ;
+	ns3:population	34 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-Q84-h	rdf:type	ns2:Observation ;
+	ns3:population	99 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-Q85-h	rdf:type	ns2:Observation ;
+	ns3:population	87 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-Q86-h	rdf:type	ns2:Observation ;
+	ns3:population	106 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-Q87-h	rdf:type	ns2:Observation ;
+	ns3:population	25 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-Q88-h	rdf:type	ns2:Observation ;
+	ns3:population	58 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-Q89-h	rdf:type	ns2:Observation ;
+	ns3:population	89 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-Q90-h	rdf:type	ns2:Observation ;
+	ns3:population	166 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-Q91-h	rdf:type	ns2:Observation ;
+	ns3:population	61 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-Q92-h	rdf:type	ns2:Observation ;
+	ns3:population	6 ;
+	ns3:Kom	ns4:BuitenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-Q93-h	rdf:type	ns2:Observation ;
+	ns3:population	12 ;
+	ns3:Kom	ns4:BuitenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-Q94-h	rdf:type	ns2:Observation ;
+	ns3:population	19 ;
+	ns3:Kom	ns4:BuitenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-Q95-h	rdf:type	ns2:Observation ;
+	ns3:population	7 ;
+	ns3:Kom	ns4:BuitenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-Q96-h	rdf:type	ns2:Observation ;
+	ns3:population	12 ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-Q97-h	rdf:type	ns2:Observation ;
+	ns3:population	284 ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-M .
+ns1:VT_1869_01_H1-S3-R101-h	rdf:type	ns2:Observation ;
+	ns3:population	268 ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-R46-h	rdf:type	ns2:Observation ;
+	ns3:population	5 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-R47-h	rdf:type	ns2:Observation ;
+	ns3:population	14 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-R48-h	rdf:type	ns2:Observation ;
+	ns3:population	20 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-R49-h	rdf:type	ns2:Observation ;
+	ns3:population	6 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-R50-h	rdf:type	ns2:Observation ;
+	ns3:population	14 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-R51-h	rdf:type	ns2:Observation ;
+	ns3:population	7 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-R52-h	rdf:type	ns2:Observation ;
+	ns3:population	13 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-R53-h	rdf:type	ns2:Observation ;
+	ns3:population	14 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-R54-h	rdf:type	ns2:Observation ;
+	ns3:population	24 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-R55-h	rdf:type	ns2:Observation ;
+	ns3:population	10 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-R56-h	rdf:type	ns2:Observation ;
+	ns3:population	33 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-R57-h	rdf:type	ns2:Observation ;
+	ns3:population	17 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-R58-h	rdf:type	ns2:Observation ;
+	ns3:population	18 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-R59-h	rdf:type	ns2:Observation ;
+	ns3:population	16 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-R60-h	rdf:type	ns2:Observation ;
+	ns3:population	8 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-R61-h	rdf:type	ns2:Observation ;
+	ns3:population	3 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-R62-h	rdf:type	ns2:Observation ;
+	ns3:population	9 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-R63-h	rdf:type	ns2:Observation ;
+	ns3:population	10 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-R64-h	rdf:type	ns2:Observation ;
+	ns3:population	22 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-R65-h	rdf:type	ns2:Observation ;
+	ns3:population	40 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-R66-h	rdf:type	ns2:Observation ;
+	ns3:population	14 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-R67-h	rdf:type	ns2:Observation ;
+	ns3:population	16 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-R68-h	rdf:type	ns2:Observation ;
+	ns3:population	103 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-R69-h	rdf:type	ns2:Observation ;
+	ns3:population	37 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-R70-h	rdf:type	ns2:Observation ;
+	ns3:population	48 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-R71-h	rdf:type	ns2:Observation ;
+	ns3:population	26 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-R72-h	rdf:type	ns2:Observation ;
+	ns3:population	20 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-R73-h	rdf:type	ns2:Observation ;
+	ns3:population	18 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-R74-h	rdf:type	ns2:Observation ;
+	ns3:population	9 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-R75-h	rdf:type	ns2:Observation ;
+	ns3:population	11 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-R76-h	rdf:type	ns2:Observation ;
+	ns3:population	8 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-R77-h	rdf:type	ns2:Observation ;
+	ns3:population	13 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-R78-h	rdf:type	ns2:Observation ;
+	ns3:population	12 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-R79-h	rdf:type	ns2:Observation ;
+	ns3:population	20 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-R80-h	rdf:type	ns2:Observation ;
+	ns3:population	22 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-R81-h	rdf:type	ns2:Observation ;
+	ns3:population	21 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-R82-h	rdf:type	ns2:Observation ;
+	ns3:population	29 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-R83-h	rdf:type	ns2:Observation ;
+	ns3:population	8 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-R84-h	rdf:type	ns2:Observation ;
+	ns3:population	22 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-R85-h	rdf:type	ns2:Observation ;
+	ns3:population	26 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-R86-h	rdf:type	ns2:Observation ;
+	ns3:population	13 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-R87-h	rdf:type	ns2:Observation ;
+	ns3:population	11 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-R88-h	rdf:type	ns2:Observation ;
+	ns3:population	27 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-R89-h	rdf:type	ns2:Observation ;
+	ns3:population	15 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-R90-h	rdf:type	ns2:Observation ;
+	ns3:population	25 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-R91-h	rdf:type	ns2:Observation ;
+	ns3:population	14 ;
+	ns3:Kom	ns4:BinnenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-R92-h	rdf:type	ns2:Observation ;
+	ns3:population	5 ;
+	ns3:Kom	ns4:BuitenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-R93-h	rdf:type	ns2:Observation ;
+	ns3:population	7 ;
+	ns3:Kom	ns4:BuitenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-R94-h	rdf:type	ns2:Observation ;
+	ns3:population	7 ;
+	ns3:Kom	ns4:BuitenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-R95-h	rdf:type	ns2:Observation ;
+	ns3:population	5 ;
+	ns3:Kom	ns4:BuitenKom ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-R96-h	rdf:type	ns2:Observation ;
+	ns3:population	2 ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:VT_1869_01_H1-S3-R97-h	rdf:type	ns2:Observation ;
+	ns3:population	266 ;
+	ns3:residenceStatus	ns5:TijdelijkAfwezig ;
+	ns6:sex	ns7:sex-F .
+ns1:harmonised-cube-slice_2	rdf:type	ns2:Slice .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ns1:harmonised-cube-slice_2	ns6:refPeriod	"1869"^^xsd:int ;
+	ns2:observation	ns1:VT_1869_01_H1-S3-Q92-h ,
+		ns1:VT_1869_01_H1-S3-P56-h ,
+		ns1:VT_1869_01_H1-S3-N80-h ,
+		ns1:VT_1869_01_H1-S3-Q93-h ,
+		ns1:VT_1869_01_H1-S3-G58-h ,
+		ns1:VT_1869_01_H1-S3-G59-h ,
+		ns1:VT_1869_01_H1-S3-Q94-h ,
+		ns1:VT_1869_01_H1-S3-J82-h ,
+		ns1:VT_1869_01_H1-S3-P57-h ,
+		ns1:VT_1869_01_H1-S3-G60-h ,
+		ns1:VT_1869_01_H1-S3-N81-h ,
+		ns1:VT_1869_01_H1-S3-J83-h ,
+		ns1:VT_1869_01_H1-S3-Q95-h ,
+		ns1:VT_1869_01_H1-S3-P58-h ,
+		ns1:VT_1869_01_H1-S3-P59-h ,
+		ns1:VT_1869_01_H1-S3-Q96-h ,
+		ns1:VT_1869_01_H1-S3-N82-h ,
+		ns1:VT_1869_01_H1-S3-G61-h ,
+		ns1:VT_1869_01_H1-S3-J84-h ,
+		ns1:VT_1869_01_H1-S3-G63-h ,
+		ns1:VT_1869_01_H1-S3-G62-h ,
+		ns1:VT_1869_01_H1-S3-G64-h ,
+		ns1:VT_1869_01_H1-S3-P61-h ,
+		ns1:VT_1869_01_H1-S3-N67-h ,
+		ns1:VT_1869_01_H1-S3-Q97-h ,
+		ns1:VT_1869_01_H1-S3-J85-h ,
+		ns1:VT_1869_01_H1-S3-P62-h ,
+		ns1:VT_1869_01_H1-S3-G65-h ,
+		ns1:VT_1869_01_H1-S3-Q76-h ,
+		ns1:VT_1869_01_H1-S3-G66-h ,
+		ns1:VT_1869_01_H1-S3-N68-h ,
+		ns1:VT_1869_01_H1-S3-Q77-h ,
+		ns1:VT_1869_01_H1-S3-Q78-h ,
+		ns1:VT_1869_01_H1-S3-J86-h ,
+		ns1:VT_1869_01_H1-S3-P64-h ,
+		ns1:VT_1869_01_H1-S3-G67-h ,
+		ns1:VT_1869_01_H1-S3-P65-h ,
+		ns1:VT_1869_01_H1-S3-J87-h ,
+		ns1:VT_1869_01_H1-S3-P66-h ,
+		ns1:VT_1869_01_H1-S3-N69-h ,
+		ns1:VT_1869_01_H1-S3-Q79-h ,
+		ns1:VT_1869_01_H1-S3-G68-h ,
+		ns1:VT_1869_01_H1-S3-Q80-h ,
+		ns1:VT_1869_01_H1-S3-N70-h ,
+		ns1:VT_1869_01_H1-S3-G69-h ,
+		ns1:VT_1869_01_H1-S3-J88-h ,
+		ns1:VT_1869_01_H1-S3-N71-h ,
+		ns1:VT_1869_01_H1-S3-J89-h ,
+		ns1:VT_1869_01_H1-S3-P46-h ,
+		ns1:VT_1869_01_H1-S3-Q81-h ,
+		ns1:VT_1869_01_H1-S3-Q82-h ,
+		ns1:VT_1869_01_H1-S3-N72-h ,
+		ns1:VT_1869_01_H1-S3-P47-h ,
+		ns1:VT_1869_01_H1-S3-Q83-h ,
+		ns1:VT_1869_01_H1-S3-J75-h ,
+		ns1:VT_1869_01_H1-S3-G46-h ,
+		ns1:VT_1869_01_H1-S3-N73-h ,
+		ns1:VT_1869_01_H1-S3-P48-h ,
+		ns1:VT_1869_01_H1-S3-Q84-h ,
+		ns1:VT_1869_01_H1-S3-J76-h ,
+		ns1:VT_1869_01_H1-S3-G47-h ,
+		ns1:VT_1869_01_H1-S3-G48-h ,
+		ns1:VT_1869_01_H1-S3-Q85-h ,
+		ns1:VT_1869_01_H1-S3-N74-h ,
+		ns1:VT_1869_01_H1-S3-L95-h ,
+		ns1:VT_1869_01_H1-S3-G49-h ,
+		ns1:VT_1869_01_H1-S3-Q86-h ,
+		ns1:VT_1869_01_H1-S3-P49-h ,
+		ns1:VT_1869_01_H1-S3-J77-h ,
+		ns1:VT_1869_01_H1-S3-P50-h ,
+		ns1:VT_1869_01_H1-S3-L96-h ,
+		ns1:VT_1869_01_H1-S3-G50-h ,
+		ns1:VT_1869_01_H1-S3-N59-h ,
+		ns1:VT_1869_01_H1-S3-Q66-h ,
+		ns1:VT_1869_01_H1-S3-G51-h ,
+		ns1:VT_1869_01_H1-S3-J78-h ,
+		ns1:VT_1869_01_H1-S3-P52-h ,
+		ns1:VT_1869_01_H1-S3-N60-h ,
+		ns1:VT_1869_01_H1-S3-G52-h ,
+		ns1:VT_1869_01_H1-S3-P51-h ,
+		ns1:VT_1869_01_H1-S3-Q67-h ,
+		ns1:VT_1869_01_H1-S3-P53-h ,
+		ns1:VT_1869_01_H1-S3-Q68-h ,
+		ns1:VT_1869_01_H1-S3-N61-h ,
+		ns1:VT_1869_01_H1-S3-L98-h ,
+		ns1:VT_1869_01_H1-S3-G53-h ,
+		ns1:VT_1869_01_H1-S3-J79-h ,
+		ns1:VT_1869_01_H1-S3-G54-h ,
+		ns1:VT_1869_01_H1-S3-N62-h ,
+		ns1:VT_1869_01_H1-S3-Q69-h ,
+		ns1:VT_1869_01_H1-S3-J80-h ,
+		ns1:VT_1869_01_H1-S3-G55-h ,
+		ns1:VT_1869_01_H1-S3-N63-h ,
+		ns1:VT_1869_01_H1-S3-Q70-h ,
+		ns1:VT_1869_01_H1-S3-J81-h ,
+		ns1:VT_1869_01_H1-S3-Q71-h ,
+		ns1:VT_1869_01_H1-S3-M101-h ,
+		ns1:VT_1869_01_H1-S3-Q72-h ,
+		ns1:VT_1869_01_H1-S3-N64-h ,
+		ns1:VT_1869_01_H1-S3-N65-h ,
+		ns1:VT_1869_01_H1-S3-J67-h ,
+		ns1:VT_1869_01_H1-S3-L87-h ,
+		ns1:VT_1869_01_H1-S3-Q73-h ,
+		ns1:VT_1869_01_H1-S3-J68-h ,
+		ns1:VT_1869_01_H1-S3-N66-h ,
+		ns1:VT_1869_01_H1-S3-L88-h ,
+		ns1:VT_1869_01_H1-S3-Q74-h ,
+		ns1:VT_1869_01_H1-S3-Q75-h ,
+		ns1:VT_1869_01_H1-S3-N51-h ,
+		ns1:VT_1869_01_H1-S3-J69-h ,
+		ns1:VT_1869_01_H1-S3-K96-h ,
+		ns1:VT_1869_01_H1-S3-Q55-h ,
+		ns1:VT_1869_01_H1-S3-J70-h ,
+		ns1:VT_1869_01_H1-S3-L89-h ,
+		ns1:VT_1869_01_H1-S3-N52-h ,
+		ns1:VT_1869_01_H1-S3-J71-h ,
+		ns1:VT_1869_01_H1-S3-Q56-h ,
+		ns1:VT_1869_01_H1-S3-L90-h ,
+		ns1:VT_1869_01_H1-S3-N53-h ,
+		ns1:VT_1869_01_H1-S3-Q57-h ,
+		ns1:VT_1869_01_H1-S3-K98-h ,
+		ns1:VT_1869_01_H1-S3-J72-h ,
+		ns1:VT_1869_01_H1-S3-N54-h ,
+		ns1:VT_1869_01_H1-S3-L91-h ,
+		ns1:VT_1869_01_H1-S3-J73-h ,
+		ns1:VT_1869_01_H1-S3-Q58-h ,
+		ns1:VT_1869_01_H1-S3-N55-h ,
+		ns1:VT_1869_01_H1-S3-L92-h ,
+		ns1:VT_1869_01_H1-S3-Q59-h ,
+		ns1:VT_1869_01_H1-S3-J74-h ,
+		ns1:VT_1869_01_H1-S3-L93-h ,
+		ns1:VT_1869_01_H1-S3-N56-h ,
+		ns1:VT_1869_01_H1-S3-J59-h ,
+		ns1:VT_1869_01_H1-S3-Q60-h ,
+		ns1:VT_1869_01_H1-S3-Q61-h ,
+		ns1:VT_1869_01_H1-S3-N57-h ,
+		ns1:VT_1869_01_H1-S3-L94-h ,
+		ns1:VT_1869_01_H1-S3-L101-h ,
+		ns1:VT_1869_01_H1-S3-J60-h ,
+		ns1:VT_1869_01_H1-S3-L79-h ,
+		ns1:VT_1869_01_H1-S3-Q62-h ,
+		ns1:VT_1869_01_H1-S3-N58-h ,
+		ns1:VT_1869_01_H1-S3-Q63-h ,
+		ns1:VT_1869_01_H1-S3-L80-h ,
+		ns1:VT_1869_01_H1-S3-J61-h ,
+		ns1:VT_1869_01_H1-S3-Q64-h ,
+		ns1:VT_1869_01_H1-S3-J62-h ,
+		ns1:VT_1869_01_H1-S3-Q65-h ,
+		ns1:VT_1869_01_H1-S3-L81-h ,
+		ns1:VT_1869_01_H1-S3-K88-h ,
+		ns1:VT_1869_01_H1-S3-Q46-h ,
+		ns1:VT_1869_01_H1-S3-J63-h ,
+		ns1:VT_1869_01_H1-S3-L82-h ,
+		ns1:VT_1869_01_H1-S3-K89-h ,
+		ns1:VT_1869_01_H1-S3-Q47-h ,
+		ns1:VT_1869_01_H1-S3-J64-h ,
+		ns1:VT_1869_01_H1-S3-L83-h ,
+		ns1:VT_1869_01_H1-S3-K90-h ,
+		ns1:VT_1869_01_H1-S3-Q48-h ,
+		ns1:VT_1869_01_H1-S3-J65-h ,
+		ns1:VT_1869_01_H1-S3-L84-h ,
+		ns1:VT_1869_01_H1-S3-K91-h ,
+		ns1:VT_1869_01_H1-S3-L85-h ,
+		ns1:VT_1869_01_H1-S3-Q49-h ,
+		ns1:VT_1869_01_H1-S3-K92-h ,
+		ns1:VT_1869_01_H1-S3-J66-h ,
+		ns1:VT_1869_01_H1-S3-L86-h ,
+		ns1:VT_1869_01_H1-S3-Q50-h ,
+		ns1:VT_1869_01_H1-S3-Q51-h ,
+		ns1:VT_1869_01_H1-S3-J51-h ,
+		ns1:VT_1869_01_H1-S3-K93-h ,
+		ns1:VT_1869_01_H1-S3-Q52-h ,
+		ns1:VT_1869_01_H1-S3-K94-h ,
+		ns1:VT_1869_01_H1-S3-J52-h ,
+		ns1:VT_1869_01_H1-S3-L72-h ,
+		ns1:VT_1869_01_H1-S3-Q53-h ,
+		ns1:VT_1869_01_H1-S3-K95-h ,
+		ns1:VT_1869_01_H1-S3-J53-h ,
+		ns1:VT_1869_01_H1-S3-Q54-h ,
+		ns1:VT_1869_01_H1-S3-J54-h ,
+		ns1:VT_1869_01_H1-S3-L73-h ,
+		ns1:VT_1869_01_H1-S3-K80-h ,
+		ns1:VT_1869_01_H1-S3-J55-h ,
+		ns1:VT_1869_01_H1-S3-L74-h ,
+		ns1:VT_1869_01_H1-S3-K81-h ,
+		ns1:VT_1869_01_H1-S3-J56-h ,
+		ns1:VT_1869_01_H1-S3-L75-h ,
+		ns1:VT_1869_01_H1-S3-K82-h ,
+		ns1:VT_1869_01_H1-S3-J57-h ,
+		ns1:VT_1869_01_H1-S3-L76-h ,
+		ns1:VT_1869_01_H1-S3-K83-h ,
+		ns1:VT_1869_01_H1-S3-J58-h ,
+		ns1:VT_1869_01_H1-S3-L77-h ,
+		ns1:VT_1869_01_H1-S3-K84-h ,
+		ns1:VT_1869_01_H1-S3-L78-h ,
+		ns1:VT_1869_01_H1-S3-K85-h ,
+		ns1:VT_1869_01_H1-S3-K86-h ,
+		ns1:VT_1869_01_H1-S3-L64-h ,
+		ns1:VT_1869_01_H1-S3-J46-h ,
+		ns1:VT_1869_01_H1-S3-L65-h ,
+		ns1:VT_1869_01_H1-S3-K87-h ,
+		ns1:VT_1869_01_H1-S3-J47-h ,
+		ns1:VT_1869_01_H1-S3-L66-h ,
+		ns1:VT_1869_01_H1-S3-K73-h ,
+		ns1:VT_1869_01_H1-S3-J48-h ,
+		ns1:VT_1869_01_H1-S3-L67-h ,
+		ns1:VT_1869_01_H1-S3-K74-h ,
+		ns1:VT_1869_01_H1-S3-J49-h ,
+		ns1:VT_1869_01_H1-S3-L68-h ,
+		ns1:VT_1869_01_H1-S3-K75-h ,
+		ns1:VT_1869_01_H1-S3-M98-h ,
+		ns1:VT_1869_01_H1-S3-L69-h ,
+		ns1:VT_1869_01_H1-S3-K76-h ,
+		ns1:VT_1869_01_H1-S3-J50-h ,
+		ns1:VT_1869_01_H1-S3-L70-h ,
+		ns1:VT_1869_01_H1-S3-K77-h ,
+		ns1:VT_1869_01_H1-S3-L71-h ,
+		ns1:VT_1869_01_H1-S3-K78-h ,
+		ns1:VT_1869_01_H1-S3-N101-h ,
+		ns1:VT_1869_01_H1-S3-L56-h ,
+		ns1:VT_1869_01_H1-S3-K79-h ,
+		ns1:VT_1869_01_H1-S3-L57-h ,
+		ns1:VT_1869_01_H1-S3-K65-h ,
+		ns1:VT_1869_01_H1-S3-L58-h ,
+		ns1:VT_1869_01_H1-S3-K66-h ,
+		ns1:VT_1869_01_H1-S3-L59-h ,
+		ns1:VT_1869_01_H1-S3-M89-h ,
+		ns1:VT_1869_01_H1-S3-K67-h ,
+		ns1:VT_1869_01_H1-S3-L60-h ,
+		ns1:VT_1869_01_H1-S3-O89-h ,
+		ns1:VT_1869_01_H1-S3-M90-h ,
+		ns1:VT_1869_01_H1-S3-L61-h ,
+		ns1:VT_1869_01_H1-S3-O90-h ,
+		ns1:VT_1869_01_H1-S3-M91-h ,
+		ns1:VT_1869_01_H1-S3-K68-h ,
+		ns1:VT_1869_01_H1-S3-F89-h ,
+		ns1:VT_1869_01_H1-S3-L62-h ,
+		ns1:VT_1869_01_H1-S3-O93-h ,
+		ns1:VT_1869_01_H1-S3-O92-h ,
+		ns1:VT_1869_01_H1-S3-M92-h ,
+		ns1:VT_1869_01_H1-S3-K69-h ,
+		ns1:VT_1869_01_H1-S3-L63-h ,
+		ns1:VT_1869_01_H1-S3-F90-h ,
+		ns1:VT_1869_01_H1-S3-O94-h ,
+		ns1:VT_1869_01_H1-S3-L48-h ,
+		ns1:VT_1869_01_H1-S3-M93-h ,
+		ns1:VT_1869_01_H1-S3-K70-h ,
+		ns1:VT_1869_01_H1-S3-O95-h ,
+		ns1:VT_1869_01_H1-S3-O96-h ,
+		ns1:VT_1869_01_H1-S3-F91-h ,
+		ns1:VT_1869_01_H1-S3-M94-h ,
+		ns1:VT_1869_01_H1-S3-L49-h ,
+		ns1:VT_1869_01_H1-S3-K71-h ,
+		ns1:VT_1869_01_H1-S3-I98-h ,
+		ns1:VT_1869_01_H1-S3-F92-h ,
+		ns1:VT_1869_01_H1-S3-F93-h ,
+		ns1:VT_1869_01_H1-S3-M95-h ,
+		ns1:VT_1869_01_H1-S3-L50-h ,
+		ns1:VT_1869_01_H1-S3-K72-h ,
+		ns1:VT_1869_01_H1-S3-O98-h ,
+		ns1:VT_1869_01_H1-S3-K57-h ,
+		ns1:VT_1869_01_H1-S3-F94-h ,
+		ns1:VT_1869_01_H1-S3-J101-h ,
+		ns1:VT_1869_01_H1-S3-M96-h ,
+		ns1:VT_1869_01_H1-S3-P101-h ,
+		ns1:VT_1869_01_H1-S3-K58-h ,
+		ns1:VT_1869_01_H1-S3-F95-h ,
+		ns1:VT_1869_01_H1-S3-L51-h ,
+		ns1:VT_1869_01_H1-S3-M81-h ,
+		ns1:VT_1869_01_H1-S3-K59-h ,
+		ns1:VT_1869_01_H1-S3-L52-h ,
+		ns1:VT_1869_01_H1-S3-M82-h ,
+		ns1:VT_1869_01_H1-S3-O77-h ,
+		ns1:VT_1869_01_H1-S3-K60-h ,
+		ns1:VT_1869_01_H1-S3-O78-h ,
+		ns1:VT_1869_01_H1-S3-R94-h ,
+		ns1:VT_1869_01_H1-S3-M83-h ,
+		ns1:VT_1869_01_H1-S3-L53-h ,
+		ns1:VT_1869_01_H1-S3-O79-h ,
+		ns1:VT_1869_01_H1-S3-F81-h ,
+		ns1:VT_1869_01_H1-S3-K61-h ,
+		ns1:VT_1869_01_H1-S3-O80-h ,
+		ns1:VT_1869_01_H1-S3-M84-h ,
+		ns1:VT_1869_01_H1-S3-L54-h ,
+		ns1:VT_1869_01_H1-S3-R95-h ,
+		ns1:VT_1869_01_H1-S3-O81-h ,
+		ns1:VT_1869_01_H1-S3-R96-h ,
+		ns1:VT_1869_01_H1-S3-F82-h ,
+		ns1:VT_1869_01_H1-S3-K62-h ,
+		ns1:VT_1869_01_H1-S3-L55-h ,
+		ns1:VT_1869_01_H1-S3-R97-h ,
+		ns1:VT_1869_01_H1-S3-M85-h ,
+		ns1:VT_1869_01_H1-S3-O83-h ,
+		ns1:VT_1869_01_H1-S3-F83-h ,
+		ns1:VT_1869_01_H1-S3-O82-h ,
+		ns1:VT_1869_01_H1-S3-K63-h ,
+		ns1:VT_1869_01_H1-S3-M86-h ,
+		ns1:VT_1869_01_H1-S3-K64-h ,
+		ns1:VT_1869_01_H1-S3-F84-h ,
+		ns1:VT_1869_01_H1-S3-O84-h ,
+		ns1:VT_1869_01_H1-S3-O85-h ,
+		ns1:VT_1869_01_H1-S3-M87-h ,
+		ns1:VT_1869_01_H1-S3-O86-h ,
+		ns1:VT_1869_01_H1-S3-F85-h ,
+		ns1:VT_1869_01_H1-S3-K50-h ,
+		ns1:VT_1869_01_H1-S3-M88-h ,
+		ns1:VT_1869_01_H1-S3-F86-h ,
+		ns1:VT_1869_01_H1-S3-O87-h ,
+		ns1:VT_1869_01_H1-S3-O88-h ,
+		ns1:VT_1869_01_H1-S3-K51-h ,
+		ns1:VT_1869_01_H1-S3-M73-h ,
+		ns1:VT_1869_01_H1-S3-F87-h ,
+		ns1:VT_1869_01_H1-S3-O66-h ,
+		ns1:VT_1869_01_H1-S3-M74-h ,
+		ns1:VT_1869_01_H1-S3-O67-h ,
+		ns1:VT_1869_01_H1-S3-F88-h ,
+		ns1:VT_1869_01_H1-S3-K52-h ,
+		ns1:VT_1869_01_H1-S3-M75-h ,
+		ns1:VT_1869_01_H1-S3-L46-h ,
+		ns1:VT_1869_01_H1-S3-O68-h ,
+		ns1:VT_1869_01_H1-S3-F73-h ,
+		ns1:VT_1869_01_H1-S3-R84-h ,
+		ns1:VT_1869_01_H1-S3-K53-h ,
+		ns1:VT_1869_01_H1-S3-R85-h ,
+		ns1:VT_1869_01_H1-S3-M76-h ,
+		ns1:VT_1869_01_H1-S3-L47-h ,
+		ns1:VT_1869_01_H1-S3-O69-h ,
+		ns1:VT_1869_01_H1-S3-F74-h ,
+		ns1:VT_1869_01_H1-S3-R86-h ,
+		ns1:VT_1869_01_H1-S3-O70-h ,
+		ns1:VT_1869_01_H1-S3-R87-h ,
+		ns1:VT_1869_01_H1-S3-K54-h ,
+		ns1:VT_1869_01_H1-S3-M77-h ,
+		ns1:VT_1869_01_H1-S3-F75-h ,
+		ns1:VT_1869_01_H1-S3-R88-h ,
+		ns1:VT_1869_01_H1-S3-K55-h ,
+		ns1:VT_1869_01_H1-S3-O71-h ,
+		ns1:VT_1869_01_H1-S3-M78-h ,
+		ns1:VT_1869_01_H1-S3-I96-h ,
+		ns1:VT_1869_01_H1-S3-O72-h ,
+		ns1:VT_1869_01_H1-S3-F76-h ,
+		ns1:VT_1869_01_H1-S3-K56-h ,
+		ns1:VT_1869_01_H1-S3-R89-h ,
+		ns1:VT_1869_01_H1-S3-M79-h ,
+		ns1:VT_1869_01_H1-S3-F77-h ,
+		ns1:VT_1869_01_H1-S3-O73-h ,
+		ns1:VT_1869_01_H1-S3-M80-h ,
+		ns1:VT_1869_01_H1-S3-R90-h ,
+		ns1:VT_1869_01_H1-S3-R91-h ,
+		ns1:VT_1869_01_H1-S3-F78-h ,
+		ns1:VT_1869_01_H1-S3-O74-h ,
+		ns1:VT_1869_01_H1-S3-O75-h ,
+		ns1:VT_1869_01_H1-S3-M64-h ,
+		ns1:VT_1869_01_H1-S3-M65-h ,
+		ns1:VT_1869_01_H1-S3-O76-h ,
+		ns1:VT_1869_01_H1-S3-R92-h ,
+		ns1:VT_1869_01_H1-S3-F79-h ,
+		ns1:VT_1869_01_H1-S3-O54-h ,
+		ns1:VT_1869_01_H1-S3-M66-h ,
+		ns1:VT_1869_01_H1-S3-F80-h ,
+		ns1:VT_1869_01_H1-S3-R93-h ,
+		ns1:VT_1869_01_H1-S3-O55-h ,
+		ns1:VT_1869_01_H1-S3-M67-h ,
+		ns1:VT_1869_01_H1-S3-R72-h ,
+		ns1:VT_1869_01_H1-S3-R73-h ,
+		ns1:VT_1869_01_H1-S3-F64-h ,
+		ns1:VT_1869_01_H1-S3-O56-h ,
+		ns1:VT_1869_01_H1-S3-M68-h ,
+		ns1:VT_1869_01_H1-S3-K46-h ,
+		ns1:VT_1869_01_H1-S3-F65-h ,
+		ns1:VT_1869_01_H1-S3-R74-h ,
+		ns1:VT_1869_01_H1-S3-F66-h ,
+		ns1:VT_1869_01_H1-S3-O57-h ,
+		ns1:VT_1869_01_H1-S3-I65-h ,
+		ns1:VT_1869_01_H1-S3-O58-h ,
+		ns1:VT_1869_01_H1-S3-M69-h ,
+		ns1:VT_1869_01_H1-S3-K47-h ,
+		ns1:VT_1869_01_H1-S3-F67-h ,
+		ns1:VT_1869_01_H1-S3-R75-h ,
+		ns1:VT_1869_01_H1-S3-R76-h ,
+		ns1:VT_1869_01_H1-S3-K48-h ,
+		ns1:VT_1869_01_H1-S3-O59-h ,
+		ns1:VT_1869_01_H1-S3-M70-h ,
+		ns1:VT_1869_01_H1-S3-O60-h ,
+		ns1:VT_1869_01_H1-S3-R77-h ,
+		ns1:VT_1869_01_H1-S3-K49-h ,
+		ns1:VT_1869_01_H1-S3-M71-h ,
+		ns1:VT_1869_01_H1-S3-F68-h ,
+		ns1:VT_1869_01_H1-S3-R78-h ,
+		ns1:VT_1869_01_H1-S3-F69-h ,
+		ns1:VT_1869_01_H1-S3-R79-h ,
+		ns1:VT_1869_01_H1-S3-M72-h ,
+		ns1:VT_1869_01_H1-S3-O64-h ,
+		ns1:VT_1869_01_H1-S3-R80-h ,
+		ns1:VT_1869_01_H1-S3-F70-h ,
+		ns1:VT_1869_01_H1-S3-O65-h ,
+		ns1:VT_1869_01_H1-S3-R81-h ,
+		ns1:VT_1869_01_H1-S3-M56-h ,
+		ns1:VT_1869_01_H1-S3-F71-h ,
+		ns1:VT_1869_01_H1-S3-R82-h ,
+		ns1:VT_1869_01_H1-S3-M57-h ,
+		ns1:VT_1869_01_H1-S3-F72-h ,
+		ns1:VT_1869_01_H1-S3-R83-h ,
+		ns1:VT_1869_01_H1-S3-M58-h ,
+		ns1:VT_1869_01_H1-S3-R60-h ,
+		ns1:VT_1869_01_H1-S3-F56-h ,
+		ns1:VT_1869_01_H1-S3-O46-h ,
+		ns1:VT_1869_01_H1-S3-M59-h ,
+		ns1:VT_1869_01_H1-S3-R61-h ,
+		ns1:VT_1869_01_H1-S3-F57-h ,
+		ns1:VT_1869_01_H1-S3-R63-h ,
+		ns1:VT_1869_01_H1-S3-R62-h ,
+		ns1:VT_1869_01_H1-S3-M60-h ,
+		ns1:VT_1869_01_H1-S3-O47-h ,
+		ns1:VT_1869_01_H1-S3-F58-h ,
+		ns1:VT_1869_01_H1-S3-R64-h ,
+		ns1:VT_1869_01_H1-S3-M61-h ,
+		ns1:VT_1869_01_H1-S3-O48-h ,
+		ns1:VT_1869_01_H1-S3-M62-h ,
+		ns1:VT_1869_01_H1-S3-R65-h ,
+		ns1:VT_1869_01_H1-S3-O49-h ,
+		ns1:VT_1869_01_H1-S3-F59-h ,
+		ns1:VT_1869_01_H1-S3-R66-h ,
+		ns1:VT_1869_01_H1-S3-R67-h ,
+		ns1:VT_1869_01_H1-S3-F60-h ,
+		ns1:VT_1869_01_H1-S3-O50-h ,
+		ns1:VT_1869_01_H1-S3-R68-h ,
+		ns1:VT_1869_01_H1-S3-O51-h ,
+		ns1:VT_1869_01_H1-S3-M63-h ,
+		ns1:VT_1869_01_H1-S3-F61-h ,
+		ns1:VT_1869_01_H1-S3-O52-h ,
+		ns1:VT_1869_01_H1-S3-O53-h ,
+		ns1:VT_1869_01_H1-S3-R69-h ,
+		ns1:VT_1869_01_H1-S3-M49-h ,
+		ns1:VT_1869_01_H1-S3-F62-h ,
+		ns1:VT_1869_01_H1-S3-R70-h ,
+		ns1:VT_1869_01_H1-S3-M50-h ,
+		ns1:VT_1869_01_H1-S3-F63-h ,
+		ns1:VT_1869_01_H1-S3-R71-h ,
+		ns1:VT_1869_01_H1-S3-R49-h ,
+		ns1:VT_1869_01_H1-S3-F48-h ,
+		ns1:VT_1869_01_H1-S3-R50-h ,
+		ns1:VT_1869_01_H1-S3-M51-h ,
+		ns1:VT_1869_01_H1-S3-F49-h ,
+		ns1:VT_1869_01_H1-S3-R51-h ,
+		ns1:VT_1869_01_H1-S3-M52-h ,
+		ns1:VT_1869_01_H1-S3-R52-h ,
+		ns1:VT_1869_01_H1-S3-F50-h ,
+		ns1:VT_1869_01_H1-S3-R53-h ,
+		ns1:VT_1869_01_H1-S3-M53-h ,
+		ns1:VT_1869_01_H1-S3-F51-h ,
+		ns1:VT_1869_01_H1-S3-H83-h ,
+		ns1:VT_1869_01_H1-S3-R54-h ,
+		ns1:VT_1869_01_H1-S3-M54-h ,
+		ns1:VT_1869_01_H1-S3-F52-h ,
+		ns1:VT_1869_01_H1-S3-H84-h ,
+		ns1:VT_1869_01_H1-S3-R55-h ,
+		ns1:VT_1869_01_H1-S3-M55-h ,
+		ns1:VT_1869_01_H1-S3-H85-h ,
+		ns1:VT_1869_01_H1-S3-F53-h ,
+		ns1:VT_1869_01_H1-S3-R56-h ,
+		ns1:VT_1869_01_H1-S3-R57-h ,
+		ns1:VT_1869_01_H1-S3-H90-h ,
+		ns1:VT_1869_01_H1-S3-F54-h ,
+		ns1:VT_1869_01_H1-S3-H94-h ,
+		ns1:VT_1869_01_H1-S3-F55-h ,
+		ns1:VT_1869_01_H1-S3-R58-h ,
+		ns1:VT_1869_01_H1-S3-R59-h ,
+		ns1:VT_1869_01_H1-S3-H95-h ,
+		ns1:VT_1869_01_H1-S3-I101-h ,
+		ns1:VT_1869_01_H1-S3-M46-h ,
+		ns1:VT_1869_01_H1-S3-H59-h ,
+		ns1:VT_1869_01_H1-S3-M47-h ,
+		ns1:VT_1869_01_H1-S3-M48-h ,
+		ns1:VT_1869_01_H1-S3-H64-h ,
+		ns1:VT_1869_01_H1-S3-R46-h ,
+		ns1:VT_1869_01_H1-S3-R47-h ,
+		ns1:VT_1869_01_H1-S3-H65-h ,
+		ns1:VT_1869_01_H1-S3-F46-h ,
+		ns1:VT_1869_01_H1-S3-H67-h ,
+		ns1:VT_1869_01_H1-S3-H66-h ,
+		ns1:VT_1869_01_H1-S3-R48-h ,
+		ns1:VT_1869_01_H1-S3-F47-h ,
+		ns1:VT_1869_01_H1-S3-H70-h ,
+		ns1:VT_1869_01_H1-S3-H74-h ,
+		ns1:VT_1869_01_H1-S3-H75-h ,
+		ns1:VT_1869_01_H1-S3-H77-h ,
+		ns1:VT_1869_01_H1-S3-H82-h ,
+		ns1:VT_1869_01_H1-S3-H47-h ,
+		ns1:VT_1869_01_H1-S3-H50-h ,
+		ns1:VT_1869_01_H1-S3-H51-h ,
+		ns1:VT_1869_01_H1-S3-H52-h ,
+		ns1:VT_1869_01_H1-S3-Q101-h ,
+		ns1:VT_1869_01_H1-S3-O101-h ,
+		ns1:VT_1869_01_H1-S3-P87-h ,
+		ns1:VT_1869_01_H1-S3-P88-h ,
+		ns1:VT_1869_01_H1-S3-P89-h ,
+		ns1:VT_1869_01_H1-S3-P90-h ,
+		ns1:VT_1869_01_H1-S3-P91-h ,
+		ns1:VT_1869_01_H1-S3-P93-h ,
+		ns1:VT_1869_01_H1-S3-P94-h ,
+		ns1:VT_1869_01_H1-S3-P95-h ,
+		ns1:VT_1869_01_H1-S3-N91-h ,
+		ns1:VT_1869_01_H1-S3-P96-h ,
+		ns1:VT_1869_01_H1-S3-N92-h ,
+		ns1:VT_1869_01_H1-S3-N93-h ,
+		ns1:VT_1869_01_H1-S3-P98-h ,
+		ns1:VT_1869_01_H1-S3-P76-h ,
+		ns1:VT_1869_01_H1-S3-N94-h ,
+		ns1:VT_1869_01_H1-S3-P77-h ,
+		ns1:VT_1869_01_H1-S3-G86-h ,
+		ns1:VT_1869_01_H1-S3-P78-h ,
+		ns1:VT_1869_01_H1-S3-N95-h ,
+		ns1:VT_1869_01_H1-S3-P79-h ,
+		ns1:VT_1869_01_H1-S3-N96-h ,
+		ns1:VT_1869_01_H1-S3-G87-h ,
+		ns1:VT_1869_01_H1-S3-N46-h ,
+		ns1:VT_1869_01_H1-S3-G88-h ,
+		ns1:VT_1869_01_H1-S3-J98-h ,
+		ns1:VT_1869_01_H1-S3-P80-h ,
+		ns1:VT_1869_01_H1-S3-N47-h ,
+		ns1:VT_1869_01_H1-S3-N98-h ,
+		ns1:VT_1869_01_H1-S3-P81-h ,
+		ns1:VT_1869_01_H1-S3-G89-h ,
+		ns1:VT_1869_01_H1-S3-P82-h ,
+		ns1:VT_1869_01_H1-S3-G90-h ,
+		ns1:VT_1869_01_H1-S3-P83-h ,
+		ns1:VT_1869_01_H1-S3-N48-h ,
+		ns1:VT_1869_01_H1-S3-N83-h ,
+		ns1:VT_1869_01_H1-S3-G91-h ,
+		ns1:VT_1869_01_H1-S3-N49-h ,
+		ns1:VT_1869_01_H1-S3-P84-h ,
+		ns1:VT_1869_01_H1-S3-P85-h ,
+		ns1:VT_1869_01_H1-S3-G92-h ,
+		ns1:VT_1869_01_H1-S3-K101-h ,
+		ns1:VT_1869_01_H1-S3-N84-h ,
+		ns1:VT_1869_01_H1-S3-G93-h ,
+		ns1:VT_1869_01_H1-S3-N50-h ,
+		ns1:VT_1869_01_H1-S3-P86-h ,
+		ns1:VT_1869_01_H1-S3-N85-h ,
+		ns1:VT_1869_01_H1-S3-G94-h ,
+		ns1:VT_1869_01_H1-S3-P67-h ,
+		ns1:VT_1869_01_H1-S3-G95-h ,
+		ns1:VT_1869_01_H1-S3-R101-h ,
+		ns1:VT_1869_01_H1-S3-N86-h ,
+		ns1:VT_1869_01_H1-S3-P68-h ,
+		ns1:VT_1869_01_H1-S3-G71-h ,
+		ns1:VT_1869_01_H1-S3-G70-h ,
+		ns1:VT_1869_01_H1-S3-N87-h ,
+		ns1:VT_1869_01_H1-S3-G72-h ,
+		ns1:VT_1869_01_H1-S3-G73-h ,
+		ns1:VT_1869_01_H1-S3-N88-h ,
+		ns1:VT_1869_01_H1-S3-P69-h ,
+		ns1:VT_1869_01_H1-S3-J90-h ,
+		ns1:VT_1869_01_H1-S3-P70-h ,
+		ns1:VT_1869_01_H1-S3-G74-h ,
+		ns1:VT_1869_01_H1-S3-N89-h ,
+		ns1:VT_1869_01_H1-S3-J91-h ,
+		ns1:VT_1869_01_H1-S3-P71-h ,
+		ns1:VT_1869_01_H1-S3-J92-h ,
+		ns1:VT_1869_01_H1-S3-G75-h ,
+		ns1:VT_1869_01_H1-S3-P72-h ,
+		ns1:VT_1869_01_H1-S3-N90-h ,
+		ns1:VT_1869_01_H1-S3-G76-h ,
+		ns1:VT_1869_01_H1-S3-G77-h ,
+		ns1:VT_1869_01_H1-S3-N75-h ,
+		ns1:VT_1869_01_H1-S3-J93-h ,
+		ns1:VT_1869_01_H1-S3-Q87-h ,
+		ns1:VT_1869_01_H1-S3-G78-h ,
+		ns1:VT_1869_01_H1-S3-P73-h ,
+		ns1:VT_1869_01_H1-S3-G80-h ,
+		ns1:VT_1869_01_H1-S3-N76-h ,
+		ns1:VT_1869_01_H1-S3-J94-h ,
+		ns1:VT_1869_01_H1-S3-G79-h ,
+		ns1:VT_1869_01_H1-S3-G81-h ,
+		ns1:VT_1869_01_H1-S3-P74-h ,
+		ns1:VT_1869_01_H1-S3-P75-h ,
+		ns1:VT_1869_01_H1-S3-Q88-h ,
+		ns1:VT_1869_01_H1-S3-N77-h ,
+		ns1:VT_1869_01_H1-S3-G82-h ,
+		ns1:VT_1869_01_H1-S3-Q89-h ,
+		ns1:VT_1869_01_H1-S3-G83-h ,
+		ns1:VT_1869_01_H1-S3-J95-h ,
+		ns1:VT_1869_01_H1-S3-G84-h ,
+		ns1:VT_1869_01_H1-S3-P54-h ,
+		ns1:VT_1869_01_H1-S3-Q90-h ,
+		ns1:VT_1869_01_H1-S3-N78-h ,
+		ns1:VT_1869_01_H1-S3-Q91-h ,
+		ns1:VT_1869_01_H1-S3-G85-h ,
+		ns1:VT_1869_01_H1-S3-G57-h ,
+		ns1:VT_1869_01_H1-S3-J96-h ,
+		ns1:VT_1869_01_H1-S3-P55-h ,
+		ns1:VT_1869_01_H1-S3-N79-h .
