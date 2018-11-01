@@ -18,6 +18,7 @@
       "dbo": "http://dbpedia.org/ontology/",
       "dbp": "http://dbpedia.org/property/",
       "dbpedia": "http://dbpedia.org/resource/",
+      "dbpedia-owl": "http://dbpedia.org/ontology/",
       "dbr": "http://dbpedia.org/resource/",
       "dc": "http://purl.org/dc/terms/",
       "dc11": "http://purl.org/dc/elements/1.1/",
@@ -31,6 +32,7 @@
       "hisco-relation": "https://iisg.amsterdam/hisco/relation/",
       "hisco-status": "https://iisg.amsterdam/hisco/status/",
       "hsn": "https://iisg.amsterdam/hsn2013a/",
+      "juso": "http://rdfs.co/juso/",
       "ldp": "http://www.w3.org/ns/ldp#",
       "napp": "https://iisg.amsterdam/napp/",
       "napp-can91": "https://iisg.amsterdam/napp/dataset/canada1891/",
@@ -63,12 +65,12 @@
   },
   "dc:modified": {
     "@type": "xsd:date",
-    "@value": "2018-08-27"
+    "@value": "2018-11-01"
   },
   "dc:publisher": {
     "schema:name": "CLARIAH Structured Data Hub - Datalegend",
     "schema:url": {
-      "@id": "http://datalegend.org"
+      "@id": "http://datalegend.net"
     }
   },
   "dc:title": "p1223a_labels_semicolon.csv",
@@ -84,41 +86,19 @@
     "@type": "schema:Person",
     "columns": [
       {
-        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/caswgt",
-        "datatype": "float",
-        "dc:description": "Case Weight",
-        "name": "caswgt",
-        "titles": [
-          "caswgt"
-        ]
-      },
-      {
-        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/volgnr1y",
-        "datatype": "integer",
-        "dc:description": "Observation number",
-        "name": "volgnr1y",
-        "titles": [
-          "volgnr1y"
-        ],
-        "propertyUrl": "schema:identifier"
-      },
-      {
         "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/buurty",
         "datatype": "string",
         "dc:description": "Residential Address part 1: Neighbourhood in 19th century Amsterdam, comtemporaly coded with letters.",
         "name": "buurty",
         "titles": [
           "buurty"
-        ]
+        ],
+        "propertyUrl": "dbpedia-owl:residence"
       },
       {
-        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/huisnry",
-        "datatype": "string",
-        "dc:description": "Residential Address part 2: Number of the house in the neighbourhood (buurty)",
-        "name": "huisnry",
-        "titles": [
-          "huisnry"
-        ]
+        "virtual": true,
+        "propertyUrl": "juso:address",
+        "csvw:value": "{{buurty}{huisnry}}"
       },
       {
         "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/lftmy",
@@ -127,55 +107,52 @@
         "name": "lftmy",
         "titles": [
           "lftmy"
-        ]
+        ],
+        "propertyUrl": "dbpedia-owl:age"
       },
       {
         "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/gebplmy",
         "datatype": "string",
+        "lang": "nl",
         "dc:description": "Place of Birth (classification)",
         "name": "gebplmy",
         "titles": [
           "gebplmy"
         ],
-        "propertyUrl": "schema:birthPlace"
+        "propertyUrl": "dbpedia-owl:birthPlace"
       },
       {
         "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bersmy",
         "datatype": "string",
-        "dc:description": "Occupation (classification?)",
+        "lang": "nl",
+        "dc:description": "Economic Sector ?",
         "name": "bersmy",
         "titles": [
           "bersmy"
         ],
-        "propertyUrl": "schema:hasOccupation"
+        "propertyUrl": "economicSector"
       },
       {
         "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/berpmy",
         "datatype": "string",
+        "lang": "nl",
         "dc:description": "Occupation (original from source?)",
         "name": "berpmy",
         "titles": [
           "berpmy"
         ],
-        "propertyUrl": "schema:hasOccupation"
-      },
-      {
-        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/aboeky",
-        "datatype": "string",
-        "dc:description": "Source of occupation?",
-        "name": "aboeky",
-        "titles": [
-          "aboeky"
-        ]
+        "propertyUrl": "sdmx-dimension:occupation"
       },
       {
         "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relimy",
         "datatype": "string",
+        "lang": "nl",
         "dc:description": "Religion",
         "name": "relimy",
         "titles": [
           "relimy"
-        ]
+        ],
+        "propertyUrl": "dbpedia-owl:religion"
       },
       {
         "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bsmy",
@@ -184,7 +161,9 @@
         "name": "bsmy",
         "titles": [
           "bsmy"
-        ]
+        ],
+        "propertyUrl": "sdmx-dimension:civilStatus",
+        "valueUrl": "sdmx-code:{% if bsmy == 'gehuwd' %}M{% elif bsmy == 'ongehuwd' %}S{% else bsmy == 'weduwnaar' %}W{% endif %}"
       },
       {
         "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/lftvy",
@@ -324,7 +303,7 @@
       {
         "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relgt1y",
         "datatype": "string",
-        "dc:description": "Relation of witness 1",
+        "dc:description": "Relation with witness 1",
         "name": "relgt1y",
         "titles": [
           "relgt1y"
@@ -342,7 +321,7 @@
       {
         "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relgt2y",
         "datatype": "string",
-        "dc:description": "Relation of witness 2",
+        "dc:description": "Relation with witness 2",
         "name": "relgt2y",
         "titles": [
           "relgt2y"
@@ -360,7 +339,7 @@
       {
         "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relgt3y",
         "datatype": "string",
-        "dc:description": "Relation of witness 3",
+        "dc:description": "Relation with witness 3",
         "name": "relgt3y",
         "titles": [
           "relgt3y"
@@ -378,7 +357,7 @@
       {
         "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relgt4y",
         "datatype": "string",
-        "dc:description": "Relation of witness 4",
+        "dc:description": "Relation with witness 4",
         "name": "relgt4y",
         "titles": [
           "relgt4y"
@@ -387,7 +366,7 @@
       {
         "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/hulftmy",
         "datatype": "string",
-        "dc:description": "Age at marriage groom",
+        "dc:description": "Age of the groom at marriage",
         "name": "hulftmy",
         "titles": [
           "hulftmy"
@@ -396,7 +375,7 @@
       {
         "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/hulftvy",
         "datatype": "string",
-        "dc:description": "Age at marriage bride",
+        "dc:description": "Age of the bride at marriage",
         "name": "hulftvy",
         "titles": [
           "hulftvy"
