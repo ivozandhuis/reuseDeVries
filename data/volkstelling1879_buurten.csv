@@ -1,36 +1,4 @@
 rij,buurt,buurtUri,nadere_omschrijving1,nadere_omschrijving2
-68,Buurt A,https://adamlink.nl/geo/district/buurt-a/134,Broederschap der R. C. gemeente,Kom
-69,Buurt A,https://adamlink.nl/geo/district/buurt-a/134,Overige huizen,Kom
-70,Buurt B,https://adamlink.nl/geo/district/buurt-b/136,Binnen-Gasthuis,Kom
-71,Buurt B,https://adamlink.nl/geo/district/buurt-b/136,St. Bernardus gesticht,Kom
-72,Buurt B,https://adamlink.nl/geo/district/buurt-b/136,Overige huizen,Kom
-73,Buurt C,https://adamlink.nl/geo/district/buurt-c/141,,Kom
-74,Buurt D,https://adamlink.nl/geo/district/buurt-d/131,R. C. Maagdenhuis,Kom
-75,Buurt D,https://adamlink.nl/geo/district/buurt-d/131,Hulphuis van arrest,Kom
-76,Buurt D,https://adamlink.nl/geo/district/buurt-d/131,Overige huizen,Kom
-77,Buurt E,https://adamlink.nl/geo/district/buurt-e/130,Burgerweeshuis,Kom
-78,Buurt E,https://adamlink.nl/geo/district/buurt-e/130,Overige huizen,Kom
-79,Buurt F,https://adamlink.nl/geo/district/buurt-f/121,Hofje van Brouwer,Kom
-80,Buurt F,https://adamlink.nl/geo/district/buurt-f/121,Overige huizen,Kom
-81,Buurt G,https://adamlink.nl/geo/district/buurt-g/120,,Kom
-82,Buurt H,https://adamlink.nl/geo/district/buurt-h/129,,Kom
-83,Buurt I,https://adamlink.nl/geo/district/buurt-j/133,,Kom
-84,Buurt K,https://adamlink.nl/geo/district/buurt-k/135,Brandweerkazerne,Kom
-85,Buurt K,https://adamlink.nl/geo/district/buurt-k/135,Overige huizen,Kom
-86,Buurt L,https://adamlink.nl/geo/district/buurt-l/119,Gesticht St. Rosa,Kom
-87,Buurt L,https://adamlink.nl/geo/district/buurt-l/119,Overige huizen,Kom
-88,Buurt L,https://adamlink.nl/geo/district/buurt-l/119,,Buiten de kom
-89,Buurt M,https://adamlink.nl/geo/district/buurt-m/132,Gesticht Vreedenburg,Kom
-90,Buurt M,https://adamlink.nl/geo/district/buurt-m/132,Overige huizen,Kom
-91,Buurt N,https://adamlink.nl/geo/district/buurt-n/139,,Kom
-92,Buurt O,https://adamlink.nl/geo/district/buurt-o/140,,Kom
-93,Buurt P,https://adamlink.nl/geo/district/buurt-p/142,Port. Israël. oude mannenhuis,Kom
-94,Buurt P,https://adamlink.nl/geo/district/buurt-p/142,Rijks-arsenaal,Kom
-95,Buurt P,https://adamlink.nl/geo/district/buurt-p/142,Ned. Isr. Jongens-weeshuis,Kom
-96,Buurt P,https://adamlink.nl/geo/district/buurt-p/142,Diaconie-weeshuis,Kom
-97,Buurt P,https://adamlink.nl/geo/district/buurt-p/142,Overige huizen,Kom
-98,Buurt Q,https://adamlink.nl/geo/district/buurt-q/144,"Port. Israël. Jongens weeshuis ""Abij Jetomim""",Kom
-99,Buurt Q,https://adamlink.nl/geo/district/buurt-q/144,Overige huizen,Kom
 100,Buurt R,https://adamlink.nl/geo/district/buurt-r/146,,Kom
 101,Buurt S,https://adamlink.nl/geo/district/buurt-s/145,,Kom
 102,Buurt T,https://adamlink.nl/geo/district/buurt-t/149,Mariniers-kazerne,Kom
@@ -161,3 +129,35 @@ rij,buurt,buurtUri,nadere_omschrijving1,nadere_omschrijving2
 227,,,,"Personen die bij de volkstelling verklaard hebben in de gemeente te wonen, doch wier woonplaats daar niet is gevonden"
 228,,,,Algemeen totaal der bevolking
 229,,,,Tijdelijk aanwezige schepen
+68,Buurt A,https://adamlink.nl/geo/district/buurt-a/134,Broederschap der R. C. gemeente,Kom
+69,Buurt A,https://adamlink.nl/geo/district/buurt-a/134,Overige huizen,Kom
+70,Buurt B,https://adamlink.nl/geo/district/buurt-b/136,Binnen-Gasthuis,Kom
+71,Buurt B,https://adamlink.nl/geo/district/buurt-b/136,St. Bernardus gesticht,Kom
+72,Buurt B,https://adamlink.nl/geo/district/buurt-b/136,Overige huizen,Kom
+73,Buurt C,https://adamlink.nl/geo/district/buurt-c/141,,Kom
+74,Buurt D,https://adamlink.nl/geo/district/buurt-d/131,R. C. Maagdenhuis,Kom
+75,Buurt D,https://adamlink.nl/geo/district/buurt-d/131,Hulphuis van arrest,Kom
+76,Buurt D,https://adamlink.nl/geo/district/buurt-d/131,Overige huizen,Kom
+77,Buurt E,https://adamlink.nl/geo/district/buurt-e/130,Burgerweeshuis,Kom
+78,Buurt E,https://adamlink.nl/geo/district/buurt-e/130,Overige huizen,Kom
+79,Buurt F,https://adamlink.nl/geo/district/buurt-f/121,Hofje van Brouwer,Kom
+80,Buurt F,https://adamlink.nl/geo/district/buurt-f/121,Overige huizen,Kom
+81,Buurt G,https://adamlink.nl/geo/district/buurt-g/120,,Kom
+82,Buurt H,https://adamlink.nl/geo/district/buurt-h/129,,Kom
+83,Buurt I,https://adamlink.nl/geo/district/buurt-j/133,,Kom
+84,Buurt K,https://adamlink.nl/geo/district/buurt-k/135,Brandweerkazerne,Kom
+85,Buurt K,https://adamlink.nl/geo/district/buurt-k/135,Overige huizen,Kom
+86,Buurt L,https://adamlink.nl/geo/district/buurt-l/119,Gesticht St. Rosa,Kom
+87,Buurt L,https://adamlink.nl/geo/district/buurt-l/119,Overige huizen,Kom
+88,Buurt L,https://adamlink.nl/geo/district/buurt-l/119,,Buiten de kom
+89,Buurt M,https://adamlink.nl/geo/district/buurt-m/132,Gesticht Vreedenburg,Kom
+90,Buurt M,https://adamlink.nl/geo/district/buurt-m/132,Overige huizen,Kom
+91,Buurt N,https://adamlink.nl/geo/district/buurt-n/139,,Kom
+92,Buurt O,https://adamlink.nl/geo/district/buurt-o/140,,Kom
+93,Buurt P,https://adamlink.nl/geo/district/buurt-p/142,Port. Israël. oude mannenhuis,Kom
+94,Buurt P,https://adamlink.nl/geo/district/buurt-p/142,Rijks-arsenaal,Kom
+95,Buurt P,https://adamlink.nl/geo/district/buurt-p/142,Ned. Isr. Jongens-weeshuis,Kom
+96,Buurt P,https://adamlink.nl/geo/district/buurt-p/142,Diaconie-weeshuis,Kom
+97,Buurt P,https://adamlink.nl/geo/district/buurt-p/142,Overige huizen,Kom
+98,Buurt Q,https://adamlink.nl/geo/district/buurt-q/144,"Port. Israël. Jongens weeshuis ""Abij Jetomim""",Kom
+99,Buurt Q,https://adamlink.nl/geo/district/buurt-q/144,Overige huizen,Kom
