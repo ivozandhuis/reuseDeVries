@@ -35,19 +35,18 @@ De Vries created a dataset with a sample of elite inhabitants of Amsterdam in 18
 * We need the codebook to know whether data is complete or added by SPSS.
 
 ## Workflow adding links to the data
-### linking the original source at Amsterdam City Archives
+### Linking the original source at Amsterdam City Archives
 https://archief.amsterdam/inventarissen/inventaris/30272.nl.html
 
-### Standardizing variables to URI's
+### Standardizing values to URI's
   * districts by Adamlink, linking censusdata (CEDAR)
-  * addresses by HisGIS, linking location
-  * professions (HISCO) by IISH, linking status (status)
-  * religions (LICR) by Ashkan, linking ???
+  * addresses by HisGIS, linking pictures from SAA
+  * professions (HISCO) by IISH, linking status (HISCAM)
 
-###
+### Creating RDF
 
-##
-* adding data Statistische Bureau Amsterdam
+
+## Archiving and publishing the new data
 * archiving in dataverse (IISH and DANS) / publishing in druid
 
 ## Using the new data
