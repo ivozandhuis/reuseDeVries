@@ -59,13 +59,13 @@
       "xsd": "http://www.w3.org/2001/XMLSchema#"
     }
   ],
-  "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv",
+  "@id": "https://iisg.amsterdam/p1223a.csv",
   "dc:license": {
     "@id": "http://opendefinition.org/licenses/cc-by/"
   },
   "dc:modified": {
     "@type": "xsd:date",
-    "@value": "2018-11-01"
+    "@value": "2018-11-17"
   },
   "dc:publisher": {
     "schema:name": "CLARIAH Structured Data Hub - Datalegend",
@@ -73,7 +73,7 @@
       "@id": "http://datalegend.net"
     }
   },
-  "dc:title": "p1223a_labels_semicolon.csv",
+  "dc:title": "p1223a.csv",
   "dc:description": "Sample of persons from the electoral role Amsterdam 1854. Finding Aid accessing this source online: https://archief.amsterdam/inventarissen/inventaris/30272.nl.html. Original file in: https://doi.org/10.17026/dans-xez-eqdv.",
   "dcat:keyword": [],
   "dialect": {
@@ -86,7 +86,7 @@
     "@type": "schema:Person",
     "columns": [
       {
-        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/buurty",
+        "@id": "https://iisg.amsterdam/p1223a.csv/column/buurty",
         "datatype": "string",
         "dc:description": "Residential Address part 1: Neighbourhood in 19th century Amsterdam, comtemporaly coded with letters.",
         "name": "buurty",
@@ -101,7 +101,7 @@
         "csvw:value": "{buurty}{huisnry}"
       },
       {
-        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/lftmy",
+        "@id": "https://iisg.amsterdam/p1223a.csv/column/lftmy",
         "datatype": "int",
         "dc:description": "Age",
         "name": "lftmy",
@@ -111,7 +111,7 @@
         "propertyUrl": "dbpedia-owl:age"
       },
       {
-        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/gebplmy",
+        "@id": "https://iisg.amsterdam/p1223a.csv/column/gebplmy",
         "datatype": "string",
         "lang": "nl",
         "dc:description": "Place of Birth (classification)",
@@ -122,7 +122,7 @@
         "propertyUrl": "dbpedia-owl:birthPlace"
       },
       {
-        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bersmy",
+        "@id": "https://iisg.amsterdam/p1223a.csv/column/bersmy",
         "datatype": "string",
         "lang": "nl",
         "dc:description": "Economic Sector ?",
@@ -133,7 +133,7 @@
         "propertyUrl": "economicSector"
       },
       {
-        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/berpmy",
+        "@id": "https://iisg.amsterdam/p1223a.csv/column/berpmy",
         "datatype": "string",
         "lang": "nl",
         "dc:description": "Occupation (original from source?)",
@@ -144,7 +144,7 @@
         "propertyUrl": "sdmx-dimension:occupation"
       },
       {
-        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relimy",
+        "@id": "https://iisg.amsterdam/p1223a.csv/column/relimy",
         "datatype": "string",
         "lang": "nl",
         "dc:description": "Religion",
@@ -155,7 +155,7 @@
         "propertyUrl": "dbpedia-owl:religion"
       },
       {
-        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bsmy",
+        "@id": "https://iisg.amsterdam/p1223a.csv/column/bsmy",
         "datatype": "string",
         "dc:description": "Civil Status (married/unmarried)",
         "name": "bsmy",
@@ -166,7 +166,7 @@
         "valueUrl": "sdmx-code:{% if bsmy == 'gehuwd' %}M{% elif bsmy == 'ongehuwd' %}S{% else bsmy == 'weduwnaar' %}W{% endif %}"
       },
       {
-        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/lftvy",
+        "@id": "https://iisg.amsterdam/p1223a.csv/column/lftvy",
         "datatype": "int",
         "dc:description": "Age Wife",
         "name": "lftvy",
@@ -175,7 +175,7 @@
         ]
       },
       {
-        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relivy",
+        "@id": "https://iisg.amsterdam/p1223a.csv/column/relivy",
         "datatype": "string",
         "dc:description": "Religion Wife",
         "name": "relivy",
@@ -184,7 +184,7 @@
         ]
       },
       {
-        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/gebplvy",
+        "@id": "https://iisg.amsterdam/p1223a.csv/column/gebplvy",
         "datatype": "string",
         "dc:description": "Place of Birth Wife",
         "name": "gebplvy",
@@ -193,7 +193,7 @@
         ]
       },
       {
-        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/nrkindy",
+        "@id": "https://iisg.amsterdam/p1223a.csv/column/nrkindy",
         "datatype": "int",
         "dc:description": "Number of children",
         "name": "nrkindy",
@@ -202,7 +202,7 @@
         ]
       },
       {
-        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/nrbodey",
+        "@id": "https://iisg.amsterdam/p1223a.csv/column/nrbodey",
         "datatype": "int",
         "dc:description": "Number of service workers",
         "name": "nrbodey",
@@ -211,7 +211,7 @@
         ]
       },
       {
-        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/nrhgy",
+        "@id": "https://iisg.amsterdam/p1223a.csv/column/nrhgy",
         "datatype": "string",
         "dc:description": "nrhgy",
         "name": "nrhgy",
@@ -220,7 +220,7 @@
         ]
       },
       {
-        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relhfdy",
+        "@id": "https://iisg.amsterdam/p1223a.csv/column/relhfdy",
         "datatype": "string",
         "dc:description": "Relation with the head of the family",
         "name": "relhfdy",
@@ -229,7 +229,7 @@
         ]
       },
       {
-        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/grondbly",
+        "@id": "https://iisg.amsterdam/p1223a.csv/column/grondbly",
         "datatype": "int",
         "dc:description": "'Grondbelasting'",
         "name": "grondbly",
@@ -238,7 +238,7 @@
         ]
       },
       {
-        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/pbly",
+        "@id": "https://iisg.amsterdam/p1223a.csv/column/pbly",
         "datatype": "int",
         "dc:description": "'Personeelsbelasting'",
         "name": "pbly",
@@ -247,7 +247,7 @@
         ]
       },
       {
-        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/patbly",
+        "@id": "https://iisg.amsterdam/p1223a.csv/column/patbly",
         "datatype": "int",
         "dc:description": "'Patentbelasting'",
         "name": "patbly",
@@ -256,7 +256,7 @@
         ]
       },
       {
-        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/jrhu1y",
+        "@id": "https://iisg.amsterdam/p1223a.csv/column/jrhu1y",
         "datatype": "string",
         "dc:description": "Year of marriage",
         "name": "jrhu1y",
@@ -265,7 +265,7 @@
         ]
       },
       {
-        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bervamy",
+        "@id": "https://iisg.amsterdam/p1223a.csv/column/bervamy",
         "datatype": "string",
         "dc:description": "Occupation of the father of the groom",
         "name": "bervamy",
@@ -274,7 +274,7 @@
         ]
       },
       {
-        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bervavy",
+        "@id": "https://iisg.amsterdam/p1223a.csv/column/bervavy",
         "datatype": "string",
         "dc:description": "Occupation of the father of the bride",
         "name": "bervavy",
@@ -283,7 +283,7 @@
         ]
       },
       {
-        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bermhuy",
+        "@id": "https://iisg.amsterdam/p1223a.csv/column/bermhuy",
         "datatype": "string",
         "dc:description": "Occupation of the groom",
         "name": "bermhuy",
@@ -292,7 +292,7 @@
         ]
       },
       {
-        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bergt1y",
+        "@id": "https://iisg.amsterdam/p1223a.csv/column/bergt1y",
         "datatype": "string",
         "dc:description": "Occupation of witness 1",
         "name": "bergt1y",
@@ -301,7 +301,7 @@
         ]
       },
       {
-        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relgt1y",
+        "@id": "https://iisg.amsterdam/p1223a.csv/column/relgt1y",
         "datatype": "string",
         "dc:description": "Relation with witness 1",
         "name": "relgt1y",
@@ -310,7 +310,7 @@
         ]
       },
       {
-        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bergt2y",
+        "@id": "https://iisg.amsterdam/p1223a.csv/column/bergt2y",
         "datatype": "string",
         "dc:description": "Occupation of witness 2",
         "name": "bergt2y",
@@ -319,7 +319,7 @@
         ]
       },
       {
-        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relgt2y",
+        "@id": "https://iisg.amsterdam/p1223a.csv/column/relgt2y",
         "datatype": "string",
         "dc:description": "Relation with witness 2",
         "name": "relgt2y",
@@ -328,7 +328,7 @@
         ]
       },
       {
-        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bergt3y",
+        "@id": "https://iisg.amsterdam/p1223a.csv/column/bergt3y",
         "datatype": "string",
         "dc:description": "Occupation of witness 3",
         "name": "bergt3y",
@@ -337,7 +337,7 @@
         ]
       },
       {
-        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relgt3y",
+        "@id": "https://iisg.amsterdam/p1223a.csv/column/relgt3y",
         "datatype": "string",
         "dc:description": "Relation with witness 3",
         "name": "relgt3y",
@@ -346,7 +346,7 @@
         ]
       },
       {
-        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bergt4y",
+        "@id": "https://iisg.amsterdam/p1223a.csv/column/bergt4y",
         "datatype": "string",
         "dc:description": "Occupation of witness 4",
         "name": "bergt4y",
@@ -355,7 +355,7 @@
         ]
       },
       {
-        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relgt4y",
+        "@id": "https://iisg.amsterdam/p1223a.csv/column/relgt4y",
         "datatype": "string",
         "dc:description": "Relation with witness 4",
         "name": "relgt4y",
@@ -364,7 +364,7 @@
         ]
       },
       {
-        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/hulftmy",
+        "@id": "https://iisg.amsterdam/p1223a.csv/column/hulftmy",
         "datatype": "string",
         "dc:description": "Age of the groom at marriage",
         "name": "hulftmy",
@@ -373,7 +373,7 @@
         ]
       },
       {
-        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/hulftvy",
+        "@id": "https://iisg.amsterdam/p1223a.csv/column/hulftvy",
         "datatype": "string",
         "dc:description": "Age of the bride at marriage",
         "name": "hulftvy",
@@ -382,7 +382,7 @@
         ]
       },
       {
-        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/volgnr2y",
+        "@id": "https://iisg.amsterdam/p1223a.csv/column/volgnr2y",
         "datatype": "string",
         "dc:description": "volgnr2y",
         "name": "volgnr2y",
@@ -391,7 +391,7 @@
         ]
       },
       {
-        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bsvy",
+        "@id": "https://iisg.amsterdam/p1223a.csv/column/bsvy",
         "datatype": "string",
         "dc:description": "bsvy",
         "name": "bsvy",
@@ -400,7 +400,7 @@
         ]
       },
       {
-        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/gebplv1y",
+        "@id": "https://iisg.amsterdam/p1223a.csv/column/gebplv1y",
         "datatype": "string",
         "dc:description": "gebplv1y",
         "name": "gebplv1y",
@@ -409,7 +409,7 @@
         ]
       },
       {
-        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/jrhu2y",
+        "@id": "https://iisg.amsterdam/p1223a.csv/column/jrhu2y",
         "datatype": "string",
         "dc:description": "jrhu2y",
         "name": "jrhu2y",
@@ -418,7 +418,7 @@
         ]
       },
       {
-        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bervam2y",
+        "@id": "https://iisg.amsterdam/p1223a.csv/column/bervam2y",
         "datatype": "string",
         "dc:description": "bervam2y",
         "name": "bervam2y",
@@ -427,7 +427,7 @@
         ]
       },
       {
-        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bervav2y",
+        "@id": "https://iisg.amsterdam/p1223a.csv/column/bervav2y",
         "datatype": "string",
         "dc:description": "bervav2y",
         "name": "bervav2y",
@@ -436,7 +436,7 @@
         ]
       },
       {
-        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bermhu2y",
+        "@id": "https://iisg.amsterdam/p1223a.csv/column/bermhu2y",
         "datatype": "string",
         "dc:description": "bermhu2y",
         "name": "bermhu2y",
@@ -445,7 +445,7 @@
         ]
       },
       {
-        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bergt12y",
+        "@id": "https://iisg.amsterdam/p1223a.csv/column/bergt12y",
         "datatype": "string",
         "dc:description": "bergt12y",
         "name": "bergt12y",
@@ -454,7 +454,7 @@
         ]
       },
       {
-        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relgt12y",
+        "@id": "https://iisg.amsterdam/p1223a.csv/column/relgt12y",
         "datatype": "string",
         "dc:description": "relgt12y",
         "name": "relgt12y",
@@ -463,7 +463,7 @@
         ]
       },
       {
-        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bergt22y",
+        "@id": "https://iisg.amsterdam/p1223a.csv/column/bergt22y",
         "datatype": "string",
         "dc:description": "bergt22y",
         "name": "bergt22y",
@@ -472,7 +472,7 @@
         ]
       },
       {
-        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relgt22y",
+        "@id": "https://iisg.amsterdam/p1223a.csv/column/relgt22y",
         "datatype": "string",
         "dc:description": "relgt22y",
         "name": "relgt22y",
@@ -481,7 +481,7 @@
         ]
       },
       {
-        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bergt32y",
+        "@id": "https://iisg.amsterdam/p1223a.csv/column/bergt32y",
         "datatype": "string",
         "dc:description": "bergt32y",
         "name": "bergt32y",
@@ -490,7 +490,7 @@
         ]
       },
       {
-        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relgt32y",
+        "@id": "https://iisg.amsterdam/p1223a.csv/column/relgt32y",
         "datatype": "string",
         "dc:description": "relgt32y",
         "name": "relgt32y",
@@ -499,7 +499,7 @@
         ]
       },
       {
-        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bergt42y",
+        "@id": "https://iisg.amsterdam/p1223a.csv/column/bergt42y",
         "datatype": "string",
         "dc:description": "bergt42y",
         "name": "bergt42y",
@@ -508,7 +508,7 @@
         ]
       },
       {
-        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relgt42y",
+        "@id": "https://iisg.amsterdam/p1223a.csv/column/relgt42y",
         "datatype": "string",
         "dc:description": "relgt42y",
         "name": "relgt42y",
@@ -517,7 +517,7 @@
         ]
       },
       {
-        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/hulftm2y",
+        "@id": "https://iisg.amsterdam/p1223a.csv/column/hulftm2y",
         "datatype": "string",
         "dc:description": "hulftm2y",
         "name": "hulftm2y",
@@ -526,7 +526,7 @@
         ]
       },
       {
-        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/hulftv2y",
+        "@id": "https://iisg.amsterdam/p1223a.csv/column/hulftv2y",
         "datatype": "string",
         "dc:description": "hulftv2y",
         "name": "hulftv2y",
@@ -535,7 +535,7 @@
         ]
       },
       {
-        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bsv2y",
+        "@id": "https://iisg.amsterdam/p1223a.csv/column/bsv2y",
         "datatype": "string",
         "dc:description": "bsv2y",
         "name": "bsv2y",
@@ -544,7 +544,7 @@
         ]
       },
       {
-        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/gebplv2y",
+        "@id": "https://iisg.amsterdam/p1223a.csv/column/gebplv2y",
         "datatype": "string",
         "dc:description": "gebplv2y",
         "name": "gebplv2y",
@@ -553,7 +553,7 @@
         ]
       },
       {
-        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/jrhu3y",
+        "@id": "https://iisg.amsterdam/p1223a.csv/column/jrhu3y",
         "datatype": "string",
         "dc:description": "jrhu3y",
         "name": "jrhu3y",
@@ -562,7 +562,7 @@
         ]
       },
       {
-        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bervam3y",
+        "@id": "https://iisg.amsterdam/p1223a.csv/column/bervam3y",
         "datatype": "string",
         "dc:description": "bervam3y",
         "name": "bervam3y",
@@ -571,7 +571,7 @@
         ]
       },
       {
-        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bervav3y",
+        "@id": "https://iisg.amsterdam/p1223a.csv/column/bervav3y",
         "datatype": "string",
         "dc:description": "bervav3y",
         "name": "bervav3y",
@@ -580,7 +580,7 @@
         ]
       },
       {
-        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bermhu3y",
+        "@id": "https://iisg.amsterdam/p1223a.csv/column/bermhu3y",
         "datatype": "string",
         "dc:description": "bermhu3y",
         "name": "bermhu3y",
@@ -589,7 +589,7 @@
         ]
       },
       {
-        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bergt13y",
+        "@id": "https://iisg.amsterdam/p1223a.csv/column/bergt13y",
         "datatype": "string",
         "dc:description": "bergt13y",
         "name": "bergt13y",
@@ -598,7 +598,7 @@
         ]
       },
       {
-        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relgt13y",
+        "@id": "https://iisg.amsterdam/p1223a.csv/column/relgt13y",
         "datatype": "string",
         "dc:description": "relgt13y",
         "name": "relgt13y",
@@ -607,7 +607,7 @@
         ]
       },
       {
-        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bergt23y",
+        "@id": "https://iisg.amsterdam/p1223a.csv/column/bergt23y",
         "datatype": "string",
         "dc:description": "bergt23y",
         "name": "bergt23y",
@@ -616,7 +616,7 @@
         ]
       },
       {
-        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relgt23y",
+        "@id": "https://iisg.amsterdam/p1223a.csv/column/relgt23y",
         "datatype": "string",
         "dc:description": "relgt23y",
         "name": "relgt23y",
@@ -625,7 +625,7 @@
         ]
       },
       {
-        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bergt33y",
+        "@id": "https://iisg.amsterdam/p1223a.csv/column/bergt33y",
         "datatype": "string",
         "dc:description": "bergt33y",
         "name": "bergt33y",
@@ -634,7 +634,7 @@
         ]
       },
       {
-        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relgt33y",
+        "@id": "https://iisg.amsterdam/p1223a.csv/column/relgt33y",
         "datatype": "string",
         "dc:description": "relgt33y",
         "name": "relgt33y",
@@ -643,7 +643,7 @@
         ]
       },
       {
-        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bergt43y",
+        "@id": "https://iisg.amsterdam/p1223a.csv/column/bergt43y",
         "datatype": "string",
         "dc:description": "bergt43y",
         "name": "bergt43y",
@@ -652,7 +652,7 @@
         ]
       },
       {
-        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/relgt43y",
+        "@id": "https://iisg.amsterdam/p1223a.csv/column/relgt43y",
         "datatype": "string",
         "dc:description": "relgt43y",
         "name": "relgt43y",
@@ -661,7 +661,7 @@
         ]
       },
       {
-        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/hulftm3y",
+        "@id": "https://iisg.amsterdam/p1223a.csv/column/hulftm3y",
         "datatype": "string",
         "dc:description": "hulftm3y",
         "name": "hulftm3y",
@@ -670,7 +670,7 @@
         ]
       },
       {
-        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/hulftv3y",
+        "@id": "https://iisg.amsterdam/p1223a.csv/column/hulftv3y",
         "datatype": "string",
         "dc:description": "hulftv3y",
         "name": "hulftv3y",
@@ -679,7 +679,7 @@
         ]
       },
       {
-        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/bsv3y",
+        "@id": "https://iisg.amsterdam/p1223a.csv/column/bsv3y",
         "datatype": "string",
         "dc:description": "bsv3y",
         "name": "bsv3y",
@@ -688,7 +688,7 @@
         ]
       },
       {
-        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/gebplv3y",
+        "@id": "https://iisg.amsterdam/p1223a.csv/column/gebplv3y",
         "datatype": "string",
         "dc:description": "gebplv3y",
         "name": "gebplv3y",
@@ -697,7 +697,7 @@
         ]
       },
       {
-        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/tot3bly",
+        "@id": "https://iisg.amsterdam/p1223a.csv/column/tot3bly",
         "datatype": "string",
         "dc:description": "tot3bly",
         "name": "tot3bly",
@@ -706,7 +706,7 @@
         ]
       },
       {
-        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/grblgy",
+        "@id": "https://iisg.amsterdam/p1223a.csv/column/grblgy",
         "datatype": "string",
         "dc:description": "grblgy",
         "name": "grblgy",
@@ -715,7 +715,7 @@
         ]
       },
       {
-        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/pblgy",
+        "@id": "https://iisg.amsterdam/p1223a.csv/column/pblgy",
         "datatype": "string",
         "dc:description": "pblgy",
         "name": "pblgy",
@@ -724,7 +724,7 @@
         ]
       },
       {
-        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/patblgy",
+        "@id": "https://iisg.amsterdam/p1223a.csv/column/patblgy",
         "datatype": "string",
         "dc:description": "patblgy",
         "name": "patblgy",
@@ -733,7 +733,7 @@
         ]
       },
       {
-        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/omvhhy",
+        "@id": "https://iisg.amsterdam/p1223a.csv/column/omvhhy",
         "datatype": "string",
         "dc:description": "omvhhy",
         "name": "omvhhy",
@@ -742,7 +742,7 @@
         ]
       },
       {
-        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/berpm00y",
+        "@id": "https://iisg.amsterdam/p1223a.csv/column/berpm00y",
         "datatype": "string",
         "dc:description": "berpm00y",
         "name": "berpm00y",
@@ -751,7 +751,7 @@
         ]
       },
       {
-        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/berpm0y",
+        "@id": "https://iisg.amsterdam/p1223a.csv/column/berpm0y",
         "datatype": "string",
         "dc:description": "berpm0y",
         "name": "berpm0y",
@@ -760,7 +760,7 @@
         ]
       },
       {
-        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/totbly",
+        "@id": "https://iisg.amsterdam/p1223a.csv/column/totbly",
         "datatype": "string",
         "dc:description": "totbly",
         "name": "totbly",
@@ -769,7 +769,7 @@
         ]
       },
       {
-        "@id": "https://iisg.amsterdam/p1223a_labels_semicolon.csv/column/lftklasy",
+        "@id": "https://iisg.amsterdam/p1223a.csv/column/lftklasy",
         "datatype": "string",
         "dc:description": "lftklasy",
         "name": "lftklasy",
@@ -780,5 +780,5 @@
     ],
     "primaryKey": "caswgt"
   },
-  "url": "p1223a_labels_semicolon.csv"
+  "url": "p1223a.csv"
 }

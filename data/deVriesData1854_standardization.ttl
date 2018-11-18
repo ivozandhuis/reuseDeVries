@@ -1,0 +1,2263 @@
+@prefix ns1: <http://purl.org/linked-data/sdmx/2009/dimension#> .
+@prefix ns2: <http://dbpedia.org/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://iisg.amsterdam/resource/bdv/100051> ns2:residence <https://adamlink.nl/geo/district/buurt-j/133> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/99999> .
+
+<https://iisg.amsterdam/resource/bdv/100101> ns2:residence <https://adamlink.nl/geo/district/buurt-e/130> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-1> .
+
+<https://iisg.amsterdam/resource/bdv/100151> ns2:residence <https://adamlink.nl/geo/district/buurt-aa/128> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/44140> .
+
+<https://iisg.amsterdam/resource/bdv/100201> ns2:residence <https://adamlink.nl/geo/district/buurt-ll/116> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/100251> ns2:residence <https://adamlink.nl/geo/district/buurt-x/127> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/30000> .
+
+<https://iisg.amsterdam/resource/bdv/100301> ns2:residence <https://adamlink.nl/geo/district/buurt-f/121> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41030> .
+
+<https://iisg.amsterdam/resource/bdv/100351> ns2:residence <https://adamlink.nl/geo/district/buurt-x/127> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/21110> .
+
+<https://iisg.amsterdam/resource/bdv/100401> ns2:residence <https://adamlink.nl/geo/district/buurt-n/139> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/100451> ns2:residence <https://adamlink.nl/geo/district/buurt-z/138> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/12110> .
+
+<https://iisg.amsterdam/resource/bdv/100501> ns2:residence <https://adamlink.nl/geo/district/buurt-d/131> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/12310> .
+
+<https://iisg.amsterdam/resource/bdv/100551> ns2:residence <https://adamlink.nl/geo/district/buurt-n/139> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/63140> .
+
+<https://iisg.amsterdam/resource/bdv/100601> ns2:residence <https://adamlink.nl/geo/district/buurt-ll/116> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/4217> .
+
+<https://iisg.amsterdam/resource/bdv/100651> ns2:residence <https://adamlink.nl/geo/district/buurt-vv/104> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/100701> ns2:residence <https://adamlink.nl/geo/district/buurt-v/147> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/6105> .
+
+<https://iisg.amsterdam/resource/bdv/100751> ns2:residence <https://adamlink.nl/geo/district/buurt-w/143> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/61240> .
+
+<https://iisg.amsterdam/resource/bdv/100801> ns2:residence <https://adamlink.nl/geo/district/buurt-n/139> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/6105> .
+
+<https://iisg.amsterdam/resource/bdv/100851> ns2:residence <https://adamlink.nl/geo/district/buurt-x/127> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/95410> .
+
+<https://iisg.amsterdam/resource/bdv/100901> ns2:residence <https://adamlink.nl/geo/district/buurt-c/141> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/100951> ns2:residence <https://adamlink.nl/geo/district/buurt-f/121> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/95410> .
+
+<https://iisg.amsterdam/resource/bdv/101001> ns2:residence <https://adamlink.nl/geo/district/buurt-m/132> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/22290> .
+
+<https://iisg.amsterdam/resource/bdv/101051> ns2:residence <https://adamlink.nl/geo/district/buurt-l/119> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/99999> .
+
+<https://iisg.amsterdam/resource/bdv/101101> ns2:residence <https://adamlink.nl/geo/district/buurt-rr/117> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/99999> .
+
+<https://iisg.amsterdam/resource/bdv/101151> ns2:residence <https://adamlink.nl/geo/district/buurt-rr/117> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/101201> ns2:residence <https://adamlink.nl/geo/district/buurt-r/146> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/101251> ns2:residence <https://adamlink.nl/geo/district/buurt-y/137> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/13100> .
+
+<https://iisg.amsterdam/resource/bdv/101301> ns2:residence <https://adamlink.nl/geo/district/buurt-ll/116> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/101351> ns2:residence <https://adamlink.nl/geo/district/buurt-kk/115> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/101401> ns2:residence <https://adamlink.nl/geo/district/buurt-q/144> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/101451> ns2:residence <https://adamlink.nl/geo/district/buurt-h/129> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/101501> ns2:residence <https://adamlink.nl/geo/district/buurt-nn/108> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/95410> .
+
+<https://iisg.amsterdam/resource/bdv/101551> ns2:residence <https://adamlink.nl/geo/district/buurt-c/141> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/101601> ns2:residence <https://adamlink.nl/geo/district/buurt-d/131> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/101651> ns2:residence <https://adamlink.nl/geo/district/buurt-aa/128> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/6710> .
+
+<https://iisg.amsterdam/resource/bdv/101701> ns2:residence <https://adamlink.nl/geo/district/buurt-gg/113> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/42230> .
+
+<https://iisg.amsterdam/resource/bdv/101751> ns2:residence <https://adamlink.nl/geo/district/buurt-jj/122> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/101801> ns2:residence <https://adamlink.nl/geo/district/buurt-cc/125> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/101851> ns2:residence <https://adamlink.nl/geo/district/buurt-kk/115> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/44120> .
+
+<https://iisg.amsterdam/resource/bdv/101901> ns2:residence <https://adamlink.nl/geo/district/buurt-x/127> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/99999> .
+
+<https://iisg.amsterdam/resource/bdv/102001> ns2:residence <https://adamlink.nl/geo/district/buurt-z/138> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/42230> .
+
+<https://iisg.amsterdam/resource/bdv/102051> ns2:residence <https://adamlink.nl/geo/district/buurt-l/119> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/6710> .
+
+<https://iisg.amsterdam/resource/bdv/102101> ns2:residence <https://adamlink.nl/geo/district/buurt-u/148> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/99999> .
+
+<https://iisg.amsterdam/resource/bdv/102151> ns2:residence <https://adamlink.nl/geo/district/buurt-t/149> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/77310> .
+
+<https://iisg.amsterdam/resource/bdv/102201> ns2:residence <https://adamlink.nl/geo/district/buurt-r/146> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/99999> .
+
+<https://iisg.amsterdam/resource/bdv/102251> ns2:residence <https://adamlink.nl/geo/district/buurt-l/119> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41030> .
+
+<https://iisg.amsterdam/resource/bdv/102301> ns2:residence <https://adamlink.nl/geo/district/buurt-cc/125> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41030> .
+
+<https://iisg.amsterdam/resource/bdv/102351> ns2:residence <https://adamlink.nl/geo/district/buurt-ss/118> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/13100> .
+
+<https://iisg.amsterdam/resource/bdv/102401> ns2:residence <https://adamlink.nl/geo/district/buurt-kk/115> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/42230> .
+
+<https://iisg.amsterdam/resource/bdv/102451> ns2:residence <https://adamlink.nl/geo/district/buurt-aa/128> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/102501> ns2:residence <https://adamlink.nl/geo/district/buurt-kk/115> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/102551> ns2:residence <https://adamlink.nl/geo/district/buurt-cc/125> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/99999> .
+
+<https://iisg.amsterdam/resource/bdv/102601> ns2:residence <https://adamlink.nl/geo/district/buurt-u/148> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/102651> ns2:residence <https://adamlink.nl/geo/district/buurt-jj/122> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/102701> ns2:residence <https://adamlink.nl/geo/district/buurt-e/130> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-1> .
+
+<https://iisg.amsterdam/resource/bdv/102751> ns2:residence <https://adamlink.nl/geo/district/buurt-f/121> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/6710> .
+
+<https://iisg.amsterdam/resource/bdv/102801> ns2:residence <https://adamlink.nl/geo/district/buurt-q/144> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/77610> .
+
+<https://iisg.amsterdam/resource/bdv/102851> ns2:residence <https://adamlink.nl/geo/district/buurt-b/136> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/30000> .
+
+<https://iisg.amsterdam/resource/bdv/102901> ns2:residence <https://adamlink.nl/geo/district/buurt-c/141> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/102951> ns2:residence <https://adamlink.nl/geo/district/buurt-h/129> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/103001> ns2:residence <https://adamlink.nl/geo/district/buurt-z/138> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/17990> .
+
+<https://iisg.amsterdam/resource/bdv/103051> ns2:residence <https://adamlink.nl/geo/district/buurt-j/133> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/99999> .
+
+<https://iisg.amsterdam/resource/bdv/103101> ns2:residence <https://adamlink.nl/geo/district/buurt-u/148> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/95410> .
+
+<https://iisg.amsterdam/resource/bdv/103151> ns2:residence <https://adamlink.nl/geo/district/buurt-ff/112> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-1> .
+
+<https://iisg.amsterdam/resource/bdv/103201> ns2:residence <https://adamlink.nl/geo/district/buurt-w/143> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/61240> .
+
+<https://iisg.amsterdam/resource/bdv/103251> ns2:residence <https://adamlink.nl/geo/district/buurt-tt/105> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/103301> ns2:residence <https://adamlink.nl/geo/district/buurt-ss/118> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/44120> .
+
+<https://iisg.amsterdam/resource/bdv/103351> ns2:residence <https://adamlink.nl/geo/district/buurt-b/136> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/44100> .
+
+<https://iisg.amsterdam/resource/bdv/103401> ns2:residence <https://adamlink.nl/geo/district/buurt-ww/103> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/103451> ns2:residence <https://adamlink.nl/geo/district/buurt-g/120> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/103501> ns2:residence <https://adamlink.nl/geo/district/buurt-b/136> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/103601> ns2:residence <https://adamlink.nl/geo/district/buurt-rr/117> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/13100> .
+
+<https://iisg.amsterdam/resource/bdv/103651> ns2:residence <https://adamlink.nl/geo/district/buurt-kk/115> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/42230> .
+
+<https://iisg.amsterdam/resource/bdv/103701> ns2:residence <https://adamlink.nl/geo/district/buurt-ll/116> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-1> .
+
+<https://iisg.amsterdam/resource/bdv/103751> ns2:residence <https://adamlink.nl/geo/district/buurt-x/127> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/99999> .
+
+<https://iisg.amsterdam/resource/bdv/103801> ns2:residence <https://adamlink.nl/geo/district/buurt-kk/115> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41030> .
+
+<https://iisg.amsterdam/resource/bdv/103851> ns2:residence <https://adamlink.nl/geo/district/buurt-oo/107> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/99999> .
+
+<https://iisg.amsterdam/resource/bdv/103901> ns2:residence <https://adamlink.nl/geo/district/buurt-cc/125> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/77610> .
+
+<https://iisg.amsterdam/resource/bdv/103951> ns2:residence <https://adamlink.nl/geo/district/buurt-hh/114> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/42230> .
+
+<https://iisg.amsterdam/resource/bdv/104001> ns2:residence <https://adamlink.nl/geo/district/buurt-qq/101> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/104051> ns2:residence <https://adamlink.nl/geo/district/buurt-ll/116> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/44120> .
+
+<https://iisg.amsterdam/resource/bdv/104101> ns2:residence <https://adamlink.nl/geo/district/buurt-b/136> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/104151> ns2:residence <https://adamlink.nl/geo/district/buurt-j/133> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/21110> .
+
+<https://iisg.amsterdam/resource/bdv/104201> ns2:residence <https://adamlink.nl/geo/district/buurt-bb/126> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/6710> .
+
+<https://iisg.amsterdam/resource/bdv/104251> ns2:residence <https://adamlink.nl/geo/district/buurt-ll/116> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-1> .
+
+<https://iisg.amsterdam/resource/bdv/104301> ns2:residence <https://adamlink.nl/geo/district/buurt-e/130> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41030> .
+
+<https://iisg.amsterdam/resource/bdv/104351> ns2:residence <https://adamlink.nl/geo/district/buurt-tt/105> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/104401> ns2:residence <https://adamlink.nl/geo/district/buurt-ss/118> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/99999> .
+
+<https://iisg.amsterdam/resource/bdv/104451> ns2:residence <https://adamlink.nl/geo/district/buurt-cc/125> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/33110> .
+
+<https://iisg.amsterdam/resource/bdv/104501> ns2:residence <https://adamlink.nl/geo/district/buurt-c/141> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/99999> .
+
+<https://iisg.amsterdam/resource/bdv/104551> ns2:residence <https://adamlink.nl/geo/district/buurt-cc/125> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-1> .
+
+<https://iisg.amsterdam/resource/bdv/104601> ns2:residence <https://adamlink.nl/geo/district/buurt-ll/116> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/104651> ns2:residence <https://adamlink.nl/geo/district/buurt-rr/117> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/6710> .
+
+<https://iisg.amsterdam/resource/bdv/104701> ns2:residence <https://adamlink.nl/geo/district/buurt-kk/115> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/104751> ns2:residence <https://adamlink.nl/geo/district/buurt-p/142> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/104801> ns2:residence <https://adamlink.nl/geo/district/buurt-g/120> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/44100> .
+
+<https://iisg.amsterdam/resource/bdv/104851> ns2:residence <https://adamlink.nl/geo/district/buurt-tt/105> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/13200> .
+
+<https://iisg.amsterdam/resource/bdv/104901> ns2:residence <https://adamlink.nl/geo/district/buurt-ww/103> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-1> .
+
+<https://iisg.amsterdam/resource/bdv/104951> ns2:residence <https://adamlink.nl/geo/district/buurt-k/135> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/105001> ns2:residence <https://adamlink.nl/geo/district/buurt-k/135> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/42230> .
+
+<https://iisg.amsterdam/resource/bdv/105051> ns2:residence <https://adamlink.nl/geo/district/buurt-u/148> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/42230> .
+
+<https://iisg.amsterdam/resource/bdv/105101> ns2:residence <https://adamlink.nl/geo/district/buurt-c/141> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41030> .
+
+<https://iisg.amsterdam/resource/bdv/105151> ns2:residence <https://adamlink.nl/geo/district/buurt-l/119> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41030> .
+
+<https://iisg.amsterdam/resource/bdv/105201> ns2:residence <https://adamlink.nl/geo/district/buurt-m/132> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/22290> .
+
+<https://iisg.amsterdam/resource/bdv/105301> ns2:residence <https://adamlink.nl/geo/district/buurt-kk/115> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/44140> .
+
+<https://iisg.amsterdam/resource/bdv/105351> ns2:residence <https://adamlink.nl/geo/district/buurt-cc/125> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/33110> .
+
+<https://iisg.amsterdam/resource/bdv/105401> ns2:residence <https://adamlink.nl/geo/district/buurt-x/127> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/6105> .
+
+<https://iisg.amsterdam/resource/bdv/105451> ns2:residence <https://adamlink.nl/geo/district/buurt-l/119> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/105501> ns2:residence <https://adamlink.nl/geo/district/buurt-kk/115> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/105551> ns2:residence <https://adamlink.nl/geo/district/buurt-w/143> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/30000> .
+
+<https://iisg.amsterdam/resource/bdv/105601> ns2:residence <https://adamlink.nl/geo/district/buurt-jj/122> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/21110> .
+
+<https://iisg.amsterdam/resource/bdv/105651> ns2:residence <https://adamlink.nl/geo/district/buurt-kk/115> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/42230> .
+
+<https://iisg.amsterdam/resource/bdv/105701> ns2:residence <https://adamlink.nl/geo/district/buurt-tt/105> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/14120> .
+
+<https://iisg.amsterdam/resource/bdv/105751> ns2:residence <https://adamlink.nl/geo/district/buurt-jj/122> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41030> .
+
+<https://iisg.amsterdam/resource/bdv/105801> ns2:residence <https://adamlink.nl/geo/district/buurt-f/121> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/105851> ns2:residence <https://adamlink.nl/geo/district/buurt-c/141> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41030> .
+
+<https://iisg.amsterdam/resource/bdv/105901> ns2:residence <https://adamlink.nl/geo/district/buurt-kk/115> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/44100> .
+
+<https://iisg.amsterdam/resource/bdv/105951> ns2:residence <https://adamlink.nl/geo/district/buurt-cc/125> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/106001> ns2:residence <https://adamlink.nl/geo/district/buurt-e/130> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/106051> ns2:residence <https://adamlink.nl/geo/district/buurt-l/119> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/106101> ns2:residence <https://adamlink.nl/geo/district/buurt-ll/116> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/42230> .
+
+<https://iisg.amsterdam/resource/bdv/106151> ns2:residence <https://adamlink.nl/geo/district/buurt-w/143> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/44140> .
+
+<https://iisg.amsterdam/resource/bdv/106201> ns2:residence <https://adamlink.nl/geo/district/buurt-u/148> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/95410> .
+
+<https://iisg.amsterdam/resource/bdv/106251> ns2:residence <https://adamlink.nl/geo/district/buurt-x/127> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/106301> ns2:residence <https://adamlink.nl/geo/district/buurt-hh/114> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/21110> .
+
+<https://iisg.amsterdam/resource/bdv/106351> ns2:residence <https://adamlink.nl/geo/district/buurt-m/132> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/99999> .
+
+<https://iisg.amsterdam/resource/bdv/106401> ns2:residence <https://adamlink.nl/geo/district/buurt-q/144> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/99999> .
+
+<https://iisg.amsterdam/resource/bdv/106451> ns2:residence <https://adamlink.nl/geo/district/buurt-l/119> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/6710> .
+
+<https://iisg.amsterdam/resource/bdv/106501> ns2:residence <https://adamlink.nl/geo/district/buurt-w/143> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/106551> ns2:residence <https://adamlink.nl/geo/district/buurt-ll/116> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/99999> .
+
+<https://iisg.amsterdam/resource/bdv/106601> ns2:residence <https://adamlink.nl/geo/district/buurt-x/127> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/106651> ns2:residence <https://adamlink.nl/geo/district/buurt-ll/116> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/44120> .
+
+<https://iisg.amsterdam/resource/bdv/106701> ns2:residence <https://adamlink.nl/geo/district/buurt-w/143> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41030> .
+
+<https://iisg.amsterdam/resource/bdv/106751> ns2:residence <https://adamlink.nl/geo/district/buurt-l/119> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/95410> .
+
+<https://iisg.amsterdam/resource/bdv/106801> ns2:residence <https://adamlink.nl/geo/district/buurt-cc/125> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/42230> .
+
+<https://iisg.amsterdam/resource/bdv/106851> ns2:residence <https://adamlink.nl/geo/district/buurt-x/127> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/106901> ns2:residence <https://adamlink.nl/geo/district/buurt-y/137> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/12110> .
+
+<https://iisg.amsterdam/resource/bdv/106951> ns2:residence <https://adamlink.nl/geo/district/buurt-m/132> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/21110> .
+
+<https://iisg.amsterdam/resource/bdv/107001> ns2:residence <https://adamlink.nl/geo/district/buurt-t/149> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/107051> ns2:residence <https://adamlink.nl/geo/district/buurt-jj/122> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/107101> ns2:residence <https://adamlink.nl/geo/district/buurt-x/127> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/6105> .
+
+<https://iisg.amsterdam/resource/bdv/107151> ns2:residence <https://adamlink.nl/geo/district/buurt-bb/126> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/33160> .
+
+<https://iisg.amsterdam/resource/bdv/107201> ns2:residence <https://adamlink.nl/geo/district/buurt-y/137> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/30000> .
+
+<https://iisg.amsterdam/resource/bdv/107251> ns2:residence <https://adamlink.nl/geo/district/buurt-g/120> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/42230> .
+
+<https://iisg.amsterdam/resource/bdv/107301> ns2:residence <https://adamlink.nl/geo/district/buurt-kk/115> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-1> .
+
+<https://iisg.amsterdam/resource/bdv/107351> ns2:residence <https://adamlink.nl/geo/district/buurt-z/138> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/99999> .
+
+<https://iisg.amsterdam/resource/bdv/107401> ns2:residence <https://adamlink.nl/geo/district/buurt-tt/105> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/77310> .
+
+<https://iisg.amsterdam/resource/bdv/107451> ns2:residence <https://adamlink.nl/geo/district/buurt-uu/102> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/107501> ns2:residence <https://adamlink.nl/geo/district/buurt-y/137> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/12210> .
+
+<https://iisg.amsterdam/resource/bdv/107551> ns2:residence <https://adamlink.nl/geo/district/buurt-vv/104> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/107601> ns2:residence <https://adamlink.nl/geo/district/buurt-aa/128> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/107651> ns2:residence <https://adamlink.nl/geo/district/buurt-a/134> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-1> .
+
+<https://iisg.amsterdam/resource/bdv/107701> ns2:residence <https://adamlink.nl/geo/district/buurt-c/141> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/42230> .
+
+<https://iisg.amsterdam/resource/bdv/107751> ns2:residence <https://adamlink.nl/geo/district/buurt-y/137> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/107801> ns2:residence <https://adamlink.nl/geo/district/buurt-f/121> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/107851> ns2:residence <https://adamlink.nl/geo/district/buurt-oo/107> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/61220> .
+
+<https://iisg.amsterdam/resource/bdv/107901> ns2:residence <https://adamlink.nl/geo/district/buurt-j/133> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/107951> ns2:residence <https://adamlink.nl/geo/district/buurt-y/137> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/39310> .
+
+<https://iisg.amsterdam/resource/bdv/108001> ns2:residence <https://adamlink.nl/geo/district/buurt-kk/115> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/13100> .
+
+<https://iisg.amsterdam/resource/bdv/108051> ns2:residence <https://adamlink.nl/geo/district/buurt-bb/126> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/30000> .
+
+<https://iisg.amsterdam/resource/bdv/108101> ns2:residence <https://adamlink.nl/geo/district/buurt-aa/128> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/30000> .
+
+<https://iisg.amsterdam/resource/bdv/108151> ns2:residence <https://adamlink.nl/geo/district/buurt-n/139> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/44100> .
+
+<https://iisg.amsterdam/resource/bdv/108201> ns2:residence <https://adamlink.nl/geo/district/buurt-jj/122> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/108251> ns2:residence <https://adamlink.nl/geo/district/buurt-ww/103> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/99999> .
+
+<https://iisg.amsterdam/resource/bdv/108301> ns2:residence <https://adamlink.nl/geo/district/buurt-c/141> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/108351> ns2:residence <https://adamlink.nl/geo/district/buurt-kk/115> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/44100> .
+
+<https://iisg.amsterdam/resource/bdv/108401> ns2:residence <https://adamlink.nl/geo/district/buurt-hh/114> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/6105> .
+
+<https://iisg.amsterdam/resource/bdv/108451> ns2:residence <https://adamlink.nl/geo/district/buurt-z/138> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/21110> .
+
+<https://iisg.amsterdam/resource/bdv/108501> ns2:residence <https://adamlink.nl/geo/district/buurt-a/134> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/17990> .
+
+<https://iisg.amsterdam/resource/bdv/108551> ns2:residence <https://adamlink.nl/geo/district/buurt-x/127> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/108601> ns2:residence <https://adamlink.nl/geo/district/buurt-u/148> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/99999> .
+
+<https://iisg.amsterdam/resource/bdv/108651> ns2:residence <https://adamlink.nl/geo/district/buurt-b/136> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-1> .
+
+<https://iisg.amsterdam/resource/bdv/108701> ns2:residence <https://adamlink.nl/geo/district/buurt-ff/112> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41030> .
+
+<https://iisg.amsterdam/resource/bdv/108751> ns2:residence <https://adamlink.nl/geo/district/buurt-ll/116> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/42230> .
+
+<https://iisg.amsterdam/resource/bdv/108801> ns2:residence <https://adamlink.nl/geo/district/buurt-l/119> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/39310> .
+
+<https://iisg.amsterdam/resource/bdv/108851> ns2:residence <https://adamlink.nl/geo/district/buurt-x/127> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/99999> .
+
+<https://iisg.amsterdam/resource/bdv/108901> ns2:residence <https://adamlink.nl/geo/district/buurt-kk/115> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/42230> .
+
+<https://iisg.amsterdam/resource/bdv/108951> ns2:residence <https://adamlink.nl/geo/district/buurt-j/133> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/99999> .
+
+<https://iisg.amsterdam/resource/bdv/109001> ns2:residence <https://adamlink.nl/geo/district/buurt-h/129> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/109051> ns2:residence <https://adamlink.nl/geo/district/buurt-ll/116> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/6710> .
+
+<https://iisg.amsterdam/resource/bdv/109101> ns2:residence <https://adamlink.nl/geo/district/buurt-x/127> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/22290> .
+
+<https://iisg.amsterdam/resource/bdv/109151> ns2:residence <https://adamlink.nl/geo/district/buurt-y/137> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/109201> ns2:residence <https://adamlink.nl/geo/district/buurt-j/133> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-1> .
+
+<https://iisg.amsterdam/resource/bdv/109301> ns2:residence <https://adamlink.nl/geo/district/buurt-y/137> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/109351> ns2:residence <https://adamlink.nl/geo/district/buurt-a/134> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/109401> ns2:residence <https://adamlink.nl/geo/district/buurt-k/135> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/99999> .
+
+<https://iisg.amsterdam/resource/bdv/109451> ns2:residence <https://adamlink.nl/geo/district/buurt-k/135> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/44140> .
+
+<https://iisg.amsterdam/resource/bdv/109501> ns2:residence <https://adamlink.nl/geo/district/buurt-jj/122> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/99999> .
+
+<https://iisg.amsterdam/resource/bdv/109551> ns2:residence <https://adamlink.nl/geo/district/buurt-y/137> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/12310> .
+
+<https://iisg.amsterdam/resource/bdv/109601> ns2:residence <https://adamlink.nl/geo/district/buurt-f/121> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/42230> .
+
+<https://iisg.amsterdam/resource/bdv/109651> ns2:residence <https://adamlink.nl/geo/district/buurt-e/130> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/33160> .
+
+<https://iisg.amsterdam/resource/bdv/109701> ns2:residence <https://adamlink.nl/geo/district/buurt-u/148> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/99999> .
+
+<https://iisg.amsterdam/resource/bdv/109751> ns2:residence <https://adamlink.nl/geo/district/buurt-x/127> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/12110> .
+
+<https://iisg.amsterdam/resource/bdv/109801> ns2:residence <https://adamlink.nl/geo/district/buurt-ll/116> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/12310> .
+
+<https://iisg.amsterdam/resource/bdv/109851> ns2:residence <https://adamlink.nl/geo/district/buurt-uu/102> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/22290> .
+
+<https://iisg.amsterdam/resource/bdv/109901> ns2:residence <https://adamlink.nl/geo/district/buurt-aa/128> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/109951> ns2:residence <https://adamlink.nl/geo/district/buurt-j/133> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/95410> .
+
+<https://iisg.amsterdam/resource/bdv/110001> ns2:residence <https://adamlink.nl/geo/district/buurt-c/141> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/42230> .
+
+<https://iisg.amsterdam/resource/bdv/110051> ns2:residence <https://adamlink.nl/geo/district/buurt-w/143> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/44140> .
+
+<https://iisg.amsterdam/resource/bdv/110101> ns2:residence <https://adamlink.nl/geo/district/buurt-ee/110> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/21110> .
+
+<https://iisg.amsterdam/resource/bdv/110151> ns2:residence <https://adamlink.nl/geo/district/buurt-jj/122> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/44100> .
+
+<https://iisg.amsterdam/resource/bdv/110201> ns2:residence <https://adamlink.nl/geo/district/buurt-y/137> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/110251> ns2:residence <https://adamlink.nl/geo/district/buurt-d/131> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/110351> ns2:residence <https://adamlink.nl/geo/district/buurt-kk/115> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/12310> .
+
+<https://iisg.amsterdam/resource/bdv/110401> ns2:residence <https://adamlink.nl/geo/district/buurt-d/131> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41030> .
+
+<https://iisg.amsterdam/resource/bdv/110451> ns2:residence <https://adamlink.nl/geo/district/buurt-ff/112> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-1> .
+
+<https://iisg.amsterdam/resource/bdv/110501> ns2:residence <https://adamlink.nl/geo/district/buurt-a/134> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41030> .
+
+<https://iisg.amsterdam/resource/bdv/110551> ns2:residence <https://adamlink.nl/geo/district/buurt-kk/115> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/99999> .
+
+<https://iisg.amsterdam/resource/bdv/110601> ns2:residence <https://adamlink.nl/geo/district/buurt-k/135> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/21240> .
+
+<https://iisg.amsterdam/resource/bdv/110651> ns2:residence <https://adamlink.nl/geo/district/buurt-kk/115> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/110701> ns2:residence <https://adamlink.nl/geo/district/buurt-ss/118> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/44100> .
+
+<https://iisg.amsterdam/resource/bdv/110801> ns2:residence <https://adamlink.nl/geo/district/buurt-v/147> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/110851> ns2:residence <https://adamlink.nl/geo/district/buurt-dd/111> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/21110> .
+
+<https://iisg.amsterdam/resource/bdv/110901> ns2:residence <https://adamlink.nl/geo/district/buurt-tt/105> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/110951> ns2:residence <https://adamlink.nl/geo/district/buurt-uu/102> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/61220> .
+
+<https://iisg.amsterdam/resource/bdv/111001> ns2:residence <https://adamlink.nl/geo/district/buurt-y/137> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/13100> .
+
+<https://iisg.amsterdam/resource/bdv/111051> ns2:residence <https://adamlink.nl/geo/district/buurt-ss/118> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/111101> ns2:residence <https://adamlink.nl/geo/district/buurt-bb/126> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/111151> ns2:residence <https://adamlink.nl/geo/district/buurt-a/134> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/44100> .
+
+<https://iisg.amsterdam/resource/bdv/111201> ns2:residence <https://adamlink.nl/geo/district/buurt-yy/124> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/111251> ns2:residence <https://adamlink.nl/geo/district/buurt-w/143> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/111301> ns2:residence <https://adamlink.nl/geo/district/buurt-w/143> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41030> .
+
+<https://iisg.amsterdam/resource/bdv/111351> ns2:residence <https://adamlink.nl/geo/district/buurt-rr/117> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/111401> ns2:residence <https://adamlink.nl/geo/district/buurt-u/148> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/22290> .
+
+<https://iisg.amsterdam/resource/bdv/111451> ns2:residence <https://adamlink.nl/geo/district/buurt-mm/109> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41030> .
+
+<https://iisg.amsterdam/resource/bdv/111501> ns2:residence <https://adamlink.nl/geo/district/buurt-z/138> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/95410> .
+
+<https://iisg.amsterdam/resource/bdv/111551> ns2:residence <https://adamlink.nl/geo/district/buurt-ll/116> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/21110> .
+
+<https://iisg.amsterdam/resource/bdv/111601> ns2:residence <https://adamlink.nl/geo/district/buurt-cc/125> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-1> .
+
+<https://iisg.amsterdam/resource/bdv/111651> ns2:residence <https://adamlink.nl/geo/district/buurt-aa/128> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/42230> .
+
+<https://iisg.amsterdam/resource/bdv/111701> ns2:residence <https://adamlink.nl/geo/district/buurt-ll/116> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/6105> .
+
+<https://iisg.amsterdam/resource/bdv/111751> ns2:residence <https://adamlink.nl/geo/district/buurt-x/127> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/111801> ns2:residence <https://adamlink.nl/geo/district/buurt-t/149> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/99999> .
+
+<https://iisg.amsterdam/resource/bdv/111851> ns2:residence <https://adamlink.nl/geo/district/buurt-k/135> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-1> .
+
+<https://iisg.amsterdam/resource/bdv/111901> ns2:residence <https://adamlink.nl/geo/district/buurt-ss/118> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/99999> .
+
+<https://iisg.amsterdam/resource/bdv/111951> ns2:residence <https://adamlink.nl/geo/district/buurt-u/148> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-1> .
+
+<https://iisg.amsterdam/resource/bdv/112001> ns2:residence <https://adamlink.nl/geo/district/buurt-c/141> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/77310> .
+
+<https://iisg.amsterdam/resource/bdv/112051> ns2:residence <https://adamlink.nl/geo/district/buurt-l/119> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/112101> ns2:residence <https://adamlink.nl/geo/district/buurt-kk/115> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/44140> .
+
+<https://iisg.amsterdam/resource/bdv/112151> ns2:residence <https://adamlink.nl/geo/district/buurt-pp/106> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/77120> .
+
+<https://iisg.amsterdam/resource/bdv/112201> ns2:residence <https://adamlink.nl/geo/district/buurt-z/138> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-1> .
+
+<https://iisg.amsterdam/resource/bdv/112251> ns2:residence <https://adamlink.nl/geo/district/buurt-f/121> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/112301> ns2:residence <https://adamlink.nl/geo/district/buurt-t/149> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/112351> ns2:residence <https://adamlink.nl/geo/district/buurt-g/120> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41030> .
+
+<https://iisg.amsterdam/resource/bdv/112401> ns2:residence <https://adamlink.nl/geo/district/buurt-x/127> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-1> .
+
+<https://iisg.amsterdam/resource/bdv/112451> ns2:residence <https://adamlink.nl/geo/district/buurt-kk/115> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/14120> .
+
+<https://iisg.amsterdam/resource/bdv/112501> ns2:residence <https://adamlink.nl/geo/district/buurt-e/130> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/44100> .
+
+<https://iisg.amsterdam/resource/bdv/112551> ns2:residence <https://adamlink.nl/geo/district/buurt-ss/118> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/112601> ns2:residence <https://adamlink.nl/geo/district/buurt-d/131> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/99999> .
+
+<https://iisg.amsterdam/resource/bdv/112651> ns2:residence <https://adamlink.nl/geo/district/buurt-z/138> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/112701> ns2:residence <https://adamlink.nl/geo/district/buurt-s/145> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/112751> ns2:residence <https://adamlink.nl/geo/district/buurt-gg/113> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/99999> .
+
+<https://iisg.amsterdam/resource/bdv/112801> ns2:residence <https://adamlink.nl/geo/district/buurt-e/130> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-1> .
+
+<https://iisg.amsterdam/resource/bdv/112851> ns2:residence <https://adamlink.nl/geo/district/buurt-y/137> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/99999> .
+
+<https://iisg.amsterdam/resource/bdv/112901> ns2:residence <https://adamlink.nl/geo/district/buurt-yy/124> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/113001> ns2:residence <https://adamlink.nl/geo/district/buurt-ll/116> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/44100> .
+
+<https://iisg.amsterdam/resource/bdv/113051> ns2:residence <https://adamlink.nl/geo/district/buurt-n/139> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/113101> ns2:residence <https://adamlink.nl/geo/district/buurt-aa/128> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/44100> .
+
+<https://iisg.amsterdam/resource/bdv/113151> ns2:residence <https://adamlink.nl/geo/district/buurt-b/136> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41030> .
+
+<https://iisg.amsterdam/resource/bdv/113201> ns2:residence <https://adamlink.nl/geo/district/buurt-kk/115> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/113251> ns2:residence <https://adamlink.nl/geo/district/buurt-kk/115> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/77610> .
+
+<https://iisg.amsterdam/resource/bdv/113301> ns2:residence <https://adamlink.nl/geo/district/buurt-j/133> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/77310> .
+
+<https://iisg.amsterdam/resource/bdv/113351> ns2:residence <https://adamlink.nl/geo/district/buurt-l/119> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/31020> .
+
+<https://iisg.amsterdam/resource/bdv/113401> ns2:residence <https://adamlink.nl/geo/district/buurt-kk/115> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/113451> ns2:residence <https://adamlink.nl/geo/district/buurt-ss/118> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/95410> .
+
+<https://iisg.amsterdam/resource/bdv/113501> ns2:residence <https://adamlink.nl/geo/district/buurt-jj/122> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/6105> .
+
+<https://iisg.amsterdam/resource/bdv/113551> ns2:residence <https://adamlink.nl/geo/district/buurt-ll/116> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/113601> ns2:residence <https://adamlink.nl/geo/district/buurt-uu/102> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/113651> ns2:residence <https://adamlink.nl/geo/district/buurt-c/141> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/113701> ns2:residence <https://adamlink.nl/geo/district/buurt-ff/112> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/99999> .
+
+<https://iisg.amsterdam/resource/bdv/113751> ns2:residence <https://adamlink.nl/geo/district/buurt-xx/123> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/99999> .
+
+<https://iisg.amsterdam/resource/bdv/113801> ns2:residence <https://adamlink.nl/geo/district/buurt-z/138> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/113851> ns2:residence <https://adamlink.nl/geo/district/buurt-l/119> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41030> .
+
+<https://iisg.amsterdam/resource/bdv/113901> ns2:residence <https://adamlink.nl/geo/district/buurt-x/127> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/99999> .
+
+<https://iisg.amsterdam/resource/bdv/113951> ns2:residence <https://adamlink.nl/geo/district/buurt-k/135> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41030> .
+
+<https://iisg.amsterdam/resource/bdv/114001> ns2:residence <https://adamlink.nl/geo/district/buurt-m/132> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/4217> .
+
+<https://iisg.amsterdam/resource/bdv/114051> ns2:residence <https://adamlink.nl/geo/district/buurt-b/136> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/44140> .
+
+<https://iisg.amsterdam/resource/bdv/114101> ns2:residence <https://adamlink.nl/geo/district/buurt-y/137> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/114151> ns2:residence <https://adamlink.nl/geo/district/buurt-g/120> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/42230> .
+
+<https://iisg.amsterdam/resource/bdv/114201> ns2:residence <https://adamlink.nl/geo/district/buurt-a/134> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/4217> .
+
+<https://iisg.amsterdam/resource/bdv/114251> ns2:residence <https://adamlink.nl/geo/district/buurt-ss/118> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/21110> .
+
+<https://iisg.amsterdam/resource/bdv/114301> ns2:residence <https://adamlink.nl/geo/district/buurt-h/129> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/21110> .
+
+<https://iisg.amsterdam/resource/bdv/114351> ns2:residence <https://adamlink.nl/geo/district/buurt-x/127> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41030> .
+
+<https://iisg.amsterdam/resource/bdv/114401> ns2:residence <https://adamlink.nl/geo/district/buurt-gg/113> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/77610> .
+
+<https://iisg.amsterdam/resource/bdv/114451> ns2:residence <https://adamlink.nl/geo/district/buurt-y/137> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/77610> .
+
+<https://iisg.amsterdam/resource/bdv/114501> ns2:residence <https://adamlink.nl/geo/district/buurt-mm/109> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/39310> .
+
+<https://iisg.amsterdam/resource/bdv/114551> ns2:residence <https://adamlink.nl/geo/district/buurt-hh/114> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/114601> ns2:residence <https://adamlink.nl/geo/district/buurt-tt/105> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41030> .
+
+<https://iisg.amsterdam/resource/bdv/114651> ns2:residence <https://adamlink.nl/geo/district/buurt-aa/128> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/39310> .
+
+<https://iisg.amsterdam/resource/bdv/114701> ns2:residence <https://adamlink.nl/geo/district/buurt-a/134> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-1> .
+
+<https://iisg.amsterdam/resource/bdv/114751> ns2:residence <https://adamlink.nl/geo/district/buurt-jj/122> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-1> .
+
+<https://iisg.amsterdam/resource/bdv/114801> ns2:residence <https://adamlink.nl/geo/district/buurt-f/121> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/114851> ns2:residence <https://adamlink.nl/geo/district/buurt-q/144> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/14120> .
+
+<https://iisg.amsterdam/resource/bdv/114901> ns2:residence <https://adamlink.nl/geo/district/buurt-z/138> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41030> .
+
+<https://iisg.amsterdam/resource/bdv/114951> ns2:residence <https://adamlink.nl/geo/district/buurt-ss/118> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/44140> .
+
+<https://iisg.amsterdam/resource/bdv/115001> ns2:residence <https://adamlink.nl/geo/district/buurt-j/133> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41030> .
+
+<https://iisg.amsterdam/resource/bdv/115051> ns2:residence <https://adamlink.nl/geo/district/buurt-rr/117> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/42230> .
+
+<https://iisg.amsterdam/resource/bdv/115101> ns2:residence <https://adamlink.nl/geo/district/buurt-x/127> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/99999> .
+
+<https://iisg.amsterdam/resource/bdv/115151> ns2:residence <https://adamlink.nl/geo/district/buurt-e/130> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/77610> .
+
+<https://iisg.amsterdam/resource/bdv/115201> ns2:residence <https://adamlink.nl/geo/district/buurt-u/148> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/115251> ns2:residence <https://adamlink.nl/geo/district/buurt-x/127> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/30000> .
+
+<https://iisg.amsterdam/resource/bdv/115351> ns2:residence <https://adamlink.nl/geo/district/buurt-ss/118> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/42230> .
+
+<https://iisg.amsterdam/resource/bdv/115401> ns2:residence <https://adamlink.nl/geo/district/buurt-z/138> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/30000> .
+
+<https://iisg.amsterdam/resource/bdv/115451> ns2:residence <https://adamlink.nl/geo/district/buurt-aa/128> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/99999> .
+
+<https://iisg.amsterdam/resource/bdv/115501> ns2:residence <https://adamlink.nl/geo/district/buurt-g/120> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/115551> ns2:residence <https://adamlink.nl/geo/district/buurt-bb/126> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/6105> .
+
+<https://iisg.amsterdam/resource/bdv/115601> ns2:residence <https://adamlink.nl/geo/district/buurt-z/138> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/6710> .
+
+<https://iisg.amsterdam/resource/bdv/115651> ns2:residence <https://adamlink.nl/geo/district/buurt-n/139> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/99999> .
+
+<https://iisg.amsterdam/resource/bdv/115751> ns2:residence <https://adamlink.nl/geo/district/buurt-u/148> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/115801> ns2:residence <https://adamlink.nl/geo/district/buurt-e/130> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41030> .
+
+<https://iisg.amsterdam/resource/bdv/115851> ns2:residence <https://adamlink.nl/geo/district/buurt-u/148> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/44190> .
+
+<https://iisg.amsterdam/resource/bdv/115901> ns2:residence <https://adamlink.nl/geo/district/buurt-ll/116> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/12110> .
+
+<https://iisg.amsterdam/resource/bdv/115951> ns2:residence <https://adamlink.nl/geo/district/buurt-d/131> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-1> .
+
+<https://iisg.amsterdam/resource/bdv/116001> ns2:residence <https://adamlink.nl/geo/district/buurt-oo/107> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/21110> .
+
+<https://iisg.amsterdam/resource/bdv/116051> ns2:residence <https://adamlink.nl/geo/district/buurt-z/138> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/116101> ns2:residence <https://adamlink.nl/geo/district/buurt-kk/115> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/116151> ns2:residence <https://adamlink.nl/geo/district/buurt-aa/128> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/44140> .
+
+<https://iisg.amsterdam/resource/bdv/116201> ns2:residence <https://adamlink.nl/geo/district/buurt-c/141> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/44100> .
+
+<https://iisg.amsterdam/resource/bdv/116251> ns2:residence <https://adamlink.nl/geo/district/buurt-b/136> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/116301> ns2:residence <https://adamlink.nl/geo/district/buurt-gg/113> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/99999> .
+
+<https://iisg.amsterdam/resource/bdv/116351> ns2:residence <https://adamlink.nl/geo/district/buurt-d/131> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41030> .
+
+<https://iisg.amsterdam/resource/bdv/116401> ns2:residence <https://adamlink.nl/geo/district/buurt-tt/105> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/77610> .
+
+<https://iisg.amsterdam/resource/bdv/116451> ns2:residence <https://adamlink.nl/geo/district/buurt-f/121> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/99999> .
+
+<https://iisg.amsterdam/resource/bdv/116501> ns2:residence <https://adamlink.nl/geo/district/buurt-w/143> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/99999> .
+
+<https://iisg.amsterdam/resource/bdv/116551> ns2:residence <https://adamlink.nl/geo/district/buurt-dd/111> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/116601> ns2:residence <https://adamlink.nl/geo/district/buurt-h/129> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/99999> .
+
+<https://iisg.amsterdam/resource/bdv/116651> ns2:residence <https://adamlink.nl/geo/district/buurt-c/141> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/116701> ns2:residence <https://adamlink.nl/geo/district/buurt-w/143> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/116751> ns2:residence <https://adamlink.nl/geo/district/buurt-o/140> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/6710> .
+
+<https://iisg.amsterdam/resource/bdv/116801> ns2:residence <https://adamlink.nl/geo/district/buurt-g/120> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/44100> .
+
+<https://iisg.amsterdam/resource/bdv/116851> ns2:residence <https://adamlink.nl/geo/district/buurt-l/119> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/116901> ns2:residence <https://adamlink.nl/geo/district/buurt-kk/115> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/44140> .
+
+<https://iisg.amsterdam/resource/bdv/116951> ns2:residence <https://adamlink.nl/geo/district/buurt-g/120> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/117001> ns2:residence <https://adamlink.nl/geo/district/buurt-kk/115> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/44100> .
+
+<https://iisg.amsterdam/resource/bdv/117051> ns2:residence <https://adamlink.nl/geo/district/buurt-kk/115> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/44120> .
+
+<https://iisg.amsterdam/resource/bdv/117101> ns2:residence <https://adamlink.nl/geo/district/buurt-m/132> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/42230> .
+
+<https://iisg.amsterdam/resource/bdv/117151> ns2:residence <https://adamlink.nl/geo/district/buurt-z/138> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/42230> .
+
+<https://iisg.amsterdam/resource/bdv/117201> ns2:residence <https://adamlink.nl/geo/district/buurt-a/134> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-1> .
+
+<https://iisg.amsterdam/resource/bdv/117251> ns2:residence <https://adamlink.nl/geo/district/buurt-f/121> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/99999> .
+
+<https://iisg.amsterdam/resource/bdv/117301> ns2:residence <https://adamlink.nl/geo/district/buurt-jj/122> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/44140> .
+
+<https://iisg.amsterdam/resource/bdv/117351> ns2:residence <https://adamlink.nl/geo/district/buurt-f/121> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/77310> .
+
+<https://iisg.amsterdam/resource/bdv/117401> ns2:residence <https://adamlink.nl/geo/district/buurt-h/129> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/117451> ns2:residence <https://adamlink.nl/geo/district/buurt-c/141> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/6710> .
+
+<https://iisg.amsterdam/resource/bdv/117501> ns2:residence <https://adamlink.nl/geo/district/buurt-ss/118> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/22290> .
+
+<https://iisg.amsterdam/resource/bdv/117551> ns2:residence <https://adamlink.nl/geo/district/buurt-ll/116> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/117601> ns2:residence <https://adamlink.nl/geo/district/buurt-kk/115> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/117651> ns2:residence <https://adamlink.nl/geo/district/buurt-q/144> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/77610> .
+
+<https://iisg.amsterdam/resource/bdv/117701> ns2:residence <https://adamlink.nl/geo/district/buurt-x/127> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/44120> .
+
+<https://iisg.amsterdam/resource/bdv/117751> ns2:residence <https://adamlink.nl/geo/district/buurt-l/119> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/117801> ns2:residence <https://adamlink.nl/geo/district/buurt-ll/116> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/61240> .
+
+<https://iisg.amsterdam/resource/bdv/117851> ns2:residence <https://adamlink.nl/geo/district/buurt-k/135> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/95410> .
+
+<https://iisg.amsterdam/resource/bdv/117901> ns2:residence <https://adamlink.nl/geo/district/buurt-jj/122> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41030> .
+
+<https://iisg.amsterdam/resource/bdv/117951> ns2:residence <https://adamlink.nl/geo/district/buurt-h/129> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/99999> .
+
+<https://iisg.amsterdam/resource/bdv/118001> ns2:residence <https://adamlink.nl/geo/district/buurt-cc/125> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/118051> ns2:residence <https://adamlink.nl/geo/district/buurt-kk/115> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/118101> ns2:residence <https://adamlink.nl/geo/district/buurt-kk/115> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/44100> .
+
+<https://iisg.amsterdam/resource/bdv/118151> ns2:residence <https://adamlink.nl/geo/district/buurt-z/138> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/13200> .
+
+<https://iisg.amsterdam/resource/bdv/118201> ns2:residence <https://adamlink.nl/geo/district/buurt-e/130> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41030> .
+
+<https://iisg.amsterdam/resource/bdv/118251> ns2:residence <https://adamlink.nl/geo/district/buurt-e/130> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/118301> ns2:residence <https://adamlink.nl/geo/district/buurt-x/127> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/6105> .
+
+<https://iisg.amsterdam/resource/bdv/118351> ns2:residence <https://adamlink.nl/geo/district/buurt-u/148> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/44100> .
+
+<https://iisg.amsterdam/resource/bdv/118401> ns2:residence <https://adamlink.nl/geo/district/buurt-u/148> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/118451> ns2:residence <https://adamlink.nl/geo/district/buurt-jj/122> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/13200> .
+
+<https://iisg.amsterdam/resource/bdv/118501> ns2:residence <https://adamlink.nl/geo/district/buurt-ff/112> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/42230> .
+
+<https://iisg.amsterdam/resource/bdv/118551> ns2:residence <https://adamlink.nl/geo/district/buurt-bb/126> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/21110> .
+
+<https://iisg.amsterdam/resource/bdv/118601> ns2:residence <https://adamlink.nl/geo/district/buurt-x/127> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41030> .
+
+<https://iisg.amsterdam/resource/bdv/118651> ns2:residence <https://adamlink.nl/geo/district/buurt-h/129> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/118701> ns2:residence <https://adamlink.nl/geo/district/buurt-e/130> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/118751> ns2:residence <https://adamlink.nl/geo/district/buurt-m/132> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/22290> .
+
+<https://iisg.amsterdam/resource/bdv/118801> ns2:residence <https://adamlink.nl/geo/district/buurt-jj/122> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/77610> .
+
+<https://iisg.amsterdam/resource/bdv/118851> ns2:residence <https://adamlink.nl/geo/district/buurt-f/121> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/99999> .
+
+<https://iisg.amsterdam/resource/bdv/118901> ns2:residence <https://adamlink.nl/geo/district/buurt-hh/114> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/118951> ns2:residence <https://adamlink.nl/geo/district/buurt-ll/116> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/44120> .
+
+<https://iisg.amsterdam/resource/bdv/119001> ns2:residence <https://adamlink.nl/geo/district/buurt-e/130> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41030> .
+
+<https://iisg.amsterdam/resource/bdv/119051> ns2:residence <https://adamlink.nl/geo/district/buurt-g/120> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/12110> .
+
+<https://iisg.amsterdam/resource/bdv/119101> ns2:residence <https://adamlink.nl/geo/district/buurt-u/148> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/119201> ns2:residence <https://adamlink.nl/geo/district/buurt-ll/116> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/99999> .
+
+<https://iisg.amsterdam/resource/bdv/119251> ns2:residence <https://adamlink.nl/geo/district/buurt-m/132> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/99999> .
+
+<https://iisg.amsterdam/resource/bdv/119301> ns2:residence <https://adamlink.nl/geo/district/buurt-bb/126> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/119351> ns2:residence <https://adamlink.nl/geo/district/buurt-kk/115> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/119401> ns2:residence <https://adamlink.nl/geo/district/buurt-x/127> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/77310> .
+
+<https://iisg.amsterdam/resource/bdv/119451> ns2:residence <https://adamlink.nl/geo/district/buurt-z/138> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/119501> ns2:residence <https://adamlink.nl/geo/district/buurt-rr/117> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/44140> .
+
+<https://iisg.amsterdam/resource/bdv/119551> ns2:residence <https://adamlink.nl/geo/district/buurt-uu/102> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/61240> .
+
+<https://iisg.amsterdam/resource/bdv/119601> ns2:residence <https://adamlink.nl/geo/district/buurt-bb/126> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/119651> ns2:residence <https://adamlink.nl/geo/district/buurt-j/133> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-1> .
+
+<https://iisg.amsterdam/resource/bdv/119701> ns2:residence <https://adamlink.nl/geo/district/buurt-c/141> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/99999> .
+
+<https://iisg.amsterdam/resource/bdv/119751> ns2:residence <https://adamlink.nl/geo/district/buurt-jj/122> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/44140> .
+
+<https://iisg.amsterdam/resource/bdv/119801> ns2:residence <https://adamlink.nl/geo/district/buurt-x/127> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/12110> .
+
+<https://iisg.amsterdam/resource/bdv/119851> ns2:residence <https://adamlink.nl/geo/district/buurt-b/136> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/119901> ns2:residence <https://adamlink.nl/geo/district/buurt-b/136> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/6105> .
+
+<https://iisg.amsterdam/resource/bdv/119951> ns2:residence <https://adamlink.nl/geo/district/buurt-x/127> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/120001> ns2:residence <https://adamlink.nl/geo/district/buurt-cc/125> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/12110> .
+
+<https://iisg.amsterdam/resource/bdv/120051> ns2:residence <https://adamlink.nl/geo/district/buurt-w/143> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/42230> .
+
+<https://iisg.amsterdam/resource/bdv/120101> ns2:residence <https://adamlink.nl/geo/district/buurt-z/138> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/120151> ns2:residence <https://adamlink.nl/geo/district/buurt-l/119> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/120201> ns2:residence <https://adamlink.nl/geo/district/buurt-p/142> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/6105> .
+
+<https://iisg.amsterdam/resource/bdv/120251> ns2:residence <https://adamlink.nl/geo/district/buurt-z/138> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/12110> .
+
+<https://iisg.amsterdam/resource/bdv/120301> ns2:residence <https://adamlink.nl/geo/district/buurt-z/138> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/99999> .
+
+<https://iisg.amsterdam/resource/bdv/120351> ns2:residence <https://adamlink.nl/geo/district/buurt-ll/116> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/39310> .
+
+<https://iisg.amsterdam/resource/bdv/120401> ns2:residence <https://adamlink.nl/geo/district/buurt-ll/116> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/120451> ns2:residence <https://adamlink.nl/geo/district/buurt-x/127> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/120501> ns2:residence <https://adamlink.nl/geo/district/buurt-kk/115> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/30000> .
+
+<https://iisg.amsterdam/resource/bdv/120551> ns2:residence <https://adamlink.nl/geo/district/buurt-ff/112> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/21110> .
+
+<https://iisg.amsterdam/resource/bdv/120601> ns2:residence <https://adamlink.nl/geo/district/buurt-a/134> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/99999> .
+
+<https://iisg.amsterdam/resource/bdv/120651> ns2:residence <https://adamlink.nl/geo/district/buurt-f/121> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/99900> .
+
+<https://iisg.amsterdam/resource/bdv/120701> ns2:residence <https://adamlink.nl/geo/district/buurt-tt/105> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41030> .
+
+<https://iisg.amsterdam/resource/bdv/120751> ns2:residence <https://adamlink.nl/geo/district/buurt-z/138> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/44100> .
+
+<https://iisg.amsterdam/resource/bdv/120801> ns2:residence <https://adamlink.nl/geo/district/buurt-kk/115> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/42230> .
+
+<https://iisg.amsterdam/resource/bdv/120851> ns2:residence <https://adamlink.nl/geo/district/buurt-ll/116> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/120901> ns2:residence <https://adamlink.nl/geo/district/buurt-aa/128> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/120951> ns2:residence <https://adamlink.nl/geo/district/buurt-jj/122> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/44120> .
+
+<https://iisg.amsterdam/resource/bdv/121001> ns2:residence <https://adamlink.nl/geo/district/buurt-e/130> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41030> .
+
+<https://iisg.amsterdam/resource/bdv/121101> ns2:residence <https://adamlink.nl/geo/district/buurt-cc/125> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/121151> ns2:residence <https://adamlink.nl/geo/district/buurt-hh/114> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/121201> ns2:residence <https://adamlink.nl/geo/district/buurt-k/135> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/121251> ns2:residence <https://adamlink.nl/geo/district/buurt-kk/115> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/14120> .
+
+<https://iisg.amsterdam/resource/bdv/121301> ns2:residence <https://adamlink.nl/geo/district/buurt-k/135> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-1> .
+
+<https://iisg.amsterdam/resource/bdv/121351> ns2:residence <https://adamlink.nl/geo/district/buurt-jj/122> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/42230> .
+
+<https://iisg.amsterdam/resource/bdv/121401> ns2:residence <https://adamlink.nl/geo/district/buurt-v/147> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/121451> ns2:residence <https://adamlink.nl/geo/district/buurt-bb/126> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-1> .
+
+<https://iisg.amsterdam/resource/bdv/121501> ns2:residence <https://adamlink.nl/geo/district/buurt-z/138> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/121551> ns2:residence <https://adamlink.nl/geo/district/buurt-hh/114> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/4217> .
+
+<https://iisg.amsterdam/resource/bdv/121601> ns2:residence <https://adamlink.nl/geo/district/buurt-rr/117> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/121651> ns2:residence <https://adamlink.nl/geo/district/buurt-b/136> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/121701> ns2:residence <https://adamlink.nl/geo/district/buurt-w/143> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/121751> ns2:residence <https://adamlink.nl/geo/district/buurt-u/148> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/121801> ns2:residence <https://adamlink.nl/geo/district/buurt-ee/110> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/99999> .
+
+<https://iisg.amsterdam/resource/bdv/121851> ns2:residence <https://adamlink.nl/geo/district/buurt-jj/122> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/30000> .
+
+<https://iisg.amsterdam/resource/bdv/121901> ns2:residence <https://adamlink.nl/geo/district/buurt-y/137> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/33160> .
+
+<https://iisg.amsterdam/resource/bdv/121951> ns2:residence <https://adamlink.nl/geo/district/buurt-w/143> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/122001> ns2:residence <https://adamlink.nl/geo/district/buurt-tt/105> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/6105> .
+
+<https://iisg.amsterdam/resource/bdv/122051> ns2:residence <https://adamlink.nl/geo/district/buurt-kk/115> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/122101> ns2:residence <https://adamlink.nl/geo/district/buurt-v/147> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/122151> ns2:residence <https://adamlink.nl/geo/district/buurt-c/141> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/122201> ns2:residence <https://adamlink.nl/geo/district/buurt-ll/116> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/44120> .
+
+<https://iisg.amsterdam/resource/bdv/122251> ns2:residence <https://adamlink.nl/geo/district/buurt-u/148> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/122301> ns2:residence <https://adamlink.nl/geo/district/buurt-ll/116> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/122351> ns2:residence <https://adamlink.nl/geo/district/buurt-d/131> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/6710> .
+
+<https://iisg.amsterdam/resource/bdv/122401> ns2:residence <https://adamlink.nl/geo/district/buurt-kk/115> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/44100> .
+
+<https://iisg.amsterdam/resource/bdv/122451> ns2:residence <https://adamlink.nl/geo/district/buurt-j/133> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/122501> ns2:residence <https://adamlink.nl/geo/district/buurt-z/138> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/12110> .
+
+<https://iisg.amsterdam/resource/bdv/122551> ns2:residence <https://adamlink.nl/geo/district/buurt-m/132> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41030> .
+
+<https://iisg.amsterdam/resource/bdv/122601> ns2:residence <https://adamlink.nl/geo/district/buurt-l/119> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/122651> ns2:residence <https://adamlink.nl/geo/district/buurt-uu/102> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/77610> .
+
+<https://iisg.amsterdam/resource/bdv/122701> ns2:residence <https://adamlink.nl/geo/district/buurt-l/119> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/77310> .
+
+<https://iisg.amsterdam/resource/bdv/122751> ns2:residence <https://adamlink.nl/geo/district/buurt-ss/118> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/122801> ns2:residence <https://adamlink.nl/geo/district/buurt-z/138> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-1> .
+
+<https://iisg.amsterdam/resource/bdv/122851> ns2:residence <https://adamlink.nl/geo/district/buurt-q/144> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41030> .
+
+<https://iisg.amsterdam/resource/bdv/122901> ns2:residence <https://adamlink.nl/geo/district/buurt-y/137> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/122951> ns2:residence <https://adamlink.nl/geo/district/buurt-b/136> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/123001> ns2:residence <https://adamlink.nl/geo/district/buurt-cc/125> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/95410> .
+
+<https://iisg.amsterdam/resource/bdv/123051> ns2:residence <https://adamlink.nl/geo/district/buurt-v/147> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-1> .
+
+<https://iisg.amsterdam/resource/bdv/123101> ns2:residence <https://adamlink.nl/geo/district/buurt-ss/118> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/12110> .
+
+<https://iisg.amsterdam/resource/bdv/123151> ns2:residence <https://adamlink.nl/geo/district/buurt-y/137> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/123201> ns2:residence <https://adamlink.nl/geo/district/buurt-l/119> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41030> .
+
+<https://iisg.amsterdam/resource/bdv/123251> ns2:residence <https://adamlink.nl/geo/district/buurt-x/127> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/99999> .
+
+<https://iisg.amsterdam/resource/bdv/123301> ns2:residence <https://adamlink.nl/geo/district/buurt-z/138> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/14120> .
+
+<https://iisg.amsterdam/resource/bdv/123351> ns2:residence <https://adamlink.nl/geo/district/buurt-o/140> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-1> .
+
+<https://iisg.amsterdam/resource/bdv/123401> ns2:residence <https://adamlink.nl/geo/district/buurt-e/130> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-1> .
+
+<https://iisg.amsterdam/resource/bdv/123451> ns2:residence <https://adamlink.nl/geo/district/buurt-v/147> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-1> .
+
+<https://iisg.amsterdam/resource/bdv/123501> ns2:residence <https://adamlink.nl/geo/district/buurt-c/141> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/13200> .
+
+<https://iisg.amsterdam/resource/bdv/123551> ns2:residence <https://adamlink.nl/geo/district/buurt-y/137> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/30000> .
+
+<https://iisg.amsterdam/resource/bdv/123601> ns2:residence <https://adamlink.nl/geo/district/buurt-ll/116> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/123651> ns2:residence <https://adamlink.nl/geo/district/buurt-j/133> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/99999> .
+
+<https://iisg.amsterdam/resource/bdv/123701> ns2:residence <https://adamlink.nl/geo/district/buurt-rr/117> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/39310> .
+
+<https://iisg.amsterdam/resource/bdv/123751> ns2:residence <https://adamlink.nl/geo/district/buurt-aa/128> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/123801> ns2:residence <https://adamlink.nl/geo/district/buurt-g/120> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/123851> ns2:residence <https://adamlink.nl/geo/district/buurt-aa/128> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/44140> .
+
+<https://iisg.amsterdam/resource/bdv/123901> ns2:residence <https://adamlink.nl/geo/district/buurt-j/133> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41030> .
+
+<https://iisg.amsterdam/resource/bdv/123951> ns2:residence <https://adamlink.nl/geo/district/buurt-d/131> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-1> .
+
+<https://iisg.amsterdam/resource/bdv/124001> ns2:residence <https://adamlink.nl/geo/district/buurt-x/127> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-1> .
+
+<https://iisg.amsterdam/resource/bdv/124051> ns2:residence <https://adamlink.nl/geo/district/buurt-l/119> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/43220> .
+
+<https://iisg.amsterdam/resource/bdv/124101> ns2:residence <https://adamlink.nl/geo/district/buurt-w/143> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/124151> ns2:residence <https://adamlink.nl/geo/district/buurt-u/148> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/124201> ns2:residence <https://adamlink.nl/geo/district/buurt-k/135> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/124251> ns2:residence <https://adamlink.nl/geo/district/buurt-tt/105> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/21110> .
+
+<https://iisg.amsterdam/resource/bdv/124301> ns2:residence <https://adamlink.nl/geo/district/buurt-y/137> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/12110> .
+
+<https://iisg.amsterdam/resource/bdv/124351> ns2:residence <https://adamlink.nl/geo/district/buurt-kk/115> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/44100> .
+
+<https://iisg.amsterdam/resource/bdv/124401> ns2:residence <https://adamlink.nl/geo/district/buurt-w/143> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/124451> ns2:residence <https://adamlink.nl/geo/district/buurt-ss/118> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41030> .
+
+<https://iisg.amsterdam/resource/bdv/124501> ns2:residence <https://adamlink.nl/geo/district/buurt-y/137> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/124551> ns2:residence <https://adamlink.nl/geo/district/buurt-ss/118> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/95410> .
+
+<https://iisg.amsterdam/resource/bdv/124601> ns2:residence <https://adamlink.nl/geo/district/buurt-v/147> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/124651> ns2:residence <https://adamlink.nl/geo/district/buurt-ll/116> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/95410> .
+
+<https://iisg.amsterdam/resource/bdv/124701> ns2:residence <https://adamlink.nl/geo/district/buurt-tt/105> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/99999> .
+
+<https://iisg.amsterdam/resource/bdv/124751> ns2:residence <https://adamlink.nl/geo/district/buurt-d/131> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/6710> .
+
+<https://iisg.amsterdam/resource/bdv/124801> ns2:residence <https://adamlink.nl/geo/district/buurt-d/131> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/99999> .
+
+<https://iisg.amsterdam/resource/bdv/124851> ns2:residence <https://adamlink.nl/geo/district/buurt-rr/117> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/124901> ns2:residence <https://adamlink.nl/geo/district/buurt-h/129> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/99999> .
+
+<https://iisg.amsterdam/resource/bdv/124951> ns2:residence <https://adamlink.nl/geo/district/buurt-d/131> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/125001> ns2:residence <https://adamlink.nl/geo/district/buurt-w/143> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-1> .
+
+<https://iisg.amsterdam/resource/bdv/125051> ns2:residence <https://adamlink.nl/geo/district/buurt-o/140> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-1> .
+
+<https://iisg.amsterdam/resource/bdv/125101> ns2:residence <https://adamlink.nl/geo/district/buurt-kk/115> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/6105> .
+
+<https://iisg.amsterdam/resource/bdv/125151> ns2:residence <https://adamlink.nl/geo/district/buurt-cc/125> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/125201> ns2:residence <https://adamlink.nl/geo/district/buurt-aa/128> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/30000> .
+
+<https://iisg.amsterdam/resource/bdv/125251> ns2:residence <https://adamlink.nl/geo/district/buurt-z/138> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/30000> .
+
+<https://iisg.amsterdam/resource/bdv/125301> ns2:residence <https://adamlink.nl/geo/district/buurt-dd/111> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/125351> ns2:residence <https://adamlink.nl/geo/district/buurt-uu/102> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/95410> .
+
+<https://iisg.amsterdam/resource/bdv/125401> ns2:residence <https://adamlink.nl/geo/district/buurt-vv/104> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/44100> .
+
+<https://iisg.amsterdam/resource/bdv/125451> ns2:residence <https://adamlink.nl/geo/district/buurt-kk/115> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/125501> ns2:residence <https://adamlink.nl/geo/district/buurt-j/133> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/125551> ns2:residence <https://adamlink.nl/geo/district/buurt-kk/115> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/99999> .
+
+<https://iisg.amsterdam/resource/bdv/125601> ns2:residence <https://adamlink.nl/geo/district/buurt-l/119> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/21110> .
+
+<https://iisg.amsterdam/resource/bdv/125651> ns2:residence <https://adamlink.nl/geo/district/buurt-z/138> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/125701> ns2:residence <https://adamlink.nl/geo/district/buurt-oo/107> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/95410> .
+
+<https://iisg.amsterdam/resource/bdv/125751> ns2:residence <https://adamlink.nl/geo/district/buurt-x/127> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41030> .
+
+<https://iisg.amsterdam/resource/bdv/125801> ns2:residence <https://adamlink.nl/geo/district/buurt-z/138> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/125851> ns2:residence <https://adamlink.nl/geo/district/buurt-b/136> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/99999> .
+
+<https://iisg.amsterdam/resource/bdv/125901> ns2:residence <https://adamlink.nl/geo/district/buurt-mm/109> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/21110> .
+
+<https://iisg.amsterdam/resource/bdv/125951> ns2:residence <https://adamlink.nl/geo/district/buurt-aa/128> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/42230> .
+
+<https://iisg.amsterdam/resource/bdv/126001> ns2:residence <https://adamlink.nl/geo/district/buurt-ll/116> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/21110> .
+
+<https://iisg.amsterdam/resource/bdv/126051> ns2:residence <https://adamlink.nl/geo/district/buurt-w/143> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/77610> .
+
+<https://iisg.amsterdam/resource/bdv/126101> ns2:residence <https://adamlink.nl/geo/district/buurt-y/137> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/126151> ns2:residence <https://adamlink.nl/geo/district/buurt-yy/124> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/77120> .
+
+<https://iisg.amsterdam/resource/bdv/126201> ns2:residence <https://adamlink.nl/geo/district/buurt-e/130> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/99900> .
+
+<https://iisg.amsterdam/resource/bdv/126251> ns2:residence <https://adamlink.nl/geo/district/buurt-w/143> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/126301> ns2:residence <https://adamlink.nl/geo/district/buurt-w/143> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/126351> ns2:residence <https://adamlink.nl/geo/district/buurt-ll/116> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/33110> .
+
+<https://iisg.amsterdam/resource/bdv/126401> ns2:residence <https://adamlink.nl/geo/district/buurt-h/129> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/126451> ns2:residence <https://adamlink.nl/geo/district/buurt-p/142> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/99999> .
+
+<https://iisg.amsterdam/resource/bdv/126501> ns2:residence <https://adamlink.nl/geo/district/buurt-cc/125> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/126551> ns2:residence <https://adamlink.nl/geo/district/buurt-p/142> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/99999> .
+
+<https://iisg.amsterdam/resource/bdv/126601> ns2:residence <https://adamlink.nl/geo/district/buurt-rr/117> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/99999> .
+
+<https://iisg.amsterdam/resource/bdv/126651> ns2:residence <https://adamlink.nl/geo/district/buurt-d/131> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-1> .
+
+<https://iisg.amsterdam/resource/bdv/126701> ns2:residence <https://adamlink.nl/geo/district/buurt-u/148> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/77120> .
+
+<https://iisg.amsterdam/resource/bdv/126751> ns2:residence <https://adamlink.nl/geo/district/buurt-ll/116> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/12110> .
+
+<https://iisg.amsterdam/resource/bdv/126801> ns2:residence <https://adamlink.nl/geo/district/buurt-p/142> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/126851> ns2:residence <https://adamlink.nl/geo/district/buurt-dd/111> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/42230> .
+
+<https://iisg.amsterdam/resource/bdv/126901> ns2:residence <https://adamlink.nl/geo/district/buurt-cc/125> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/126951> ns2:residence <https://adamlink.nl/geo/district/buurt-c/141> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/127001> ns2:residence <https://adamlink.nl/geo/district/buurt-z/138> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/61240> .
+
+<https://iisg.amsterdam/resource/bdv/127051> ns2:residence <https://adamlink.nl/geo/district/buurt-k/135> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/127101> ns2:residence <https://adamlink.nl/geo/district/buurt-y/137> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/42230> .
+
+<https://iisg.amsterdam/resource/bdv/127151> ns2:residence <https://adamlink.nl/geo/district/buurt-bb/126> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/127201> ns2:residence <https://adamlink.nl/geo/district/buurt-uu/102> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/77610> .
+
+<https://iisg.amsterdam/resource/bdv/127251> ns2:residence <https://adamlink.nl/geo/district/buurt-rr/117> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/6710> .
+
+<https://iisg.amsterdam/resource/bdv/127301> ns2:residence <https://adamlink.nl/geo/district/buurt-h/129> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41030> .
+
+<https://iisg.amsterdam/resource/bdv/127351> ns2:residence <https://adamlink.nl/geo/district/buurt-f/121> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/6105> .
+
+<https://iisg.amsterdam/resource/bdv/127401> ns2:residence <https://adamlink.nl/geo/district/buurt-aa/128> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/6105> .
+
+<https://iisg.amsterdam/resource/bdv/127451> ns2:residence <https://adamlink.nl/geo/district/buurt-bb/126> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/127501> ns2:residence <https://adamlink.nl/geo/district/buurt-b/136> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/127551> ns2:residence <https://adamlink.nl/geo/district/buurt-rr/117> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/44100> .
+
+<https://iisg.amsterdam/resource/bdv/127601> ns2:residence <https://adamlink.nl/geo/district/buurt-x/127> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/44140> .
+
+<https://iisg.amsterdam/resource/bdv/127651> ns2:residence <https://adamlink.nl/geo/district/buurt-x/127> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/42230> .
+
+<https://iisg.amsterdam/resource/bdv/127701> ns2:residence <https://adamlink.nl/geo/district/buurt-ss/118> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/44100> .
+
+<https://iisg.amsterdam/resource/bdv/127751> ns2:residence <https://adamlink.nl/geo/district/buurt-aa/128> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/127801> ns2:residence <https://adamlink.nl/geo/district/buurt-jj/122> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/77610> .
+
+<https://iisg.amsterdam/resource/bdv/127851> ns2:residence <https://adamlink.nl/geo/district/buurt-tt/105> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-1> .
+
+<https://iisg.amsterdam/resource/bdv/127901> ns2:residence <https://adamlink.nl/geo/district/buurt-a/134> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/44100> .
+
+<https://iisg.amsterdam/resource/bdv/127951> ns2:residence <https://adamlink.nl/geo/district/buurt-a/134> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/99999> .
+
+<https://iisg.amsterdam/resource/bdv/128001> ns2:residence <https://adamlink.nl/geo/district/buurt-v/147> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-1> .
+
+<https://iisg.amsterdam/resource/bdv/128051> ns2:residence <https://adamlink.nl/geo/district/buurt-g/120> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-1> .
+
+<https://iisg.amsterdam/resource/bdv/128101> ns2:residence <https://adamlink.nl/geo/district/buurt-kk/115> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/13200> .
+
+<https://iisg.amsterdam/resource/bdv/128151> ns2:residence <https://adamlink.nl/geo/district/buurt-m/132> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/30000> .
+
+<https://iisg.amsterdam/resource/bdv/128201> ns2:residence <https://adamlink.nl/geo/district/buurt-c/141> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41030> .
+
+<https://iisg.amsterdam/resource/bdv/128351> ns2:residence <https://adamlink.nl/geo/district/buurt-x/127> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41030> .
+
+<https://iisg.amsterdam/resource/bdv/128401> ns2:residence <https://adamlink.nl/geo/district/buurt-d/131> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41030> .
+
+<https://iisg.amsterdam/resource/bdv/128451> ns2:residence <https://adamlink.nl/geo/district/buurt-w/143> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/128501> ns2:residence <https://adamlink.nl/geo/district/buurt-tt/105> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/128551> ns2:residence <https://adamlink.nl/geo/district/buurt-x/127> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/128601> ns2:residence <https://adamlink.nl/geo/district/buurt-cc/125> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41030> .
+
+<https://iisg.amsterdam/resource/bdv/128651> ns2:residence <https://adamlink.nl/geo/district/buurt-d/131> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/6710> .
+
+<https://iisg.amsterdam/resource/bdv/128701> ns2:residence <https://adamlink.nl/geo/district/buurt-x/127> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/95410> .
+
+<https://iisg.amsterdam/resource/bdv/128751> ns2:residence <https://adamlink.nl/geo/district/buurt-aa/128> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/44120> .
+
+<https://iisg.amsterdam/resource/bdv/128801> ns2:residence <https://adamlink.nl/geo/district/buurt-ss/118> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/128851> ns2:residence <https://adamlink.nl/geo/district/buurt-z/138> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/128901> ns2:residence <https://adamlink.nl/geo/district/buurt-y/137> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-1> .
+
+<https://iisg.amsterdam/resource/bdv/128951> ns2:residence <https://adamlink.nl/geo/district/buurt-ss/118> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/129001> ns2:residence <https://adamlink.nl/geo/district/buurt-kk/115> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/12310> .
+
+<https://iisg.amsterdam/resource/bdv/129051> ns2:residence <https://adamlink.nl/geo/district/buurt-k/135> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/129101> ns2:residence <https://adamlink.nl/geo/district/buurt-b/136> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/129151> ns2:residence <https://adamlink.nl/geo/district/buurt-c/141> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/77610> .
+
+<https://iisg.amsterdam/resource/bdv/129201> ns2:residence <https://adamlink.nl/geo/district/buurt-d/131> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/129251> ns2:residence <https://adamlink.nl/geo/district/buurt-ss/118> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-1> .
+
+<https://iisg.amsterdam/resource/bdv/129301> ns2:residence <https://adamlink.nl/geo/district/buurt-z/138> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/129351> ns2:residence <https://adamlink.nl/geo/district/buurt-cc/125> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/99999> .
+
+<https://iisg.amsterdam/resource/bdv/129401> ns2:residence <https://adamlink.nl/geo/district/buurt-c/141> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/129451> ns2:residence <https://adamlink.nl/geo/district/buurt-x/127> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/6710> .
+
+<https://iisg.amsterdam/resource/bdv/129501> ns2:residence <https://adamlink.nl/geo/district/buurt-tt/105> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/99999> .
+
+<https://iisg.amsterdam/resource/bdv/129551> ns2:residence <https://adamlink.nl/geo/district/buurt-x/127> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/12110> .
+
+<https://iisg.amsterdam/resource/bdv/129601> ns2:residence <https://adamlink.nl/geo/district/buurt-b/136> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/44100> .
+
+<https://iisg.amsterdam/resource/bdv/129651> ns2:residence <https://adamlink.nl/geo/district/buurt-ll/116> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/17990> .
+
+<https://iisg.amsterdam/resource/bdv/129701> ns2:residence <https://adamlink.nl/geo/district/buurt-rr/117> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/42230> .
+
+<https://iisg.amsterdam/resource/bdv/129751> ns2:residence <https://adamlink.nl/geo/district/buurt-l/119> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/99999> .
+
+<https://iisg.amsterdam/resource/bdv/129801> ns2:residence <https://adamlink.nl/geo/district/buurt-w/143> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-1> .
+
+<https://iisg.amsterdam/resource/bdv/129851> ns2:residence <https://adamlink.nl/geo/district/buurt-y/137> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/44140> .
+
+<https://iisg.amsterdam/resource/bdv/129901> ns2:residence <https://adamlink.nl/geo/district/buurt-ss/118> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/44100> .
+
+<https://iisg.amsterdam/resource/bdv/129951> ns2:residence <https://adamlink.nl/geo/district/buurt-dd/111> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/6105> .
+
+<https://iisg.amsterdam/resource/bdv/130001> ns2:residence <https://adamlink.nl/geo/district/buurt-l/119> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41030> .
+
+<https://iisg.amsterdam/resource/bdv/130051> ns2:residence <https://adamlink.nl/geo/district/buurt-k/135> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/42230> .
+
+<https://iisg.amsterdam/resource/bdv/130101> ns2:residence <https://adamlink.nl/geo/district/buurt-j/133> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/21110> .
+
+<https://iisg.amsterdam/resource/bdv/130151> ns2:residence <https://adamlink.nl/geo/district/buurt-v/147> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/21110> .
+
+<https://iisg.amsterdam/resource/bdv/130201> ns2:residence <https://adamlink.nl/geo/district/buurt-kk/115> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/44140> .
+
+<https://iisg.amsterdam/resource/bdv/130251> ns2:residence <https://adamlink.nl/geo/district/buurt-ss/118> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/130351> ns2:residence <https://adamlink.nl/geo/district/buurt-ll/116> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/130401> ns2:residence <https://adamlink.nl/geo/district/buurt-cc/125> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/6105> .
+
+<https://iisg.amsterdam/resource/bdv/130451> ns2:residence <https://adamlink.nl/geo/district/buurt-ss/118> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/130501> ns2:residence <https://adamlink.nl/geo/district/buurt-h/129> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/130551> ns2:residence <https://adamlink.nl/geo/district/buurt-y/137> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/130601> ns2:residence <https://adamlink.nl/geo/district/buurt-y/137> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/77310> .
+
+<https://iisg.amsterdam/resource/bdv/130651> ns2:residence <https://adamlink.nl/geo/district/buurt-oo/107> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/99999> .
+
+<https://iisg.amsterdam/resource/bdv/130701> ns2:residence <https://adamlink.nl/geo/district/buurt-bb/126> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/42230> .
+
+<https://iisg.amsterdam/resource/bdv/130751> ns2:residence <https://adamlink.nl/geo/district/buurt-x/127> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/130801> ns2:residence <https://adamlink.nl/geo/district/buurt-b/136> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/130851> ns2:residence <https://adamlink.nl/geo/district/buurt-kk/115> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/130901> ns2:residence <https://adamlink.nl/geo/district/buurt-n/139> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/42230> .
+
+<https://iisg.amsterdam/resource/bdv/130951> ns2:residence <https://adamlink.nl/geo/district/buurt-j/133> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/131001> ns2:residence <https://adamlink.nl/geo/district/buurt-n/139> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/131051> ns2:residence <https://adamlink.nl/geo/district/buurt-y/137> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/131101> ns2:residence <https://adamlink.nl/geo/district/buurt-l/119> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/131151> ns2:residence <https://adamlink.nl/geo/district/buurt-jj/122> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/95410> .
+
+<https://iisg.amsterdam/resource/bdv/131201> ns2:residence <https://adamlink.nl/geo/district/buurt-dd/111> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/44100> .
+
+<https://iisg.amsterdam/resource/bdv/131251> ns2:residence <https://adamlink.nl/geo/district/buurt-l/119> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/131301> ns2:residence <https://adamlink.nl/geo/district/buurt-w/143> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/131351> ns2:residence <https://adamlink.nl/geo/district/buurt-h/129> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/30000> .
+
+<https://iisg.amsterdam/resource/bdv/131401> ns2:residence <https://adamlink.nl/geo/district/buurt-p/142> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/131451> ns2:residence <https://adamlink.nl/geo/district/buurt-hh/114> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/131501> ns2:residence <https://adamlink.nl/geo/district/buurt-h/129> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/6710> .
+
+<https://iisg.amsterdam/resource/bdv/131551> ns2:residence <https://adamlink.nl/geo/district/buurt-k/135> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/131601> ns2:residence <https://adamlink.nl/geo/district/buurt-uu/102> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/131651> ns2:residence <https://adamlink.nl/geo/district/buurt-b/136> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/99999> .
+
+<https://iisg.amsterdam/resource/bdv/131701> ns2:residence <https://adamlink.nl/geo/district/buurt-z/138> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/44100> .
+
+<https://iisg.amsterdam/resource/bdv/131801> ns2:residence <https://adamlink.nl/geo/district/buurt-aa/128> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/131851> ns2:residence <https://adamlink.nl/geo/district/buurt-c/141> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/131951> ns2:residence <https://adamlink.nl/geo/district/buurt-hh/114> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/44140> .
+
+<https://iisg.amsterdam/resource/bdv/132001> ns2:residence <https://adamlink.nl/geo/district/buurt-h/129> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/132051> ns2:residence <https://adamlink.nl/geo/district/buurt-kk/115> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/6710> .
+
+<https://iisg.amsterdam/resource/bdv/132101> ns2:residence <https://adamlink.nl/geo/district/buurt-rr/117> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/99999> .
+
+<https://iisg.amsterdam/resource/bdv/132151> ns2:residence <https://adamlink.nl/geo/district/buurt-ll/116> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/44100> .
+
+<https://iisg.amsterdam/resource/bdv/132201> ns2:residence <https://adamlink.nl/geo/district/buurt-f/121> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/132251> ns2:residence <https://adamlink.nl/geo/district/buurt-u/148> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/44120> .
+
+<https://iisg.amsterdam/resource/bdv/132301> ns2:residence <https://adamlink.nl/geo/district/buurt-xx/123> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/132351> ns2:residence <https://adamlink.nl/geo/district/buurt-tt/105> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/12110> .
+
+<https://iisg.amsterdam/resource/bdv/132451> ns2:residence <https://adamlink.nl/geo/district/buurt-hh/114> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/99999> .
+
+<https://iisg.amsterdam/resource/bdv/132501> ns2:residence <https://adamlink.nl/geo/district/buurt-t/149> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/132551> ns2:residence <https://adamlink.nl/geo/district/buurt-w/143> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/132601> ns2:residence <https://adamlink.nl/geo/district/buurt-b/136> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/13100> .
+
+<https://iisg.amsterdam/resource/bdv/132651> ns2:residence <https://adamlink.nl/geo/district/buurt-c/141> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/132701> ns2:residence <https://adamlink.nl/geo/district/buurt-x/127> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/30000> .
+
+<https://iisg.amsterdam/resource/bdv/132751> ns2:residence <https://adamlink.nl/geo/district/buurt-oo/107> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/77610> .
+
+<https://iisg.amsterdam/resource/bdv/132801> ns2:residence <https://adamlink.nl/geo/district/buurt-v/147> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/132901> ns2:residence <https://adamlink.nl/geo/district/buurt-p/142> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/132951> ns2:residence <https://adamlink.nl/geo/district/buurt-rr/117> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/99999> .
+
+<https://iisg.amsterdam/resource/bdv/133001> ns2:residence <https://adamlink.nl/geo/district/buurt-w/143> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/133051> ns2:residence <https://adamlink.nl/geo/district/buurt-w/143> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/21110> .
+
+<https://iisg.amsterdam/resource/bdv/133151> ns2:residence <https://adamlink.nl/geo/district/buurt-dd/111> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/99999> .
+
+<https://iisg.amsterdam/resource/bdv/133201> ns2:residence <https://adamlink.nl/geo/district/buurt-n/139> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/99999> .
+
+<https://iisg.amsterdam/resource/bdv/133251> ns2:residence <https://adamlink.nl/geo/district/buurt-d/131> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41030> .
+
+<https://iisg.amsterdam/resource/bdv/133301> ns2:residence <https://adamlink.nl/geo/district/buurt-z/138> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/12110> .
+
+<https://iisg.amsterdam/resource/bdv/133351> ns2:residence <https://adamlink.nl/geo/district/buurt-ss/118> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/6710> .
+
+<https://iisg.amsterdam/resource/bdv/133401> ns2:residence <https://adamlink.nl/geo/district/buurt-u/148> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/99999> .
+
+<https://iisg.amsterdam/resource/bdv/133451> ns2:residence <https://adamlink.nl/geo/district/buurt-m/132> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/133501> ns2:residence <https://adamlink.nl/geo/district/buurt-a/134> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/133551> ns2:residence <https://adamlink.nl/geo/district/buurt-uu/102> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/95410> .
+
+<https://iisg.amsterdam/resource/bdv/133601> ns2:residence <https://adamlink.nl/geo/district/buurt-y/137> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/44100> .
+
+<https://iisg.amsterdam/resource/bdv/133651> ns2:residence <https://adamlink.nl/geo/district/buurt-uu/102> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/99999> .
+
+<https://iisg.amsterdam/resource/bdv/133701> ns2:residence <https://adamlink.nl/geo/district/buurt-n/139> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/44120> .
+
+<https://iisg.amsterdam/resource/bdv/133751> ns2:residence <https://adamlink.nl/geo/district/buurt-d/131> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/14120> .
+
+<https://iisg.amsterdam/resource/bdv/133801> ns2:residence <https://adamlink.nl/geo/district/buurt-x/127> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/133851> ns2:residence <https://adamlink.nl/geo/district/buurt-dd/111> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/21110> .
+
+<https://iisg.amsterdam/resource/bdv/133901> ns2:residence <https://adamlink.nl/geo/district/buurt-m/132> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-1> .
+
+<https://iisg.amsterdam/resource/bdv/133951> ns2:residence <https://adamlink.nl/geo/district/buurt-aa/128> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/134001> ns2:residence <https://adamlink.nl/geo/district/buurt-b/136> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/99999> .
+
+<https://iisg.amsterdam/resource/bdv/134051> ns2:residence <https://adamlink.nl/geo/district/buurt-v/147> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/134101> ns2:residence <https://adamlink.nl/geo/district/buurt-kk/115> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/42230> .
+
+<https://iisg.amsterdam/resource/bdv/134151> ns2:residence <https://adamlink.nl/geo/district/buurt-ss/118> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/99999> .
+
+<https://iisg.amsterdam/resource/bdv/134201> ns2:residence <https://adamlink.nl/geo/district/buurt-jj/122> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/44100> .
+
+<https://iisg.amsterdam/resource/bdv/134251> ns2:residence <https://adamlink.nl/geo/district/buurt-u/148> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/134301> ns2:residence <https://adamlink.nl/geo/district/buurt-r/146> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/134351> ns2:residence <https://adamlink.nl/geo/district/buurt-m/132> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/42230> .
+
+<https://iisg.amsterdam/resource/bdv/134401> ns2:residence <https://adamlink.nl/geo/district/buurt-kk/115> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/44100> .
+
+<https://iisg.amsterdam/resource/bdv/134451> ns2:residence <https://adamlink.nl/geo/district/buurt-z/138> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/134501> ns2:residence <https://adamlink.nl/geo/district/buurt-ll/116> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/44140> .
+
+<https://iisg.amsterdam/resource/bdv/134551> ns2:residence <https://adamlink.nl/geo/district/buurt-x/127> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/6105> .
+
+<https://iisg.amsterdam/resource/bdv/134601> ns2:residence <https://adamlink.nl/geo/district/buurt-x/127> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/6105> .
+
+<https://iisg.amsterdam/resource/bdv/134651> ns2:residence <https://adamlink.nl/geo/district/buurt-x/127> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-1> .
+
+<https://iisg.amsterdam/resource/bdv/134701> ns2:residence <https://adamlink.nl/geo/district/buurt-x/127> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/22290> .
+
+<https://iisg.amsterdam/resource/bdv/134751> ns2:residence <https://adamlink.nl/geo/district/buurt-l/119> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/22290> .
+
+<https://iisg.amsterdam/resource/bdv/134801> ns2:residence <https://adamlink.nl/geo/district/buurt-d/131> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/12310> .
+
+<https://iisg.amsterdam/resource/bdv/134851> ns2:residence <https://adamlink.nl/geo/district/buurt-n/139> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/134901> ns2:residence <https://adamlink.nl/geo/district/buurt-v/147> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/134951> ns2:residence <https://adamlink.nl/geo/district/buurt-rr/117> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/6105> .
+
+<https://iisg.amsterdam/resource/bdv/135001> ns2:residence <https://adamlink.nl/geo/district/buurt-aa/128> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/135051> ns2:residence <https://adamlink.nl/geo/district/buurt-u/148> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41030> .
+
+<https://iisg.amsterdam/resource/bdv/135101> ns2:residence <https://adamlink.nl/geo/district/buurt-ll/116> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/135151> ns2:residence <https://adamlink.nl/geo/district/buurt-cc/125> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/21110> .
+
+<https://iisg.amsterdam/resource/bdv/135201> ns2:residence <https://adamlink.nl/geo/district/buurt-cc/125> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/17990> .
+
+<https://iisg.amsterdam/resource/bdv/135251> ns2:residence <https://adamlink.nl/geo/district/buurt-aa/128> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/12210> .
+
+<https://iisg.amsterdam/resource/bdv/135301> ns2:residence <https://adamlink.nl/geo/district/buurt-mm/109> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/99999> .
+
+<https://iisg.amsterdam/resource/bdv/135351> ns2:residence <https://adamlink.nl/geo/district/buurt-c/141> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/135401> ns2:residence <https://adamlink.nl/geo/district/buurt-jj/122> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/14120> .
+
+<https://iisg.amsterdam/resource/bdv/135451> ns2:residence <https://adamlink.nl/geo/district/buurt-c/141> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/99999> .
+
+<https://iisg.amsterdam/resource/bdv/135501> ns2:residence <https://adamlink.nl/geo/district/buurt-kk/115> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/33160> .
+
+<https://iisg.amsterdam/resource/bdv/135551> ns2:residence <https://adamlink.nl/geo/district/buurt-v/147> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/135601> ns2:residence <https://adamlink.nl/geo/district/buurt-rr/117> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/44100> .
+
+<https://iisg.amsterdam/resource/bdv/135651> ns2:residence <https://adamlink.nl/geo/district/buurt-c/141> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-1> .
+
+<https://iisg.amsterdam/resource/bdv/135701> ns2:residence <https://adamlink.nl/geo/district/buurt-q/144> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/135751> ns2:residence <https://adamlink.nl/geo/district/buurt-bb/126> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/44100> .
+
+<https://iisg.amsterdam/resource/bdv/135801> ns2:residence <https://adamlink.nl/geo/district/buurt-x/127> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/21110> .
+
+<https://iisg.amsterdam/resource/bdv/135851> ns2:residence <https://adamlink.nl/geo/district/buurt-y/137> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/13100> .
+
+<https://iisg.amsterdam/resource/bdv/135901> ns2:residence <https://adamlink.nl/geo/district/buurt-tt/105> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/135951> ns2:residence <https://adamlink.nl/geo/district/buurt-jj/122> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/44140> .
+
+<https://iisg.amsterdam/resource/bdv/136001> ns2:residence <https://adamlink.nl/geo/district/buurt-y/137> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41030> .
+
+<https://iisg.amsterdam/resource/bdv/136051> ns2:residence <https://adamlink.nl/geo/district/buurt-ww/103> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/136101> ns2:residence <https://adamlink.nl/geo/district/buurt-ll/116> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/44100> .
+
+<https://iisg.amsterdam/resource/bdv/136151> ns2:residence <https://adamlink.nl/geo/district/buurt-w/143> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-1> .
+
+<https://iisg.amsterdam/resource/bdv/136201> ns2:residence <https://adamlink.nl/geo/district/buurt-e/130> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/136251> ns2:residence <https://adamlink.nl/geo/district/buurt-bb/126> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-1> .
+
+<https://iisg.amsterdam/resource/bdv/136301> ns2:residence <https://adamlink.nl/geo/district/buurt-ll/116> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/136351> ns2:residence <https://adamlink.nl/geo/district/buurt-uu/102> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-1> .
+
+<https://iisg.amsterdam/resource/bdv/136401> ns2:residence <https://adamlink.nl/geo/district/buurt-j/133> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/61240> .
+
+<https://iisg.amsterdam/resource/bdv/136451> ns2:residence <https://adamlink.nl/geo/district/buurt-b/136> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/136501> ns2:residence <https://adamlink.nl/geo/district/buurt-qq/101> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/77120> .
+
+<https://iisg.amsterdam/resource/bdv/136551> ns2:residence <https://adamlink.nl/geo/district/buurt-u/148> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/22290> .
+
+<https://iisg.amsterdam/resource/bdv/136601> ns2:residence <https://adamlink.nl/geo/district/buurt-jj/122> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/12310> .
+
+<https://iisg.amsterdam/resource/bdv/136651> ns2:residence <https://adamlink.nl/geo/district/buurt-aa/128> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/136701> ns2:residence <https://adamlink.nl/geo/district/buurt-m/132> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/136751> ns2:residence <https://adamlink.nl/geo/district/buurt-z/138> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-1> .
+
+<https://iisg.amsterdam/resource/bdv/136801> ns2:residence <https://adamlink.nl/geo/district/buurt-u/148> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/136851> ns2:residence <https://adamlink.nl/geo/district/buurt-m/132> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/136901> ns2:residence <https://adamlink.nl/geo/district/buurt-k/135> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41030> .
+
+<https://iisg.amsterdam/resource/bdv/136951> ns2:residence <https://adamlink.nl/geo/district/buurt-hh/114> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/95410> .
+
+<https://iisg.amsterdam/resource/bdv/137051> ns2:residence <https://adamlink.nl/geo/district/buurt-u/148> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/21110> .
+
+<https://iisg.amsterdam/resource/bdv/137101> ns2:residence <https://adamlink.nl/geo/district/buurt-x/127> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/95410> .
+
+<https://iisg.amsterdam/resource/bdv/137151> ns2:residence <https://adamlink.nl/geo/district/buurt-f/121> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/42230> .
+
+<https://iisg.amsterdam/resource/bdv/137201> ns2:residence <https://adamlink.nl/geo/district/buurt-rr/117> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/137251> ns2:residence <https://adamlink.nl/geo/district/buurt-kk/115> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/14120> .
+
+<https://iisg.amsterdam/resource/bdv/137301> ns2:residence <https://adamlink.nl/geo/district/buurt-m/132> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/137351> ns2:residence <https://adamlink.nl/geo/district/buurt-jj/122> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/44100> .
+
+<https://iisg.amsterdam/resource/bdv/137401> ns2:residence <https://adamlink.nl/geo/district/buurt-cc/125> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/137451> ns2:residence <https://adamlink.nl/geo/district/buurt-x/127> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/137501> ns2:residence <https://adamlink.nl/geo/district/buurt-ss/118> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/22290> .
+
+<https://iisg.amsterdam/resource/bdv/137551> ns2:residence <https://adamlink.nl/geo/district/buurt-z/138> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/42230> .
+
+<https://iisg.amsterdam/resource/bdv/137601> ns2:residence <https://adamlink.nl/geo/district/buurt-h/129> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/22290> .
+
+<https://iisg.amsterdam/resource/bdv/137651> ns2:residence <https://adamlink.nl/geo/district/buurt-dd/111> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/13200> .
+
+<https://iisg.amsterdam/resource/bdv/137701> ns2:residence <https://adamlink.nl/geo/district/buurt-jj/122> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-1> .
+
+<https://iisg.amsterdam/resource/bdv/137751> ns2:residence <https://adamlink.nl/geo/district/buurt-x/127> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/137801> ns2:residence <https://adamlink.nl/geo/district/buurt-bb/126> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/137851> ns2:residence <https://adamlink.nl/geo/district/buurt-jj/122> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/137901> ns2:residence <https://adamlink.nl/geo/district/buurt-y/137> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-1> .
+
+<https://iisg.amsterdam/resource/bdv/137951> ns2:residence <https://adamlink.nl/geo/district/buurt-l/119> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/138001> ns2:residence <https://adamlink.nl/geo/district/buurt-rr/117> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/42230> .
+
+<https://iisg.amsterdam/resource/bdv/138051> ns2:residence <https://adamlink.nl/geo/district/buurt-z/138> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/44140> .
+
+<https://iisg.amsterdam/resource/bdv/138101> ns2:residence <https://adamlink.nl/geo/district/buurt-j/133> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/21110> .
+
+<https://iisg.amsterdam/resource/bdv/138151> ns2:residence <https://adamlink.nl/geo/district/buurt-n/139> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/33160> .
+
+<https://iisg.amsterdam/resource/bdv/138201> ns2:residence <https://adamlink.nl/geo/district/buurt-l/119> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/138251> ns2:residence <https://adamlink.nl/geo/district/buurt-bb/126> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/-2> .
+
+<https://iisg.amsterdam/resource/bdv/138301> ns2:residence <https://adamlink.nl/geo/district/buurt-aa/128> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/44100> .
+
+<https://iisg.amsterdam/resource/bdv/138351> ns2:residence <https://adamlink.nl/geo/district/buurt-p/142> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/138401> ns2:residence <https://adamlink.nl/geo/district/buurt-rr/117> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/99999> .
+
+<https://iisg.amsterdam/resource/bdv/138451> ns2:residence <https://adamlink.nl/geo/district/buurt-hh/114> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/21110> .
+
+<https://iisg.amsterdam/resource/bdv/138501> ns2:residence <https://adamlink.nl/geo/district/buurt-h/129> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/41025> .
+
+<https://iisg.amsterdam/resource/bdv/138551> ns2:residence <https://adamlink.nl/geo/district/buurt-b/136> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/44120> .
+
+<https://iisg.amsterdam/resource/bdv/138601> ns2:residence <https://adamlink.nl/geo/district/buurt-kk/115> ;
+    ns1:occupation <https://socialhistory.org/nl/hisco/code/hisco/44140> .
+
