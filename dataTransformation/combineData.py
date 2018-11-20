@@ -20,7 +20,7 @@ deVriesData1854 = pandas.merge(deVriesData1854, occupations, how='left', left_on
 for index, row in deVriesData1854.iterrows():
    s = rdflib.URIRef("https://iisg.amsterdam/resource/bdv/" + str(row['volgnr1y']))
    p = rdflib.URIRef("http://purl.org/linked-data/sdmx/2009/dimension#occupation")
-   o = rdflib.URIRef("https://socialhistory.org/nl/hisco/code/hisco/" + str(row['hisco']))
+   o = rdflib.URIRef("http://data.socialhistory.org/resource/hisco/code/hisco/" + str(row['hisco']))
    g.add((s,p,o))
 
 ## districts
