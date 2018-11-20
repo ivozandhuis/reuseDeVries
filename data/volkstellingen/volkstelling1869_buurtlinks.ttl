@@ -1,0 +1,1192 @@
+@prefix ns1: <http://purl.org/linked-data/sdmx/2009/dimension#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-F46-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-a/134> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-F47-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-b/136> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-F48-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-c/141> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-F49-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-d/131> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-F50-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-e/130> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-F51-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-f/121> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-F52-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-g/120> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-F53-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-h/129> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-F54-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-j/133> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-F55-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-k/135> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-F56-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-l/119> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-F57-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-m/132> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-F58-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-n/139> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-F59-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-o/140> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-F60-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-p/142> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-F61-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-q/144> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-F62-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-r/146> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-F63-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-s/145> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-F64-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-t/149> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-F65-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-u/148> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-F66-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-v/147> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-F67-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-w/143> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-F68-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-x/127> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-F69-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-y/137> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-F70-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-z/138> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-F71-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-aa/128> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-F72-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-bb/126> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-F73-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-cc/125> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-F74-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-dd/111> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-F75-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-ee/110> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-F76-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-ff/112> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-F77-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-gg/113> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-F78-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-hh/114> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-F79-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-jj/122> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-F80-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-kk/115> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-F81-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-ll/116> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-F82-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-mm/109> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-F83-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-nn/108> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-F84-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-oo/107> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-F85-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-pp/106> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-F86-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-qq/101> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-F87-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-rr/117> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-F88-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-ss/118> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-F89-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-tt/105> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-F90-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-uu/102> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-F91-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-vv/104> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-F92-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-ww/103> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-F93-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-xx/123> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-F94-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-yy/124> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-F95-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-zz/150> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-G46-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-a/134> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-G47-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-b/136> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-G48-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-c/141> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-G49-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-d/131> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-G50-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-e/130> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-G51-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-f/121> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-G52-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-g/120> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-G53-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-h/129> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-G54-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-j/133> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-G55-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-k/135> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-G57-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-m/132> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-G58-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-n/139> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-G59-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-o/140> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-G60-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-p/142> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-G61-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-q/144> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-G62-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-r/146> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-G63-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-s/145> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-G64-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-t/149> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-G65-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-u/148> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-G66-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-v/147> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-G67-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-w/143> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-G68-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-x/127> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-G69-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-y/137> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-G70-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-z/138> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-G71-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-aa/128> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-G72-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-bb/126> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-G73-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-cc/125> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-G74-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-dd/111> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-G75-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-ee/110> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-G76-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-ff/112> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-G77-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-gg/113> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-G78-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-hh/114> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-G79-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-jj/122> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-G80-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-kk/115> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-G81-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-ll/116> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-G82-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-mm/109> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-G83-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-nn/108> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-G84-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-oo/107> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-G85-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-pp/106> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-G86-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-qq/101> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-G87-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-rr/117> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-G88-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-ss/118> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-G89-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-tt/105> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-G90-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-uu/102> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-G91-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-vv/104> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-G92-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-ww/103> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-G93-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-xx/123> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-G94-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-yy/124> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-G95-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-zz/150> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-H47-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-b/136> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-H50-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-e/130> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-H51-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-f/121> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-H52-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-g/120> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-H59-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-o/140> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-H64-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-t/149> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-H65-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-u/148> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-H66-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-v/147> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-H67-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-w/143> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-H70-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-z/138> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-H74-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-dd/111> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-H75-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-ee/110> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-H77-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-gg/113> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-H82-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-mm/109> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-H83-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-nn/108> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-H84-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-oo/107> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-H85-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-pp/106> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-H90-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-uu/102> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-H94-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-yy/124> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-H95-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-zz/150> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-I101-h> ns1:refArea <nan> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-I65-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-u/148> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-I96-h> ns1:refArea <nan> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-I98-h> ns1:refArea <nan> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-J101-h> ns1:refArea <nan> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-J46-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-a/134> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-J47-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-b/136> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-J48-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-c/141> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-J49-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-d/131> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-J50-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-e/130> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-J51-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-f/121> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-J52-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-g/120> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-J53-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-h/129> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-J54-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-j/133> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-J55-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-k/135> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-J56-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-l/119> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-J57-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-m/132> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-J58-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-n/139> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-J59-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-o/140> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-J60-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-p/142> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-J61-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-q/144> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-J62-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-r/146> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-J63-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-s/145> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-J64-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-t/149> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-J65-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-u/148> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-J66-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-v/147> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-J67-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-w/143> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-J68-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-x/127> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-J69-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-y/137> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-J70-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-z/138> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-J71-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-aa/128> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-J72-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-bb/126> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-J73-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-cc/125> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-J74-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-dd/111> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-J75-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-ee/110> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-J76-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-ff/112> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-J77-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-gg/113> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-J78-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-hh/114> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-J79-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-jj/122> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-J80-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-kk/115> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-J81-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-ll/116> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-J82-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-mm/109> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-J83-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-nn/108> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-J84-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-oo/107> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-J85-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-pp/106> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-J86-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-qq/101> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-J87-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-rr/117> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-J88-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-ss/118> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-J89-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-tt/105> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-J90-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-uu/102> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-J91-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-vv/104> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-J92-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-ww/103> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-J93-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-xx/123> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-J94-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-yy/124> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-J95-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-zz/150> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-J96-h> ns1:refArea <nan> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-J98-h> ns1:refArea <nan> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-K101-h> ns1:refArea <nan> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-K46-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-a/134> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-K47-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-b/136> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-K48-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-c/141> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-K49-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-d/131> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-K50-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-e/130> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-K51-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-f/121> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-K52-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-g/120> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-K53-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-h/129> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-K54-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-j/133> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-K55-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-k/135> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-K56-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-l/119> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-K57-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-m/132> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-K58-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-n/139> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-K59-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-o/140> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-K60-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-p/142> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-K61-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-q/144> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-K62-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-r/146> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-K63-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-s/145> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-K64-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-t/149> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-K65-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-u/148> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-K66-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-v/147> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-K67-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-w/143> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-K68-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-x/127> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-K69-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-y/137> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-K70-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-z/138> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-K71-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-aa/128> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-K72-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-bb/126> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-K73-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-cc/125> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-K74-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-dd/111> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-K75-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-ee/110> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-K76-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-ff/112> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-K77-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-gg/113> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-K78-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-hh/114> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-K79-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-jj/122> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-K80-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-kk/115> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-K81-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-ll/116> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-K82-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-mm/109> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-K83-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-nn/108> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-K84-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-oo/107> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-K85-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-pp/106> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-K86-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-qq/101> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-K87-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-rr/117> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-K88-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-ss/118> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-K89-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-tt/105> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-K90-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-uu/102> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-K91-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-vv/104> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-K92-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-ww/103> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-K93-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-xx/123> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-K94-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-yy/124> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-K95-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-zz/150> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-K96-h> ns1:refArea <nan> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-K98-h> ns1:refArea <nan> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-L101-h> ns1:refArea <nan> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-L46-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-a/134> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-L47-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-b/136> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-L48-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-c/141> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-L49-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-d/131> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-L50-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-e/130> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-L51-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-f/121> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-L52-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-g/120> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-L53-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-h/129> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-L54-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-j/133> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-L55-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-k/135> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-L56-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-l/119> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-L57-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-m/132> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-L58-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-n/139> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-L59-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-o/140> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-L60-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-p/142> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-L61-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-q/144> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-L62-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-r/146> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-L63-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-s/145> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-L64-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-t/149> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-L65-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-u/148> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-L66-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-v/147> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-L67-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-w/143> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-L68-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-x/127> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-L69-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-y/137> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-L70-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-z/138> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-L71-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-aa/128> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-L72-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-bb/126> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-L73-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-cc/125> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-L74-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-dd/111> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-L75-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-ee/110> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-L76-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-ff/112> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-L77-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-gg/113> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-L78-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-hh/114> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-L79-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-jj/122> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-L80-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-kk/115> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-L81-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-ll/116> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-L82-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-mm/109> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-L83-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-nn/108> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-L84-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-oo/107> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-L85-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-pp/106> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-L86-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-qq/101> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-L87-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-rr/117> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-L88-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-ss/118> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-L89-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-tt/105> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-L90-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-uu/102> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-L91-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-vv/104> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-L92-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-ww/103> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-L93-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-xx/123> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-L94-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-yy/124> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-L95-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-zz/150> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-L96-h> ns1:refArea <nan> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-L98-h> ns1:refArea <nan> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-M101-h> ns1:refArea <nan> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-M46-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-a/134> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-M47-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-b/136> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-M48-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-c/141> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-M49-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-d/131> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-M50-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-e/130> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-M51-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-f/121> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-M52-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-g/120> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-M53-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-h/129> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-M54-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-j/133> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-M55-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-k/135> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-M56-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-l/119> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-M57-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-m/132> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-M58-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-n/139> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-M59-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-o/140> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-M60-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-p/142> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-M61-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-q/144> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-M62-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-r/146> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-M63-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-s/145> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-M64-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-t/149> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-M65-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-u/148> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-M66-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-v/147> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-M67-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-w/143> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-M68-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-x/127> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-M69-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-y/137> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-M70-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-z/138> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-M71-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-aa/128> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-M72-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-bb/126> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-M73-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-cc/125> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-M74-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-dd/111> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-M75-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-ee/110> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-M76-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-ff/112> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-M77-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-gg/113> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-M78-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-hh/114> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-M79-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-jj/122> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-M80-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-kk/115> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-M81-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-ll/116> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-M82-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-mm/109> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-M83-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-nn/108> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-M84-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-oo/107> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-M85-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-pp/106> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-M86-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-qq/101> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-M87-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-rr/117> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-M88-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-ss/118> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-M89-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-tt/105> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-M90-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-uu/102> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-M91-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-vv/104> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-M92-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-ww/103> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-M93-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-xx/123> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-M94-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-yy/124> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-M95-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-zz/150> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-M96-h> ns1:refArea <nan> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-M98-h> ns1:refArea <nan> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-N101-h> ns1:refArea <nan> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-N46-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-a/134> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-N47-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-b/136> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-N48-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-c/141> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-N49-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-d/131> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-N50-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-e/130> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-N51-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-f/121> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-N52-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-g/120> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-N53-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-h/129> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-N54-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-j/133> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-N55-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-k/135> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-N56-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-l/119> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-N57-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-m/132> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-N58-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-n/139> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-N59-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-o/140> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-N60-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-p/142> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-N61-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-q/144> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-N62-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-r/146> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-N63-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-s/145> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-N64-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-t/149> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-N65-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-u/148> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-N66-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-v/147> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-N67-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-w/143> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-N68-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-x/127> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-N69-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-y/137> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-N70-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-z/138> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-N71-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-aa/128> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-N72-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-bb/126> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-N73-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-cc/125> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-N74-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-dd/111> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-N75-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-ee/110> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-N76-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-ff/112> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-N77-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-gg/113> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-N78-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-hh/114> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-N79-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-jj/122> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-N80-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-kk/115> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-N81-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-ll/116> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-N82-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-mm/109> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-N83-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-nn/108> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-N84-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-oo/107> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-N85-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-pp/106> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-N86-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-qq/101> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-N87-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-rr/117> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-N88-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-ss/118> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-N89-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-tt/105> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-N90-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-uu/102> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-N91-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-vv/104> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-N92-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-ww/103> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-N93-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-xx/123> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-N94-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-yy/124> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-N95-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-zz/150> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-N96-h> ns1:refArea <nan> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-N98-h> ns1:refArea <nan> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-O101-h> ns1:refArea <nan> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-O46-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-a/134> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-O47-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-b/136> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-O48-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-c/141> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-O49-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-d/131> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-O50-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-e/130> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-O51-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-f/121> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-O52-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-g/120> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-O53-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-h/129> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-O54-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-j/133> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-O55-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-k/135> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-O56-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-l/119> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-O57-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-m/132> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-O58-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-n/139> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-O59-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-o/140> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-O60-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-p/142> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-O64-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-t/149> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-O65-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-u/148> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-O66-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-v/147> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-O67-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-w/143> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-O68-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-x/127> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-O69-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-y/137> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-O70-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-z/138> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-O71-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-aa/128> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-O72-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-bb/126> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-O73-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-cc/125> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-O74-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-dd/111> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-O75-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-ee/110> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-O76-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-ff/112> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-O77-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-gg/113> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-O78-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-hh/114> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-O79-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-jj/122> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-O80-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-kk/115> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-O81-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-ll/116> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-O82-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-mm/109> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-O83-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-nn/108> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-O84-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-oo/107> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-O85-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-pp/106> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-O86-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-qq/101> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-O87-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-rr/117> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-O88-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-ss/118> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-O89-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-tt/105> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-O90-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-uu/102> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-O92-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-ww/103> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-O93-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-xx/123> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-O94-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-yy/124> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-O95-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-zz/150> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-O96-h> ns1:refArea <nan> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-O98-h> ns1:refArea <nan> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-P101-h> ns1:refArea <nan> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-P46-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-a/134> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-P47-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-b/136> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-P48-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-c/141> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-P49-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-d/131> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-P50-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-e/130> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-P51-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-f/121> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-P52-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-g/120> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-P53-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-h/129> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-P54-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-j/133> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-P55-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-k/135> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-P56-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-l/119> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-P57-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-m/132> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-P58-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-n/139> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-P59-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-o/140> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-P61-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-q/144> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-P62-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-r/146> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-P64-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-t/149> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-P65-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-u/148> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-P66-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-v/147> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-P67-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-w/143> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-P68-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-x/127> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-P69-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-y/137> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-P70-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-z/138> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-P71-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-aa/128> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-P72-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-bb/126> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-P73-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-cc/125> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-P74-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-dd/111> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-P75-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-ee/110> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-P76-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-ff/112> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-P77-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-gg/113> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-P78-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-hh/114> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-P79-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-jj/122> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-P80-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-kk/115> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-P81-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-ll/116> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-P82-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-mm/109> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-P83-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-nn/108> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-P84-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-oo/107> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-P85-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-pp/106> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-P86-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-qq/101> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-P87-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-rr/117> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-P88-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-ss/118> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-P89-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-tt/105> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-P90-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-uu/102> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-P91-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-vv/104> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-P93-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-xx/123> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-P94-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-yy/124> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-P95-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-zz/150> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-P96-h> ns1:refArea <nan> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-P98-h> ns1:refArea <nan> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-Q101-h> ns1:refArea <nan> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-Q46-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-a/134> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-Q47-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-b/136> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-Q48-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-c/141> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-Q49-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-d/131> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-Q50-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-e/130> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-Q51-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-f/121> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-Q52-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-g/120> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-Q53-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-h/129> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-Q54-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-j/133> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-Q55-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-k/135> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-Q56-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-l/119> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-Q57-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-m/132> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-Q58-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-n/139> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-Q59-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-o/140> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-Q60-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-p/142> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-Q61-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-q/144> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-Q62-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-r/146> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-Q63-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-s/145> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-Q64-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-t/149> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-Q65-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-u/148> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-Q66-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-v/147> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-Q67-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-w/143> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-Q68-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-x/127> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-Q69-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-y/137> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-Q70-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-z/138> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-Q71-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-aa/128> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-Q72-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-bb/126> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-Q73-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-cc/125> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-Q74-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-dd/111> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-Q75-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-ee/110> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-Q76-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-ff/112> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-Q77-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-gg/113> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-Q78-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-hh/114> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-Q79-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-jj/122> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-Q80-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-kk/115> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-Q81-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-ll/116> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-Q82-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-mm/109> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-Q83-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-nn/108> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-Q84-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-oo/107> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-Q85-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-pp/106> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-Q86-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-qq/101> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-Q87-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-rr/117> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-Q88-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-ss/118> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-Q89-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-tt/105> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-Q90-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-uu/102> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-Q91-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-vv/104> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-Q92-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-ww/103> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-Q93-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-xx/123> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-Q94-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-yy/124> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-Q95-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-zz/150> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-Q96-h> ns1:refArea <nan> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-Q97-h> ns1:refArea <nan> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-R101-h> ns1:refArea <nan> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-R46-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-a/134> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-R47-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-b/136> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-R48-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-c/141> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-R49-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-d/131> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-R50-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-e/130> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-R51-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-f/121> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-R52-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-g/120> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-R53-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-h/129> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-R54-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-j/133> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-R55-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-k/135> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-R56-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-l/119> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-R57-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-m/132> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-R58-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-n/139> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-R59-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-o/140> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-R60-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-p/142> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-R61-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-q/144> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-R62-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-r/146> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-R63-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-s/145> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-R64-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-t/149> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-R65-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-u/148> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-R66-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-v/147> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-R67-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-w/143> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-R68-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-x/127> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-R69-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-y/137> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-R70-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-z/138> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-R71-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-aa/128> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-R72-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-bb/126> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-R73-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-cc/125> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-R74-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-dd/111> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-R75-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-ee/110> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-R76-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-ff/112> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-R77-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-gg/113> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-R78-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-hh/114> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-R79-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-jj/122> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-R80-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-kk/115> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-R81-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-ll/116> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-R82-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-mm/109> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-R83-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-nn/108> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-R84-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-oo/107> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-R85-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-pp/106> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-R86-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-qq/101> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-R87-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-rr/117> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-R88-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-ss/118> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-R89-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-tt/105> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-R90-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-uu/102> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-R91-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-vv/104> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-R92-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-ww/103> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-R93-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-xx/123> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-R94-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-yy/124> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-R95-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-zz/150> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-R96-h> ns1:refArea <nan> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1869_01_H1-S3-R97-h> ns1:refArea <nan> .
+
