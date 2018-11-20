@@ -51,10 +51,12 @@ deVriesData1854 = pandas.merge(deVriesData1854, locatiepunten, how='left', left_
 
 ### create triples
 for index, row in deVriesData1854.iterrows():
-   s = rdflib.URIRef("https://iisg.amsterdam/resource/bdv/" + str(row['volgnr1y']))
-   p = rdflib.URIRef("http://rdfs.co/juso/address")
-   o = rdflib.URIRef("https://ivotmp.hisgis.nl/address/amsterdam/" + str(row['concat1853']))
-   g.add((s,p,o))
+   address = str(row['concat1853'])
+   if (address != "nan"):
+       s = rdflib.URIRef("https://iisg.amsterdam/resource/bdv/" + str(row['volgnr1y']))
+       p = rdflib.URIRef("http://rdfs.co/juso/address")
+       o = rdflib.URIRef("https://ivotmp.hisgis.nl/address/amsterdam/" + str(row['concat1853']))
+       g.add((s,p,o))
 
 # write CSV
 outfile = basedir + "data/deVriesData1854_combination.csv"
