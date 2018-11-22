@@ -97,8 +97,9 @@
       },
       {
         "virtual": true,
+        "datatype": "string",
         "propertyUrl": "juso:address",
-        "csvw:value": "{buurty}{huisnry}"
+        "csvw:value": "{buurty}"
       },
       {
         "@id": "https://iisg.amsterdam/p1223a.csv/column/lftmy",
