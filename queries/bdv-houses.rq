@@ -1,0 +1,18 @@
+#+ summary: Representation of house addresses in Boudien De Vries.
+#+ tags:
+#+      - Amsterdam
+#+      - GIS
+#+      - Boudien de Vries
+#+ endpoint: https://api.druid.datalegend.net/datasets/ivozandhuis/ivotemp-HISGIS/services/endpoint/sparql
+
+PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX adam: <https://ivotmp.hisgis.nl/address/amsterdam/>
+PREFIX histo: <http://rdf.histograph.io/>
+#SELECT * WHERE {
+SELECT ?wkt (?house as ?wktLabel) WHERE {  
+  ?house histo:liesIn ?street .
+  ?house geo:asWKT ?wkt .
+  # NB: points are in EPGS, for visualization in YASGUI WGS84 is expected
+} LIMIT 10
