@@ -11,8 +11,7 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX adam: <https://ivotmp.hisgis.nl/address/amsterdam/>
 PREFIX histo: <http://rdf.histograph.io/>
 #SELECT * WHERE {
-SELECT ?wkt (?house as ?wktLabel) WHERE {  
+SELECT ?wkt (?house as ?wktLabel) WHERE {
   ?house histo:liesIn ?street .
   ?house geo:asWKT ?wkt .
-  # NB: points are in EPGS, for visualization in YASGUI WGS84 is expected
 } LIMIT 10

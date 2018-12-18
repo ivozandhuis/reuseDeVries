@@ -64,3 +64,5 @@ https://archief.amsterdam/inventarissen/inventaris/30272.nl.html
 * the workflow
 * the reuse
 * the concept Linked Data
+
+Zijdeman, Richard, and Paul Lambert. ‘Measuring Social Structure in the Past: A Comparison of Historical Class Schemes and Occupational Stratification Scales on Dutch 19th and Early 20th Century Data’. Journal of Belgian History/ Belgisch Tijdschrift Voor Nieuwste Geschiedenis/ Revue Belge de Histoire Contemporaine 40 (2010): 111–41. http://hdl.handle.net/1893/21192.
