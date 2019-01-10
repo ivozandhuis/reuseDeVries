@@ -1,13 +1,18 @@
 # data
 
-This directory contains the datafiles. In the root are the CSV files based on the original De Vries file.
-https://doi.org/10.17026/dans-xez-eqdv
-
-## standards
-This directory contains datafiles from elsewhere, that can be added to the basic files
 
 ## org
-orginal csv files created from the SPSS POR-files
+The original data in .por and .csv format. Based on the original De Vries file.
+https://doi.org/10.17026/dans-xez-eqdv
 
-## CSV
-containing the created intermediate CSV-files
+## addresses
+Data on addresses, including the geo-location, to be linked to the data.
+
+## districts
+Data on districts ("wijken"), including the geo-location, to be linked to the data.
+
+## hisco
+CSV with links between occupational title, used by De Vries, and HISCO-code.
+
+## volkstellingen
+CSV and TTL files with censusdata on Amsterdam, per district. Upgraded from CEDAR data.
