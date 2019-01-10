@@ -11,7 +11,7 @@ g = rdflib.Graph()
 ## read adressenconcordans and locatiepunten
 adressen      = pandas.read_csv(basedir + "data/addresses/adressenconcordans_20181114.csv")
 locatiepunten = pandas.read_csv(basedir + "data/addresses/locatiepunten_20181114.csv")
-straten       = pandas.read_csv(basedir + "data/addresses/adressen1876-met-uri.csv")
+straten       = pandas.read_csv(basedir + "data/addresses/adressen1876-met-straaturi.csv")
 adressen["concat1853"] = adressen["concat1853"].str.upper()
 adressen["concat1853"] = adressen["concat1853"].str.replace('I','J')
 
