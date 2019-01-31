@@ -1,0 +1,241 @@
+{
+ "dialect": {
+  "quoteChar": "\"",
+  "delimiter": ",",
+  "encoding": "ascii"
+ },
+ "dcat:keyword": [],
+ "dc:license": {
+  "@id": "http://opendefinition.org/licenses/cc-by/"
+ },
+ "dc:publisher": {
+  "schema:name": "CLARIAH Structured Data Hub - Datalegend",
+  "schema:url": {
+   "@id": "http://datalegend.net"
+  }
+ },
+ "url": "short_adressenconcordans_20181114.csv",
+ "@context": [
+  "http://csvw.clariah-sdh.eculture.labs.vu.nl/csvw.json",
+  {
+   "@base": "https://iisg.amsterdam/",
+   "@language": "en"
+  },
+  {
+   "owl": "http://www.w3.org/2002/07/owl#",
+   "napp-eng81": "https://iisg.amsterdam/napp/dataset/englandwales1881/",
+   "dbo": "http://dbpedia.org/ontology/",
+   "clioctr": "https://iisg.amsterdam/clio/country/",
+   "hisclass": "https://iisg.amsterdam/hisclass/",
+   "hisco-product": "https://iisg.amsterdam/hisco/product/",
+   "ldp": "http://www.w3.org/ns/ldp#",
+   "clio": "https://iisg.amsterdam/clio/",
+   "occhisco": "https://iisg.amsterdam/napp/OCCHISCO/",
+   "dbr": "http://dbpedia.org/resource/",
+   "skos": "http://www.w3.org/2004/02/skos/core#",
+   "xml": "http://www.w3.org/XML/1998/namespace/",
+   "sdmx-concept": "http://purl.org/linked-data/sdmx/2009/concept#",
+   "napp": "https://iisg.amsterdam/napp/",
+   "prov": "http://www.w3.org/ns/prov#",
+   "sdmx-code": "http://purl.org/linked-data/sdmx/2009/code#",
+   "napp-can91": "https://iisg.amsterdam/napp/dataset/canada1891/",
+   "hiscam": "https://iisg.amsterdam/hiscam/",
+   "dbpedia": "http://dbpedia.org/resource/",
+   "np": "http://www.nanopub.org/nschema#",
+   "hisclass5": "https://iisg.amsterdam/hisclass5/",
+   "canfam-auke": "https://iisg.amsterdam/canfam/auke/",
+   "dcterms": "http://purl.org/dc/terms/",
+   "schema": "http://schema.org/",
+   "foaf": "http://xmlns.com/foaf/0.1/",
+   "sdv": "https://iisg.amsterdam/vocab/",
+   "hisco": "https://iisg.amsterdam/hisco/",
+   "bibo": "http://purl.org/ontology/bibo/",
+   "sdmx-dimension": "http://purl.org/linked-data/sdmx/2009/dimension#",
+   "hsn": "https://iisg.amsterdam/hsn2013a/",
+   "dc": "http://purl.org/dc/terms/",
+   "hisco-relation": "https://iisg.amsterdam/hisco/relation/",
+   "hisco-status": "https://iisg.amsterdam/hisco/status/",
+   "dbp": "http://dbpedia.org/property/",
+   "clioprop": "https://iisg.amsterdam/clio/property/",
+   "csvw": "http://www.w3.org/ns/csvw#",
+   "clioind": "https://iisg.amsterdam/clio/indicator/",
+   "dc11": "http://purl.org/dc/elements/1.1/",
+   "qb": "http://purl.org/linked-data/cube#",
+   "canfam-dimension": "http://data.socialhistory.org/vocab/canfam/dimension/",
+   "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+   "canfam": "https://iisg.amsterdam/canfam/dataset/canada1901/",
+   "napp-sct81": "https://iisg.amsterdam/napp/dataset/scotland1881/",
+   "sdmx-measure": "http://purl.org/linked-data/sdmx/2009/measure#",
+   "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+   "sdr": "https://iisg.amsterdam/",
+   "xsd": "http://www.w3.org/2001/XMLSchema#",
+   "time": "http://www.w3.org/2006/time#",
+   "napp-dimension": "http://data.socialhistory.org/vocab/napp/dimension/"
+  }
+ ],
+ "dc:title": "short_adressenconcordans_20181114.csv",
+ "@id": "https://iisg.amsterdam/short_adressenconcordans_20181114.csv",
+ "dc:modified": {
+  "@value": "2019-01-31",
+  "@type": "xsd:date"
+ },
+ "tableSchema": {
+  "aboutUrl": "{_row}",
+  "primaryKey": "locatiepunt",
+  "columns": [
+   {
+    "datatype": "string",
+    "titles": [
+     "locatiepunt"
+    ],
+    "@id": "https://iisg.amsterdam/short_adressenconcordans_20181114.csv/column/locatiepunt",
+    "name": "locatiepunt",
+    "dc:description": "locatiepunt"
+   },
+   {
+    "datatype": "string",
+    "titles": [
+     "straat1909"
+    ],
+    "@id": "https://iisg.amsterdam/short_adressenconcordans_20181114.csv/column/straat1909",
+    "name": "straat1909",
+    "dc:description": "straat1909"
+   },
+   {
+    "datatype": "string",
+    "titles": [
+     "nr1909"
+    ],
+    "@id": "https://iisg.amsterdam/short_adressenconcordans_20181114.csv/column/nr1909",
+    "name": "nr1909",
+    "dc:description": "nr1909"
+   },
+   {
+    "datatype": "string",
+    "titles": [
+     "tvg1909"
+    ],
+    "@id": "https://iisg.amsterdam/short_adressenconcordans_20181114.csv/column/tvg1909",
+    "name": "tvg1909",
+    "dc:description": "tvg1909"
+   },
+   {
+    "datatype": "string",
+    "titles": [
+     "buurt1876"
+    ],
+    "@id": "https://iisg.amsterdam/short_adressenconcordans_20181114.csv/column/buurt1876",
+    "name": "buurt1876",
+    "dc:description": "buurt1876"
+   },
+   {
+    "datatype": "string",
+    "titles": [
+     "straat1876"
+    ],
+    "@id": "https://iisg.amsterdam/short_adressenconcordans_20181114.csv/column/straat1876",
+    "name": "straat1876",
+    "dc:description": "straat1876"
+   },
+   {
+    "datatype": "string",
+    "titles": [
+     "steeg1876"
+    ],
+    "@id": "https://iisg.amsterdam/short_adressenconcordans_20181114.csv/column/steeg1876",
+    "name": "steeg1876",
+    "dc:description": "steeg1876"
+   },
+   {
+    "datatype": "string",
+    "titles": [
+     "nr1876"
+    ],
+    "@id": "https://iisg.amsterdam/short_adressenconcordans_20181114.csv/column/nr1876",
+    "name": "nr1876",
+    "dc:description": "nr1876"
+   },
+   {
+    "datatype": "string",
+    "titles": [
+     "tvg1876"
+    ],
+    "@id": "https://iisg.amsterdam/short_adressenconcordans_20181114.csv/column/tvg1876",
+    "name": "tvg1876",
+    "dc:description": "tvg1876"
+   },
+   {
+    "datatype": "string",
+    "titles": [
+     "buurt1853"
+    ],
+    "@id": "https://iisg.amsterdam/short_adressenconcordans_20181114.csv/column/buurt1853",
+    "name": "buurt1853",
+    "dc:description": "buurt1853"
+   },
+   {
+    "datatype": "string",
+    "titles": [
+     "nr1853"
+    ],
+    "@id": "https://iisg.amsterdam/short_adressenconcordans_20181114.csv/column/nr1853",
+    "name": "nr1853",
+    "dc:description": "nr1853"
+   },
+   {
+    "datatype": "string",
+    "titles": [
+     "tvg1853"
+    ],
+    "@id": "https://iisg.amsterdam/short_adressenconcordans_20181114.csv/column/tvg1853",
+    "name": "tvg1853",
+    "dc:description": "tvg1853"
+   },
+   {
+    "datatype": "string",
+    "titles": [
+     "concat1853"
+    ],
+    "@id": "https://iisg.amsterdam/short_adressenconcordans_20181114.csv/column/concat1853",
+    "name": "concat1853",
+    "dc:description": "concat1853"
+   },
+   {
+    "datatype": "string",
+    "titles": [
+     "sectie1832"
+    ],
+    "@id": "https://iisg.amsterdam/short_adressenconcordans_20181114.csv/column/sectie1832",
+    "name": "sectie1832",
+    "dc:description": "sectie1832"
+   },
+   {
+    "datatype": "string",
+    "titles": [
+     "perceelnr1832"
+    ],
+    "@id": "https://iisg.amsterdam/short_adressenconcordans_20181114.csv/column/perceelnr1832",
+    "name": "perceelnr1832",
+    "dc:description": "perceelnr1832"
+   },
+   {
+    "datatype": "string",
+    "titles": [
+     "tvg1832"
+    ],
+    "@id": "https://iisg.amsterdam/short_adressenconcordans_20181114.csv/column/tvg1832",
+    "name": "tvg1832",
+    "dc:description": "tvg1832"
+   },
+   {
+    "datatype": "string",
+    "titles": [
+     "concat1832"
+    ],
+    "@id": "https://iisg.amsterdam/short_adressenconcordans_20181114.csv/column/concat1832",
+    "name": "concat1832",
+    "dc:description": "concat1832"
+   }
+  ]
+ }
+}
