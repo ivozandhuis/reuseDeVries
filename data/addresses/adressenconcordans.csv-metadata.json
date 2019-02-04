@@ -129,12 +129,12 @@
      "virtual": true,
      "aboutUrl": "lp-addresses-1909",
      "propertyUrl": "skos:member",
-     "valueUrl": "lp-{lp}-1909"
+     "valueUrl": "lp-{lp}"
      },
      {
      "virtual": true,
      "propertyUrl": "dul:hasPart",
-     "valueUrl": "lp-{lp}-1876"
+     "valueUrl": "lp-{lp}"
      },
      {
      "virtual": true,
@@ -199,7 +199,7 @@
      "virtual": true,
      "aboutUrl": "lp-addresses-1853",
      "propertyUrl": "skos:member",
-     "valueUrl": "lp-{lp}-1853"
+     "valueUrl": "lp-{lp}"
      },
      {
      "virtual": true,
@@ -224,7 +224,7 @@
      "virtual": true,
      "aboutUrl": "lp-addresses-1832",
      "propertyUrl": "skos:member",
-     "valueUrl": "lp-{lp}-1832"
+     "valueUrl": "lp-{lp}"
    }
   ]
  }
