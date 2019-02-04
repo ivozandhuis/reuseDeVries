@@ -8,12 +8,12 @@ basedir = "/home/ivo/Gitrepositories/reuseDeVries/"
 g = rdflib.Graph()
 
 # read data 1854
-deVriesData1854 = pandas.read_csv(basedir + "data/csv/p1223a.csv")
+deVriesData1854 = pandas.read_csv(basedir + "data/org/p1223a.csv")
 
 # merge standardizations
 ## occupations
 ### merge standard to dataframe
-occupations     = pandas.read_csv(basedir + "dataTransformation/bdv_occupations_hisco.csv")
+occupations     = pandas.read_csv(basedir + "data/hisco/bdv_occupations_hisco.csv")
 deVriesData1854 = pandas.merge(deVriesData1854, occupations, how='left', left_on='berpmy', right_on='occupationalTitleDeVries')
 
 ### create triples
@@ -40,10 +40,10 @@ for index, row in deVriesData1854.iterrows():
 deVriesData1854["concat1854"] = deVriesData1854["buurty"].map(str) + deVriesData1854["huisnry"].map(str)
 
 ### read adressenconcordans and locatiepunten
-adressenconcordans = pandas.read_csv(basedir + "data/addresses/adressenconcordans_20181114.csv")
+adressenconcordans = pandas.read_csv(basedir + "data/addresses/adressenconcordans.csv")
 adressenconcordans["concat1853"] = adressenconcordans["concat1853"].str.upper()
 adressenconcordans["concat1853"] = adressenconcordans["concat1853"].str.replace('I','J')
-locatiepunten      = pandas.read_csv(basedir + "data/addresses/locatiepunten_20181114.csv")
+locatiepunten      = pandas.read_csv(basedir + "data/addresses/locatiepunten.csv")
 
 ### merge
 deVriesData1854 = pandas.merge(deVriesData1854, adressenconcordans, how='left', left_on='concat1854', right_on='concat1853')
@@ -58,12 +58,8 @@ for index, row in deVriesData1854.iterrows():
        o = rdflib.URIRef("https://ivotmp.hisgis.nl/address/amsterdam/" + str(row['concat1853']))
        g.add((s,p,o))
 
-# write CSV
-outfile = basedir + "data/deVriesData1854_combination.csv"
-deVriesData1854.to_csv(outfile, encoding='utf-8')
-
 # write RDF turtle
-outfile = basedir + "data/deVriesData1854_standardization.ttl"
+outfile = basedir + "data/p1223a_standardization.ttl"
 s = g.serialize(format='turtle')
 f = open(outfile,"wb")
 f.write(s)
