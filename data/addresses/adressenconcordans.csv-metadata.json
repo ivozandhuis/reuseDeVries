@@ -1,0 +1,231 @@
+{
+ "dialect": {
+  "quoteChar": "\"",
+  "delimiter": ",",
+  "encoding": "UTF-8-SIG"
+ },
+ "dcat:keyword": [],
+ "dc:license": {
+  "@id": "http://opendefinition.org/licenses/cc-by/"
+ },
+ "dc:publisher": {
+  "schema:name": "CLARIAH Structured Data Hub - Datalegend",
+  "schema:url": {
+   "@id": "http://datalegend.net"
+  }
+ },
+ "url": "sshortcc1909-1876-1853-1832.csv",
+ "@context": [
+  "http://csvw.clariah-sdh.eculture.labs.vu.nl/csvw.json",
+  {
+   "@base": "https://hisgis.nl/resource/atm/",
+   "@language": "en"
+  },
+  {
+   "owl": "http://www.w3.org/2002/07/owl#",
+   "napp-eng81": "https://iisg.amsterdam/napp/dataset/englandwales1881/",
+   "dbo": "http://dbpedia.org/ontology/",
+   "clioctr": "https://iisg.amsterdam/clio/country/",
+   "hisclass": "https://iisg.amsterdam/hisclass/",
+   "hisco-product": "https://iisg.amsterdam/hisco/product/",
+   "ldp": "http://www.w3.org/ns/ldp#",
+   "clio": "https://iisg.amsterdam/clio/",
+   "occhisco": "https://iisg.amsterdam/napp/OCCHISCO/",
+   "dbr": "http://dbpedia.org/resource/",
+   "skos": "http://www.w3.org/2004/02/skos/core#",
+   "xml": "http://www.w3.org/XML/1998/namespace/",
+   "sdmx-concept": "http://purl.org/linked-data/sdmx/2009/concept#",
+   "napp": "https://iisg.amsterdam/napp/",
+   "prov": "http://www.w3.org/ns/prov#",
+   "sdmx-code": "http://purl.org/linked-data/sdmx/2009/code#",
+   "napp-can91": "https://iisg.amsterdam/napp/dataset/canada1891/",
+   "hiscam": "https://iisg.amsterdam/hiscam/",
+   "dbpedia": "http://dbpedia.org/resource/",
+   "np": "http://www.nanopub.org/nschema#",
+   "hisclass5": "https://iisg.amsterdam/hisclass5/",
+   "canfam-auke": "https://iisg.amsterdam/canfam/auke/",
+   "dcterms": "http://purl.org/dc/terms/",
+   "schema": "http://schema.org/",
+   "microheights": "https://iisg.amsterdam/microheights/",
+   "sdv": "https://iisg.amsterdam/vocab/",
+   "hisco": "https://iisg.amsterdam/hisco/",
+   "bibo": "http://purl.org/ontology/bibo/",
+   "sdmx-dimension": "http://purl.org/linked-data/sdmx/2009/dimension#",
+   "hsn": "https://iisg.amsterdam/hsn2013a/",
+   "dc": "http://purl.org/dc/terms/",
+   "hisco-relation": "https://iisg.amsterdam/hisco/relation/",
+   "hisco-status": "https://iisg.amsterdam/hisco/status/",
+   "dbp": "http://dbpedia.org/property/",
+   "clioprop": "https://iisg.amsterdam/clio/property/",
+   "csvw": "http://www.w3.org/ns/csvw#",
+   "clioind": "https://iisg.amsterdam/clio/indicator/",
+   "dc11": "http://purl.org/dc/elements/1.1/",
+   "sdr": "https://iisg.amsterdam/",
+   "qb": "http://purl.org/linked-data/cube#",
+   "canfam-dimension": "http://data.socialhistory.org/vocab/canfam/dimension/",
+   "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+   "canfam": "https://iisg.amsterdam/canfam/dataset/canada1901/",
+   "napp-sct81": "https://iisg.amsterdam/napp/dataset/scotland1881/",
+   "sdmx-measure": "http://purl.org/linked-data/sdmx/2009/measure#",
+   "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+   "foaf": "http://xmlns.com/foaf/0.1/",
+   "xsd": "http://www.w3.org/2001/XMLSchema#",
+   "time": "http://www.w3.org/2006/time#",
+   "napp-dimension": "http://data.socialhistory.org/vocab/napp/dimension/",
+   "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+   "ssn": "http://purl.oclc.org/NET/ssnx/ssn#",
+   "dul": "http://www.loa-cnr.it/ontologies/DUL.owl#",
+   "juso": "http://rdfs.co/juso/"
+  }
+ ],
+ "dc:title": "sshortcc1909-1876-1853-1832.csv",
+ "@id": "https://iisg.amsterdam/sshortcc1909-1876-1853-1832.csv",
+ "dc:modified": {
+  "@value": "2019-02-02",
+  "@type": "xsd:date"
+ },
+ "tableSchema": {
+     "aboutUrl": "lp-{lp}",
+     "primaryKey": "lp",
+     "columns": [
+     {
+     "virtual": true,
+     "propertyUrl": "rdf:type",
+     "valueUrl": "juso:Point"
+     },
+     {
+     "virtual": true,
+     "propertyUrl": "rdf:type",
+     "valueUrl": "ssn:Observation"
+     },
+     {
+     "virtual": true,
+     "propertyUrl": "dul:hasPart",
+     "valueUrl": "lp-{lp}-1909"
+     },
+     {
+     "virtual": true,
+     "lang": "nl",
+     "datatype": "string",
+     "aboutUrl": "lp-{lp}-1909",
+     "propertyUrl": "juso:Address",
+     "csvw:value": "{% if tvg1909 == '' %}{straat1909} {nr1909}{% else %}{straat1909} {nr1909}-{tvg1909}{% endif %}"
+     },
+     {
+     "virtual": true,
+     "lang": "nl",
+     "datatype": "string",
+     "aboutUrl": "lp-{lp}-1909",
+     "propertyUrl": "juso:Street",
+     "valueUrl": "{straat1909}"
+     },
+     {
+     "virtual": true,
+     "aboutUrl": "lp-addresses-1909",
+     "propertyUrl": "rdf:type",
+     "valueUrl": "skos:Collection"
+     },
+     {
+     "virtual": true,
+     "aboutUrl": "lp-addresses-1909",
+     "propertyUrl": "skos:member",
+     "valueUrl": "lp-{lp}-1909"
+     },
+     {
+     "virtual": true,
+     "propertyUrl": "dul:hasPart",
+     "valueUrl": "lp-{lp}-1876"
+     },
+     {
+     "virtual": true,
+     "lang": "nl",
+     "datatype": "string",
+     "aboutUrl": "lp-{lp}-1876",
+     "propertyUrl": "juso:Address",
+     "csvw:value": "{% if tvg1876 == '' and steeg1876 == '' %}{straat1876} {nr1876}{% elif tvg1876 == '' and steeg1876 == 'x' %}Steeg bij {straat1876} {nr1876}{% elif tvg1876 != '' and steeg1876 == 'x' %}Steeg bij {straat1876} {nr1876}-{tvg1876}{% else %}{straat1876} {nr1876}-{tvg1876}{% endif %}"
+     },
+     {
+     "virtual": true,
+     "lang": "nl",
+     "datatype": "string",
+     "aboutUrl": "lp-{lp}-1876",
+     "propertyUrl": "juso:Street",
+     "valueUrl": "{straat1876}"
+     },
+     {
+     "virtual": true,
+     "aboutUrl": "lp-{lp}-1876",
+     "propertyUrl": "juso:Neighborhood",
+     "valueUrl": "{buurt1876}"
+     },
+     {
+     "virtual": true,
+     "aboutUrl": "lp-addresses-1876",
+     "propertyUrl": "rdf:type",
+     "valueUrl": "skos:Collection"
+     },
+     {
+     "virtual": true,
+     "aboutUrl": "lp-addresses-1876",
+     "propertyUrl": "skos:member",
+     "valueUrl": "lp-{lp}-1876"
+     },
+     {
+     "virtual": true,
+     "propertyUrl": "dul:hasPart",
+     "valueUrl": "lp-{lp}-1853"
+     },
+     {
+     "virtual": true,
+     "lang": "nl",
+     "datatype": "string",
+     "aboutUrl": "lp-{lp}-1853",
+     "propertyUrl": "juso:Address",
+     "csvw:value": "{% if tvg1853 == '' %}{buurt1853} {nr1853}{% else %}{buurt1853} {nr1853}-{tvg1853}{% endif %}"
+     },
+     {
+     "virtual": true,
+     "aboutUrl": "lp-{lp}-1853",
+     "propertyUrl": "juso:Neighborhood",
+     "valueUrl": "wijk1850/{buurt1853}"
+     },
+     {
+     "virtual": true,
+     "aboutUrl": "lp-addresses-1853",
+     "propertyUrl": "rdf:type",
+     "valueUrl": "skos:Collection"
+     },
+     {
+     "virtual": true,
+     "aboutUrl": "lp-addresses-1853",
+     "propertyUrl": "skos:member",
+     "valueUrl": "lp-{lp}-1853"
+     },
+     {
+     "virtual": true,
+     "propertyUrl": "dul:hasPart",
+     "valueUrl": "lp-{lp}-1832"
+     },
+     {
+     "virtual": true,
+     "lang": "nl",
+     "datatype": "string",
+     "aboutUrl": "lp-{lp}-1832",
+     "propertyUrl": "juso:Address",
+     "csvw:value": "{% if tvg1832 == '' %}Sectie {sectie1832}, Perceel {perceel1832}{% else %}Sectie {sectie1832}, Perceel {perceel1832}, Nummer{tvg1832}{% endif %}"
+     },
+     {
+     "virtual": true,
+     "aboutUrl": "lp-addresses-1832",
+     "propertyUrl": "rdf:type",
+     "valueUrl": "skos:Collection"
+     },
+     {
+     "virtual": true,
+     "aboutUrl": "lp-addresses-1832",
+     "propertyUrl": "skos:member",
+     "valueUrl": "lp-{lp}-1832"
+   }
+  ]
+ }
+}
