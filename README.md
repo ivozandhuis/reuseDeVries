@@ -36,11 +36,15 @@ In:		data/addresses/cc-1909-1876-1853-1832.csv,
 Tool:	dataTransformation/fryskeConcordance2AdamlinkURI1832.R
 Out:	data/addresses/adressenconcordans.csv
 
-In:		data/addresses/adressenconcordans.csv
+In:		data/addresses/adressenconcordans.csv,
+		data/addresses/adressenconcordans.csv-metadata.json
 Tool:	http://cattle.datalegend.net/
 Out:	data/addresses/adressenconcordans.ttl
 
 ## Result 1: locatiepunten.ttl
+This file contains the geographical location of a "thing" that has an address.
+
+### Steps
 In:		[GIS shape-file not there]
 Tool:	[QGIS - save as csv with WKT]
 Out:	data/addresses/locatiepunten.csv
