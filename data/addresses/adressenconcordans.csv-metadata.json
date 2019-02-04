@@ -75,7 +75,8 @@
    "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
    "ssn": "http://purl.oclc.org/NET/ssnx/ssn#",
    "dul": "http://www.loa-cnr.it/ontologies/DUL.owl#",
-   "juso": "http://rdfs.co/juso/"
+   "juso": "http://rdfs.co/juso/",
+   "sem": "http://semanticweb.cs.vu.nl/2009/11/sem/"
   }
  ],
  "dc:title": "sshortcc1909-1876-1853-1832.csv",
@@ -121,6 +122,13 @@
      },
      {
      "virtual": true,
+     "datatype": "xsd:gYear",
+     "aboutUrl": "lp-{lp}-1909",
+     "propertyUrl": "sem:hasTime",
+     "csvw:value": "1909"
+     },
+     {
+     "virtual": true,
      "aboutUrl": "lp-addresses-1909",
      "propertyUrl": "rdf:type",
      "valueUrl": "skos:Collection"
@@ -134,7 +142,7 @@
      {
      "virtual": true,
      "propertyUrl": "dul:hasPart",
-     "valueUrl": "lp-{lp}"
+     "valueUrl": "lp-{lp}-1876"
      },
      {
      "virtual": true,
@@ -157,6 +165,13 @@
      "aboutUrl": "lp-{lp}-1876",
      "propertyUrl": "juso:Neighborhood",
      "valueUrl": "{buurt1876}"
+     },
+     {
+     "virtual": true,
+     "datatype": "xsd:gYear",
+     "aboutUrl": "lp-{lp}-1876",
+     "propertyUrl": "sem:hasTime",
+     "csvw:value": "1876"
      },
      {
      "virtual": true,
@@ -191,6 +206,13 @@
      },
      {
      "virtual": true,
+     "datatype": "xsd:gYear",
+     "aboutUrl": "lp-{lp}-1853",
+     "propertyUrl": "sem:hasTime",
+     "csvw:value": "1853"
+     },
+     {
+     "virtual": true,
      "aboutUrl": "lp-addresses-1853",
      "propertyUrl": "rdf:type",
      "valueUrl": "skos:Collection"
@@ -213,6 +235,13 @@
      "aboutUrl": "lp-{lp}-1832",
      "propertyUrl": "juso:Address",
      "csvw:value": "{% if tvg1832 == '' %}Sectie {sectie1832}, Perceel {perceel1832}{% else %}Sectie {sectie1832}, Perceel {perceel1832}, Nummer{tvg1832}{% endif %}"
+     },
+     {
+     "virtual": true,
+     "datatype": "xsd:gYear",
+     "aboutUrl": "lp-{lp}-1832",
+     "propertyUrl": "sem:hasTime",
+     "csvw:value": "1832"
      },
      {
      "virtual": true,
