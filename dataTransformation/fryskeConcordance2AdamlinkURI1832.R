@@ -22,7 +22,7 @@ dfFR$buurt1853 <- toupper(dfFR$buurt1853)
 dfFR$buurt1876 <- toupper(dfFR$buurt1876)
 
 # write out the result as a new file to preserve original file
-write.csv(dfFR, file = "data/addresses/cc1909-1876-1853-1832-2.csv", row.names = FALSE)
+write.csv(dfFR, file = "data/addresses/cc1909-1876-1853-1832-2.csv", row.names = FALSE, na = "")
 
 # merge file and rename URI-variable
 dfCOM <- merge(dfFR, dfAL, by.x = "buurt1853", by.y = "label", all.x = TRUE)
@@ -30,6 +30,6 @@ names(dfCOM)
 names(dfCOM)[17] <- "adamBUri1853"
 
 # write out result
-write.csv(dfCOM, file = "./data/addresses/adressenconcordans.csv", row.names = FALSE)
+write.csv(dfCOM, file = "./data/addresses/adressenconcordans.csv", row.names = FALSE, na = "")
 
 # EOF

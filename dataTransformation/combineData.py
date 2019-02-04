@@ -4,7 +4,7 @@ import pandas
 import rdflib
 
 # initialization
-basedir = "/home/ivo/Gitrepositories/reuseDeVries/"
+basedir = "/home/ivo/git/reuseDeVries/"
 g = rdflib.Graph()
 
 # read data 1854
@@ -40,14 +40,12 @@ for index, row in deVriesData1854.iterrows():
 deVriesData1854["concat1854"] = deVriesData1854["buurty"].map(str) + deVriesData1854["huisnry"].map(str)
 
 ### read adressenconcordans
-adressenconcordans = pandas.read_csv(basedir + "data/addresses/adressenconcordans.csv", dtype={'tvg1876': str})
+### concatenate buurt and nummer in adressenconcordance into one new field concat1853
+adressenconcordans = pandas.read_csv(basedir + "data/addresses/adressenconcordans.csv", dtype=object)
 adressenconcordans["concat1853"] = adressenconcordans["buurt1853"].map(str) + adressenconcordans["nr1853"].map(str)
 adressenconcordans["concat1853"] = adressenconcordans["concat1853"].str.upper()
 adressenconcordans["concat1853"] = adressenconcordans["concat1853"].str.replace('I','J')
 
-# write CSV
-outfile = basedir + "data/adressenconcordans_plus.csv"
-adressenconcordans.to_csv(outfile, encoding='utf-8', index=False)
 
 ### merge
 deVriesData1854 = pandas.merge(deVriesData1854, adressenconcordans, how='left', left_on='concat1854', right_on='concat1853')
@@ -60,10 +58,6 @@ for index, row in deVriesData1854.iterrows():
        p = rdflib.URIRef("http://rdfs.co/juso/address")
        o = rdflib.URIRef("https://hisgis.nl/resource/atm/lp-" + str(row['lp']))
        g.add((s,p,o))
-
-# write CSV
-outfile = basedir + "data/p1223a_standardization.csv"
-deVriesData1854.to_csv(outfile, encoding='utf-8', index=False)
 
 # write RDF turtle
 outfile = basedir + "data/p1223a_standardization.ttl"
