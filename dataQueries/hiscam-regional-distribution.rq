@@ -1,0 +1,27 @@
+#+ summary: GIS visualisation of hiscam-values in sample of electoral roles - Amsterdam - 1854.
+#+ tags:
+#+      - Amsterdam
+#+      - GIS
+#+      - Boudien de Vries
+#+ endpoint: https://api.druid.datalegend.net/datasets/datalegend/AmsterdamTimeMachine/services/endpoint/sparql
+
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX hgatm: <https://hisgis.nl/resource/atm/>
+PREFIX sem: <http://semanticweb.cs.vu.nl/2009/11/sem/>
+PREFIX dul: <http://www.loa-cnr.it/ontologies/DUL.owl#>
+PREFIX w1850: <https://hisgis.nl/resource/atm/wijk1850/>
+PREFIX juso: <http://rdfs.co/juso/>
+
+SELECT * WHERE {
+  ?person juso:address ?lp .
+  ?lp dul:hasPart/sem:hasTime "1853"^^xsd:gYear .
+  ?lp geo:hasGeometry ?wkt .
+  ?person <http://purl.org/linked-data/sdmx/2009/dimension#occupation> ?occup .
+  ?occup <https://iisg.amsterdam/hiscam/v131/nl> ?hiscam .
+  BIND (concat('HISCAM ', ?hiscam, ' StdDev ', (?hiscam-50)/15) as ?wktLabel)
+  BIND (concat('viridis,', (?hiscam-50)/15) as ?wktColor)
+} 
+LIMIT 1000
