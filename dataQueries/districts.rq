@@ -1,0 +1,14 @@
+#+ summary: Neighbourhoods in Amsterdam 1853.
+#+ tags:
+#+      - Amsterdam
+#+      - GIS
+#+ endpoint: https://api.druid.datalegend.net/datasets/datalegend/AmsterdamTimeMachine/services/endpoint/sparql
+
+PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?district ?districtWKT ?districtLabel WHERE {
+  ?district a <http://rdf.histograph.io/district> .
+  ?district geo:hasGeometry/geo:asWKT ?districtWKT .
+  ?district rdfs:label ?districtLabel .
+} 
