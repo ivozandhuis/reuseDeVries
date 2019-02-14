@@ -54,8 +54,8 @@ In:		data/addresses/locatiepunten.csv
 Tool:	http://cattle.datalegend.net/
 Out:	locatiepunten.ttl
 
-## Result 2: p1223a.ttl
-This file contains the original De Vries data in LOD format.
+## Result 2: p1223a.ttl/p1223b.ttl
+These files contain the original De Vries data in LOD format.
 
 ### Steps
 In: 	data/org/p1223a.por
@@ -67,19 +67,34 @@ In:		data/org/p1223a.csv,
 Tool:	http://cattle.datalegend.net/
 Out:	data/p1123a.ttl
 
-## Result 3: p1123a_standardization.ttl
-This file contains URI's for some of the values in the original files, in addition to p1223a.ttl
+### Steps
+In: 	data/org/p1223b.por
+Tool:	[SPSS - save as csv with labels]
+Out:	data/org/p1223b.csv
+
+In:		data/org/p1223b.csv, 
+		data/org/p1223b.csv-metadata.json
+Tool:	http://cattle.datalegend.net/
+Out:	data/p1123b.ttl
+
+## Result 3: p1123a_standardization.ttl/p1123b_standardization.ttl
+This file contains URI's for some of the values in the original files, in addition to p1223a.ttl and p1223b.ttl
 
 ### Steps
-In:		data/org/p1223.csv, 
+In:		data/org/p1223a.csv, 
 		data/hisco/bdv_occupations_hisco.csv,
 		data/districts/wijkindeling1853.csv,
 		data/addresses/adressenconcordans.csv
-Tool:	dataTransformation/combineData.py
+Tool:	dataTransformation/combineData1223a.py
 Out:	data/p1223a_standardization.ttl
 
-# Interesting addition data
+### Steps
+In:		data/org/p1223b.csv, 
+		data/districts/wijkindeling1853.csv,
+Tool:	dataTransformation/combineData1223b.py
+Out:	data/p1223b_standardization.ttl
+
+
+# Interesting additional data
 ## Census data on Amsterdam
 in data/volkstelling. Mapped on the Amsterdam neighbourhoods with the same Adamlink URI for districts.
-
-

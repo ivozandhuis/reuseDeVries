@@ -36,7 +36,7 @@
 
 <http://lod.cedar-project.nl:8888/cedar/resource/VT_1859_01_H1-S3-E46-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-d/131> .
 
-<http://lod.cedar-project.nl:8888/cedar/resource/VT_1859_01_H1-S3-E48-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-bb/126> .
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1859_01_H1-S3-E48-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-e/130> .
 
 <http://lod.cedar-project.nl:8888/cedar/resource/VT_1859_01_H1-S3-E49-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-f/121> .
 
@@ -136,7 +136,7 @@
 
 <http://lod.cedar-project.nl:8888/cedar/resource/VT_1859_01_H1-S3-F46-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-d/131> .
 
-<http://lod.cedar-project.nl:8888/cedar/resource/VT_1859_01_H1-S3-F48-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-bb/126> .
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1859_01_H1-S3-F48-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-e/130> .
 
 <http://lod.cedar-project.nl:8888/cedar/resource/VT_1859_01_H1-S3-F49-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-f/121> .
 
@@ -324,7 +324,7 @@
 
 <http://lod.cedar-project.nl:8888/cedar/resource/VT_1859_01_H1-S3-H47-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-d/131> .
 
-<http://lod.cedar-project.nl:8888/cedar/resource/VT_1859_01_H1-S3-H48-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-bb/126> .
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1859_01_H1-S3-H48-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-e/130> .
 
 <http://lod.cedar-project.nl:8888/cedar/resource/VT_1859_01_H1-S3-H49-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-f/121> .
 
@@ -486,7 +486,7 @@
 
 <http://lod.cedar-project.nl:8888/cedar/resource/VT_1859_01_H1-S3-I47-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-d/131> .
 
-<http://lod.cedar-project.nl:8888/cedar/resource/VT_1859_01_H1-S3-I48-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-bb/126> .
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1859_01_H1-S3-I48-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-e/130> .
 
 <http://lod.cedar-project.nl:8888/cedar/resource/VT_1859_01_H1-S3-I49-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-f/121> .
 
@@ -648,7 +648,7 @@
 
 <http://lod.cedar-project.nl:8888/cedar/resource/VT_1859_01_H1-S3-J47-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-d/131> .
 
-<http://lod.cedar-project.nl:8888/cedar/resource/VT_1859_01_H1-S3-J48-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-bb/126> .
+<http://lod.cedar-project.nl:8888/cedar/resource/VT_1859_01_H1-S3-J48-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-e/130> .
 
 <http://lod.cedar-project.nl:8888/cedar/resource/VT_1859_01_H1-S3-J49-h> ns1:refArea <https://adamlink.nl/geo/district/buurt-f/121> .
 
