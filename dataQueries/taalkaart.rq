@@ -1,0 +1,8 @@
+PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT * WHERE {
+  ?dialect a <http://purl.org/linguistics/gold/Dialect> .
+  ?dialect rdfs:label ?label .
+  ?dialect geo:hasGeometry/geo:asWKT ?wkt .
+} 

@@ -7,5 +7,6 @@
 
 SELECT ?district (count(?obs) AS ?elitePop)
 WHERE { 
+  ?obs <http://purl.org/linked-data/sdmx/2009/dimension#refPeriod> "1854" .
   ?obs <http://dbpedia.org/ontology/residence> ?district .
 }  GROUP BY ?district ORDER BY ?district

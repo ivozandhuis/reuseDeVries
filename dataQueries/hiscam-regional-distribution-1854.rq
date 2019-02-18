@@ -17,6 +17,7 @@ PREFIX juso: <http://rdfs.co/juso/>
 
 SELECT * WHERE {
   ?person juso:address ?lp .
+  ?person <http://purl.org/linked-data/sdmx/2009/dimension#refPeriod> "1854" .
   ?lp dul:hasPart/sem:hasTime "1853"^^xsd:gYear .
   ?lp geo:hasGeometry ?wkt .
   ?person <http://purl.org/linked-data/sdmx/2009/dimension#occupation> ?occup .

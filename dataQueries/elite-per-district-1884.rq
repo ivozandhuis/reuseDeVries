@@ -1,0 +1,12 @@
+#+ Sample (1 in 5) of electoral roles - Amsterdam - 1884 - per neighbourhood 
+#+ tags:
+#+      - Amsterdam
+#+      - Population
+#+      - Elite
+#+ endpoint: https://api.druid.datalegend.net/datasets/datalegend/AmsterdamTimeMachine/services/endpoint/sparql
+
+SELECT ?district (count(?obs) AS ?elitePop)
+WHERE { 
+  ?obs <http://purl.org/linked-data/sdmx/2009/dimension#refPeriod> "1884" .
+  ?obs <http://dbpedia.org/ontology/residence> ?district .
+}  GROUP BY ?district ORDER BY ?district

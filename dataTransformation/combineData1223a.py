@@ -20,7 +20,7 @@ for index, row in deVriesData1854.iterrows():
 # merge standardizations
 ## occupations
 ### merge standard to dataframe
-occupations     = pandas.read_csv(basedir + "data/hisco/bdv_occupations_hisco.csv")
+occupations     = pandas.read_csv(basedir + "data/hisco/p1223a_occupations_hisco.csv")
 deVriesData1854 = pandas.merge(deVriesData1854, occupations, how='left', left_on='berpmy', right_on='occupationalTitleDeVries')
 
 ### create triples

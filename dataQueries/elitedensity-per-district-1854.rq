@@ -1,0 +1,49 @@
+#+ summary: Elite density in Amsterdam Neighbourhoods 1854.
+#+ tags:
+#+      - Amsterdam
+#+      - GIS
+#+      - Elite
+#+ endpoint: https://api.druid.datalegend.net/datasets/datalegend/AmsterdamTimeMachine/services/endpoint/sparql
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX cedar: <http://lod.cedar-project.nl/vocab/cedar#>
+PREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>
+PREFIX sdmx-code: <http://purl.org/linked-data/sdmx/2009/code#>
+PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?districtLabel ?districtWKT ?totPop ?elitePop 
+(1000*(5*(xsd:float(?elitePop))/(xsd:float(?totPop))) AS ?eliteDensity) 
+WHERE {
+
+# determine population per district
+{
+  SELECT ?district (SUM(?pop) AS ?totPop)
+  WHERE { ?obs a qb:Observation . 
+          ?obs cedar:population ?pop . 
+          ?obs sdmx-dimension:refArea ?district .
+          ?slice a qb:Slice.
+          ?slice qb:observation ?obs.
+          ?slice sdmx-dimension:refPeriod "1859"^^xsd:int .
+  } GROUP BY ?district
+}
+
+# determine elite per district  
+{
+  SELECT ?district (count(?obs) AS ?elitePop)
+  WHERE {   ?obs <http://purl.org/linked-data/sdmx/2009/dimension#refPeriod> "1854" .
+            ?obs <http://dbpedia.org/ontology/residence> ?district .
+  } GROUP BY ?district
+}
+
+# get data about districts
+{
+    SELECT ?district ?districtWKT ?districtLabel 
+    WHERE { ?district a <http://rdf.histograph.io/district> .
+        ?district geo:hasGeometry ?districtWKT .
+        ?district rdfs:label ?districtLabel .
+  } 
+}
+
+} ORDER BY ?districtLabel
