@@ -10,6 +10,13 @@ g = rdflib.Graph()
 # read data 1854
 deVriesData1884 = pandas.read_csv(basedir + "data/org/p1223b.csv")
 
+# set refPeriod
+for index, row in deVriesData1884.iterrows():
+   s = rdflib.URIRef("https://iisg.amsterdam/resource/bdv/" + str(row['volgnr1z']))
+   p = rdflib.URIRef("http://purl.org/linked-data/sdmx/2009/dimension#refPeriod")
+   o = rdflib.Literal("1884")
+   g.add((s,p,o))
+
 # merge standardizations
 ## occupations
 ### merge standard to dataframe
