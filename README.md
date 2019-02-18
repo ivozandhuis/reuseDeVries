@@ -8,6 +8,9 @@ In "paper.md".
 ## data
 Containing data.
 
+## dataQueries
+SPARQL-queries on the results.
+
 ## dataHarvesting
 Scripts and SPARQL-queries for collecting the necessary data.
 
@@ -82,7 +85,7 @@ This file contains URI's for some of the values in the original files, in additi
 
 ### Steps
 In:		data/org/p1223a.csv, 
-		data/hisco/bdv_occupations_hisco.csv,
+		data/hisco/p1223a_occupations_hisco.csv,
 		data/districts/wijkindeling1853.csv,
 		data/addresses/adressenconcordans.csv
 Tool:	dataTransformation/combineData1223a.py
@@ -90,6 +93,7 @@ Out:	data/p1223a_standardization.ttl
 
 ### Steps
 In:		data/org/p1223b.csv, 
+		data/hisco/p1223b_occupations_hisco.csv,
 		data/districts/wijkindeling1853.csv,
 Tool:	dataTransformation/combineData1223b.py
 Out:	data/p1223b_standardization.ttl
