@@ -2,7 +2,7 @@ occupationalTitleDeVries,hisco
 240,-1
 aannemers,21240
 advocaat,12110
-agent handelsmij.,
+agent handelsmij.,43200
 ambachtsman,99999
 ambtenaar,30000
 apotheker,6710
@@ -14,25 +14,25 @@ bakker,77610
 boekhouder,33110
 cargadoors,22290
 commissionair,42230
-diamantbewerking,
+diamantbewerking,-1
 directeur,21110
 drogist,41030
 fabrikanten,21110
 geemployeerde,99999
 geestelijke,14120
-hoofdarbeider,
+hoofdarbeider,99900
 hoogleraar,13100
-"ingenieur, architect",
+"ingenieur, architect",2000
 kantoorbediende,39310
 koopman,41025
 landbouwer,61220
-losse arb., 
+losse arb.,99900 
 makelaar,44100
 notaris,12310
 onderwijzer,13200
-opzichter,
+opzichter,22000
 ov. zelfstandigen,99999
-overigen,
+overigen,-1
 pastoor,14120
 predikant,14120
 rechter,12210
@@ -43,7 +43,7 @@ stalhouder,61240
 suikerraffinadeurs,21110
 timmerman,95410
 "timmerman, makelaar",95410
-venter,
+venter,45220
 vrij beroep,99999
 winkelier,41030
 zonder,-2
