@@ -18,7 +18,7 @@
  "@context": [
   "http://csvw.clariah-sdh.eculture.labs.vu.nl/csvw.json",
   {
-   "@base": "https://hisgis.nl/resource/atm/",
+   "@base": "https://iisg.amsterdam/resource/atm/hisgis/",
    "@language": "en"
   },
   {
@@ -87,11 +87,17 @@
   "columns": [
    {
      "virtual": true,
-     "datatype": "geo:wktLiteral",
      "aboutUrl": "lp-{loc_nr_def}",
      "propertyUrl": "geo:hasGeometry",
+     "valueUrl": ".well-known/genid/{{(31400000 + _row)}}"
+   },
+   {
+     "virtual": true,
+     "datatype": "geo:wktLiteral",
+     "aboutUrl": ".well-known/genid/{{(31400000 + _row)}}",
+     "propertyUrl": "geo:asWKT",
      "csvw:value": "{WKT}"
-  }
+   }
   ]
  }
 }
