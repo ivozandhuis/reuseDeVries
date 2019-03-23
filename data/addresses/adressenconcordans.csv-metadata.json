@@ -72,7 +72,7 @@
    "xsd": "http://www.w3.org/2001/XMLSchema#",
    "time": "http://www.w3.org/2006/time#",
    "napp-dimension": "http://data.socialhistory.org/vocab/napp/dimension/",
-   "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+   "geo": "http://www.opengis.net/ont/geosparql#",
    "ssn": "http://purl.oclc.org/NET/ssnx/ssn#",
    "dul": "http://www.loa-cnr.it/ontologies/DUL.owl#",
    "juso": "http://rdfs.co/juso/",
