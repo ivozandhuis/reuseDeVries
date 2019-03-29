@@ -59,7 +59,7 @@
       "xsd": "http://www.w3.org/2001/XMLSchema#"
     }
   ],
-  "@id": "https://iisg.amsterdam/p1223a.csv",
+  "@id": "https://iisg.amsterdam/p1223b.csv",
   "dc:license": {
     "@id": "http://opendefinition.org/licenses/cc-by/"
   },
@@ -73,8 +73,8 @@
       "@id": "http://datalegend.net"
     }
   },
-  "dc:title": "p1223a.csv",
-  "dc:description": "Sample of persons from the electoral roll Amsterdam 1854. Finding Aid accessing this source online: https://archief.amsterdam/inventarissen/inventaris/30272.nl.html. Original file in: https://doi.org/10.17026/dans-xez-eqdv.",
+  "dc:title": "p1223b.csv",
+  "dc:description": "Sample of persons from the electoral roll Amsterdam 1884. Finding Aid accessing this source online: https://archief.amsterdam/inventarissen/inventaris/30272.nl.html. Original file in: https://doi.org/10.17026/dans-xez-eqdv.",
   "dcat:keyword": [],
   "dialect": {
     "delimiter": ",",
@@ -82,16 +82,16 @@
     "quoteChar": ""
   },
   "tableSchema": {
-    "aboutUrl": "{volgnr1y}",
+    "aboutUrl": "{volgnr1z}",
     "@type": "schema:Person",
     "columns": [
       {
-        "@id": "https://iisg.amsterdam/p1223a.csv/column/buurty",
+        "@id": "https://iisg.amsterdam/p1223b.csv/column/buurtz",
         "datatype": "string",
         "dc:description": "Residential Address part 1: Neighbourhood in 19th century Amsterdam, comtemporaly coded with letters.",
-        "name": "buurty",
+        "name": "buurtz",
         "titles": [
-          "buurty"
+          "buurtz"
         ],
         "propertyUrl": "dbpedia-owl:residence"
       },
@@ -99,40 +99,40 @@
         "virtual": true,
         "datatype": "string",
         "propertyUrl": "juso:address",
-        "csvw:value": "{buurty}"
+        "csvw:value": "{buurtz}"
       },
       {
-        "@id": "https://iisg.amsterdam/p1223a.csv/column/lftmy",
+        "@id": "https://iisg.amsterdam/p1223b.csv/column/lftmz",
         "datatype": "int",
         "dc:description": "Age",
-        "name": "lftmy",
+        "name": "lftmz",
         "titles": [
-          "lftmy"
+          "lftmz"
         ],
         "propertyUrl": "dbpedia-owl:age"
       },
       {
-        "@id": "https://iisg.amsterdam/p1223a.csv/column/gebplmy",
+        "@id": "https://iisg.amsterdam/p1223b.csv/column/gebplmz",
         "datatype": "string",
         "lang": "nl",
         "dc:description": "Place of Birth (classification)",
-        "name": "gebplmy",
+        "name": "gebplmz",
         "titles": [
-          "gebplmy"
+          "gebplmz"
         ],
         "propertyUrl": "dbpedia-owl:birthPlace"
       },
       {
-        "@id": "https://iisg.amsterdam/p1223a.csv/column/pbly",
+        "@id": "https://iisg.amsterdam/p1223b.csv/column/pblz",
         "datatype": "int",
         "dc:description": "'Persoonsbelasting'",
-        "name": "pbly",
+        "name": "pblz",
         "titles": [
-          "pbly"
+          "pblz"
         ]
       }
     ],
-    "primaryKey": "volgnr1y"
+    "primaryKey": "volgnr1z"
   },
-  "url": "p1223a.csv"
+  "url": "p1223b.csv"
 }
