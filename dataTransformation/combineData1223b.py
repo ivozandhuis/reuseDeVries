@@ -8,7 +8,7 @@ basedir = "/home/ivo/git/reuseDeVries/"
 g = rdflib.Graph()
 
 # read data 1854
-deVriesData1884 = pandas.read_csv(basedir + "data/org/p1223b.csv")
+deVriesData1884 = pandas.read_csv(basedir + "data/org/p1223b.csv", dtype=object, na_filter=False)
 
 # set refPeriod
 for index, row in deVriesData1884.iterrows():
@@ -20,7 +20,7 @@ for index, row in deVriesData1884.iterrows():
 # merge standardizations
 ## occupations
 ### merge standard to dataframe
-occupations     = pandas.read_csv(basedir + "data/hisco/p1223b_occupations_hisco.csv")
+occupations     = pandas.read_csv(basedir + "data/hisco/p1223b_occupations_hisco.csv", dtype=object, na_filter=False)
 deVriesData1884 = pandas.merge(deVriesData1884, occupations, how='left', left_on='berpmz', right_on='occupationalTitleDeVries')
 
 ### create triples
@@ -34,7 +34,7 @@ for index, row in deVriesData1884.iterrows():
 
 ## districts
 ### merge standard to dataframe
-districts       = pandas.read_csv(basedir + "data/districts/wijkindeling1853.csv")
+districts       = pandas.read_csv(basedir + "data/districts/wijkindeling1853.csv", dtype=object, na_filter=False)
 deVriesData1884 = pandas.merge(deVriesData1884, districts, how='left', left_on="buurtz", right_on="ordering")
 
 ### create triples

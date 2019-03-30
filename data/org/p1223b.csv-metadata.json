@@ -86,32 +86,6 @@
     "@type": "schema:Person",
     "columns": [
       {
-        "@id": "https://iisg.amsterdam/p1223b.csv/column/buurtz",
-        "datatype": "string",
-        "dc:description": "Residential Address part 1: Neighbourhood in 19th century Amsterdam, comtemporaly coded with letters.",
-        "name": "buurtz",
-        "titles": [
-          "buurtz"
-        ],
-        "propertyUrl": "dbpedia-owl:residence"
-      },
-      {
-        "virtual": true,
-        "datatype": "string",
-        "propertyUrl": "juso:address",
-        "csvw:value": "{buurtz}"
-      },
-      {
-        "@id": "https://iisg.amsterdam/p1223b.csv/column/lftmz",
-        "datatype": "int",
-        "dc:description": "Age",
-        "name": "lftmz",
-        "titles": [
-          "lftmz"
-        ],
-        "propertyUrl": "dbpedia-owl:age"
-      },
-      {
         "@id": "https://iisg.amsterdam/p1223b.csv/column/gebplmz",
         "datatype": "string",
         "lang": "nl",

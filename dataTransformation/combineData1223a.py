@@ -8,7 +8,7 @@ basedir = "/home/ivo/git/reuseDeVries/"
 g = rdflib.Graph()
 
 # read data 1854
-deVriesData1854 = pandas.read_csv(basedir + "data/org/p1223a.csv")
+deVriesData1854 = pandas.read_csv(basedir + "data/org/p1223a.csv", dtype=object, na_filter=False)
 
 # set refPeriod
 for index, row in deVriesData1854.iterrows():
@@ -20,7 +20,7 @@ for index, row in deVriesData1854.iterrows():
 # merge standardizations
 ## occupations
 ### merge standard to dataframe
-occupations     = pandas.read_csv(basedir + "data/hisco/p1223a_occupations_hisco.csv")
+occupations     = pandas.read_csv(basedir + "data/hisco/p1223a_occupations_hisco.csv", dtype=object, na_filter=False)
 deVriesData1854 = pandas.merge(deVriesData1854, occupations, how='left', left_on='berpmy', right_on='occupationalTitleDeVries')
 
 ### create triples
@@ -32,7 +32,7 @@ for index, row in deVriesData1854.iterrows():
 
 ## districts
 ### merge standard to dataframe
-districts       = pandas.read_csv(basedir + "data/districts/wijkindeling1853.csv")
+districts       = pandas.read_csv(basedir + "data/districts/wijkindeling1853.csv", dtype=object, na_filter=False)
 deVriesData1854 = pandas.merge(deVriesData1854, districts, how='left', left_on="buurty", right_on="label")
 
 ### create triples
@@ -48,7 +48,7 @@ deVriesData1854["concat1854"] = deVriesData1854["buurty"].map(str) + deVriesData
 
 ### read adressenconcordans
 ### concatenate buurt and nummer in adressenconcordance into one new field concat1853
-adressenconcordans = pandas.read_csv(basedir + "data/addresses/adressenconcordans.csv", dtype=object)
+adressenconcordans = pandas.read_csv(basedir + "data/addresses/adressenconcordans.csv", dtype=object, na_filter=False)
 adressenconcordans["concat1853"] = adressenconcordans["buurt1853"].map(str) + adressenconcordans["nr1853"].map(str)
 adressenconcordans["concat1853"] = adressenconcordans["concat1853"].str.upper()
 adressenconcordans["concat1853"] = adressenconcordans["concat1853"].str.replace('I','J')

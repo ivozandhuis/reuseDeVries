@@ -65,7 +65,7 @@ In: 	data/org/p1223a.por
 Tool:	[SPSS - save as csv with labels]
 Out:	data/org/p1223a.csv
 
-In:		data/org/p1223a.csv, 
+In:		data/org/p1223a.csv
 		data/org/p1223a.csv-metadata.json
 Tool:	http://cattle.datalegend.net/
 Out:	data/p1123a.ttl
