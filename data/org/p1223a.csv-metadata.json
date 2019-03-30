@@ -125,7 +125,7 @@
       {
         "@id": "https://iisg.amsterdam/p1223a.csv/column/pbly",
         "datatype": "int",
-        "dc:description": "'Persoonsbelasting'",
+        "dc:description": "'Personele belasting'",
         "name": "pbly",
         "titles": [
           "pbly"

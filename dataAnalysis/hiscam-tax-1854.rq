@@ -1,0 +1,13 @@
+#+ summary: get HISCAM and "personele belasting" for sample on electoral rolls - Amsterdam - 1854.
+#+ tags:
+#+      - Amsterdam
+#+      - GIS
+#+      - Boudien de Vries
+#+ endpoint: https://api.druid.datalegend.net/datasets/datalegend/AmsterdamTimeMachine/services/endpoint/sparql
+
+SELECT * WHERE {
+  ?person 	<http://purl.org/linked-data/sdmx/2009/dimension#refPeriod> "1854" ;
+            <http://purl.org/linked-data/sdmx/2009/dimension#occupation> ?occup ;
+  			<https://iisg.amsterdam/vocab/pbly> ?tax.
+  ?occup 	<https://iisg.amsterdam/hiscam/v131/nl> ?hiscam .
+} 

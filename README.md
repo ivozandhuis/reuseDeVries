@@ -80,6 +80,12 @@ In:		data/org/p1223b.csv,
 Tool:	http://cattle.datalegend.net/
 Out:	data/p1123b.ttl
 
+With cow and rapper installed you can do (TEST THIS!):
+from /reuseDeVries
+> cow_tool convert data/org/p1223a.csv
+> rapper data/org/p1223a.csv.nq -i nquads -o turtle > data/p1223a.ttl
+
+
 ## Result 3: p1123a_standardization.ttl/p1123b_standardization.ttl
 This file contains URI's for some of the values in the original files, in addition to p1223a.ttl and p1223b.ttl
 
@@ -97,7 +103,6 @@ In:		data/org/p1223b.csv,
 		data/districts/wijkindeling1853.csv,
 Tool:	dataTransformation/combineData1223b.py
 Out:	data/p1223b_standardization.ttl
-
 
 # Interesting additional data
 ## Census data on Amsterdam

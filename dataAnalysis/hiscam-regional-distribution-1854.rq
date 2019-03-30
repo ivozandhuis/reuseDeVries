@@ -1,4 +1,4 @@
-#+ summary: GIS visualisation of hiscam-values in sample of electoral roles - Amsterdam - 1854.
+#+ summary: GIS visualisation of hiscam-values in sample of electoral rolls - Amsterdam - 1854.
 #+ tags:
 #+      - Amsterdam
 #+      - GIS
@@ -16,13 +16,8 @@ PREFIX w1850: <https://hisgis.nl/resource/atm/wijk1850/>
 PREFIX juso: <http://rdfs.co/juso/>
 
 SELECT * WHERE {
-  ?person juso:address ?lp .
   ?person <http://purl.org/linked-data/sdmx/2009/dimension#refPeriod> "1854" .
-  ?lp dul:hasPart/sem:hasTime "1853"^^xsd:gYear .
-  ?lp geo:hasGeometry ?wkt .
   ?person <http://purl.org/linked-data/sdmx/2009/dimension#occupation> ?occup .
   ?occup <https://iisg.amsterdam/hiscam/v131/nl> ?hiscam .
-  BIND (concat('HISCAM ', ?hiscam, ' StdDev ', (?hiscam-50)/15) as ?wktLabel)
-  BIND (concat('viridis,', (?hiscam-50)/15) as ?wktColor)
 } 
 LIMIT 1000
