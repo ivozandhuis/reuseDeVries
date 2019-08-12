@@ -17,7 +17,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Leones\\Converter\\": "src"
+            "Leones\\Concordance\\": "src"
         }
     },
     "minimum-stability": "stable",
