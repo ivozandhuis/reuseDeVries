@@ -1,0 +1,29 @@
+{
+    "name": "leaones/addres-converter",
+    "description": "Converts Amsterdam addresses from concordans",
+    "license": "BSD-3-Clause",
+    "type": "project",
+    "authors": [
+        {
+            "name": "PHPetra",
+            "email": "petra@hicsuntleones.nl",
+            "homepage": "https://hicsuntleones.nl"
+        },
+        {
+            "name": "Ivo Zandhuis",
+            "email": "ivo@hicsuntleones.nl",
+            "homepage": "https://hicsuntleones.nl"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Leones\\Converter\\": "src"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.0",
+        "easyrdf/easyrdf": "dev-master",
+        "league/csv": "^9.2"
+    }
+}
