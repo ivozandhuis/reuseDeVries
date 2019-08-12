@@ -1,3 +1,4 @@
 *.nq
-.idea
+.idea/*
 phpScripts/vendor
+phpScripts/composer.lock
