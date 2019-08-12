@@ -1,1 +1,3 @@
 *.nq
+.idea
+phpScripts/vendor
