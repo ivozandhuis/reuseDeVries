@@ -18,7 +18,7 @@
  "@context": [
   "http://csvw.clariah-sdh.eculture.labs.vu.nl/csvw.json",
   {
-   "@base": "https://iisg.amsterdam/resource/atm/hisgis/",
+   "@base": "https://hisgis.nl/resource/atm/",
    "@language": "en"
   },
   {
@@ -78,7 +78,7 @@
  "dc:title": "locatiepunten.csv",
  "@id": "https://iisg.amsterdam/locatiepunten.csv",
  "dc:modified": {
-  "@value": "2019-02-04",
+  "@value": "2019-05-29",
   "@type": "xsd:date"
  },
  "tableSchema": {
