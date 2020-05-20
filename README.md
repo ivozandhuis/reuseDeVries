@@ -2,9 +2,6 @@
 
 This project is reusing De Vries' dataset on social mobility in Amsterdam (https://doi.org/10.17026/dans-xez-eqdv) in order to experiment with reusing data as Linked Data. We hook up the data to other data available on the Web of Data.
 
-## Paper
-In "paper.md".
-
 ## data
 Containing data.
 
