@@ -18,7 +18,7 @@
  "@context": [
   "http://csvw.clariah-sdh.eculture.labs.vu.nl/csvw.json", 
   {
-   "@base": "https://iisg.amsterdam/resource/atm/hisgis", 
+   "@base": "https://iisg.amsterdam/resource/atm/hisgis/", 
    "@language": "en"
   }, 
   {
